@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0017" />
+	<chapter start="0021" end="0092" title="序　章　作为指导者所处的位置" />
+	<chapter start="0097" end="1067" title="第一章　从平稳迈向破灭的道路" />
+	<chapter start="1072" end="1100" title="行间一" />
+	<chapter start="1105" end="1982" title="第二章　从败北中站起来的人们" />
+	<chapter start="1987" end="2048" title="行间二" />
+	<chapter start="2053" end="2374" title="第三章　段数不同的怪物之间的死斗" />
+	<chapter start="2379" end="2448" title="行间三" />
+	<chapter start="2453" end="2984" title="第四章　谁能够保护好想要保护的那个谁吗" />
+	<chapter start="2989" end="3037" title="行间四" />
+	<chapter start="3042" end="3377" title="终　章　新的散乱的领路人" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_16_" suffix=".jpg">
+		<img insert="0010" filename="003" notfloat="true" />
+		<img insert="0017" filename="005" />
+		<img insert="0017" filename="006-007" />
+		<img insert="0017" filename="008" />
+		<img insert="0017" filename="009" />
+		<img insert="0017" filename="010-011" />
+		<img insert="0017" filename="012" />
+		<img alt="插图047" filename="047" />
+		<img alt="插图095" filename="095" />
+		<img alt="插图150" filename="150" />
+		<img alt="插图189" filename="189" />
+		<img alt="插图217" filename="217" />
+		<img alt="插图229" filename="229" />
+		<img alt="插图258" filename="258" />
+		<img alt="插图274-275" filename="274-275" />
+	</imgs>
+</volume>

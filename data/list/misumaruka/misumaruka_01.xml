@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0015" />
+	<chapter start="0020" end="0676" title="第一章　密斯玛路卡第一王太子" />
+	<chapter start="0682" end="1287" title="第二章　光辉之丽姬" />
+	<chapter start="1293" end="1853" title="第三章　贩卖黑暗的少年" />
+	<chapter start="1859" end="2367" title="第四章　离去的王族的心" />
+	<chapter start="2373" end="2989" title="第五章　狮子与蛇" />
+	<chapter start="2995" end="3248" title="第六章　目标是遥远的大陆" />
+	<chapter start="3254" end="3288" title="后　记" />
+	<imgs dir="misumaruka" prefix="misumaruka_01_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0015" filename="001" />
+		<img insert="0015" filename="002" />
+		<img insert="0015" filename="003" />
+		<img insert="0015" filename="004" />
+		<img insert="0015" filename="007" />
+		<img alt="插图017" filename="017" />
+		<img alt="插图029" filename="029" />
+		<img alt="插图085" filename="085" />
+		<img alt="插图137" filename="137" />
+		<img alt="插图163" filename="163" />
+		<img alt="插图223" filename="223" />
+		<img alt="插图245" filename="245" />
+	</imgs>
+</volume>

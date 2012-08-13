@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0025" />
+	<chapter start="0029" end="0060" title="序　章" />
+	<chapter start="0067" end="0371" title="第一问" />
+	<chapter start="0378" end="1021" title="第二问 （翻译版）" />
+	<chapter start="1028" end="1406" title="第三问 （翻译版）" />
+	<chapter start="1413" end="1822" title="第四问 （翻译版）" />
+	<chapter start="1829" end="2478" title="第五问 （翻译版）" />
+	<chapter start="2485" end="2879" title="第六问 （翻译版）" />
+	<chapter start="2886" end="3101" title="第七问 （翻译版）" />
+	<chapter start="3108" end="3215" title="最终问 （翻译版）" />
+	<chapter start="3222" end="3267" title="后　记 （翻译版）" />
+	<imgs dir="Baka_to_Test_to_Syoukanjuu" prefix="Baka_to_Test_to_Syoukanjuu_03_" suffix=".jpg">
+		<img insert="0024" filename="000" notfloat="true" />
+		<img insert="0025" filename="001a" />
+		<img insert="0025" filename="001b" />
+		<img insert="0025" filename="001c" />
+		<img insert="0025" filename="001d" />
+		<img insert="0025" filename="001e" />
+		<img insert="0025" filename="002" />
+		<img insert="0025" filename="003" />
+		<img alt="插图006" filename="006" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图028" filename="028" />
+		<img alt="插图029" filename="029" />
+		<img alt="插图037" filename="037" />
+		<img alt="插图057" filename="057" />
+		<img alt="插图074" filename="074" />
+		<img alt="插图075" filename="075" />
+		<img alt="插图083" filename="083" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图127" filename="127" />
+		<img alt="插图134" filename="134" />
+		<img alt="插图135" filename="135" />
+		<img alt="插图143" filename="143" />
+		<img alt="插图171" filename="171" />
+		<img alt="插图182" filename="182" />
+		<img alt="插图183" filename="183" />
+		<img alt="插图187" filename="187" />
+		<img alt="插图212" filename="212" />
+		<img alt="插图213" filename="213" />
+		<img alt="插图225" filename="225" />
+		<img alt="插图230" filename="230" notfloat="true" />
+		<img alt="插图232" filename="232" />
+		<img alt="插图233" filename="233" />
+		<img alt="插图239" filename="239" />
+		<img alt="插图244" filename="244" />
+	</imgs>
+</volume>

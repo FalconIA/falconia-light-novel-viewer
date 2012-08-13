@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Zero_no_Tsukaima" css="">
+	<highlight>
+		<keyword key="零之使魔" />
+		<keyword regcap="true" key="\0"                    regexp="第[一二三四五六七八九十]+章[ 　]+[^&lt;]+" />
+		<keyword regcap="true" key="&lt;a href='\0' target='_blank'&gt;\0&lt;/a&gt;" regexp="http://www\.lightnovel\.cn/?(bbs)?/?(index\.php)?" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword ch="09" disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|（|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”（）]+)([，。？！：；…—」”）]*)[ 　]*{注：([^}]+)}" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="character" subtype="Tristain replaceFrom">
+		<keyword regcap="true" key="露易丝·杜·拉·瓦利埃尔" regexp="露易丝·德·拉·瓦利艾尔(?!ch13)" desc="Replaced: \0" />
+		<keyword regcap="true" key="露易丝·法兰西斯"      regexp="露易丝·弗兰斯华兹(?!ch09)|露易兹·弗朗索瓦兹(?!ch10)|露易丝·弗兰兹华兹(?!ch11)|露易丝·弗兰索瓦兹(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="露易丝"   alias="零"   regexp="露易兹(?!ch10)|露易斯(?!ch16)|路易斯(?!ch17)" desc="Replaced: \0" />
+		<keyword regcap="true" key="法兰西斯"              regexp="弗兰索瓦兹(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="德鲁弗林加"            regexp="特尔弗林格(?!ch09)|德尔弗伦格(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="德鲁弗"                regexp="特尔弗(?!ch09)|德尔弗(?!ch15)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="蒂法尼娅"              regexp="迪法尼亚(?!ch09)|蒂法尼亚(?!ch10)|蒂法妮娅(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="蒂法"                  regexp="迪法(?!ch09)" desc="Replaced: \0" />
+		<keyword regcap="true" key="齐儿可·封·查伯斯特"  regexp="库尔凯·冯·泽尔布斯特(?!ch11)" desc="Replaced: \0" />
+		<keyword regcap="true" key="齐儿可"   alias="微热" regexp="袭露珂(?!ch09)|库尔凯(?!ch10)|琪尔可(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="封·查伯斯特"          regexp="冯·泽尔布斯特(?!ch09)" desc="Replaced: \0" />
+		<keyword regcap="true" key="查伯斯特"              regexp="泽尔布斯特(?!ch09)|兹露布丝特(?!ch10)|谢尔冯思特(?!ch17)" desc="Replaced: \0" />
+		<keyword regcap="true" key="修瓦利埃·塔帕莎"      regexp="修瓦利埃·塔巴莎(?!ch10)" desc="Replaced: \0" />
+		<keyword regcap="true" key="塔帕莎"   alias="雪风" regexp="塔巴莎(?!ch09)|塔巴萨(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="基修·杜·格拉蒙"      regexp="基修·德·格拉蒙(?!ch11)" desc="Replaced: \0" />
+		<keyword regcap="true" key="蒙莫朗西" alias="香水" regexp="蒙莫朗希(?!ch09)|摩莫朗希(?!ch10)|蒙莫兰希(?!ch16)" desc="Replaced: \0" />
+		<keyword regcap="true" key="蒙蒙"                  regexp="摩莫(?!ch10)|莫莫(?!ch16)" desc="Replaced: \0" />
+		<keyword regcap="true" key="马里寇奴" alias="风上" regexp="马利寇里奴(?!ch09)|马利寇尔奴(?!ch10)|马里科尔奴(?!ch15)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="欧斯曼"                regexp="奥斯曼(?!ch09)" desc="Replaced: \0" />
+		<keyword regcap="true" key="\1·寇伯特"            regexp="(简(?!ch10)|让(?!ch13))·苛尔贝尔(?!ch10)" desc="Replaced: \0" />
+		<keyword regcap="true" key="寇伯特"                regexp="柯尔贝尔(?!ch09)|苛尔贝尔(?!ch10)" desc="Replaced: \0" />
+		<keyword regcap="true" key="谢弗勒兹"              regexp="希瓦尔兹(?!ch09)|修鲁斯(?!ch16)" desc="Replaced: \0" />
+		<keyword regcap="true" key="基多"                  regexp="基德(?!ch16)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="贝儿朵莉丝"            regexp="贝亚特里斯(?!ch13)|贝亚特丽丝(?!ch16)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="汉丽塔·德·托里斯汀"  regexp="安莉埃塔·德·托里斯汀(?!ch17)" desc="Replaced: \0" />
+		<keyword regcap="true" key="汉丽塔"                regexp="安莉艾塔(?!ch09)|安利艾塔(?!ch10)|安莉埃塔(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="玛莉安娜"              regexp="马莉安奴(?!ch11)|玛丽安都(?!ch15)|玛丽安(?!ch16)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="艾丽诺·杜·拉·瓦利埃尔" regexp="艾蕾欧诺尔·德·拉·瓦里埃尔(?!ch17)" desc="Replaced: \0" />
+		<keyword regcap="true" key="艾丽诺·瓦利埃尔"      regexp="艾蕾欧诺尔·瓦里埃尔(?!ch17)" desc="Replaced: \0" />
+		<keyword regcap="true" key="艾丽诺"                regexp="艾雷奥诺尔(?!ch11)|艾蕾欧诺尔(?!ch16)" desc="Replaced: \0" />
+		<keyword regcap="true" key="卡特莉娅"              regexp="卡特蕾亚(?!ch11)" desc="Replaced: \0" />
+		<keyword regcap="true" key="拉·瓦利埃尔\1"        regexp="拉·(?:瓦利艾尔(?!ch09)|瓦里埃尔(?!ch16))(公爵(夫人)?)?" desc="Replaced: \0" />
+		<keyword regcap="true" key="瓦利埃尔"              regexp="瓦利艾尔(?!ch09)|瓦里艾露(?!ch10)|瓦里埃尔(?!ch16)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="瓦德"                  regexp="乌尔德(?!ch09)|沃尔多(?!ch14)|瓦路德(?!ch15)" desc="Replaced: \0" />
+		<keyword regcap="true" key="雅涅丝"                regexp="阿尼艾斯(?!ch09)|阿妮艾斯(?!ch10)|阿尼亚斯(?!ch11)|亚尼艾斯(?!ch15)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="谢丝妲"                regexp="谢丝塔(?!ch09)|西艾斯塔(?!ch11)|雪丝塔(?!ch15)|雪斯塔(?!ch16)" desc="Replaced: \0" />
+		<keyword regcap="true" key="马托"                  regexp="马尔托(?!ch09)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="洁西卡"                regexp="杰西卡(?!ch09)" desc="Replaced: \0" />
+		<keyword regcap="true" key="斯卡龙"                regexp="斯卡隆(?!ch09)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="character" subtype="Tristain">
+		<keyword key="露易丝·法兰西斯·露·布朗·杜·拉·瓦利埃尔" />
+		<keyword key="露易丝·法兰西斯" />
+		<keyword key="露易丝"   alias="零" />
+		<keyword ch="17" key="苏尔·瓦妮莎" alias="露易丝" />
+		<keyword ch="17" key="瓦妮莎" alias="露易丝" />
+		<keyword key="平贺才人" />
+		<keyword key="平贺·才人" />
+		<keyword regcap="true" key="\0"                    regexp="才人·修瓦里埃·德·平贺·德·奥鲁尼艾鲁(?!ch16)" />
+		<keyword regcap="true" key="\0"                    regexp="才人·修瓦利埃·德·平贺(?!ch09)|才人·修瓦里埃·德·平贺(?!ch15)" alias="サイト・シュヴァリエ・ド・ヒラガ" />
+		<keyword ch="13" key="修瓦利埃·才人·德·平贺" />
+		<keyword regcap="true" key="\0"                    regexp="(?:修瓦利埃(?!ch14)|修瓦里埃(?!ch17))·平贺" />
+		<keyword ch="09" key="修瓦利埃·才人" />
+		<keyword key="才人" />
+		<keyword key="平贺" />
+		<keyword key="德鲁弗林加" />
+		<keyword key="德鲁弗" />
+		<keyword key="" />
+		<keyword key="ティファニア・ウエストウッド" />
+		<keyword key="蒂法尼娅" />
+		<keyword key="蒂法" />
+		<keyword ch="17" key="西木小姐" />
+		<keyword key="齐儿可·奥古斯都·菲列特利加·封·安哈特·查伯斯特" />
+		<keyword key="齐儿可"   alias="微热" />
+		<keyword key="封·查伯斯特" />
+		<keyword key="查伯斯特" />
+		<keyword ch="10" key="夏尔洛特·艾雷奴·修瓦利埃·德·花坛" alias="ャルロット" />
+		<keyword ch="10" key="夏尔洛特·艾雷奴·奥尔良" alias="ャルロット・エレーヌ・オルレアン" />
+		<keyword regcap="true" key="\0"                    regexp="夏尔洛特(?!ch10)|夏洛特(?!ch15)" alias="ャルロット" />
+		<keyword key="塔帕莎"   alias="雪风" />
+		<keyword ch="17" key="艾莱卢" alias="塔帕莎" />
+		<keyword key="基修·杜·格拉蒙" />
+		<keyword key="基修"     alias="青铜" />
+		<keyword key="格拉蒙" />
+		<keyword key="モンモランシー・マルガリタ・ラ・フェール・ド・モンモランシ" />
+		<keyword key="蒙莫朗西" alias="香水" />
+		<keyword key="蒙蒙" />
+		<keyword key="マリコルヌ・ド・グランドプレ" />
+		<keyword key="马里寇奴" alias="风上" />
+		<keyword key="" />
+		<keyword key="ヴィリエ・ド・ロレーヌ" />
+		<keyword ch="09" key="雷纳尔" alias="ヴィリエ" />
+		<keyword key="ペリッソン" />
+		<keyword key="スティックス" />
+		<keyword regcap="true" key="\0"                    regexp="吉姆利(?!ch13)|基姆利(?!ch15)" alias="ギムリ" />
+		<keyword key="ケティ・ド・ラ・ロッタ" />
+		<keyword regcap="true" key="\0" desc="「燠火」"    regexp="凯迪(?!h09)|凯蒂(?!ch11)" alias="ケティ" />
+		<keyword key="レイナール" />
+		<keyword key="ベアトリス・イヴォンヌ・フォン・クルデンホルフ" />
+		<keyword key="贝儿朵莉丝" />
+		<keyword regcap="true" key="\0"                    regexp="布里吉塔(?!ch13)|布里杰塔(?!ch16)|普儿吉达(?!ch17)" alias="ブリジッタ" desc="马里寇奴的女朋友。" />
+		<keyword key="" />
+		<keyword key="谢丝妲" />
+		<keyword key="马托" />
+		<keyword key="" />
+		<keyword key="欧斯曼" />
+		<keyword key="ロングビル" />
+		<keyword regcap="true" key="\0"                    regexp="(?:Jan(?!\w|ch09)|简(?!单|直|短|略|陋|朴|简)(?!ch10))(?!·)|让(?=[，。])(?!ch13)" alias="ジャン" />
+		<keyword key="ジャン・コルベール" />
+		<keyword key="寇伯特" />
+		<keyword key="谢弗勒兹" />
+		<keyword key="基多" />
+		<keyword key="" />
+		<keyword key="汉丽塔·杜·托里斯汀" alias="アンリエッタ・ド・トリステイン" />
+		<keyword key="汉丽塔" />
+		<keyword key="玛莉安娜" />
+		<keyword regcap="true" key="\0"                    regexp="马萨利尼(?!h09)|马扎利尼(?!ch10)|马萨里尼(?!ch11)" alias="マザリーニ" />
+		<keyword ch="13" key="亨利" desc="前托里斯汀国王。" />
+		<keyword key="" />
+		<keyword key="艾丽诺·艾伯蒂妮·露·杜·拉·瓦利埃尔" />
+		<keyword key="艾丽诺" />
+		<keyword key="卡特莉娅·艾伯蒂妮·露·杜·拉·瓦利埃尔" />
+		<keyword key="卡特莉娅" />
+		<keyword key="拉·瓦利埃尔公爵" />
+		<keyword key="拉·瓦利埃尔" />
+		<keyword key="瓦利埃尔" />
+		<keyword ch="11" key="加里奴·迪基雷" alias="カリーヌ・デジレ" />
+		<keyword ch="11" key="加里奴" alias="カリーヌ" />
+		<keyword ch="11" key="加琳" alias="カリン" />
+		<keyword ch="11" key="杰罗姆" desc="拉·瓦利埃尔家的管家。" />
+		<keyword key="" />
+		<keyword key="ジャン・ジャック・フランシス・ド・ワルド" />
+		<keyword key="瓦德" />
+		<keyword key="アニエス・シュヴァリエ・ド・ミラン" />
+		<keyword key="雅涅丝" />
+		<keyword regcap="true" key="\0"                    regexp="德·塞萨尔(?!ch10)|德·泽赛尔(?!ch11)|德·杰萨尔(?!ch17)" alias="ド・ゼッサール" />
+		<keyword disable="true" key="ド・ポワチエ" />
+		<keyword disable="true" key="ウィンプフェン" />
+		<keyword ch="13" key="鲁尼·霍克" alias="ルネ・フォンク" />
+		<keyword ch="09" key="鲁尼" regexp="鲁尼(?!艾鲁)" alias="ルネ" />
+		<keyword disable="true" key="ミシェル" />
+		<keyword key="" />
+		<keyword ch="09" key="提姆利" alias="デムリ" />
+		<keyword disable="true" key="バーガンディ伯爵" />
+		<keyword disable="true" key="チュレンヌ" />
+		<keyword disable="true" key="リッシュモン" />
+		<keyword disable="true" key="ジュール・ド・モット" />
+		<keyword key="" />
+		<keyword key="洁西卡" />
+		<keyword key="斯卡龙" />
+		<keyword disable="true" key="ニコラ" />
+		<keyword disable="true" key="ジュリアン" />
+		<keyword key="佐々木武雄" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="16" key="艾多利昂"     desc="水精灵骑士队。雷纳尔(ヴィリエ)同班，拥有赤色短发的少年。" />
+		<keyword ch="16" key="阿尔塞努"     desc="水精灵骑士队。" />
+		<keyword ch="16" key="加斯多"       desc="水精灵骑士队。" />
+		<keyword ch="16" key="瓦伦德"       desc="水精灵骑士队。" />
+		<keyword ch="16" key="维克多"       desc="水精灵骑士队。" />
+		<keyword ch="16" key="波尔"         desc="水精灵骑士队。" />
+		<keyword ch="16" key="艾鲁奈斯特"   desc="水精灵骑士队。" />
+		<keyword ch="16" key="奥斯卡尔"     desc="水精灵骑士队。" />
+		<keyword ch="16" key="卡西米尔"     desc="水精灵骑士队。" />
+		<keyword key="" />
+		<keyword ch="16" key="威尤" desc="在托里斯特尼亚经营面向贵族和有钱商家的房地产。" />
+		<keyword ch="16" key="罗萨里尼" desc="有名的建筑家。" />
+		<keyword ch="16" key="海伦" desc="才人雇了住在附近的一名叫海伦的无亲无故的老太作为佣人。" />
+		<keyword ch="16" key="芭莱莉" desc="现年二十六的她与艾丽诺同为主要研究员，使用水魔法，研究魔法药物。" />
+		<keyword ch="17" key="瓦伦汀" desc="卡德米(アカデミー)评议会长秘书。" />
+		<keyword ch="17" key="昆德拉" desc="卡德米(アカデミー)评议会长。" />
+	</highlight>
+	<highlight type="character" subtype="Romalia replaceFrom">
+		<keyword regcap="true" key="朱里奥·萨雷"          regexp="朱里奥·切扎雷(?!ch11)" desc="Replaced: \0" />
+		<keyword regcap="true" key="朱里奥"                regexp="(?:朱里奥(?!ch11)|朱利奥(?!ch16))(?!大王)" desc="Replaced: \0" />
+		<keyword regcap="true" key="萨切雷"                regexp="切扎雷(?!ch11)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="character" subtype="Romalia">
+		<keyword regcap="true" key="\0"                    regexp="圣?埃吉斯(?!ch11)(?:三十二世)?" alias="聖エイジス32世" />
+		<keyword regcap="true" key="\0"                    regexp="威托利奥·塞雷瓦雷(?!ch11)|维特里奥·塞雷瓦雷(?!ch13)|拜多里奥·塞纳巴莱(?!ch15)" alias="ヴィットーリオ・セレヴァレ" />
+		<keyword regcap="true" key="\0"                    regexp="(?:威托利奥(?!ch11)|维特里奥(?!ch13)|拜多里奥(?!ch15))(?!·)" alias="ヴィットーリオ" />
+		<keyword key="朱里奥·萨雷" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="加尔罗·克里斯狄亚诺·特伦博迪诺(?!ch13)|卡尔罗·克里斯汀阿诺·多隆彭迪诺(?!ch14)" alias="カルロ・クリスティアーノ・トロンボンティーノ" />
+		<keyword regcap="true" key="\0"                    regexp="加尔罗(?!ch13)|卡尔罗(?!ch14)" alias="カルロ" />
+		<keyword key="" />
+		<keyword ch="13" key="大王杰里奥·切扎雷" alias="大王ジュリオ・チェーザレ" />
+		<keyword ch="15" key="朱里奥大王" alias="大王ジュリオ" />
+		<keyword key="" />
+		<keyword ch="13" key="维特莉亚" alias="ヴィットーリ" desc="現ロマリア教皇ヴィットーリオの母。" />
+	</highlight>
+	<highlight type="equipment" subtype="Weapon">
+		<keyword regcap="true" key="\0"                    regexp="(?:查理·奥尔良(?!ch11)|夏露尔·奥尔里昂(?!ch15))号?" alias="シャルル・オルレアン号" />
+	</highlight>
+	<highlight type="character" subtype="Gallia replaceFrom">
+		<keyword regcap="true" key="雪菲尔"                regexp="谢菲尔德(?!ch14)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="character" subtype="Gallia">
+		<keyword regcap="true" key="\0"                    regexp="约赛特(?!ch16)|约塞特(?!ch17)" desc="ジョゼット" />
+		<keyword ch="17" key="伊莎贝尔·马尔提尔" alias="イザベラ" />
+		<keyword regcap="true" key="\0"                    regexp="伊莎贝拉(?!ch15)|伊萨贝拉(?!ch16)" alias="イザベラ" />
+		<keyword ch="10" key="奥尔良公爵夫人" alias="オルレアン公夫人" />
+		<keyword key="" />
+		<keyword key="ジョゼフ1世" />
+		<keyword ch="10" key="约瑟夫" alias="ジョゼフ" />
+		<keyword key="雪菲尔" />
+		<keyword ch="17" key="奥尔里昂公夏露尔" alias="オルレアン公シャルル" />
+		<keyword regcap="true" key="\0"                    regexp="理查(?!ch10)|查理(?!ch13)|夏露尔(?!ch15)" alias="シャルル" />
+		<keyword regcap="true" key="\0"                    regexp="(?:奥尔良(?!ch10)|奥尔里昂(?!ch15))公?(?:爵|王)?" alias="オルレアン公" />
+		<keyword regcap="true" key="\0"                    regexp="(?:莫里哀(?!ch11)|摩莉艾尔(?!ch13))(?:夫人)?" alias="モリエール夫人" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="巴索·卡斯特尔摩尔(?!ch14)|巴索·卡斯特莫尔(?!ch15)" alias="バッソ・カステルモール" desc="东蔷薇骑士团的花坛骑士。" />
+		<keyword regcap="true" key="\0"                    regexp="加斯迪尔摩尔(?!ch11)|卡斯特尔摩尔(?!ch14)|卡斯特莫尔(?!ch15)" alias="カステルモール" />
+		<keyword regcap="true" key="\0"                    regexp="库拉威尔(?!ch14)|克拉威鲁(?!ch15)" alias="クラヴィル" desc="两用舰队舰队总司令。" />
+		<keyword ch="14" key="维雷尔" alias="ヴィレール" desc="两用舰队少尉。" />
+		<keyword key="" />
+		<keyword ch="10" key="贝尔斯兰" alias="ペルスラン" />
+		<keyword disable="true" key="ヨシア" />
+		<keyword disable="true" key="アイーシャ" />
+		<keyword disable="true" key="エルザ" />
+		<keyword regcap="true" key="\0"                    regexp="(『地下水』|地下水)(?!ch17)" />
+		<keyword disable="true" key="オリヴァン・ド・ロナル" />
+		<keyword disable="true" key="アネット" />
+		<keyword disable="true" key="セレスタン・オリビエ・ド・ラ・コマンジュ" />
+		<keyword disable="true" key="トマ" />
+		<keyword disable="true" key="ラルカス" />
+		<keyword disable="true" key="リュリュ" />
+		<keyword disable="true" key="リュシー" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="10" key="米斯寇尔男爵" />
+		<keyword regcap="true" key="\0"                    regexp="富兰达尔(?!ch14)|弗朗达鲁(?!ch15)" desc="青年骑士。" />
+		<keyword ch="14" key="阿尔奴尔" desc="东玫瑰骑士团副团长。" />
+		<keyword regcap="true" key="\0"                    regexp="(?:琉吉尼安(?!ch14)|琉基尼(?!ch15))(?:子爵)?" desc="两用舰队舰队参谋。" />
+		<keyword ch="14" key="冯萨鲁达亚侯爵" desc="拥有『虎街道』高卢侧入口的领土。" />
+		<keyword regcap="true" key="\0"                    regexp="(皮耶鲁·弗兰马玖·顿·索瓦松|索瓦松男爵)(?!ch15)" desc="西百合花坛骑士。" />
+		<keyword ch="16" key="巴利贝里尼" desc="从罗马利亚派遣到高卢辅祭的红衣主教。" />
+		<keyword ch="17" key="达米安" desc="元素の兄弟。" />
+		<keyword ch="17" key="杰克"   desc="元素の兄弟。" />
+		<keyword ch="17" key="多德"   desc="元素の兄弟。" />
+		<keyword ch="17" key="嘉内特" desc="元素の兄弟。" />
+		<keyword ch="17" key="玛切斯" desc="桑德贝利寺院的祭司。" />
+	</highlight>
+	<highlight type="character" subtype="Albion replaceFrom">
+		<keyword regcap="true" key="威尔斯"                regexp="威尔兹(?!ch10)|威尔士(?!ch13)|维尔斯(?!ch16)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="character" subtype="Albion">
+		<keyword key="威尔斯.都铎" />
+		<keyword key="威尔斯" />
+		<keyword disable="true" key="ジェームズ1世" />
+		<keyword ch="13" key="蒙特大公" alias="モード大公" />
+		<keyword ch="13" key="王子·奥布·蒙特" alias="プリンス・オブ・モード" />
+		<keyword disable="true" key="オリヴァー・クロムウェル" />
+		<keyword key="" />
+		<keyword disable="true" key="サー・ヘンリ・ボーウッド" />
+		<keyword disable="true" key="ホーキンス" />
+		<keyword disable="true" key="ヘンリー・スタッフォード" />
+	</highlight>
+	<highlight type="character" subtype="Elf">
+		<keyword ch="10" key="丘留克" alias="テュリューク" />
+		<keyword regcap="true" key="\0"                    regexp="贝塔夏尔(?!ch10)|维塔夏尔(?!ch11)|贝达夏尔(?!ch15)" alias="ビダーシャル" />
+		<keyword key="" />
+		<keyword disable="true" key="ティファニアの母" />
+	</highlight>
+	<highlight type="character" subtype="始祖 replaceFrom">
+		<keyword regcap="true" key="\1布利弥尔"                    regexp="(始祖)?(?:普利米尔(?!ch09)|布里米露(?!ch10)|普里米尔(?!ch15))(?!教)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="character" subtype="始祖">
+		<keyword regcap="true" key="\0"                    regexp="普利米尔·鲁·鲁·米尔·尼塔贝利尔(?!ch14)" alias="ブリミル・ル・ルミル・ユル・ヴィリ・ヴェー・ヴァルトリ" />
+		<keyword regcap="true" key="\0"                    regexp="尼塔贝利尔·普利米尔(?!ch14)" />
+		<keyword regcap="true" key="\0"                    regexp="尼塔贝利尔(?!ch14)|尼达贝利鲁(?!ch15)" />
+		<keyword key="始祖布利弥尔" />
+		<keyword key="布利弥尔" />
+		<keyword key="始祖" regexp="始祖(?!之|的祈祷书|的八音盒|的香炉)" />
+		<keyword regcap="true" key="\0"                    regexp="萨莎(?!ch14)|莎夏(?!ch15)" alias="サーシャ" desc="初代甘道夫。" />
+		<keyword disable="true" key="初代ヴィンダールヴ" />
+		<keyword disable="true" key="初代ミョズニトニルン" />
+		<keyword disable="true" key="初代第四の使い魔" />
+		<keyword key="" />
+		<keyword disable="true" key="トリステインの祖王" />
+		<keyword disable="true" key="ガリアの祖王" />
+		<keyword disable="true" key="アルビオンの祖王" />
+		<keyword regcap="true" key="\0"                    regexp="圣?弗尔萨迪(?!ch13)" alias="フォルサテ" />
+		<keyword key="" />
+		<keyword ch="10" key="伊瓦尔汀" regexp="伊瓦尔汀(?!的勇者)" alias="イーヴァルディ" />
+		<keyword ch="10" key="阿奴比斯" alias="アヌビス" />
+	</highlight>
+	<highlight type="character" subtype="帝政ゲルマニア">
+		<keyword disable="true" key="アルブレヒト3世" />
+		<keyword disable="true" key="ハルデンベルグ侯爵" />
+	</highlight>
+	<highlight type="character" subtype="クルデンホルフ大公国">
+		<keyword disable="true" key="クルデンホルフ大公" />
+		<keyword disable="true" key="空中装甲騎士団団長" />
+	</highlight>
+	<highlight type="character" subtype="その他 replaceFrom">
+		<keyword regcap="true" key="佛肯"                  regexp="风凯(?!ch09)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="character" subtype="その他">
+		<keyword key="佛肯" />
+		<keyword disable="true" key="マチルダ・オブ・サウスゴータ" />
+		<keyword ch="11" key="玛提尔达" alias="マチルダ" />
+		<keyword ch="13" key="门奴威尔" alias="メンヌヴィル" />
+	</highlight>
+	<highlight type="character" subtype="使い魔 replaceFrom">
+		<keyword regcap="true" key="甘道夫"                regexp="纲达乌鲁(?!ch09)|钢达尔夫(?!ch10)|刚达尔夫(?!ch13)|纲达鲁乌(?!ch15)" alias="Gandalfr" desc="Replaced: \0&lt;br /&gt;神的左手 拥有操纵一切 武器和兵器 的能力。" />
+		<keyword regcap="true" key="温道夫"                regexp="温达尔夫(?!ch13)|闻达鲁乌(?!ch15)" alias="ヴィンダールヴ" desc="Replaced: \0&lt;br /&gt;神的右手，拥有操控一切 幻兽       的能力。" />
+	</highlight>
+	<highlight type="character" subtype="使い魔">
+		<keyword key="甘道夫" alias="Gandalfr" desc="神的左手，拥有操纵一切 武器和兵器 的能力。" />
+		<keyword key="温道夫"                  desc="神的右手，拥有操控一切 幻兽       的能力。" />
+		<keyword regcap="true" key="\0"                    regexp="缪斯尼多尼伦(?!ch09)|缪兹尼托妮伦(?!ch10)|缪兹尼多尼伦(?!ch11)|密斯尼特伦(?!ch15)" alias="ミョズニトニルン" desc="神的头脑 拥有操纵一切 魔道具     的能力。" />
+		<keyword regcap="true" key="\0"                    regexp="缪斯(?!尼|ch11)|密斯(?!尼|ch15)" alias="ミョズ" desc="神的头脑，拥有操纵一切 魔道具     的能力。" />
+		<keyword key="第四の使い魔" />
+		<keyword key="" />
+		<keyword key="弗雷姆"   desc="齐儿可 的使魔。" />
+		<keyword ch="09" key="希尔菲德" desc="塔帕莎 的使魔。" alias="シルフィード" />
+		<keyword ch="10" key="伊露库库" desc="塔帕莎 的使魔。" alias="イルククゥ" />
+		<keyword ch="13" key="贝尔丹蒂" desc="基修   的使魔。" alias="ヴェルダンデ" />
+		<keyword disable="true" key="ロビン" />
+		<keyword disable="true" key="穆托索尼尔" />
+		<keyword disable="true" key="クヴァーシル" />
+		<keyword key="" />
+		<keyword ch="09" key="威尔刚" alias="竜 ヴィルカン" />
+		<keyword ch="09" key="尤斯特" alias="風竜 リュストー" />
+		<keyword ch="11" key="托卢卡斯" alias="露易丝本家的猫头鹰" />
+	</highlight>
+	<highlight type="terminology" subtype="few">
+		<keyword ch="09" key="虚无之日" />
+		<keyword ch="09" key="斯雷普尼尔舞会" />
+	</highlight>
+	<highlight type="terminology" subtype="org replaceFrom">
+		<keyword regcap="true" key="水精灵骑士队"          regexp="水精灵骑士团(?!ch16)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="雷空·圭斯塔"          regexp="雷空·基斯塔(?!ch09)|雷空·基斯特(?!ch11)" alias="レコン・キスタ" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword regcap="true" key="\0"                    regexp="(?:普利米尔(?!ch13)|普里米尔(?!ch15))教(?!徒)" />
+		<keyword ch="13" key="丹古尔提尔新教" regexp="丹古尔提尔新教(?!徒)" />
+		<keyword key="" />
+		<keyword disable="true" key="托里斯汀魔法学院" />
+		<keyword key="王立魔法研究所" />
+		<keyword key="魔法研究所" />
+		<keyword ch="16" key="卡德米" alias="アカデミー" desc="魔法研究所。一座共计三十层的魔法塔。" />
+		<keyword key="ゼロ機関" />
+		<keyword key="王立图书馆" />
+		<keyword key="" />
+		<keyword key="王軍" />
+		<keyword ch="17" key="王国军" />
+		<keyword key="诸侯军" />
+		<keyword key="国军" />
+		<keyword key="空海军" />
+		<keyword key="魔法卫士队" />
+		<keyword regcap="true" key="\0"                    regexp="(?:曼提柯尔(?!ch10)|曼迪寇亚(?!ch11))(?:警卫)?队" alias="マンティコア隊" />
+		<keyword regcap="true" key="\0"                    regexp="火枪队(?!ch09)|枪士队(?!ch10)" alias="銃士隊" />
+		<keyword key="水精灵骑士队" />
+		<keyword key="" />
+		<keyword ch="13" key="罗马利亚大圣堂" />
+		<keyword ch="13" key="大圣堂" />
+		<keyword ch="13" key="宗教厅" />
+		<keyword ch="13" key="圣堂议会" />
+		<keyword regcap="true" key="\0"                    regexp="阿里艾斯狄修道会(?!ch13)|阿利艾斯迪修道会(?!ch14)" alias="アリエステ修道会" />
+		<keyword ch="14" key="圣露迪亚圣堂" />
+		<keyword key="" />
+		<keyword key="圣堂骑士队" />
+		<keyword ch="13" key="救世马尔迪亚斯骑士团" />
+		<keyword regcap="true" key="\0"                    regexp="炮龟?兵大队(?!ch14)" />
+		<keyword ch="14" key="波里混编部队" />
+		<keyword key="" />
+		<keyword disable="true" key="ガリア花壇警護騎士団" />
+		<keyword regcap="true" key="\0"                    regexp="[东南西北]?((蔷薇|玫瑰|百合)(花坛)?|花坛)(警卫)?骑士团" />
+		<keyword disable="true" key="北花坛骑士团" />
+		<keyword key="北花坛" regexp="北花坛(?!骑士)" />
+		<keyword ch="13" key="两用舰队" alias="両用艦隊" />
+		<keyword key="" />
+		<keyword key="阿尔比昂空军" />
+		<keyword key="阿尔比昂龙骑士团" />
+		<keyword key="" />
+		<keyword key="空中装甲骑士团" />
+		<keyword key="" />
+		<keyword key="雷空·圭斯塔" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="龙骑士队" />
+		<keyword key="骑士队" />
+		<keyword key="骑士团" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="[「『“‘]?魅惑的妖精[」』”’]?亭(?!ch13)|魅惑妖精亭(?!ch17)|魅惑的妖精(?!ch09)" alias="『魅惑の妖精』亭" />
+		<keyword regcap="true" key="\0"                    regexp="(塔尼亚里具(·罗怀亚鲁)?(?!ch16)|塔尼亚利玖·罗维亚尔(?!ch17))(剧团|剧院)?" />
+		<keyword regcap="true" key="\0"                    regexp="[「『“‘]?陆之白鲸[」』”’]?亭(?!ch17)|陆之白鲸(?!ch17)" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="job replaceFrom">
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword regcap="true" key="\0"                    regexp="(虚无|[「『“‘]虚无[」』”’])(的|之)?使魔" />
+		<keyword regcap="true" key="\0"                    regexp="(虚无|[「『“‘]虚无[」』”’])(的|之)?(背负者|担当者(?!ch15)|使用者(?!ch17))" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="(?:普利米尔(?!ch13)|普里米尔(?!ch15))教徒" />
+		<keyword ch="13" key="丹古尔提尔新教徒" />
+		<keyword key="" />
+		<keyword key="魔法师" />
+		<keyword key="" />
+		<keyword key="龙骑士" />
+		<keyword key="魔法卫士" />
+		<keyword ch="13" key="枪兵" />
+		<keyword key="水精灵骑士" />
+		<keyword key="" />
+		<keyword key="圣堂骑士" />
+		<keyword key="炮龟兵" />
+		<keyword key="" />
+		<keyword ch="10" key="白蔷薇骑士" />
+		<keyword regcap="true" key="\0"                    regexp="[东南西北]?((蔷薇|玫瑰|百合)(花坛)?|花坛)骑士" />
+		<keyword disable="true" key="北花坛骑士" />
+		<keyword disable="true" ch="14" key="花坛骑士" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="(?:阿库伊雷亚(?!ch13)|阿奎利亚(?!ch14)|艾克蕾亚(?!ch15))的?圣女" alias="アクイレイアの聖女" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="location" subtype="replaceFrom">
+		<keyword regcap="true" key="哈尔凯尼亚"            regexp="(?:哈尔凯基尼亚(?!ch09)|哈尔吉尼亚(?!ch15))(?:大陆)?" alias="Halkeginia" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="托里斯汀魔法学院"      regexp="特里斯汀魔法学院(?!ch09)" desc="Replaced: \0" />
+		<keyword regcap="true" key="托里斯特尼亚"          regexp="特里斯塔尼亚(?!ch09)|托里斯塔利亚(?!ch16)" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="罗马利亚皇国"          regexp="罗马尼亚皇国(?!ch16)" alias="Romalia" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="高卢王国"              regexp="加里亚王国(?!ch17)" alias="Gallia" desc="Replaced: \0" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword regcap="true" key="魏斯特利广场"          regexp="瓦斯特里广场(?!ch09)|阿乌斯特里广场(?!ch13)" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword ch="13" key="异世界" alias="異世界" />
+		<keyword key="" />
+		<keyword key="哈尔凯尼亚" alias="Halkeginia" />
+		<keyword key="" />
+		<keyword key="托里斯汀王国" />
+		<keyword key="托里斯汀魔法学院" />
+		<keyword key="魔法学院" />
+		<keyword key="托里斯特尼亚" />
+		<keyword regcap="true" key="\0"                    regexp="拉·罗西尔(?!ch09)|拉·罗谢尔(?!ch11)" alias="ラ・ロシェール" />
+		<keyword regcap="true" key="\0"                    regexp="(?:塔鲁布(?!ch09)|塔尔布(?!ch11))村?" alias="タルブ" desc="拉·罗西尔附近的村庄，谢丝妲的故乡。" />
+		<keyword regcap="true" key="\0"                    regexp="拉古德利安湖(?!ch09)|拉古德里安(?!ch10)" alias="ラグドリアン湖" />
+		<keyword key="ダングルテール（アングル地方）" />
+		<keyword regcap="true" key="\0"                    regexp="(德·)?奥鲁尼艾鲁(?!ch16)" alias="ド・オルニエール" />
+		<keyword key="" />
+		<keyword ch="13" key="罗马利亚联合皇国" alias="ロマリア連合皇国" />
+		<keyword ch="13" key="罗马利亚都市王国" />
+		<keyword ch="13" key="皇国" alias="皇国" />
+		<keyword key="" />
+		<keyword key="高卢王国" />
+		<keyword regcap="true" key="\0"                    regexp="留提斯(?!ch10)|琉蒂斯(?!ch13)|吕特斯(?!ch15)" alias="リュティス" />
+		<keyword regcap="true" key="\0"                    regexp="(?:威尔塞尔提尔(?!ch10)|贝尔萨尔提(?!ch15)|维萨提尔(?!ch15))宫?殿?" alias="ヴェルサルテイル宮殿" />
+		<keyword regcap="true" key="\0"                    regexp="(?:格兰·特洛华(?!ch10)|古兰·特洛华(?!ch14)|格朗杜洛华(?!ch15)|格兰·拖罗瓦(?!ch15))宫?" alias="グラン・トロワ" />
+		<keyword regcap="true" key="\0"                    regexp="(?:(?:小|大)?洛华(?!ch16))宫?" alias="トロワ" />
+		<keyword key="エギンハイム" />
+		<keyword regcap="true" key="\0"                    regexp="(?:阿含布拉(?!ch10))城?" alias="アーハンブラ城" />
+		<keyword regcap="true" key="\0"                    regexp="圣·马隆(?!ch11)|桑·马隆(?!ch15)|圣·马朗(?!ch15)" alias="サン・マロン" desc="高卢沿海的街道，水上舰队及空中舰队的大规模根据地。" />
+		<keyword key="" />
+		<keyword key="阿尔比昂王国" />
+		<keyword ch="09" key="罗塞伊斯" alias="ロサイス" desc="阿尔比昂港口城市。" />
+		<keyword regcap="true" key="\0"                    regexp="萨乌斯柯塔街?(?!ch09)" alias="サウスゴータ" comment="街" />
+		<keyword key="" />
+		<keyword key="神圣阿尔比昂共和国" />
+		<keyword key="" />
+		<keyword key="帝政ゲルマニア" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="(?:卑尔根(?!ch14)|库尔汀侯尔弗(?!ch16))大公国" alias="クルデンホルフ大公国" />
+		<keyword key="" />
+		<keyword ch="10" key="圣地" alias="『聖地』" />
+		<keyword ch="10" key="恶魔之门" alias="シャイターン（悪魔）の門" />
+		<keyword key="" />
+		<keyword ch="10" key="沙漠" regexp="沙漠(?=[」』”’])" alias="『砂漠』" />
+		<keyword ch="10" key="撒哈拉" alias="サハラ" />
+		<keyword ch="10" key="奈弗提斯" alias="ネフテス" />
+		<keyword key="" />
+		<keyword key="『東の世界』" />
+		<keyword ch="14" key="罗巴·阿尔·卡利耶" alias="ロバ・アル・カリイエ" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="14" key="伊古吉斯坦塞亚" />
+		<keyword ch="14" key="米德加德" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="魏斯特利广场" />
+		<keyword ch="11" key="艾斯塔修" desc="艾斯塔修叛乱" />
+		<keyword ch="11" key="加尔丹桥" desc="前线加尔丹桥" />
+		<keyword regcap="true" key="\0"                    regexp="且路博库(?!ch16)(?:监狱)?" />
+		<keyword ch="16" key="西夏尔" />
+		<keyword regcap="true" key="\0"                    regexp="贝鲁·艾尔街?(?!ch17)" desc="海岸出发，沿着海向高卢延伸。" />
+		<keyword regcap="true" key="\0"                    regexp="修尔毕斯(?!ch16)|修尔比斯(?!ch17)" desc="距托里斯特尼亚约两天日程的小镇。" />
+		<keyword regcap="true" key="\0"                    regexp="罗兰街?(?!ch17)" desc="通过拉·瓦利埃尔家向加尔马尼亚延伸。" />
+		<keyword regcap="true" key="\0"                    regexp="克里冯街?(?!ch17)" desc="途中分岔向拉·罗谢尔(ラ・ロシェール)方向延伸的。" />
+		<keyword key="" />
+		<keyword ch="13" key="阿旺纳半岛" desc="「罗马利亚都市王国」" />
+		<keyword ch="13" key="契塔迪拉" desc="罗马利亚南部港口。" />
+		<keyword regcap="true" key="\0"                    regexp="阿库伊雷亚(?!ch13)|阿奎利亚(?!ch14)|艾克蕾亚(?!ch15)" alias="アクイレイア" desc="罗马利亚的高卢国境附近的城市。" />
+		<keyword ch="14" key="迪古雷斯·古兰德·鲁多" desc="横跨火龙山脉南北的城市。" />
+		<keyword regcap="true" key="\0"                    regexp="虎街道(?!ch14)|虎道街(?!ch15)" desc="横跨火龙山脉南北的城市。" />
+		<keyword key="" />
+		<keyword ch="14" key="波恩·凡镇" desc="高卢王都郊外走三十分钟左右。" />
+		<keyword regcap="true" key="\0"                    regexp="加鲁加索鲁城?(?!ch15)" desc="高卢王都往西约四百里格的中型城寨都市。" />
+		<keyword regcap="true" key="\0"                    regexp="林奈河(?!ch15)" desc="流经加鲁加索鲁北边。" />
+		<keyword ch="16" key="圣·马尔加利特修道院" desc="坐落于高卢西北部向外突出的宽两里格，长约三十里格左右的细长半岛尖端处。" />
+		<keyword ch="17" key="古拉比尔" desc="高卢沿海的街道。" />
+		<keyword ch="17" key="桑德贝利寺院" desc="高卢沿海的街道——古拉比尔的寺院。" />
+		<keyword ch="17" key="拉·瓦尔桥" desc="" />
+		<keyword key="" />
+		<keyword ch="09" key="萨乌斯苛塔(?:森林)?" alias="サウスゴータ" comment="森林" />
+		<keyword regcap="true" key="\0"                    regexp="(?:乌艾斯特伍德(?!ch09)|威斯特伍德(?!ch10)|西木(?!|ch11))(?!小姐)村?" alias="ウエストウッド" comment="村" />
+	</highlight>
+	<highlight type="location" subtype="short_country replaceFrom">
+		<keyword regcap="true" key="托里斯汀"              regexp="特里斯汀(?!ch09)" alias="Tristein" desc="Replaced: \0" />
+		<keyword regcap="true" key="罗马利亚"              regexp="罗马尼亚(?!ch15)" alias="Romalia" desc="Replaced: \0" />
+		<keyword regcap="true" key="高卢"                  regexp="加里亚(?!ch09)" alias="Gallia" desc="Replaced: \0" />
+		<keyword regcap="true" key="阿尔比昂"              regexp="阿鲁比翁(?!ch09)|阿鲁比昂(?!ch10)|阿尔比翁(?!ch11)|亚鲁比昂(?!ch15)" alias="Albion" desc="Replaced: \0" />
+		<keyword regcap="true" key="加尔马尼亚"            regexp="凯尔马尼亚(?!ch09)|格鲁马尼亚(?!ch10)|格尔马尼亚(?!ch15)" alias="Germania" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="location" subtype="short_country">
+		<keyword key="托里斯汀"   alias="Tristein" />
+		<keyword key="罗马利亚"   alias="Romalia" />
+		<keyword key="高卢"       alias="Gallia" />
+		<keyword key="阿尔比昂"   alias="Albion" />
+		<keyword key="加尔马尼亚" alias="Germania" />
+	</highlight>
+	<highlight type="ability" subtype="magic replaceFrom">
+		<keyword regcap="true" key="点状级"                regexp="「点」级(?!ch13)|圆点级别?(?!ch15)" alias="Point" desc="Replaced: \0" />
+		<keyword regcap="true" key="线性级"                regexp="线级(?!ch13)" alias="Line" desc="Replaced: \0" />
+		<keyword regcap="true" key="三角级"                regexp="三角形等级(?!ch10)|「三角」级(?!ch13)" alias="Triangle" desc="Replaced: \0" />
+		<keyword regcap="true" key="矩形极"                regexp="四边形等级(?!ch10)|四方级(?!ch13)" alias="Square" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="ability" subtype="magic">
+		<keyword regcap="true" key="\0"                    regexp="四系统魔法|系统魔法|四系统" />
+		<keyword regcap="true" key="\0"                    regexp="(?:[土水火风]|[「『“‘][土水火风][」』”’])(?:系统魔法|系魔法|系统|魔法)" />
+		<keyword key="系统" regexp="系统(?=与)" />
+		<keyword key="" />
+		<keyword disable="true" key="土" />
+		<keyword ch="14" key="硬化"         regexp="硬化(?=[」』”’])" />
+		<keyword ch="09" key="炼金"         regexp="炼金(?=[」』”’])" />
+		<keyword ch="14" key="固定化"     regexp="固定化(?=[」』”’])" />
+		<keyword disable="true" key="水" />
+		<keyword ch="09" key="魅惑"         regexp="魅惑(?=[」』”’])" />
+		<keyword ch="09" key="憎恨"         regexp="憎恨(?=[」』”’])" />
+		<keyword disable="true" key="火" />
+		<keyword ch="13" key="炎之龙" />
+		<keyword ch="13" key="炎龙" />
+		<keyword disable="true" key="風" />
+		<keyword ch="13" key="飞行"         regexp="飞行(?=[」』”’])" />
+		<keyword ch="15" key="fly"           regexp="fly(?=[」』”’])" />
+		<keyword ch="17" key="飞空"         regexp="飞空(?=[」』”’])" />
+		<keyword ch="13" key="空气盾"     regexp="空气盾(?=[」』”’])" />
+		<keyword ch="13" key="刃"             regexp="刃(?=[」』”’])" />
+		<keyword ch="15" key="Blade"       regexp="Blade(?=[」』”’])" />
+		<keyword ch="13" key="远见"         regexp="远见(?=[」』”’])" />
+		<keyword ch="14" key="偏在"         regexp="偏在(?=[」』”’])" />
+		<keyword ch="15" key="遍在"         regexp="遍在(?=[」』”’])" />
+		<keyword ch="14" key="漂浮"         regexp="漂浮(?=[」』”’])" />
+		<keyword ch="17" key="Air·Hummer" />
+		<keyword ch="17" key="FACE·CHANGE" />
+		<keyword key="" />
+		<keyword ch="13" key="光明"         regexp="光明(?=[」』”’])" />
+		<keyword ch="15" key="魔法探测" regexp="魔法探测(?=[」』”’])" />
+		<keyword ch="15" key="探测魔法" regexp="探测魔法(?=[」』”’])" />
+		<keyword ch="17" key="探知魔法" regexp="探知魔法(?=[」』”’])" />
+		<keyword ch="15" key="skirni" />
+		<keyword ch="17" key="FACE·CHANGE" />
+		<keyword key="" />
+		<keyword key="点状级" alias="Point" />
+		<keyword key="线性级" alias="Line" />
+		<keyword key="三角级" alias="Triangle" />
+		<keyword key="矩形极" alias="Square" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="虚无魔法" />
+		<keyword key="虚无之力" />
+		<keyword key="虚无" />
+		<keyword key="爆发"             regexp="爆发(?=[」』”’])" alias="Xplosion" />
+		<keyword ch="15" key="explosion" />
+		<keyword key="世界门"         regexp="世界门(?=[」』”’])" alias="World Door" />
+		<keyword key="加速"             regexp="加速(?=[」』”’])" />
+		<keyword key="瞬间移动"     regexp="瞬间移动(?=[」』”’])" />
+		<keyword key="幻影"             regexp="幻影(?=[」』”’])" alias="Illusion" />
+		<keyword key="解咒"             regexp="解咒(?=[」』”’])" alias="Dispel" />
+		<keyword key="忘却"             regexp="忘却(?=[」』”’])" />
+		<keyword key="记录"             regexp="记录(?=[」』”’])" alias="Record" />
+		<keyword ch="15" key="Record" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="(?:先住(?!ch09)|原住(?!ch10)|“原住”(?!ch10))(?:魔法)?" alias="先住の魔法" />
+		<keyword ch="10" key="原住之力" />
+		<keyword ch="10" key="原住" />
+		<keyword ch="10" key="精灵之力" />
+		<keyword ch="10" key="生之力" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="魔法" regexp="魔法(?!师|卫士队|药)" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="Golem-Gargoyle replaceFrom">
+		<keyword regcap="true" key="哥雷姆"                regexp="格雷姆(?!ch17)" alias="Golem" desc="Replaced: \0" />
+		<keyword regcap="true" key="战争女神"              regexp="瓦尔基里(?!ch11)" alias="Golem" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="ability" subtype="Golem-Gargoyle">
+		<keyword key="哥雷姆" alias="Golem" />
+		<keyword key="战争女神" alias="Valkyrie" />
+		<keyword regcap="true" key="\0"                    regexp="石像鬼|卡哥伊鲁(?!ch09)|石像怪(?!ch15)" alias="Gargoyle " desc="ガーゴイル" />
+		<keyword ch="gg" key="阿鲁维" alias="アルヴィー" />
+		<keyword ch="09" key="斯利特弗尼尔" alias="スキルニル" />
+		<keyword regcap="true" key="\0"                    regexp="尤尔姆冈特(?!ch11)|尤尔姆刚特(?!ch13)|骑士人偶(?!ch13)|约路蒙钢特(?!ch15)" alias="ヨルムンガント" />
+	</highlight>
+	<highlight type="equipment" subtype="始祖 replaceFrom">
+		<keyword regcap="true" key="始祖的祈祷书"          regexp="始祖之祈祷书(?!ch11)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="equipment" subtype="始祖">
+		<keyword ch="13" key="始祖的秘宝" alias="始祖の秘宝" />
+		<keyword key="" />
+		<keyword ch="17" key="水之红宝石水" alias="のルビー" />
+		<keyword regcap="true" key="\0"                    regexp="炎之宝石(?!ch13)|火之宝石(?!ch13)" alias="炎のルビー" />
+		<keyword key="土のルビー" />
+		<keyword ch="09" key="风之宝石" alias="風のルビー" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="水之戒(?!ch11)|水之指环(?!ch17)" />
+		<keyword ch="15" key="土之红宝石戒" />
+		<keyword key="始祖的祈祷书" />
+		<keyword ch="11" key="始祖之盾" />
+		<keyword ch="14" key="始祖的香炉" alias="始祖の香炉" />
+		<keyword ch="09" key="始祖的八音盒" alias="始祖のオルゴール" />
+		<keyword key="" />
+		<keyword key="魔杖" />
+		<keyword key="秘宝" />
+		<keyword key="戒指" />
+		<keyword key="使魔" />
+	</highlight>
+	<highlight type="equipment" subtype="Book">
+		<keyword key="始祖ブリミルの使い魔たち" />
+		<keyword key="始祖の祈祷書（偽書）" />
+		<keyword key="風の力が気象に与える影響とその効果" />
+		<keyword key="炎蛇のヒミツ" />
+		<keyword key="恋愛の方程式〜男の子に好かれるためには" />
+		<keyword regcap="true" key="\0"                    regexp="女仆的下午(?!ch09)|女仆的午后(?!ch10)" alias="メイドの午後" />
+		<keyword key="幻の古代知性生物〜韻竜の眷属" />
+		<keyword key="ハルケギニアの多種多様な吸血鬼について" />
+		<keyword ch="10" key="伊瓦尔汀的勇者" alias="イーヴァルディの勇者" />
+		<keyword key="召喚されし書物" />
+		<keyword ch="10" key="蝴蝶伯爵夫人的优雅的一天" alias="バタフライ伯爵夫人の優雅な一日" />
+	</highlight>
+	<highlight type="equipment" subtype="Weapon">
+		<keyword ch="14" key="炮龟" alias="砲亀" />
+		<keyword key="" />
+		<keyword ch="13" key="不合时宜的工艺品" alias="場違いな工芸品" />
+		<keyword ch="14" key="工艺品" alias="工芸品" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="列克星敦(?!ch11)号?" alias="レキシントン号" />
+		<keyword regcap="true" key="\0"                    regexp="犹塞塔尔(?!ch09)号?" alias="ヴュセンタール号" />
+		<keyword regcap="true" key="\0"                    regexp="(?:东方|[「『“‘]东方[」』”’])号(?!ch09)" alias="「東方」号" />
+		<keyword regcap="true" key="\0"                    regexp="(?:圣马可|[「『“‘]圣马可[」』”’])号(?!ch14)" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="零式(?!ch09)|零战(?!ch13)" alias="ゼロ戦" />
+		<keyword regcap="true" key="\0"                    regexp="龙的羽衣(?!ch09)|龙之羽衣(?!ch13)" alias="竜の羽衣" />
+		<keyword ch="09" key="AK步枪" alias="AK小銃" />
+		<keyword ch="09" key="虎式坦克" alias="タイガー戦車" />
+		<keyword key="" />
+		<keyword ch="10" key="愉快的黑比君" alias="ゆかいな蛇くん" />
+		<keyword ch="09" key="飞空蛇" alias="空飛ぶ蛇くん" />
+		<keyword ch="09" key="水蒸气机关" alias="水蒸気機関" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="equipment" subtype="item">
+		<keyword ch="09" key="沉睡之钟" alias="眠りの鐘" />
+		<keyword key="デルフリンガー" />
+		<keyword key="破坏之杖" />
+		<keyword key="アンリエッタの杖" />
+		<keyword key="风石" />
+		<keyword key="硫黄" />
+		<keyword key="水の魔法薬" />
+		<keyword key="アンドバリの指輪" />
+		<keyword key="魔法のランプ" />
+		<keyword key="竜の羽衣" />
+		<keyword key="始祖の秘宝" />
+		<keyword key="魔法の拘束具" />
+		<keyword key="嘘つきの鏡" />
+		<keyword key="ポーション" />
+		<keyword key="水の精霊の涙" />
+		<keyword key="魅惑の妖精のビスチェ" />
+		<keyword key="空飛ぶヘビくん" />
+		<keyword key="ティファニアの指輪" />
+		<keyword ch="09" key="真实之镜" alias="真実の鏡" />
+		<keyword key="水の精霊の薬" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="火石(?!ch15)|炎之?玉(?!ch15)" />
+		<keyword regcap="true" key="\0"                    regexp="(白毛)?精灵勋章(?!ch16)" />
+	</highlight>
+	<highlight type="escape">
+		<keyword regcap="true" key="\0"                    regexp="野蛮人|长龙|沙龙|来龙去脉" />
+	</highlight>
+	<highlight type="terminology" subtype="始祖">
+		<keyword regcap="true" key="\0"                    regexp="背负者|担当者(?!ch15)" />
+	</highlight>
+	<highlight type="terminology" subtype="種族 replaceFrom">
+		<keyword regcap="true" key="精灵"                  regexp="埃尔夫(?!ch15)" desc="Replaced: \0" />
+	</highlight>
+	<highlight type="terminology" subtype="種族">
+		<keyword key="人类" />
+		<keyword key="蛮人" />
+		<keyword key="水之精灵" />
+		<keyword key="半精灵" />
+		<keyword key="精灵" regexp="精灵(?!勋章)" />
+		<keyword key="韵龙" />
+		<keyword key="飞龙" />
+		<keyword key="风龙" />
+		<keyword key="巨龙" />
+		<keyword key="龙" regexp="龙(?!骑士|母船|的羽衣|之羽衣|卷|山|笼|虾)" />
+		<keyword key="オーク鬼" />
+		<keyword key="トロール鬼" />
+		<keyword key="オグル鬼" />
+		<keyword key="亚人" />
+		<keyword key="妖精" />
+		<keyword ch="14" key="橡树鬼" alias="??トロール鬼??" />
+		<keyword key="" />
+		<keyword key="翼人" />
+		<keyword key="吸血鬼" />
+		<keyword key="エコー" />
+		<keyword key="ミノタウロス" />
+		<keyword key="コボルド" />
+		<keyword key="" />
+		<keyword ch="14" key="瓦良格" />
+		<keyword ch="14" key="玛吉" />
+		<keyword key="" />
+		<keyword key="幻兽" />
+		<keyword ch="11" key="沙罗曼蛇" desc="齐儿可的幻兽" />
+		<keyword ch="11" key="曼迪寇亚" desc="加里奴的幻兽" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword regcap="true" key="\0"                    regexp="(?:修瓦利埃(?!ch09)|修瓦里埃(?!ch16))(?!·)" alias="シュヴァリエ" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="赛桐" alias="サント" />
+		<keyword regcap="true" key="\0"                    regexp="迈尔(?!ch14)|玫鲁(?!ch15)" alias="メイル" />
+		<keyword regcap="true" key="\0"                    regexp="盟(?!ch10)|里古(?!ch15)" alias="リーグ" desc="1リーグは地球の距離に換算すると約1kmであり、実在の単位とは長さが一致しない。" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0"                    regexp="艾丘(?!ch09)|埃居(?!ch15)" alias="ecu" desc="エキュー" />
+		<keyword disable="true" regcap="true" key="\0"                    regexp="" alias="sou" desc="スゥ" />
+		<keyword disable="true" regcap="true" key="\0"                    regexp="" alias="deniers" desc="ドニエ" />
+		<keyword key="" />
+		<keyword ch="15" key="阿鲁镑" desc="英亩。1阿鲁镑约四千平方米。" />
+	</highlight>
+</highlights>

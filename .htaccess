@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteCond %{REMOTE_ADDR} !^(127\.0|192\.168|10\.0)
+RewriteCond %{HTTP_HOST}   !^falconia\.org$ [NC]
+RewriteCond %{HTTP_HOST}   !^$
+RewriteRule ^(.*)          http://falconia.org/novel/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .? - [S=1]
+RewriteRule .? - [L]
+
+RewriteRule ^([^/]+)/([^/]+)/v/(0,[0-9]+|[1-9][0-9]*).html$ index.php?novelid=$1&volumeid=$2&pageid=$3&textmode=v [QSA,L]
+RewriteRule ^([^/]+)/([^/]+)/v/$                            index.php?novelid=$1&volumeid=$2&textmode=v [QSA,L]
+
+RewriteRule ^([^/]+)/([^/]+)/([1-9][0-9]*)\.html$ index.php?novelid=$1&volumeid=$2&chapterid=$3 [QSA,L]
+RewriteRule ^([^/]+)/([^/]+)/$                    index.php?novelid=$1&volumeid=$2 [QSA,L]
+RewriteRule ^([^/]+)/$                            index.php?novelid=$1 [QSA,L]

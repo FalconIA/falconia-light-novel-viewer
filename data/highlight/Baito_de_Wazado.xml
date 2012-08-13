@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Baito_de_Wazado" css="">
+	<highlight>
+		<keyword key="打工魔法师" />
+		<keyword regcap="true" key="\0"                    regexp="第[一二三四五六七八九十]+章[ 　]+[^&lt;]+" />
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)?(www\.lightnovel\.cn/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="光流脈矯正術者">
+		<keyword key="一条 京介" />
+		<keyword key="一条 豊花" />
+		<keyword key="一条 丰花" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="光流脈統轄管理本局">
+		<keyword key="远峰 秋一" />
+		<keyword key="石田 荣治" />
+		<keyword key="深廉寺 华奈" />
+		<keyword key="一条尚" />
+		<keyword key="珍妮佛" />
+		<keyword key="福原 憲也" />
+		<keyword key="福原 宪也" />
+		<keyword key="光主" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="虹原高校">
+		<keyword key="长谷 常彦" />
+		<keyword key="塩原 友子" />
+		<keyword key="仓田 君香" />
+		<keyword key="饭冢 亚矢" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="拝呪能力者">
+		<keyword key="具幻屋" />
+		<keyword key="笠冈 理保" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="久画均精">
+		<keyword key="泉见 なつき" />
+		<keyword key="砂岛 礼子" />
+		<keyword key="泉见 顺也" />
+		<keyword key="音无 浩一" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="長編その他">
+		<keyword key="胜田 さん" />
+		<keyword key="横田" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter01">
+		<keyword key="芝山 诚一" />
+		<keyword key="村山 优子" desc="一年五班" />
+		<keyword key="樱井" desc="西中 七尺大锁高手" />
+		<keyword key="中岛康男" />
+		<keyword key="夏目 一郎" />
+		<keyword key="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="短編研修生編">
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="光流脉统辖管理本局" />
+		<keyword key="本家" />
+		<keyword key="光流脉使者" />
+		<keyword key="光流脉" />
+		<keyword key="矫正术者" />
+		<keyword key="矫正术" />
+		<keyword key="古代术" />
+		<keyword key="高级术者" />
+		<keyword key="术者" />
+		<keyword key="玲洗树的树枝" />
+		<keyword key="玲洗树树枝" />
+		<keyword key="「灯台」" />
+		<keyword key="无效治愈体质" />
+		<keyword key="拜咒能力" />
+		<keyword key="久画均精" />
+		<keyword key="" />
+		<keyword key="闭塞" />
+	</highlight>
+	<highlight type="terminology" subtype="item">
+		<keyword key="罗光图" />
+	</highlight>
+</highlights>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0013" />
+	<chapter start="0017" end="0074" title="序　章" />
+	<chapter start="0079" end="1005" title="第一章　你还是仍然没有做好任何决定" />
+	<chapter start="1010" end="1788" title="第二章　露出獠牙的月下猛兽们" />
+	<chapter start="1793" end="2773" title="第三章　暴风雨来袭……" />
+	<chapter start="2778" end="3499" title="第四章　阻挡前进的道路" />
+	<chapter start="3504" end="4654" title="第五章　致没有被命运选上的人" />
+	<chapter start="4659" end="4781" title="尾　声" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_14_" suffix=".jpg">
+		<img insert="0010" filename="000" notfloat="true" />
+		<img insert="0013" filename="001" />
+		<img insert="0013" filename="002" />
+		<img insert="0013" filename="003" />
+		<img insert="0013" filename="004" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图041" filename="041" />
+		<img alt="插图139" filename="139" />
+		<img alt="插图225" filename="225" />
+		<img alt="插图277" filename="277" />
+		<img alt="插图309" filename="309" />
+		<img alt="插图361" filename="361" />
+		<img alt="插图381" filename="381" />
+		<img alt="插图389" filename="389" />
+		<img alt="插图417" filename="417" />
+		<img alt="插图437" filename="437" />
+		<img alt="插图453" filename="453" />
+		<img alt="插图459" filename="459" />
+	</imgs>
+</volume>

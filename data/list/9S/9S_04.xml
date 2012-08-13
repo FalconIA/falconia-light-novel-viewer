@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0020" />
+	<chapter start="0025" end="0030" title="－－－" />
+	<chapter start="0036" end="0095" title="序　曲" />
+	<chapter start="0101" end="0875" title="第一章　Reorganization" />
+	<chapter start="0881" end="1550" title="第二章　五月二日" />
+	<chapter start="1556" end="2783" title="第三章　五月三日" />
+	<chapter start="2789" end="3839" title="第四章　五月四日" />
+	<chapter start="3845" end="4628" title="第五章　诀别" />
+	<chapter start="4633" end="4748" title="终　曲" />
+	<chapter start="4754" end="4769" title="后　记" />
+	<imgs dir="9S" prefix="9S_04_" suffix=".jpg">
+		<img insert="0009" filename="000" notfloat="true" />
+		<img insert="0015" filename="001" />
+		<img insert="0015" filename="002" />
+		<img insert="0015" filename="003" />
+		<img insert="0015" filename="004" />
+		<img insert="0015" filename="005" />
+		<img alt="插图014" filename="014t" />
+		<img alt="插图042" filename="042t" />
+		<img alt="插图050" filename="050t" />
+		<img alt="插图071" filename="071t" />
+		<img alt="插图096" filename="096t" />
+		<img alt="插图119" filename="119t" />
+		<img alt="插图162" filename="162t" />
+		<img alt="插图187" filename="187t" />
+		<img alt="插图202" filename="202t" />
+		<img alt="插图210" filename="210t" />
+	</imgs>
+</volume>

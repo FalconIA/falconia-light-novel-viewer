@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0190" />
+	<chapter start="0195" end="1033" title="第Ⅰ章　告白的理由" />
+	<chapter start="1039" end="1423" title="第Ⅱ章　魔法师公会的下水道" />
+	<chapter start="1429" end="2549" title="第Ⅲ章　可怕的陷阱" />
+	<chapter start="2555" end="2596" title="终　章" />
+	<chapter start="2602" end="2775" title="后　记" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_05_" suffix=".jpg">
+	</imgs>
+</volume>

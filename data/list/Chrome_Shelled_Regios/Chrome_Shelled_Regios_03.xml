@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0078" />
+	<chapter start="0083" end="0115" title="序　幕" />
+	<chapter start="0119" end="0617" title="第一章　提案" />
+	<chapter start="0621" end="1072" title="第二章　假日之后" />
+	<chapter start="1076" end="1652" title="第三章　荒废都市的时间" />
+	<chapter start="1656" end="2178" title="第四章　涌泉之黑" />
+	<chapter start="2182" end="2542" title="第五章　在黑夜中漫舞" />
+	<chapter start="2546" end="2993" title="第六章　赤色意志" />
+	<chapter start="2997" end="3061" title="终　章" />
+	<chapter start="3065" end="3140" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_03_" suffix="_with_mark.jpg">
+		<img insert="0018" filename="000" notfloat="true" />
+		<img insert="0026" filename="004" />
+		<img insert="0026" filename="001" clear="both" />
+		<img insert="0026" filename="002" />
+		<img insert="0026" filename="003a" />
+		<img insert="0026" filename="003b" />
+		<img alt="插图015" filename="015t" />
+		<img alt="插图020" filename="020t" />
+		<img alt="插图031" filename="031t" />
+		<img alt="插图043" filename="043t" />
+		<img alt="插图055" filename="055t" />
+		<img alt="插图083" filename="083t" />
+		<img alt="插图089" filename="089t" />
+		<img alt="插图099" filename="099t" />
+		<img alt="插图130" filename="130t" />
+		<img alt="插图133" filename="133t" />
+	</imgs>
+</volume>

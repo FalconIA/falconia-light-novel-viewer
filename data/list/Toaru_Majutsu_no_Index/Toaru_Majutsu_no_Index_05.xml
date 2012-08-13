@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0043" />
+	<chapter start="0048" end="0153" title="序　章　揭幕之战" />
+	<chapter start="0159" end="0695" title="第一章　科学的一方通行" />
+	<chapter start="0700" end="1547" title="第二章　大小姐的超电磁砲" />
+	<chapter start="1553" end="2486" title="第三章　御坂的最终信号" />
+	<chapter start="2492" end="3150" title="第四章　米虫禁书目录" />
+	<chapter start="3156" end="3231" title="终　章　闭幕之夜" />
+	<chapter start="3237" end="3259" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_05_" suffix="_with_mark.jpg">
+		<img insert="0032" filename="000" notfloat="true" />
+		<img insert="0033" filename="001" />
+		<img insert="0043" filename="002a" clear="both" />
+		<img insert="0043" filename="002b" />
+		<img insert="0043" filename="003a" />
+		<img insert="0043" filename="003b" />
+		<img insert="0043" filename="004" />
+		<img insert="0043" filename="005" />
+		<img alt="插图101" filename="101" />
+		<img alt="插图102" filename="102" />
+		<img alt="插图103" filename="103" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+	</imgs>
+</volume>

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Aria_the_Scarlet_Ammo" css="">
+	<highlight>
+		<keyword key="《绯弹的亚&lt;!----&gt;莉亚》" regexp="《绯弹的亚[莉里]亚》" />
+		<keyword regexp="(漫画版|订阅|台版译名：|开设|购买)(『?绯弹的)(?:亚[莉里]亚)((?:Q&amp;A专栏)?』?)|(『?绯弹的)(?:亚[莉里]亚)(』?)(第?[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]卷?|马上就要结束|已经出了|的疑问|TV)" regcap="true" key="\1\2\4亚&lt;!----&gt;莉亚\3\5\6" />
+		<keyword key="绯弹的亚&lt;!----&gt;莉亚" regexp="绯弹的亚莉亚|绯弹的亚里亚" disable="true" />
+		<keyword key="亚&lt;!----&gt;莉亚动画" regexp="(亚莉亚|亚里亚)动画" />
+		<keyword key="&lt;br&gt;　　　　　修图协力" regexp="&lt;br&gt;　　(&amp;nbsp;&amp;nbsp;|　)修图协力" />
+		<keyword key="中华武侦高等学院" />
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?[\w\d./]*)" />
+	</highlight>
+	<highlight type="escape">
+		<keyword key="武侦（19）" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:\1[=＝，]([-_\w\d ]+)[，。])([^）]+)）" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:「\1」|“\1”|\1[=＝：])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.'-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([ \w\d,.'-]+)（([^、，。？！：；（「『“‘）」』”’…—]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝：]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword disable="true" regcap="true" regexp="｛([^｝]+)｝" key="\0" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:注\d+|译者注|翻译注|译注|自助)(?=：)|←)：?([^（）]+)）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:译者(?!注)[^：）]*|译插)：([^（）]+))）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\2" />
+	</highlight>
+	<highlight type="escape">
+		<keyword escape="峰" regcap="true" regexp="双峰" key="\0" />
+		<keyword escape="亮" regcap="true" regexp="亮丽|月亮|好亮|漂亮|明亮|照亮|亮光|一亮|点亮|亮起|光亮|灯亮|忽亮忽暗|闪亮|亮闪闪|发亮|亮一些|亮了" key="\0" />
+		<keyword escape="文" regcap="true" regexp="本文|咒文|英文|国文|文章|法文|意大利文|日文|文末|文面|现代文|古文|德文|中文|文字|文庫|文库|文科省|全文|文才|西班牙文|文献|文化|文件|文中|原文" key="\0" />
+		<keyword escape="缀" regcap="true" regexp="点缀" key="\0" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="伊势神宫" thumb="Location/190px-Naiku_01.JPG" tmbft="left" desc="伊势神宫（いせじんぐう）乃是镇坐于日本三重县伊势市的神社。被定为神社本厅之本宗，正式名称为神宫。为与其余神宫区别时权称为伊势神宫。无神阶，于明治时代至战前为止，在国家神道之近代社格制度中，被视为特别的存在，而不定社格。\n内宫祭祀天照大御神，外宫祭祀丰受大御神。此外尚有别宫、摄社、末社、所管社等一连社宫，亦总称为神宫。通称伊势神宫125社。\n伊势神宫保存着象征日本皇权三神器之一的八咫镜。" />
+		<keyword key="出云大社" thumb="Location/190px-Izumo-taisha14bs4592.jpg" tmbft="left" desc="出云大社，位于日本岛根县出云市大社町，占地27000平方米，社内祭拜“大国主大神”，是日本最古老的神社。\n由于具有神话色彩，这边拥有许多专属的习俗，日本人将农历10月称为“神无月”，因为人们相信这个月全国诸神都奉大国主之命，集结到出云大社，故只有出云是“神在月”，并盛大举行为期半个月的“神在祭”（农历10月11日～17日）。" />
+		<keyword key="阿布辛拜勒神殿" alias="Abu Simbel temples" thumb="Location/190px-Abu_Simbel,_Ramesses_Temple,_front,_Egypt,_Oct_2004.jpg" tmbft="left" desc="阿布辛贝勒神庙，是一处位于埃及阿斯旺西南290千米的远古文化遗址。它坐落于纳赛尔湖（Lake Nasser）西岸，由两个由岩石雕刻而成的巨型神庙组成，阿布辛贝勒和它下游至菲莱岛的许多遗迹一起作为努比亚人遗址，被联合国教科文组织指定为世界遗产。" />
+		<keyword />
+		<keyword key="甜美萝莉塔" alias="Sweet Lolita" regexp="甜美萝莉塔(?:（Sweet Lolita）)?" thumb="Aria_the_Scarlet_Ammo/200px-Sweet_Lolita.jpg" />
+		<keyword key="横式衬裙"   alias="Panier"       regexp="横式衬裙(?:（Panier）)?"         thumb="Cloth/225px-Pannier.jpg" />
+		<keyword _key="体操服" alias="U-3212 スムースクルーネックシャツ" thumb="Cloth/200px-U7184502.jpg" tmbft="left" desc="" link="http://homepage3.nifty.com/asics-U718/mainframe.html" />
+		<keyword key="短裤" regexp="短裤(?:（U-718）)" alias="U-718" thumb="Cloth/200px-U7184502.jpg" desc="U-718 ナイロンニットショーツ" link="http://homepage3.nifty.com/asics-U718/mainframe.html" />
+		<keyword />
+		<keyword key="新艺术风格" alias="Art Nouveau"  regexp="新艺术风格(?:（art nouveau）)?"  thumb="Aria_the_Scarlet_Ammo/240px-HortaELWI.jpg" tmbft="left" desc="风格中最重要的特性就是充满有活力、波浪形和流动的线条。像是使传统的装饰充满了活力，表现形式也像是从植物生长出来。" />
+		<keyword />
+		<keyword key="沙林" alias="Sarin(GB)" desc="沙林是一种神经毒气，能使自主神经系统的交感神经与副交感神经立即失去平衡的毒气。无色液体，本身无气味，只有当与其他化学物质混合后才会产生气味。" />
+		<keyword key="索曼" alias="Soman(GD)" desc="Soman, also known by its NATO designation GD (O-Pinacolyl methylphosphonofluoridate), is an extremely toxic chemical substance." />
+		<keyword key="泰崩" alias="Tabun(GA)" desc="塔崩，或作GA(二甲氨基氰膦酸乙酯)是一种有极强的毒性的物质。它是清澈无色无味的液体，有轻微水果香味。由于它会影响哺乳类动物神经系统的正常功能甚至致命，塔崩被视为一种神经毒素。" />
+		<keyword key="光气" alias="Phosgene(CG)" desc="光气（化学式：COCl&lt;sub&gt;2&lt;/sub&gt;），碳酰氯的俗名。在第一次世界大战中曾被用作化学武器。人体吸入光气会造成肺水肿。" />
+		<keyword key="齐克隆B" alias="&lt;!----&gt;Zyklon B, Cyclon B or Cyclone B" desc="齐克隆B，是氰化物的化学药剂，原本用作杀虫剂，但被纳粹德国用来在灭绝营进行大屠杀。" />
+		<keyword />
+		<keyword key="桃馒" alias="桃まん（桃包）" jpn="ももまん" thumb="Food/150px-桃まん.jpg" desc="" />
+		<keyword key="鳝鱼包子" alias="うなまん" jpn="ウナギまん" thumb="Food/160px-unaman.jpg" desc="" />
+		<keyword key="葛根汤" alias="发表之剂" desc="发汗兼解肌" />
+		<keyword key="Mariage Frères" desc="&lt;!----&gt;Mariage Frères is a French tea company, based in Paris. It was officially founded on June 1, 1854." />
+		<keyword key="益力多" alias="Yakult" jpn="ヤクルト" thumb="Food/150px-Yakult_(Yakult_Honsha).jpg" desc="一种活性乳酸菌饮品。" />
+		<keyword key="魔芋" alias="蒟蒻" jpn="コンニャク" thumb="Food/200px-Konnyaku.jpg" desc="蒟蒻是素食的一种，口感特别。\n富含纤维素，但只有少量热量。\n一般会先磨成粉，再进行加工。" />
+		<keyword key="能量棒" alias="Energy bar" thumb="Food/250px-Energy-bar-Muesly-Ciok.jpg" desc="棒状的咖啡因类能量补充食品。" />
+		<keyword key="百奇" alias="Pocky" thumb="Food/250px-Pocky_Chocolate.jpg" desc="日式零食。由覆盖巧克力的饼干条构成。" />
+		<keyword />
+		<keyword key="天动说" desc="即地心说。" />
+		<keyword key="昭和时代" desc="1926年12月25日－1989年1月7日" />
+		<keyword />
+		<keyword key="VOCALOID" desc="VOCALOID是Yamaha开发的电子音乐制作语音合成软件。输入音调和歌词，就可以合成为原为人类声音的歌声。于2007年1月推出新版本VOCALOID 2。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="translate">
+		<keyword key="大陆的公主" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_05.png" desc="东京武侦高中2年C班所属。\n专业科目是狙击科，评等为S级。" />
+		<keyword />
+		<keyword key="风雪" desc="白雪的小一岁的义妹。" />
+		<keyword />
+		<keyword key="银冰之魔女" alias="贞德·达鲁克" thumb="Aria_the_Scarlet_Ammo/_chara_07_jp_c02.jpg" desc="东京武侦高中2年A组所属。\n专业科目是强袭科，评等为A级。\nReplace From: 贞德·达尔克30世" />
+		<keyword key="兀鲁斯" alias="ulus" />
+		<keyword />
+		<keyword key="雷啾" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_05.png" desc="东京武侦高中2年C班所属。\n专业科目是狙击科，评等为S级。" />
+		<keyword regexp="珂珂|万武" regcap="true" key="\0" thumb="Aria_the_Scarlet_Ammo/_chara_17_jp_c06.jpg" desc="香港武侦高中留学生。" />
+		<keyword />
+		<keyword key="高天原由鸟" desc="侦探科班主任。22岁。" />
+		<keyword key="高天原柚鸟" desc="侦探科班主任。22岁。" />
+		<keyword key="武侦高中良心" regexp="武侦高良心" alias="高天原柚鸟" desc="侦探科班主任。22岁。\nReplace From: 武侦高良心" />
+		<keyword />
+		<keyword regexp="克丽奥佩特拉(7世)?" regcap="true" key="\0" alias="Κλεοπάτρα Ζ" desc="克娄巴特拉七世（又译克丽奥佩托拉七世、克利欧佩特拉七世；约前70年12月或前69年1月—约前30年8月12日）是古埃及托勒密王朝的最后一任法老。也就是后世所熟知的“埃及艳后”。" />
+		<keyword regexp="([沙砂]砾之魔女·)?佩特拉|[沙砂]砾之魔女" regcap="true" key="\0" thumb="Aria_the_Scarlet_Ammo/_chara_13_jp_c04.jpg" desc="元「イ・ウー」のNo.2だったが、素行\nの悪さから組織の厄介者となり組織を\n追放された。" alias="パトラ(Patra)" />
+		<keyword />
+		<keyword key="灰松" desc="蕾姬的银狼。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="replaceFrom">
+		<keyword key="钦钦"     regexp="小奇" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_02.png" desc="东京武侦高中2年A班所属。\n专业科目是探侦科，评等为E级。\nReplace From: 小奇" />
+		<keyword regexp="(神崎·H·|绯弹的?)?亚里亚" regcap="true" key="\1亚莉亚" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_01.png" desc="东京武侦高中2年A班所属。\n专业科目是强袭科，评等为S级。\nReplace From: \0" />
+		<keyword key="亚莉亚"     regexp="亚里亚"                                 tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_01.png" desc="东京武侦高中2年A班所属。\n专业科目是强袭科，评等为S级。\nReplace From: 亚里亚" />
+		<keyword key="亚　莉　亚" regexp="亚　里　亚"                             tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_01.png" desc="东京武侦高中2年A班所属。\n专业科目是强袭科，评等为S级。\nReplace From: 亚　里　亚" />
+		<keyword key="峰·理子·罗苹4世"  regexp="峰·理子·罗宾4世"  tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_04.png" desc="东京武侦高中2年A班所属。\n专业科目是探侦科，评等为A级。\nReplace From: 峰·理子·罗宾4世" />
+		<keyword key="峰·理子·罗苹四世" regexp="峰·理子·罗宾四世" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_04.png" desc="东京武侦高中2年A班所属。\n专业科目是探侦科，评等为A级。\nReplace From: 峰·理子·罗宾4世" />
+		<keyword key="理理"               regexp="小理"               tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_04.png" desc="东京武侦高中2年A班所属。\n专业科目是探侦科，评等为A级。\nReplace From: 小理" />
+		<keyword key="蕾姬" regexp="雷姬" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_05.png" desc="东京武侦高中2年C班所属。\n专业科目是狙击科，评等为S级。\nReplace From: 雷姬" />
+		<keyword />
+		<keyword key="贞德·达鲁克30世" regexp="贞德·达尔克30世" thumb="Aria_the_Scarlet_Ammo/_chara_07_jp_c02.jpg" desc="东京武侦高中2年A组所属。\n专业科目是强袭科，评等为A级。\nReplace From: 贞德·达尔克30世" />
+		<keyword key="贞德·达鲁克"     regexp="贞德·达尔克"     thumb="Aria_the_Scarlet_Ammo/_chara_07_jp_c02.jpg" desc="东京武侦高中2年A组所属。\n专业科目是强袭科，评等为A级。\nReplace From: 贞德·达尔克" />
+		<keyword />
+		<keyword key="罗苹" regexp="罗宾" desc="法国的大怪盗。\nReplace From: 罗宾" />
+		<keyword />
+		<keyword key="德古拉·弗拉德" regexp="德古拉·维拉德" desc="「伊·幽」的第二号人物，德古拉伯爵。\nReplace From: 德古拉·维拉德" />
+		<keyword key="弗拉德"         regexp="维拉德"         desc="「伊·幽」的第二号人物，德古拉伯爵。\nReplace From: 维拉德" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="">
+		<keyword regexp="(远山)?金次(?!样式|版)|小金|钦钦" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_02.png" desc="东京武侦高中2年A班所属。\n专业科目是探侦科，评等为E级。" regcap="true" key="\0" />
+		<keyword regexp="(夏洛[克特]·)?福尔摩斯4世|欧尔梅斯四世" alias="神崎·H·亚莉亚" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_01.png" desc="东京武侦高中2年A班所属。\n专业科目是强袭科，评等为S级。" regcap="true" key="\0" />
+		<keyword regexp="(神崎·(Ｈ|H|福尔摩斯)·|绯弹的?)?亚莉亚" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_01.png" desc="东京武侦高中2年A班所属。\n专业科目是强袭科，评等为S级。" regcap="true" key="\0" />
+		<keyword regexp="(星伽)?白雪|绯巫女|小雪" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_03.png" desc="东京武侦高中2年B班所属。\n专业科目是超能力搜查研究科（SSR）。" regcap="true" key="\0" />
+		<keyword    key="星伽" regexp="星伽(?!候天流|侯天流|神|巫扇)" />
+		<keyword regexp="(峰·|理子·)*罗苹[四4]世|(峰)?理子|峰|理理" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_04.png" desc="东京武侦高中2年A班所属。\n专业科目是探侦科，评等为A级。" regcap="true" key="\0" />
+		<keyword    key="蕾姬" tmbnb="true" thumb="Aria_the_Scarlet_Ammo/_aria_ch_05.png" desc="东京武侦高中2年C班所属。\n专业科目是狙击科，评等为S级。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="同学">
+		<keyword    key="武藤 刚气"   thumb="Aria_the_Scarlet_Ammo/_chara_06_tw_c01.jpg" desc="东京武侦高中2年A组所属。\n专业科目是车辆科，评等为A级。" />
+		<keyword    key="不知火 亮"   thumb="Aria_the_Scarlet_Ammo/_chara_09_jp_c03.jpg" desc="东京武侦高中2年A组所属。\n专业科目是强袭科，评等为A级。" />
+		<keyword regexp="贞德·达鲁克(?:（Jehanne Darc）)" key="贞德·达鲁克" alias="Jehanne Darc" desc="法国的圣女。" />
+		<keyword regexp="贞德(·达鲁克(30世)?)?" thumb="Aria_the_Scarlet_Ammo/_chara_07_jp_c02.jpg" desc="东京武侦高中2年。\n专业科目是情报科。" regcap="true" key="\0" />
+		<keyword    key="平贺 文"     thumb="Aria_the_Scarlet_Ammo/_chara_11_jp_c04.jpg" desc="东京武侦高中2年。\n专业科目是装备科，评等为A级。" />
+		<keyword    key="风魔 阳菜"   thumb="Aria_the_Scarlet_Ammo/_chara_16_jp_c05.jpg" desc="金次的后辈，谍报科1年生。\n著名忍者后裔。" />
+		<keyword    key="中空知 美咲" thumb="Aria_the_Scarlet_Ammo/_chara_18_jp_c06.jpg" desc="通信科的学生，贞德的友人。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="教官">
+		<keyword key="缀 梅子"   thumb="Aria_the_Scarlet_Ammo/_chara_08_jp_c03.jpg" desc="2年B般的班导，寻问科教官。\n审问技巧方面，位居日本前五名。" />
+		<keyword key="兰豹"      desc="强袭科教官。\n香港黑手党老大的掌上明珠。19岁。" />
+		<keyword key="南乡"      desc="狙击科教官。" />
+		<keyword key="Chang Wu"  desc="谍报科教官。" separate="false" />
+		<keyword key="小夜鸣 徹" thumb="Aria_the_Scarlet_Ammo/_chara_10_jp_c03.jpg" desc="救护科兼任讲师。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="家族">
+		<keyword key="远山 金一"  desc="金次的大哥。" />
+		<keyword key="加奈"       thumb="Aria_the_Scarlet_Ammo/_chara_12_jp_c04.jpg" desc="金次的大哥的变装。" />
+		<keyword key="远山金四郎" desc="远山家的祖先。" />
+		<keyword key="远山" />
+		<keyword />
+		<keyword key="神崎 香苗"  desc="亚莉亚的母亲。" />
+		<keyword key="神崎" />
+		<keyword key="亚森·罗苹" desc="理子的曾爷爷。" />
+		<keyword key="罗苹"       desc="法国的大怪盗。" />
+		<keyword />
+		<keyword key="星伽 粉雪"  thumb="Aria_the_Scarlet_Ammo/_chara_15_jp_c05.jpg" desc="白雪的小两岁的义妹。" />
+		<keyword />
+		<keyword key="平贺源内"   desc="平贺家的祖先。" />
+		<keyword key="平贺"       disable="true" />
+		<keyword />
+		<keyword key="夏洛克·福尔摩斯" alias="Sherlock Holmes" thumb="Aria_the_Scarlet_Ammo/_chara_14_jp_c05.jpg" desc="英国的名侦探。" regexp="夏洛克·福尔摩斯(?:（Sherlock Holmes）)?" />
+		<keyword key="夏洛特·福尔摩斯" alias="Sherlock Holmes" thumb="Aria_the_Scarlet_Ammo/_chara_14_jp_c05.jpg" desc="英国的名侦探。" />
+		<keyword key="夏洛克"           alias="Sherlock"        thumb="Aria_the_Scarlet_Ammo/_chara_14_jp_c05.jpg" desc="英国的名侦探。" />
+		<keyword key=        "福尔摩斯" alias=         "Holmes" thumb="Aria_the_Scarlet_Ammo/_chara_14_jp_c05.jpg" desc="英国的名侦探。" />
+		<keyword key=        "欧尔梅斯" alias=         "Holmes" thumb="Aria_the_Scarlet_Ammo/_chara_14_jp_c05.jpg" desc="福尔摩斯的法文发音。" />
+		<keyword key=   "J·H·华生" separate="false" />
+		<keyword key="约翰·H·华生" separate="false" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="伊·幽">
+		<keyword regexp="([—「『])教授([』」—])|教授(?=死期|死的同时)" regcap="true" key="\1[key]教授[/key]\2" desc="「イ・ウー」のリーダーであり、圧倒的な力で組織をまとめている人物。" />
+		<keyword regexp="(无限之罪)?弗拉德|德古拉伯爵" desc="「伊·幽」的第二号人物，德古拉伯爵。" regcap="true" key="\0" />
+		<keyword key="パトラ" desc="元「イ・ウー」のNo.2だったが、素行の悪さから組織の厄介者となり組織を追放された。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="其他">
+	</highlight>
+	<highlight type="equipment" subtype="translate">
+		<keyword key="武侦弹" alias="DAL(Detective Armed Lethal)" desc="蕴藏有不同特殊功能的强化子弹。超一流武侦间流通的必杀兵器。" />
+		<keyword key="D·A·L" regexp="D·A·L(?:（Detective Armed Lethal）)?" alias="Detective Armed Lethal" desc="蕴藏有不同特殊功能的强化子弹。超一流武侦间流通的必杀兵器。" />
+		<keyword key="防弹制服·黑" desc="仿制世界最初的武侦高中·罗马武侦高中制服制作的全黑制服。" />
+		<keyword />
+		<keyword key="星伽巫扇" />
+		<keyword key="绯金" desc="让一切超能力都如儿戏一般的，赋予人极大超常之力的物质。『超常世界的核心物质』。" />
+		<keyword />
+		<keyword key="AED" alias="Automated External Defibrillator" thumb="Aria_the_Scarlet_Ammo/190px-Defibrillateur_1.jpg" tmbft="left" desc="自动体外心脏去颤器，或称自动体外电击器、自动电击器、自动去颤器，俗称为傻瓜电击器。是一种可携带式的医疗设备。它可自行诊断特定的心率不整和给予心脏电击，这种心脏电击称为去颤电击(defibrillation)。是专为非医疗人员设计用来急救猝死病患的仪器。在基础紧急救护的课程中可以习得自动去颤器的使用。" />
+		<keyword />
+		<keyword key="萨克逊猎刀" />
+		<keyword />
+		<keyword key="M500" alias="Smith &amp; Wesson Model 500" thumb="Weapon/320px-S&amp;W500.jpg" desc="史密斯威森M500是史密斯威森公司生产的5发装双动左轮手枪，发射.500 S&amp;W Magnum子弹。该枪采用S&amp;W公司最大的X底把。制造商宣称其为“当今世界威力最大的批量生产左轮手枪”。" />
+		<keyword regexp="(柯尔特·)?和平缔造者" regcap="true" key="\0" alias="Colt Single Action Army, Colt Peacemaker" thumb="Weapon/320px-SAA.jpg" desc="The Colt Single Action Army is a single action revolver with a revolving cylinder holding six rounds and chambered for the .45 Colt cartridge." />
+		<keyword key="五一式" alias="Type 51 Pistol" thumb="Weapon/320px-type_51.jpg" desc="中国制51式手枪为苏联的TT-33的仿制品。" />
+		<keyword key="托卡列夫手枪" alias="Tokarev T-30/33" thumb="Weapon/320px-Pistol_TT33.jpg" desc="TT-30是前苏联制造的半自动手枪之一。TT-30在开始投产后简化了一些设计以便更易于生产，如枪管、扳机释放钮、扳机及底把等，这种改进型名为TT-33，TT-33成为了二战中苏军普遍使用的手枪。" />
+		<keyword regexp="沙漠之鹰|沙鹰" regcap="true" key="\0" alias="Desert Eagle" thumb="Weapon/320px-desert-eagle.jpg" desc="马格南研究所（Magnum Research，Inc.）设计，由以色列军事工业（IMI，Israeli Military Industries）所生产半自动、气动式运作的手枪。" />
+		<keyword key="WA2000" alias="Walther WA 2000" thumb="Weapon/320px-WaltherWA2000.jpg" desc="瓦尔特WA 2000是由卡尔·瓦尔特运动枪有限公司设计及生产的无托结构（牛犊式）狙击步枪，WA 2000是完全以军警狙击手需要为唯一目标的全新设计，不同于其他狙击步枪多以现有枪型改造加强来满足市场需要。该枪设计优异，准确度极高。不过由于完全以品质为首不计制造成本，造成售价昂贵，乏人问津，1988年11月停止生产。" />
+		<keyword regexp="(雷明顿)?M700" regcap="true" key="\0" alias="Remington Model 700" thumb="Weapon/320px-JAE-700_RSA_Olive_Drab_w_Titanium_Grey_Accessories.jpg" desc="雷明登武器公司于1962年推出雷明登700猎枪，釆用旋转后拉式枪机、中置弹仓供弹(有3、4、5发弹仓版本)，可装上不同的瞄准镜及多种枪托，部份版本更可装上两脚架及可拆式弹仓。" />
+		<keyword key="M60" alias="M60, United States Machine Gun" thumb="Weapon/320px-m60.jpg" desc="M60机枪（United States Machine Gun, Caliber 7.62 mm）是美国制7.62x51mm NATO口径通用机枪。" />
+		<keyword key="反坦克火箭" regexp="反坦克火箭(?:（RPG）)?" alias="Rocket-propelled grenade (RPG)" thumb="Weapon/320px-Rpg-7.jpg" desc="前苏联研制的反坦克及一般支援武器。是把手榴弹或反战车高爆弹装到火箭前端，再装置在筒状物发射的武器。特点是粗糙、便宜、操作容易，却火力强大，在世界上被普遍使用。" />
+		<keyword />
+		<keyword regexp="(7.62mm)?NATO弹" regcap="true" key="\0" alias="7.62 NATO, 7.62x51mm NATO" thumb="Weapon/320px-NATO_7.62x51.jpg" desc="7.62 NATO步枪子弹（又称7.62x51mm NATO），铜质被覆，铅芯。研发于1950年，为步枪与所机枪设计，使用于包括M14自动步枪，M60机枪与M134六管航空机枪在内的许多美国系统的枪械，亦是NATO会员国的标准用弹。" />
+		<keyword key="佩特拉咒弹" desc="" />
+		<keyword key="A-TNK弹" desc="那理论上能够制造，却被国际社会禁止的穿甲弹。" />
+		<keyword key=".50马格努姆弹" alias=".500 S&amp;W Magnum" thumb="Weapon/190px-500S&amp;W.jpg" tmbft="left" desc="The .500 S&amp;W Magnum is a cartridge that was developed by Cor-Bon with the &quot;X-Gun&quot; engineering team at Smith &amp; Wesson for use in their Model 500 revolvers and introduced in February 2003 at the SHOT trade show." />
+		<keyword key="达姆弹" alias="Dum-dum, Expanding bullet" thumb="Weapon/320px-Express_bullets_1870.gif" desc="达姆弹又俗称“开花弹”、“入身变形子弹”，是一种不具备贯穿力但是具有极高浅层杀伤力“扩张型”子弹。子弹本身口径不一，多半由步枪发射，然而所造成的伤口与口径成倍数相差，并且与口径成正比。达姆弹原来为大约在于19世纪末期英国位于印度加尔各答（Calcutta）附近的达姆兵工厂（Dum Dum arsenal）以口径.303英吋英式子弹（.303 inch British）进行研发，所以又俗称为“达姆弹”。" />
+		<keyword key=".50AE弹" alias=".50 Action Express" thumb="Weapon/190px-50_AE.jpg" tmbft="left" desc="一种大口径手枪子弹。它在1988年由行动武器（Action Arms）的伊凡·尉德因（Evan Whildin）所开发。.50 AE是.44马格南的威力升级版本的弹药。其他能够超过了.50 AE的弹道、威力的手枪子弹就只有.500 S&amp;W马格南、.460 S&amp;W马格南和.454 Casull。" />
+		<keyword />
+		<keyword key="海水汽化鱼雷" alias="超空泡鱼雷(Supercavitating Torpedo)" desc="利用超空泡现象实现在水中高速航行的武器。其中首款暴风鱼雷（VA-111 Shkval）航速超过200节。" />
+		<keyword key="MK-60" alias="MK 60 Encapsulated Torpedo, CAPTOR" thumb="Weapon/320px-Mark_60_CAPTOR-DF-ST-90-11649.jpg" desc="The CAPTOR is the United States Navy's primary anti-submarine naval mine. This deep-water mine is laid by ship, aircraft or submarine, and is anchored to the ocean floor." />
+		<keyword key="ICBM" regexp="ICBM(?:（intercontinental ballistic missile）)?" alias="Intercontinental Ballistic Missile" thumb="Weapon/320px-icbmcomp-2k.jpg" desc="洲际弹道导弹是一种长程弹道导弹，射程在8000公里以上，设计用途为投递一枚或多枚的核弹头。该种导弹的威力强大，常被设想成导致世界末日的核战争中使用的武器。" />
+		<keyword />
+		<keyword key="CRM250AR" alias="Honda CRM250AR" thumb="Travel/320px-CRM250AR.jpg" desc="そこでホンダは1997年にフルモデルチェンジを行いCRM250ARを発売した。" />
+		<keyword />
+		<keyword key="太阳之船" alias="Khufu ship" thumb="Travel/220px-Barque_Solaire2.jpg" desc="运送木乃伊到金字塔时使用的船。" />
+		<keyword key="东方号" alias="伊·U" desc="史上最大的战略核导弹搭载型核潜艇。" />
+		<keyword key="伊·U" alias="东方号" desc="史上最大的战略核导弹搭载型核潜艇。" />
+		<keyword key="奥尔克斯" desc="自制潜艇。利用超空泡鱼雷使航速达到170节左右。" />
+		<keyword key="安贝利尔号" desc="在浦贺湾沉没，让远山金一失踪的豪华游轮。" />
+	</highlight>
+	<highlight type="equipment" subtype="replaceFrom">
+		<keyword key="绯金菖蒲" regexp="色香菖蒲" desc="白雪的刀。\nReplaced From: \0" />
+		<keyword key="\1杜兰朵" regexp="(圣剑)?杜兰达尔" regcap="true" desc="贞德的剑。\nReplaced From: 杜兰达尔" />
+		<keyword />
+		<keyword key="贝瑞塔" regexp="伯莱塔(?!·)" _alias="Beretta" thumb="Weapon/250px-BerettaLogo.jpg" desc="意大利的主要枪枝制造商。伯莱塔" />
+		<keyword key="华尔瑟P99" regexp="瓦尔特P99" alias="Walther P99" thumb="Weapon/320px-Walther_P99_Left_Side_Front_Quarter_View_with_copyright.jpg" desc="瓦尔特P99（Walther P99）是由德国卡尔·瓦尔特运动枪有限公司制造的半自动手枪，是瓦尔特P5及瓦尔特P88的后继产品。使用9x19毫米帕拉贝伦子弹或.40 S&amp;W子弹（美国市场）。瓦尔特P99" />
+		<keyword key="乌兹" regexp="UZI" alias="Uzi submachine gun" thumb="Weapon/320px-uzi-2.jpg" desc="乌兹冲锋枪是以色列军事工业（IMI）的一种轻型冲锋枪，由乌兹·盖尔（Uziel Gal）于1948年设计，目前为全世界广泛地使用。\nReplaced From: UZI" />
+		<keyword key="德拉古诺夫" regexp="德拉戈诺夫" alias="Snayperskaya Vintovka Dragunova (S&lt;!----&gt;VD)" thumb="Weapon/320px-Svd_1_russian.jpg" desc="由苏联的艾伏坚尼伊·费多洛维奇·德拉古诺夫在1958年至1963年间设计的一种半自动狙击步枪，德拉古诺夫／S&lt;!----&gt;VD狙击步枪也是现代第一支为支援班排级狙击与长距离火力支援用途而专门制造的狙击步枪，但以当代标准来说开始过时了，常被认为只是特等射手步枪（designated marksman rifle, DMR）。\nReplaced From: 德拉戈诺夫" />
+		<keyword />
+		<keyword key="贝瑞塔·金次样式" regexp="伯莱塔·金次版" desc="金次非法改造的贝瑞塔M92F。\n不只可以三连发，还能够全自动射击。\nReplaced From: 伯莱塔·金次版" />
+		<keyword />
+		<keyword key="9毫米帕拉贝伦弹" regexp="9厘米帕拉贝伦弹" alias="9x19mm Parabellum, 9mm Luger" tmbnb="true" thumb="Weapon/320px-9x19mm_Parabellum.svg.png" desc="9毫米鲁格弹又叫巴拉贝鲁姆弹，是一种手枪及冲锋枪所使用的子弹。这种弹药最初由葛雷格·鲁格（Georg Luger）所设计，现在是全世界最广泛被使用的手枪弹种。\nReplaced From: 9厘米帕拉贝伦弹" />
+		<keyword key="点45ACP弹" regexp=".45ACP子?弹(?!04tr)" regcap="true" alias=".45 ACP, .45 Auto" thumb="Weapon/320px-.45_ACP.jpg" desc=".45 ACP（11.43x23mm, Automatic Colt Pistol）被C.I.P.命名为.45 Auto，是一种由约翰·白朗宁在1904年设计的无底缘手枪弹，研发初时用于柯尔特（Colt）的试验型手枪上，后来这种手枪改良成M&lt;!----&gt;1911并被美国陆军在1911年采用成制式武器，而.45 ACP亦成为多种手枪及冲锋枪所使用的弹种，直至现在。\nReplaced From: \0" />
+		<keyword />
+		<keyword key="电动滑板车" regexp="赛格威" alias="Segway" thumb="Travel/160px-Segway-i2.jpg" tmbft="left" desc="思维车（Segway）是一种电力驱动、具有自我平衡能力的个人用运输载具，是都市用交通工具的一种。\nReplaced From: 赛格威" />
+	</highlight>
+	<highlight type="equipment" subtype="">
+		<keyword key="武侦手册" />
+		<keyword key="防弹制服" />
+		<keyword key="制服" regexp="制服(?!无数凶恶罪犯)" />
+		<keyword key="C装备" desc="武侦出击时穿的攻击服装。" />
+		<keyword key="B装备" />
+		<keyword key="A装备" />
+		<keyword key="啦啦队服" thumb="Aria_the_Scarlet_Ammo/240px-啦啦队服.jpg" desc="以黑色为基调。\n无袖上衣胸部上方开一个子弹型的洞。\n裙子是基本款的露底枪短裙。" />
+		<keyword />
+		<keyword key="撞匙" alias="Bumpkey, Bump key" regexp="撞匙(?:（bump key）)?" thumb="Aria_the_Scarlet_Ammo/250px-Bumpkey.jpg" desc="撞匙是一种开启弹子锁的小工具，把它插\n入弹子锁后，配合拍打，能将大量弹子锁\n打开。" />
+		<keyword />
+		<keyword key="蝴蝶刀" desc="远山金次大哥的遗物。" />
+		<keyword key="绯金菖蒲" desc="白雪的刀。" />
+		<keyword regexp="(圣剑)?杜兰朵" regcap="true" key="\0" desc="贞德的剑。" />
+		<keyword />
+		<keyword key="无锷弯刀" alias="Yataghan, Yatagan" regexp="无锷弯刀(?:（Yataghan）)?" thumb="Weapon/140px-Yataghan.png" desc="法国古式枪枝的刺刀。" _tmbft="left" _desc="The yatagan or yataghan (from Turkish yatağan) is a type of Turkish sword (which became known in other countries as the 'Turkish sword') used from the mid-16th to late 19th centuries." />
+		<keyword />
+		<keyword key="红外线瞄准器" alias="LAM (laser aiming module)" regexp="红外线瞄准器(?:（LAM）)?" desc="" />
+		<keyword key="贝瑞塔M92F" alias="Beretta M92F" thumb="Weapon/320px-M92F.jpg" desc="半自动手枪，使用闭锁枪机的延迟反冲机构、单动/双动模式，使用9x19毫米帕拉贝伦(鲁格)子弹。" />
+		<keyword key="贝瑞塔" _alias="Beretta" thumb="Weapon/250px-BerettaLogo.jpg" desc="意大利的主要枪枝制造商。" />
+		<keyword regexp="Government|(柯尔特)?M1911(?!04tr)" regcap="true" key="\0" alias="Colt Government, M1911" thumb="Weapon/320px-Colt_Government.jpg" desc="M1911是一种在1911年起生产的.45 ACP口径半自动手枪，由美国人约翰·白朗宁设计，推出后立即成为美军制式手枪并一直维持达74年（1911年至1985年），至今仍然是部份美军部队的装备之一。M1911是曾经是美军在战场上常见的武器，经历了一战、二战、韩战、越战以及波斯湾战争。" />
+		<keyword key="华尔瑟P99" alias="Walther P99" thumb="Weapon/320px-Walther_P99_Left_Side_Front_Quarter_View_with_copyright.jpg" desc="瓦尔特P99（Walther P99）是由德国卡尔·瓦尔特运动枪有限公司制造的半自动手枪，是瓦尔特P5及瓦尔特P88的后继产品。使用9x19毫米帕拉贝伦子弹或.40 S&amp;W子弹（美国市场）。" />
+		<keyword key="华尔瑟" _alias="Walther" thumb="Weapon/250px-Walther_arms.svg.png" tmbnb="true" desc="德国武器生产商。" />
+		<keyword key="SOCOM" alias="Heckler &amp; Koch MK23 Mod 0" thumb="Weapon/320px-MK23_SOCOM.jpg" desc="HK MK23 Mod 0（Heckler &amp; Koch MK23 Mod 0, MK23 SOCOM, USSOCOM）是1991年由黑克勒·科赫设计和生产的半自动手枪。这把手枪的特别设计之处是：比赛等级、可加装消声器和雷射指示器（LAM）和能够发射.45 ACP（11.43 x 23 mm）的AA18、A475比赛级高压子弹。此枪曾成功击败柯尔特OHWS，通过美国特种部队司令部（United States Special Operations Command，简称USSOCOM，辖下部队包括DEVGRU、Delta Force和绿色贝雷帽等特种部队）在20世纪90年代的特种部队计划。" />
+		<keyword regexp="(Colt Python)|(蟒蛇)(?:（Python）)?" regcap="true" key="\1\2" alias="Colt Python" thumb="Weapon/320px-Python-nickel.jpg" desc="柯尔特蟒蛇（Colt Python）是一把由柯尔特制造的左轮手枪，发射.357 Magnum或相同口径的弹药。蟒蛇的目标是取得来自左轮手枪业务方面的市场。有些著名的枪械收藏家和作家，例如杰夫库珀、伊恩五、霍格、查老鹰队、乐华汤普森和芮妮斯梅茨都曾经形容过蟒蛇是有史以来最优秀的左轮手枪。" />
+		<keyword key="柯尔特公司" _alias="Beretta" thumb="Weapon/220px-Colt_logo.svg.png" desc="美国武器制造商。" />
+		<keyword key="格吉鲁M74" alias="Cugir M74, Cugir Carpați Md-74" regexp="格吉鲁M74(?:（Cugir M74）)?" thumb="Weapon/250px-Pistol_Carpati_Md-74.jpg" desc="Carpathian gun (model 1974) is an individual weapon for fighting anti small distances (up to 50 m). It was an additional weapon of gunmen with machine guns in some small infantry units, and is used as a weapon of self in police and security personnel in Romania.\nThe model was produced by Enterprise Mechanics Cugir." />
+		<keyword key="乌兹" alias="Uzi submachine gun" thumb="Weapon/320px-uzi-2.jpg" desc="乌兹冲锋枪是以色列军事工业（IMI）的一种轻型冲锋枪，由乌兹·盖尔（Uziel Gal）于1948年设计，目前为全世界广泛地使用。" />
+		<keyword regexp="德拉古诺夫(?:（SVD）)?|SVD" regcap="true" key="\0" alias="Snayperskaya Vintovka Dragunova (SVD)" thumb="Weapon/320px-Svd_1_russian.jpg" desc="由苏联的艾伏坚尼伊·费多洛维奇·德拉古诺夫在1958年至1963年间设计的一种半自动狙击步枪，德拉古诺夫／SVD狙击步枪也是现代第一支为支援班排级狙击与长距离火力支援用途而专门制造的狙击步枪，但以当代标准来说开始过时了，常被认为只是特等射手步枪（designated marksman rifle, DMR）。" />
+		<keyword />
+		<keyword regexp="9(毫米|mm|MM(?!04tr))帕拉贝伦弹" regcap="true" key="\0" alias="9x19mm Parabellum, 9mm Luger" tmbnb="true" thumb="Weapon/320px-9x19mm_Parabellum.svg.png" desc="9毫米鲁格弹（9x19mm）又叫巴拉贝鲁姆弹，是一种手枪及冲锋枪所使用的子弹。这种弹药最初由葛雷格·鲁格（Georg Luger）所设计，现在是全世界最广泛被使用的手枪弹种。" />
+		<keyword key="点45ACP弹" alias=".45 ACP, .45 Auto" thumb="Weapon/320px-.45_ACP.jpg" desc=".45 ACP（11.43x23mm, Automatic Colt Pistol）被C.I.P.命名为.45 Auto，是一种由约翰·白朗宁在1904年设计的无底缘手枪弹，研发初时用于柯尔特（Colt）的试验型手枪上，后来这种手枪改良成M1911并被美国陆军在1911年采用成制式武器，而.45 ACP亦成为多种手枪及冲锋枪所使用的弹种，直至现在。" />
+		<keyword key="点三五七麦格农弹" alias=".357 Magnum" thumb="Weapon/320px-.357_Magnum.jpg" desc="The .357 S&amp;W Magnum, or simply .357 Magnum, is a revolver cartridge created by Elmer Keith, Phillip B. Sharpe, Colonel D. B. Wesson of firearms manufacturer Smith &amp; Wesson, and Winchester." />
+		<keyword />
+		<keyword key="金次样式" desc="金次非法改造的贝瑞塔M92F。\n不只可以三连发，还能够全自动射击。" />
+		<keyword />
+		<keyword key="速克达" thumb="Travel/240px-PerthVespa.jpg" desc="踏板式两轮轻便摩托车，又称为小绵羊、绵羊仔或踏板车，是摩托车的一种。" />
+		<keyword key="电动滑板车" alias="Segway" thumb="Travel/160px-Segway-i2.jpg" tmbft="left" desc="思维车（Segway）是一种电力驱动、具有自我平衡能力的个人用运输载具，是都市用交通工具的一种。" />
+		<keyword regexp="(BMW-)?K1200R" regcap="true" key="\0" alias="BMW K1200R" thumb="Travel/320px-BMW_K_1200_R_Sport_blue_r_TCE.jpg" desc="The BMW K1200R is a naked supersport motorcycle manufactured by BMW producing 163 hp (122 kW) @ 10,250 rpm from its transverse-mounted 1,157 cc inline-4 engine with torque of 94 lbf·ft (127 N·m) @ 8,250 rpm. Acceleration to 60 mph (97 km/h) from a standing start is claimed to be 2.6 seconds." />
+		<keyword key="Isuzu Erga Mio" regexp="isuzu ergamio" thumb="Travel/320px-ERGA_mio_Medium-Duty_Bus.jpg" desc="五十铃销售的公交用中型客车。" />
+		<keyword regexp="(雷诺(?:超级跑车)?蜘蛛)(?:（Renault Sport Spider）)?" regcap="true" key="\0" alias="Renault Sport Spider" thumb="Travel/320px-1997_Renault_Sport_Spider.jpg" _desc="&lt;!----&gt;The Renault Sport Spider is a roadster produced by the French automaker Renault Sport (a subsidiary of Renault) between 1996 and 1999." />
+		<keyword key="雷诺" _alias="Renault" thumb="Travel/150px-Renault_logo.png" desc="法国车辆制造商。" />
+		<keyword regexp="波音737-350|B737-350" regcap="true" key="\0" alias="Boeing 737-350" thumb="Travel/320px-b737-300.jpg" desc="波音737是美国波音公司生产的一个短途客机系列。737-300是第二代737，于1984年推出。第二代737在市场上非常成功，迅速成为各个航空公司的短途航线上的主力。绝大多数的第二代737飞机都依然在服务当中。" />
+		<keyword key="B737" alias="Boeing 737" desc="波音737是美国波音公司生产的一个短途客机系列。" />
+	</highlight>
+	<highlight type="terminology" subtype="translate">
+		<keyword key="武侦宪章第4条"  desc="武侦要自立。" />
+		<keyword key="武侦宪章第3条"  desc="变强。但，前提要变正确。" />
+		<keyword key="武侦宪章第8条"  desc="任务，必须要彻底完成。" />
+		<keyword key="武侦宪章第10条" desc="不要放弃。" />
+		<keyword />
+		<keyword />
+		<keyword key="国际武侦联盟" />
+		<keyword key="英国武侦局" regexp="英国武侦局(?:（GBDA）)?" alias="GBDA" desc="" />
+		<keyword />
+		<keyword key="警察署" />
+		<keyword key="自卫队" />
+		<keyword />
+		<keyword />
+		<keyword key="修学旅行Ⅰ" desc="名义上虽然是普通的修学旅行，但事实上却是关系到学生间小队编成的最终调整而进行的活动。" />
+		<keyword key="水仗" desc="原本，是由校长母校举行的『开学典礼之日不管向任何人泼水都可以』那一特色武斗祭演变而来。到武侦高中后，演变成「只要徒手不管找谁打架都可以」的真·武斗祭。" />
+		<keyword />
+		<keyword />
+		<keyword key="临界·亢奋" alias="メザ・ヒステリア" desc="短时间内，稍稍提升能力。" />
+		<keyword key="临界亢奋" alias="甘ヒス" desc="短时间内，稍稍提升能力。" />
+		<keyword />
+		<keyword key="Hysteria·Normale" regexp="Hysteria·Normale(?:（标准亢奋状态）)?" alias="标准爆发模式" desc="思考能力、判断力、反射神经提升到通常的30倍。因为爆发模式是建构在「繁衍子孙」的本能之上，所以在爆发模式下对女性异常温柔，且对女性的请求完全服从。爆发模式的持续时间因所受的刺激不同而异，但最长也只能持续几十分钟而已。" />
+		<keyword key="Hysteria·Agonizante" alias="临死时的爆发模式" desc="受到濒死重伤的男子，会在死前出现强烈的留下子孙的本能。" />
+		<keyword key="Hysteria·berserk" alias="狂战士爆发模式" desc="亲眼看到女性被其他男人夺走时的爆发模式。会加重对自己以外男性憎恶和嫉妒等负面感情的危险状态。即使对女人也会粗暴，有时甚至会用暴力夺去女人的一切。战斗能力比标准爆发模式时增大1.7倍，但思考会充满攻击性。" />
+		<keyword />
+		<keyword key="共鸣现象" alias="甘ヒス" desc="同样拥有大质量绯金的人，有着一方觉醒，另一方也会觉醒的特性。" />
+	</highlight>
+	<highlight type="terminology" subtype="replaceFrom">
+		<keyword key="武侦宪章第一条" regexp="武侦宪章第1条" desc="同伴之间要互信互助。\nReplaced From: 武侦宪章第1条" />
+		<keyword key="武侦法第九条" regexp="武侦法第9条" desc="武侦不论在任何情况下，都不得在武侦活动中杀害任何人。\nReplaced From: 武侦法第9条" />
+		<keyword />
+		<keyword />
+		<keyword key="神奈川武侦高中附设中学" regexp="神奈川武侦高附属中学" desc="Replaced From: 神奈川武侦高附属中学" />
+		<keyword key="东京武侦高中" regexp="东京武侦高(?!中)" desc="专门培育「武侦」的特殊学校。\nReplaced From: 东京武侦高" />
+		<keyword key="大阪武侦高中" regexp="大阪武侦高(?!中)" desc="专门培育「武侦」的特殊学校。\nReplaced From: 大阪武侦高" />
+		<keyword key="伦敦武侦高中" regexp="伦敦武侦高(?!中)" desc="专门培育「武侦」的特殊学校。\nReplaced From: 伦敦武侦高" />
+		<keyword key="罗马武侦高中" regexp="罗马武侦高(?!中)" desc="专门培育「武侦」的特殊学校。\nReplaced From: 罗马武侦高" />
+		<keyword key="香港武侦高中" regexp="香港武侦高(?!中)" desc="专门培育「武侦」的特殊学校。\nReplaced From: 香港武侦高" />
+		<keyword key=    "武侦高中" regexp=    "武侦高(?!中)" desc="专门培育「武侦」的特殊学校。\nReplaced From: 武侦高" />
+		<keyword key="伊·幽" regexp="伊幽" alias="伊·U" desc="集结了拥有超人才能的人物的战斗集体。\nReplaced From: 伊幽" />
+		<keyword />
+		<keyword />
+		<keyword key="爆发模式" regexp="亢奋状态" alias="Hysteria Normale" desc="思考能力、判断力、反射神经提升到通常的30倍。因为爆发模式是建构在「繁衍子孙」的本能之上，所以在爆发模式下对女性异常温柔，且对女性的请求完全服从。爆发模式的持续时间因所受的刺激不同而异，但最长也只能持续几十分钟而已。\nReplaced From: 亢奋状态" />
+	</highlight>
+	<highlight type="terminology" subtype="武侦宪章">
+		<keyword key="武侦宪章第一条" desc="同伴之间要互信互助。" />
+		<keyword key="武侦宪章第二条" desc="与委托人订下的契约，必须确实遵守。" />
+		<keyword key="武侦宪章第五条" desc="行动快速。" />
+		<keyword key="武侦宪章第七条" desc="凡事要做最坏的打算，乐观去行动。" />
+		<keyword key="武侦法第九条" desc="武侦不论在任何情况下，都不得在武侦活动中杀害任何人。" />
+	</highlight>
+	<highlight type="terminology" subtype="学科">
+		<keyword key="强袭科" alias="Assault"       desc="拳銃、刀剣、その他の武器を用いた近接戦による強襲逮捕を得意とする。\n危険度は武偵高随一であり、毎年約3%の生徒が死亡しているという。" />
+		<keyword key="狙击科" alias="Snipe"         desc="おもに狙撃銃を使用した遠隔からの戦闘支援を主に学ぶ。" />
+		<keyword key="谍报科" alias="Lezzad"        desc="犯罪組織に対する諜報・工作・破壊活動を主に学ぶ。" />
+		<keyword key="寻问科" alias="Trial" ch="NO" desc="逮捕した犯罪容疑者への尋問を主に学ぶ。" />
+		<keyword key="审问科" alias="Trial" ch="01" desc="逮捕した犯罪容疑者への尋問を主に学ぶ。" />
+		<keyword key="询问科" alias="Trial" ch="02" desc="逮捕した犯罪容疑者への尋問を主に学ぶ。" />
+		<keyword key="侦探科" alias="Intelligence"  desc="探偵術と推理術による調査・分析を主に学ぶ。\n一番まともな科らしい。" />
+		<keyword key="鉴识科" alias="Repiar"        desc="犯罪現場や証拠品の科学的検査を主に学ぶ。" />
+		<keyword key="装备科" alias="Arm"           desc="装備品の調達・カスタマイズとメンテナンスを主に学ぶ。" />
+		<keyword key="车辆科" alias="Logi"          desc="車輛・船舶・航空機の運転操縦を主に学ぶ。" />
+		<keyword key="通信科" alias="Connect"       desc="通信機器を用いた情報連絡によるバックアップを主に学ぶ。" />
+		<keyword key="情报科" alias="Information"   desc="情報処理機器を用いた情報収集と整理を主に学ぶ。" />
+		<keyword key="卫生科" alias="Medica"        desc="武偵活動の現場に於ける医療・救助活動を主に学ぶ。" />
+		<keyword key="救护科" alias="Ambulace"      desc="武偵病院に勤務する医師の育成、医療活動の実践を主に学ぶ。" />
+		<keyword key="超能力搜查研究科" alias="SSR" regexp="超能力搜查研究科(?:（SSR）)?" desc="通称、S研。魔術などの超常の能力を研究、育成する学科。" />
+		<keyword key="S研"    alias="超能力搜查研究科(SSR)"                               desc="通称、S研。魔術などの超常の能力を研究、育成する学科。" />
+		<keyword key="特殊搜查研究科" alias="CVR"                                         desc="特殊条件下に於ける犯罪捜査を主に学ぶ。" />
+		<keyword key="特殊潜入搜查科" alias="CVR"   regexp="特殊潜入搜查科(?:（CVR）)?"   desc="特殊条件下に於ける犯罪捜査を主に学ぶ。" />
+		<keyword key="C研"    alias="特殊潜入搜查科(CVR)"                                 desc="特殊条件下に於ける犯罪捜査を主に学ぶ。" />
+		<keyword key="教务科" alias="Masters"       desc="武偵高の教職員。" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="神奈川武侦高中附设中学" />
+		<keyword key="东京武侦高中" desc="专门培育「武侦」的特殊学校。" />
+		<keyword key="巴黎武侦高中" desc="专门培育「武侦」的特殊学校。" />
+		<keyword key=    "武侦高中" desc="专门培育「武侦」的特殊学校。" desc_jpn="武偵を育成する総合教育機関。" />
+		<keyword key="武侦大学" />
+		<keyword key="巫女学校" />
+		<keyword />
+		<keyword key="警视厅" />
+		<keyword key="武侦厅" />
+		<keyword key="东京武侦局" />
+		<keyword key="伦敦武侦局" />
+		<keyword key=    "武侦局" />
+		<keyword />
+		<keyword key="武侦企业" />
+		<keyword />
+		<keyword key="伊·幽" alias="伊·U" desc="集结了拥有超人才能的人物的战斗集体。" />
+	</highlight>
+	<highlight type="terminology" subtype="event">
+		<keyword key="亚特希雅杯" desc="武侦高中一年一度的国际竞技大会。" />
+		<keyword key="亚鲁卡达" desc="武侦和武侦的接近战。是一种以穿着防弹衣为前提，将子弹当作打击技使用的格斗术。" />
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword key="超能力武侦" desc="拥有超能力的武侦。" />
+		<keyword key="超侦"       desc="拥有超能力的武侦。" />
+		<keyword key="武装侦探"                              desc="为了对抗凶恶化的犯罪，而新设立的一种国际资格。领有武侦执照就能比照警察，可携带武器并享有逮捕权。" />
+		<keyword key="武侦" regexp="武侦(?!法|杀手|劫手|犬)" desc="为了对抗凶恶化的犯罪，而新设立的一种国际资格。领有武侦执照就能比照警察，可携带武器并享有逮捕权。" />
+		<keyword key="武装巫女" desc="" />
+		<keyword key="公安０课"   desc="工作中杀人也不会被问罪，持有「杀人执照」的黑暗公务员。" />
+		<keyword key="武装检察官" desc="工作中杀人也不会被问罪，持有「杀人执照」的黑暗公务员。" />
+		<keyword key="超能力者" />
+		<keyword key="魔法使" />
+		<keyword />
+		<keyword key="SWAT" alias="Special Weapons And Tactics" />
+		<keyword />
+		<keyword key="武侦杀手" desc="专门以武侦为目标的连续杀人犯。先在武侦的交通工具上装炸弹，剥夺其自由后，再用装有冲锋枪的遥控直升机不停追击，最后把对方逼进海中。" />
+		<keyword key="武侦劫手" desc="" />
+		<keyword key="魔剑" desc="专门以超侦为目标的诱拐魔。" />
+		<keyword />
+		<keyword key="武侦犬" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword regexp="(情绪爆发学者症候群|HSS)(?:（Hysteria Savant Syndrome）)?" regcap="true" key="\1" alias="Hysteria Savant Syndrome" desc="在「性亢奋」时，逻辑思考能力、判断力、反射神经提升到通常的30倍，远山家男性代代遗传的特殊体质。" />
+		<keyword key="爆发模式" alias="Hysteria Normale" desc="思考能力、判断力、反射神经提升到通常的30倍。因为爆发模式是建构在「繁衍子孙」的本能之上，所以在爆发模式下对女性异常温柔，且对女性的请求完全服从。爆发模式的持续时间因所受的刺激不同而异，但最长也只能持续几十分钟而已。" />
+		<keyword />
+		<keyword key="武侦法" />
+		<keyword />
+		<keyword key="双剑双枪" alias="Quadrupler" regexp="双剑双枪(?:（Quadrupler）)?" />
+	</highlight>
+	<highlight type="ability" subtype="translate">
+		<keyword key="绯天·绯阳门" desc="绯弹之力的一种运用现象。" />
+		<keyword key="绯天"         desc="绯弹之力的一种运用现象。" />
+		<keyword key="历镜" desc="让绯天静止下来后形成的现象。穿越时空的透镜。" />
+		<keyword />
+		<keyword key="风条扑止" desc="星伽候天流。" />
+		<keyword key="绯火虞鎚·焰二重" desc="星伽候天流。" />
+		<keyword key="绯火星伽神·双重流星" desc="星伽候天流，奥义。" />
+		<keyword key="风神驳" desc="星伽巫扇技能。" />
+		<keyword key="伍法绯焰符" />
+		<keyword key="托" regexp="托(?=[』」])" desc="星伽巫女突然预感的占卜。\n十五岁以前的年幼巫女所使用的法术。" />
+		<keyword key="占" regexp="占(?=[』」])" desc="星伽巫女有目的的占卜。" />
+		<keyword />
+		<keyword key="镜射" desc="瞄准对方开枪的火光——枪口位置的技能。" />
+		<keyword key="樱花" regexp="樱花(?=[』」])" desc="金次的自残技。" />
+		<keyword />
+		<keyword key="不可视枪弹" desc="远山金一的绝技之一。" />
+		<keyword key="条理预知" desc="卓越的推理，无限近乎于预知。" />
+	</highlight>
+	<highlight type="ability" subtype="replaceFrom">
+		<keyword key="星伽候天流" regexp="星伽侯天流" desc="Replaced From: 星伽侯天流" />
+		<keyword />
+		<keyword key="弹子戏法" regexp="射子弹" desc="射击对方子弹的技能。\nReplaced From: 射子弹" />
+		<keyword />
+		<keyword key="瓦拉几亚的魔笛" regexp="瓦拉几亚魔笛" desc="弗拉德的声音攻击。用于破解爆发模式。\nReplaced From: 瓦拉几亚魔笛" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="绯弹" desc="绯金。就是能让一切超能力都如儿戏一般的，赋予人极大超常之力的物质。" desc_jpn="正確な緋弾はイロカネと呼ばれる金属を指し、それはあらゆる超能力が児戯に思えるような超常の力を人に与える物質である。" />
+		<keyword />
+		<keyword key="超能力" />
+		<keyword regexp="G\d+" regcap="true" key="\0" />
+		<keyword />
+		<keyword key="星伽候天流" />
+		<keyword key="绯炫昆"   desc="星伽候天流第一式。" />
+		<keyword key="绯火虞鎚" desc="星伽候天流。" />
+		<keyword />
+		<keyword key="弹子戏法" desc="远山兄弟的技能。射击对方子弹的技能。" />
+		<keyword />
+		<keyword key="鬼道术" />
+		<keyword key="感应能力" />
+		<keyword key="探测术" />
+		<keyword key="巴流术" alias="Banitsu" desc="福尔摩斯原著中擅长的防身术，源自英国十九世纪的巴顿术（Banitsu），类似日本的柔术。" />
+		<keyword />
+		<keyword key="瓦拉几亚的魔笛" desc="弗拉德的声音攻击。用于破解爆发模式。" />
+	</highlight>
+	<highlight type="location" subtype="translate">
+		<keyword key="维纳斯广场" alias="Venus Fort" regexp="VenusFort(?:（维纳斯广场）)?" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="学园岛" />
+		<keyword key="空地岛" />
+		<keyword />
+		<keyword key="艾斯黛拉俱乐部" desc="包厢式的高级卡拉OK店。" />
+		<keyword key="艾斯黛拉"       desc="包厢式的高级卡拉OK店。" />
+		<keyword key="ROXY" desc="学园岛上唯一的家庭餐厅。" />
+		<keyword />
+		<keyword key="红鸣馆" desc="罪弗拉德的别墅之一。" />
+		<keyword />
+		<keyword />
+		<keyword key="希斯罗机场" alias="London Heathrow Airport (ICAO: EGLL)" desc="伦敦希思罗机场，通常简称为希思罗机场，位于英国英格兰大伦敦希灵登区，离伦敦中心有15英里（24千米）远。此机场由BAA负责营运，为英国航空和维珍航空的枢纽机场以及英伦航空的主要机场，为伦敦最主要的联外机场，也是全英国乃至全世界最繁忙的机场之一，在全球众多机场中排行第二，仅次于美国的亚特兰大机场。" />
+	</highlight>
+</highlights>

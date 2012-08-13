@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="GOSICK" css="">
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="利维坦 *—LEVIATHAN\d—|GOSICK 5—别西卜的头骨—" />
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?[\w\d./]*)" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!\1|&lt;br ?/?>|&lt;/?p>|[（【]?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*[（【]注：(?:\1[=＝，]([-_\w\d ]+)，)([^）】]+)[）】]" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!\1|&lt;br ?/?>|&lt;/?p>|[（【]?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*[（【]注：(?:「\1」|“\1”|\1[=＝，])([^）】]+)[）】]" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*[（【]注：([^）】]+)[）】]" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="(&lt;br ?/?&gt;[ 　]*|^[ 　]*)((录入|扫图|发布于)：(.(?!&lt;br ?/?>))+.|—?未经许可，严禁转载—?)" key="\1[key]\2[/key]" />
+		<keyword regcap="true" regexp="(&lt;br ?/?&gt;[ 　]*)(轻(?: |&amp;nbsp;)+之|国(?: |&amp;nbsp;)+度|轻之国度制作|轻小说论坛)(&lt;br ?/?&gt;|&lt;div)" key="\1[key]\2[/key]\3" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（吐槽([\w ]+)：([^（）]+)）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\1&lt;br /&gt;\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（吐槽：([^（）]+)）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\1" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="御盆舞" desc="盆踊り。お盆，盂蘭盆。盂蘭盆会，盂兰盆节，中元节，鬼节，七月十五。" />
+		<keyword key="离群索居" desc="索居离群。索：孤单。离开集体或群众，过孤独的生活。" />
+		<keyword key="MACARON" desc="杏仁小圆饼。一种用蛋白、杏仁粉、白砂糖和糖霜所做的法国甜点。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="replaceFrom">
+		<keyword regcap="true" key="维多利加·德·布洛瓦" regexp="维多利加·德·布罗瓦" desc="Replace: \0" />
+		<keyword regcap="true" key="古雷温·德·布洛瓦"   regexp="(古雷温|格雷比尔)·德·布罗瓦" desc="Replace: \0" />
+		<keyword regcap="true" key="古雷温"               regexp="格雷比尔"             desc="Replace: \0" />
+		<keyword regcap="true" key="\1布洛瓦"             regexp="(德·)?布罗瓦"        desc="Replace: \0" />
+		<keyword regcap="true" key="艾薇儿·布莱德利"     regexp="阿贝丽尔·布拉德里"   desc="Replace: \0" />
+		<keyword regcap="true" key="艾薇儿"               regexp="阿贝丽尔"             desc="Replace: \0" />
+		<keyword regcap="true" key="赛西尔"               regexp="赛希露"               desc="Replace: \0" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="">
+		<keyword regcap="true" key="\0" regexp="久城一弥|久城|一弥" />
+		<keyword regcap="true" key="\0" regexp="维多利加(·德)?(·布洛瓦)?" />
+		<keyword regcap="true" key="\0" regexp="古雷温(·德)?(·布洛瓦)?" />
+		<keyword regcap="true" key="\0" regexp="艾薇儿(·布莱德利)?" />
+		<keyword regcap="true" key="\0" regexp="(赛西尔|塞西尔)(·ラフィット)?" />
+		<keyword key="" />
+		<keyword key="ゾフィ" />
+		<keyword key="イアン、エバン" />
+		<keyword key="クィアラン" />
+		<keyword regcap="true" key="\0" regexp="(柯蒂丽亚|柯蒂莉亚)(·盖洛)?" />
+		<keyword regcap="true" key="\0" regexp="布莱恩(·罗斯可)?|罗斯可" />
+		<keyword key="リヴァイアサン" />
+		<keyword key="久城琉璃" />
+		<keyword key="久城泰博" />
+		<keyword key="久城宽" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="行李|美丽|亮丽|华丽|爱丽丝|俏丽" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="replaceFrom">
+		<keyword regcap="true" key="罗珊"                 regexp="罗克萨努"             desc="Replace: \0" />
+		<keyword regcap="true" key="茱莉\1"               regexp="朱莉(·盖尔)?"        desc="Replace: \0" />
+		<keyword regcap="true" key="修伊"                 regexp="休伊"                 desc="Replace: \0&lt;br /&gt;黑发少女" />
+		<keyword regcap="true" key="艾利克斯"             regexp="阿莱克斯"             desc="Replace: \0&lt;br /&gt;黑发少女" />
+		<keyword regcap="true" key="丽"                   regexp="李"                   desc="Replace: \0&lt;br /&gt;黑发少女" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="chapter01">
+		<keyword key="罗珊" />
+		<keyword regcap="true" key="\0" regexp="奈德(·巴克斯塔)?" />
+		<keyword key="莫里斯" />
+		<keyword regcap="true" key="\0" regexp="茱莉(·盖尔)?" />
+		<keyword key="修伊"     desc="雀斑少年，英国人。" />
+		<keyword key="杨"       desc="中国少年。" />
+		<keyword key="艾利克斯" desc="苏瓦尔人。" />
+		<keyword key="丽" regexp="丽(?!特)" desc="黑发少女，阿拉伯人。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="chapter02">
+		<keyword regcap="true" key="\0" regexp="蜜德蕊(·亚巴加)?" />
+		<keyword key="亚朗" />
+		<keyword key="德瑞克" />
+		<keyword key="劳尔" />
+		<keyword key="谢尔吉斯" />
+		<keyword key="荷曼妮" />
+		<keyword key="安普罗兹" />
+		<keyword key="狄奥多" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="chapter03">
+		<keyword key="贾桂琳" />
+		<keyword key="席纽勒" />
+		<keyword key="卡尼尔" />
+		<keyword key="安娜塔西亚" />
+		<keyword key="路奇" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="chapter04">
+		<keyword key="翁·凯" />
+		<keyword key="利维坦" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter05">
+		<keyword regcap="true" key="\0" regexp="亚伯特(·德)?(·布洛瓦)?" />
+		<keyword key="赛门·汉特" />
+		<keyword key="伊亚哥" />
+		<keyword key="丘比特·罗杰" />
+		<keyword key="米雪儿" />
+		<keyword key="卡蜜拉" />
+		<keyword key="摩瑞拉" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="布洛瓦">
+		<keyword regcap="true" key="\0" regexp="(德·)?布洛瓦" />
+	</highlight>
+	<highlight type="terminology" subtype="org replaceFrom">
+		<keyword regcap="true" key="圣玛格丽特学园"       regexp="(圣马尔格瑞特|圣玛格利特)学院" desc="Replace: \0" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="圣玛格丽特学园" />
+		<keyword regcap="true" key="\0" regexp="(苏瓦尔)?(王国)?科学院" />
+		<keyword regcap="true" key="\0" regexp="(苏瓦尔)?(王国)?灵异部" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="事件">
+		<keyword key="消失在黑暗中的人们"     alias="【事件】" desc="〈GOSICK 3 －蓝蔷薇下－〉" />
+		<keyword key="利维坦"                 alias="【事件】" desc="〈GOSICK 4 －为愚者代辩－〉" />
+		<keyword key="造成坠落的圣玛利亚异象" alias="【事件】@1914-12-10" desc="〈GOSICK 5 －别西卜的头骨－〉" />
+		<keyword key="泪如雨下的玛利亚像"     alias="【事件】@1914-12-10" desc="〈GOSICK 5 －别西卜的头骨－〉" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="智慧之泉" />
+		<keyword key="灰狼" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="equipment" subtype="">
+		<keyword key="蓝蔷薇" />
+		<keyword key="" />
+		<keyword key="Old Masquerade号" desc="横贯大陆的豪华列车。" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="location" subtype="replaceFrom">
+		<keyword regcap="true" key="圣玛格丽特大图书馆"   regexp="(圣马尔格瑞特|圣玛格利特)大图书馆" desc="Replace: \0" />
+		<keyword key="" />
+		<keyword regcap="true" key="苏瓦尔"               regexp="索贝鲁"               desc="Replace: \0" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword regcap="true" key="\0" regexp="苏瓦尔(王国)?" />
+		<keyword key="" />
+		<keyword key="里昂湾" thumb="Location/180px-Gulf_of_Lion_map.png" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" regexp="(圣玛格丽特)?(学园)?(大图书馆|图书馆塔)" />
+		<keyword key="" />
+		<keyword key="无名村" desc="人称〈灰狼〉的东欧民族后裔隐居的村子。" />
+		<keyword key="" />
+		<keyword key="苏瓦伦" desc="首都。" />
+		<keyword key="查理斯·德·吉瑞" desc="苏瓦伦车站。" />
+		<keyword key="杰丹" desc="苏瓦伦的大型百货公司。" />
+		<keyword key="" />
+		<keyword key="立陶宛" />
+		<keyword key="别西卜的头骨" desc="立陶宛的修道院。" />
+		<keyword key="" />
+	</highlight>
+</highlights>

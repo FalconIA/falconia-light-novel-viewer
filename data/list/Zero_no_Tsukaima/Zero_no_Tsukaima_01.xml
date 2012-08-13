@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0008" />
+	<chapter start="0017" end="0446" title="魔法之国篇　第一章　我是使魔" />
+	<chapter start="0452" end="0743" title="魔法之国篇　第二章　零之路易丝" />
+	<chapter start="0749" end="1310" title="魔法之国篇　第三章　传说" />
+	<chapter start="1320" end="1568" title="纲达鲁乌篇　第一章　使魔的一天" />
+	<chapter start="1574" end="2177" title="纲达鲁乌篇　第二章　微热的玖露琪" />
+	<chapter start="2183" end="2381" title="纲达鲁乌篇　第四章　土块之芙卡" />
+	<chapter start="2387" end="2835" title="纲达鲁乌篇　第五章　破坏之杖" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_01_" suffix=".jpg">
+		<img insert="0003" filename="000" notfloat="true" />
+		<img insert="0008" filename="001" />
+		<img insert="0008" filename="002" />
+	</imgs>
+</volume>

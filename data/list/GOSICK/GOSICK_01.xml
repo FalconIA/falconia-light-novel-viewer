@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0016" />
+	<chapter start="0021" end="0060" title="序　幕　「让野兔奔跑」" />
+	<chapter start="0066" end="0877" title="第一章　金色妖精" />
+	<chapter start="0883" end="0906" title="独　白　-monologue 1-" />
+	<chapter start="0912" end="1513" title="第二章　阴暗的晚餐" />
+	<chapter start="1519" end="1775" title="独　白　-monologue 2-" />
+	<chapter start="1781" end="2080" title="第三章　幽灵船〈QueenBerry号〉" />
+	<chapter start="2086" end="2382" title="独　白　-monologue 3-" />
+	<chapter start="2388" end="3037" title="第四章　〈野兔〉与〈猎人〉" />
+	<chapter start="3043" end="3112" title="独　白　-monologue 4-" />
+	<chapter start="3118" end="3238" title="第五章　game and set" />
+	<chapter start="3244" end="3304" title="独　白　-monologue 5-" />
+	<chapter start="3310" end="3452" title="第六章　请不要放手" />
+	<chapter start="3458" end="3701" title="尾　声　约定" />
+	<chapter start="3707" end="3815" title="后　记" />
+	<imgs dir="GOSICK" prefix="GOSICK_01_" suffix=".jpg">
+		<img insert="0010" filename="001" notfloat="true" />
+		<img insert="0016" filename="002" />
+		<img insert="0016" filename="003" />
+		<img insert="0016" filename="004" />
+		<img insert="0016" filename="005" />
+		<img insert="0016" filename="006" />
+		<img alt="插图001" filename="001" />
+		<img alt="插图002" filename="002" />
+		<img alt="插图003" filename="003" />
+		<img alt="插图004" filename="004" />
+		<img alt="插图005" filename="005" />
+		<img alt="插图006" filename="006" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+	</imgs>
+</volume>

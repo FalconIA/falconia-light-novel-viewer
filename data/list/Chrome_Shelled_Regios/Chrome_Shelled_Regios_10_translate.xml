@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0030" />
+	<chapter start="0040" end="0076" title="sweet day sweet morning" />
+	<chapter start="0084" end="0108" title="sweet day sweet before" />
+	<chapter start="0117" end="0700" title="a day for you 01" />
+	<chapter start="0708" end="0734" title="sweet day sweet before" />
+	<chapter start="0742" end="1291" title="a day for you 02" />
+	<chapter start="1299" end="1325" title="sweet day sweet before" />
+	<chapter start="1333" end="1907" title="a day for you 03" />
+	<chapter start="1915" end="1961" title="sweet day sweet midnight" />
+	<chapter start="1969" end="3084" title="冲锋上阵" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_10_" suffix=".jpg">
+		<img insert="0018" filename="000" notfloat="true" />
+		<img insert="0019" filename="001" />
+		<img insert="0019" filename="002" />
+		<img insert="0019" filename="003" />
+		<img alt="插图033" filename="033" />
+		<img alt="插图047" filename="047" />
+		<img alt="插图057" filename="057" />
+		<img alt="插图069" filename="069" />
+		<img alt="插图083" filename="083" />
+		<img alt="插图095" filename="095" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图119" filename="119" />
+		<img alt="插图145" filename="145" />
+		<img alt="插图165" filename="165" />
+		<img alt="插图179" filename="179" />
+		<img alt="插图265" filename="265" />
+	</imgs>
+</volume>

@@ -1,0 +1,119 @@
+		<keyword (.*)disable="true" 
+//		<keyword \1
+
+ch="([^"]+)" (.*)/>
+\2/>//\1
+
+jpn="([^"]+)" (.*)/>
+\2/>//\1
+
+_alias="([^"]+)" (.*)/>
+\2/>//\1
+
+		<keyword key="" />
+
+
+
+
+	<keyword key="([^"]+)" />
+$list[] = new HighlightItem('\1');
+$list[] = new Highlight__Tr('\1');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)" />
+$list[] = new HighlightItem('\1',\2'\3', NULL);
+$list[] = new Highlight__Tr('\1',\2'\3', NULL);
+
+	<keyword key="([^"]+)"( +)desc="([^"]+)" />
+$list[] = new HighlightItem('\1',\2NULL, '\3');
+$list[] = new Highlight__Tr('\1',\2NULL, '\3');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)desc="([^"]+)" />
+$list[] = new HighlightItem('\1',\2'\3',\4'\5');
+$list[] = new Highlight__Tr('\1',\2'\3',\4'\5');
+
+
+
+	<keyword key="([^"]+)"( +)regexp="([^"]+)" />
+$list[] = new HighlightItem('\1',\2'/\3/');
+$list[] = new Highlight__Tr('\1',\2'/\3/');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)regexp="([^"]+)" />
+$list[] = new HighlightItem('\1',\2'\3', NULL,\4'/\5/');
+$list[] = new Highlight__Tr('\1',\2'\3', NULL,\4'/\5/');
+
+	<keyword key="([^"]+)"( +)desc="([^"]+)"( +)regexp="([^"]+)" />
+$list[] = new HighlightItem('\1', NULL,\2'\3',\4'/\5/');
+$list[] = new Highlight__Tr('\1', NULL,\2'\3',\4'/\5/');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)desc="([^"]+)"( +)regexp="([^"]+)" />
+$list[] = new HighlightItem('\1',\2'\3',\4'\5',\6'/\7/');
+$list[] = new Highlight__Tr('\1',\2'\3',\4'\5',\6'/\7/');
+
+
+
+	<keyword regcap="true" regexp="([^"]+)"( +)key="\\0" />
+$list[] = new HighlightItem('/\1/');
+$list[] = new Highlight__Tr('/\1/');
+
+	<keyword regcap="true" regexp="([^"]+)"( +)key="\\0"( +)alias="([^"]+)" />
+$list[] = new HighlightItem('/\1/',\2\3'\4', NULL);
+$list[] = new Highlight__Tr('/\1/',\2\3'\4', NULL);
+
+	<keyword regcap="true" regexp="([^"]+)"( +)key="\\0"( +)desc="([^"]+)" />
+$list[] = new HighlightItem('/\1/',\2NULL,\3'\4');
+$list[] = new Highlight__Tr('/\1/',\2NULL,\3'\4');
+
+	<keyword regcap="true" regexp="([^"]+)"( +)key="\\0"( +)alias="([^"]+)"( +)desc="([^"]+)" />
+$list[] = new HighlightItem('/\1/',\2\3'\4',\5'\6');
+$list[] = new Highlight__Tr('/\1/',\2\3'\4',\5'\6');
+
+
+
+	<keyword regcap="true" regexp="\(([^\(\)]+)\)\(([^"]+)\)\(([^\(\)]+)\)" key="\\1\[key\]\\2\[/key\]\\3" />
+$list[] = new HighlightItem('/(?<=\1)(\2)(?=\3)/');
+$list[] = new Highlight__Tr('/(?<=\1)(\2)(?=\3)/');
+
+	<keyword regcap="true" regexp="\(([^\(\)]+)\)\(([^"]+)\)\(([^\(\)]+)\)" key="\\1\[key\]\\2\[/key\]\\3" desc="([^"]+)" />
+$list[] = new HighlightItem('/(?<=\1)(\2)(?=\3)/', NULL, '\4');
+$list[] = new Highlight__Tr('/(?<=\1)(\2)(?=\3)/', NULL, '\4');
+
+
+
+	<keyword regcap="true" regexp="\(([^\(\)]+)\)([^"]+)\(([^\(\)]+)\)\|\(([^\(\)]+)\)(\2)\(([^\(\)]+)\)" key="\\1\\3\[key\](\2)\[/key\]\\2\\4" />
+$list[] = new HighlightItem('/(?<=\1)\2(?=\3)|(?<=\4)\5(?=\6)/');
+$list[] = new Highlight__Tr('/(?<=\1)\2(?=\3)|(?<=\4)\5(?=\6)/');
+
+	<keyword regcap="true" regexp="\(([^\(\)]+)\)([^"]+)\(([^\(\)]+)\)\|\(([^\(\)]+)\)(\2)\(([^\(\)]+)\)" key="\\1\\3\[key\](\2)\[/key\]\\2\\4" desc="([^"]+)" />
+$list[] = new HighlightItem('/(?<=\1)\2(?=\3)|(?<=\4)\5(?=\6)/', NULL, '\8');
+$list[] = new Highlight__Tr('/(?<=\1)\2(?=\3)|(?<=\4)\5(?=\6)/', NULL, '\8');
+
+
+
+
+	<keyword key="([^"]+)"( +)desc="Replaced From: ([^"]+)"( +)regexp="\3" />
+$list[] = New_Highlight__Re('\1',\4'\3');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)desc="Replaced From: ([^"]+)"( +)regexp="\5" />
+$list[] = New_Highlight__Re('\1',\6'\5',\2'\3', NULL);
+
+
+	<keyword key="([^"]+)"( +)desc="([^"]*)\\r\\nReplaced From: ([^"]+)"( +)regexp="\4" />
+$list[] = New_Highlight__Re('\1',\5'\4', NULL,\2'\3');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)desc="([^"]*)\\r\\nReplaced From: ([^"]+)"( +)regexp="\6" />
+$list[] = New_Highlight__Re('\1',\7'\6',\2'\3',\4'\5');
+
+
+
+	<keyword key="([^"]+)"( +)desc="Replaced From: ([^"]+)"( +)regexp="(\3[^"]+)" />
+$list[] = New_Highlight__Re('\1',\4'/\5/');
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)desc="Replaced From: ([^"]+)"( +)regexp="(\5[^"]+)" />
+$list[] = New_Highlight__Re('\1',\6'/\7/',\2'\3',\4NULL);
+
+
+	<keyword key="([^"]+)"( +)alias="([^"]+)"( +)desc="([^"]*)\\r\\nReplaced From: ([^"]+)"( +)regexp="(\6[^"]+)" />
+$list[] = New_Highlight__Re('\1',\7'/\8/',\2'\3',\4'\5');
+
+
+&lt;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0053" />
+	<chapter start="0063" end="0187" title="序　幕" />
+	<chapter start="0196" end="0667" title="第一章　入学" />
+	<chapter start="0676" end="1125" title="第二章　学生生活" />
+	<chapter start="1134" end="1636" title="第三章　训练" />
+	<chapter start="1645" end="2060" title="第四章　比赛" />
+	<chapter start="2069" end="2510" title="第五章　分歧点" />
+	<chapter start="2519" end="3157" title="第六章　在被污染的大地上" />
+	<chapter start="3166" end="3246" title="终　章" />
+	<chapter start="3255" end="3347" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_01_" suffix="_with_mark.jpg">
+		<img insert="0021" filename="000" notfloat="true" />
+		<img insert="0037" filename="001" />
+		<img insert="0037" filename="002" />
+		<img insert="0037" filename="003" />
+		<img insert="0037" filename="003b" />
+		<img insert="0037" filename="004" />
+		<img alt="插图013" filename="013t" />
+		<img alt="插图024" filename="024t" />
+		<img alt="插图029" filename="029t" />
+		<img alt="插图059" filename="059t" />
+		<img alt="插图067" filename="067t" />
+		<img alt="插图093" filename="093t" />
+		<img alt="插图104" filename="104t" />
+		<img alt="插图127" filename="127t" />
+		<img alt="插图142" filename="142t" />
+	</imgs>
+</volume>

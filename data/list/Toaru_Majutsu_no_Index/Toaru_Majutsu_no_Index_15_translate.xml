@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0035" />
+	<chapter start="0039" end="0105" title="序　章　向深爱的你送上最好的铅弹" />
+	<chapter start="0110" end="0555" title="第一章　无人听见的确实炮声" />
+	<chapter start="0560" end="0601" title="行间一" />
+	<chapter start="0606" end="1450" title="第二章　开始蠢蠢欲动的人们" />
+	<chapter start="1455" end="1547" title="行间二" />
+	<chapter start="1552" end="2298" title="第三章　超能力被封印的土地" />
+	<chapter start="2303" end="2323" title="行间三" />
+	<chapter start="2328" end="2956" title="第四章　自嘲与骄傲的一纸之隔" />
+	<chapter start="2960" end="3011" title="行间四" />
+	<chapter start="3016" end="3502" title="第五章　战胜最强黑翼的人" />
+	<chapter start="3507" end="3603" title="终　章　生存者得到的战利品" />
+	<chapter start="3608" end="3618" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_15_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0035" filename="001" />
+		<img insert="0035" filename="002" />
+		<img insert="0035" filename="003" />
+		<img insert="0035" filename="004" />
+		<img alt="插图049" filename="049" />
+		<img alt="插图060" filename="060" />
+		<img alt="插图068" filename="068" />
+		<img alt="插图139" filename="139" />
+		<img alt="插图144" filename="144" />
+		<img alt="插图179" filename="179" />
+		<img alt="插图216" filename="216" />
+		<img alt="插图254" filename="254" />
+		<img alt="插图280" filename="280" />
+		<img alt="插图299" filename="299" />
+		<img alt="插图316" filename="316" />
+		<img alt="插图340" filename="340" />
+	</imgs>
+</volume>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0029" />
+	<chapter start="0035" end="0396" title="第一章　魔法师公会的怪胎" />
+	<chapter start="0402" end="1178" title="第二章　闭锁的门内" />
+	<chapter start="1184" end="1639" title="第三章　折断的杖" />
+	<chapter start="1645" end="2054" title="第四章　纷争森林" />
+	<chapter start="2060" end="2716" title="第五章　都是为了爱" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_01_" suffix=".jpg">
+		<img alt="彩图001" filename="001" notfloat="true" />
+		<img alt="彩图002" filename="002" notfloat="true" />
+		<img alt="彩图003-004" filename="003-004" notfloat="true" />
+		<img alt="彩图005" filename="005" notfloat="true" />
+	</imgs>
+</volume>

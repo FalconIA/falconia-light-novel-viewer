@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0051" />
+	<chapter start="0057" end="0547" title="第一章　冬季来临" />
+	<chapter start="0553" end="1018" title="第二章　女王之死" />
+	<chapter start="1024" end="1383" title="第三章　请协寻" />
+	<chapter start="1389" end="1648" title="第四章　姐姐致妹妹" />
+	<chapter start="1654" end="2228" title="第五章　星啮要塞" />
+	<chapter start="2234" end="2256" title="后　记" />
+	<imgs dir="Kurenai" prefix="Kurenai_03_" suffix="_with_mark.jpg">
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0044" filename="001" />
+		<img insert="0044" filename="002" />
+		<img insert="0044" filename="003a" />
+		<img alt="插图017" filename="017t" />
+		<img alt="插图033" filename="033t" />
+		<img alt="插图039" filename="039t" />
+		<img alt="插图051" filename="051t" />
+		<img alt="插图086" filename="086t" />
+		<img alt="插图096" filename="096t" />
+	</imgs>
+</volume>

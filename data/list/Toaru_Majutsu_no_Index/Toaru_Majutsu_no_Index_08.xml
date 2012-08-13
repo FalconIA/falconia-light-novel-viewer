@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0024" />
+	<chapter start="0030" end="0103" title="序　章　屈指可敷" />
+	<chapter start="0109" end="0343" title="第一章　少女们的放学时光" />
+	<chapter start="0349" end="0373" title="行间一" />
+	<chapter start="0379" end="0782" title="第二章　少女的对决" />
+	<chapter start="0788" end="0841" title="行间二" />
+	<chapter start="0847" end="1208" title="第三章　残骸秘藏之光" />
+	<chapter start="1214" end="1342" title="行间三" />
+	<chapter start="1348" end="2002" title="第四章　终结者" />
+	<chapter start="2008" end="2136" title="行间四" />
+	<chapter start="2142" end="2216" title="终　章　各自的日常生活" />
+	<chapter start="2222" end="2235" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_08_" suffix="_with_mark.jpg">
+		<img insert="0013" filename="000" notfloat="true" />
+		<img insert="0017" filename="001" />
+		<img insert="0024" filename="002a" clear="both" />
+		<img insert="0024" filename="002b" />
+		<img insert="0024" filename="003a" />
+		<img insert="0024" filename="003b" />
+		<img insert="0024" filename="005a" />
+		<img alt="插图012" filename="012t" />
+		<img alt="插图019" filename="019t" />
+		<img alt="插图024" filename="024t" />
+		<img alt="插图030" filename="030t" />
+		<img alt="插图039" filename="039t" />
+		<img alt="插图054" filename="054t" />
+		<img alt="插图060" filename="060" />
+		<img alt="插图076" filename="076t" />
+		<img alt="插图095" filename="095t" />
+		<img alt="插图107" filename="107t" />
+	</imgs>
+</volume>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0026" />
+	<chapter start="0029" end="0035" title="－－－" />
+	<chapter start="0041" end="0054" title="序　曲" />
+	<chapter start="0060" end="0900" title="第一章　没有光的世界" />
+	<chapter start="0906" end="1532" title="第二章　Time" />
+	<chapter start="1538" end="2321" title="第三章　逃脱" />
+	<chapter start="2327" end="3164" title="第四章　Conviction＆Freedom" />
+	<chapter start="3170" end="3269" title="终　曲" />
+	<chapter start="3275" end="3310" title="后　记" />
+	<chapter start="3316" end="3338" title="台湾版后记" />
+	<imgs dir="9S" prefix="9S_09_" suffix="_with_mark.jpg">
+		<img insert="0017" filename="000" notfloat="true" />
+		<img insert="0026" filename="001" />
+		<img insert="0026" filename="002a" />
+		<img insert="0026" filename="002b" />
+		<img insert="0026" filename="003a" />
+		<img alt="插图010" filename="010t" />
+		<img alt="插图055" filename="055t" />
+		<img alt="插图079" filename="079t" />
+		<img alt="插图0144" filename="144t" />
+	</imgs>
+</volume>

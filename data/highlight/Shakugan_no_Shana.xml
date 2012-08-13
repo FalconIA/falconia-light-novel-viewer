@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Shakugan_no_Shana" css="" url="http://www1.atwiki.jp/sslibrary/">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="{([^}]+)}" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\1" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>|（?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment">
+		<keyword regcap="true" key="鲷鱼烧" regexp="(鲷鱼)?红豆饼" alias="原文：\0　日本語：タイヤキ" desc="" thumb="Shakugan_no_Shana/240px-Taiyaki.jpg" />
+		<keyword regcap="true" key="\0" regexp="菠萝面包" alias="日本語：メロンパン(melonpan)" desc="" thumb="Shakugan_no_Shana/200px-Melonpan.jpg" />
+		<keyword regcap="true" key="\0" regexp="惦惦[吃喫]三碗公" alias="惦惦喫三碗公" desc="\r\n【釋義】：「碗公」即是湯碗的意思。「惦惦」漢字沒此字，有聲無字，是乃即是靜靜的意思。「喫」即是吃。\r\n靜靜的吃三碗飯，可見吃得非常多。\r\n這句話是形容不動聲色，不為人所注意，但卻做出令人驚異的事情。\r\n【香港俗語】：扮豬食老虎" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="">
+		<keyword key="坂井 悠二" />
+		<keyword key="阿悠" />
+		<keyword key="夏娜"                      desc="【火雾战士】\r\n称　　号：炎发灼眼的杀手\r\n神　　器：克库特斯           \r\n炎　　色：红莲                  \r\n红世魔王：「天壤劫火」亚拉斯特尔" />
+		<keyword key="天壤劫火 亚拉斯特尔"       desc="【红世使徒】\r\n真　　名：天壌劫火      \r\n通　　称：亚拉斯特尔(Alastor)\r\n炎　　色：红莲  \r\n区　　分：神\r\n火雾战士：「炎发灼眼的杀手」夏娜" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="雷池|池鱼之殃" />
+		<keyword regcap="true" key="\0" regexp="边缘|缘故|缘自|无缘|命运之缘|缘分" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" regexp="健在|保健室|健全|矫健" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="御崎高校の生徒">
+		<keyword key="吉田 一美" />
+		<keyword key="佐藤 啓作" />
+		<keyword key="田中 栄太" />
+		<keyword key="池 速人" />
+		<keyword key="緒方 真竹" />
+		<keyword key="平井 缘" />
+		<keyword key="小缘" />
+		<keyword key="中村 公子" />
+		<keyword key="藤田 晴美" />
+		<keyword key="浅沼 稲穂" />
+		<keyword key="西尾 広子" />
+		<keyword key="川上 正太郎" />
+		<keyword key="黒田 寿子" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="坂井家">
+		<keyword key="坂井 千草" />
+		<keyword key="坂井 贯太郎" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="その他の人間">
+		<keyword key="ドナート" />
+		<keyword key="ゲオルギウス" />
+		<keyword key="ハリエット・スミス" />
+		<keyword key="頂辛" />
+		<keyword key="吉田 健" />
+		<keyword key="大上 準子" />
+		<keyword key="濱口 幸雄" />
+		<keyword key="斉藤 隆代" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter01">
+	</highlight>
+	<highlight type="character" subtype="ミステス">
+		<keyword key="天目一个" />
+		<keyword key="ヨーハン" />
+		<keyword key="異形の戦輪使い" />
+	</highlight>
+	<highlight type="character" subtype="フレイムヘイズ 称号">
+		<keyword key="炎发灼眼的杀手"            desc="【火雾战士】\r\n称　　号：炎发灼眼的杀手\r\n神　　器：克库特斯           \r\n炎　　色：红莲                  \r\n红世魔王：「天壤劫火」亚拉斯特尔" />
+		<keyword key="弔詞の詠み手"              desc="契約している王：蹂躙の爪牙\r\n神器：グリモア        \r\n炎の色：群青色" />
+		<keyword key="万条の仕手"                desc="契約している王：夢幻の冠帯\r\n神器：ペルソナア      \r\n炎の色：桜色" />
+		<keyword key="儀装の駆り手"              desc="契約している王：不抜の尖嶺\r\n神器：サービア        \r\n炎の色：褐色" />
+		<keyword key="愁夢の吹き手"              desc="契約している王：虚の色森  \r\n神器：ブンシェルルーテ\r\n炎の色：薄いオレンジ色" />
+		<keyword key="極光の射手"                desc="契約している王：破暁の先駆／夕暮の後塵\r\n神器：ゾリャー        \r\n炎の色：オーロラ" />
+		<keyword key="震威の結い手"              desc="契約している王：払の雷剣  \r\n神器：ドンナー        \r\n炎の色：眩い紫電" />
+		<keyword key="棺の織手"                  desc="契約している王：冥奥の環  \r\n神器：無名の金環      \r\n炎の色：青" />
+		<keyword key="魑勢の牽き手"              desc="契約している王：虺蜴の帥  \r\n神器：ゴベルラ        \r\n炎の色：丹色" />
+		<keyword key="星河の喚び手"              desc="契約している王：啓導の籟  \r\n神器：テオトル        \r\n炎の色：青磁色" />
+		<keyword key="鬼功の繰り手"              desc="契約している王：絢の羂挂  \r\n神器：レンゲ、ザイテ  \r\n炎の色：菫色" />
+		<keyword key="空裏の裂き手"              desc="契約している王：觜距の鎧仗\r\n神器：ソアラー        \r\n炎の色：空色" />
+		<keyword key="剣花の薙ぎ手"              desc="契約している王：奉の錦旆  \r\n神器：昆吾            \r\n炎の色：紅梅色" />
+		<keyword key="无窮の聞き手"              desc="契約している王：珠漣の清韻\r\n神器：ゴローザ        \r\n炎の色：不明" />
+		<keyword key="荊扉の編み手"              desc="契約している王：欺蔽の套子\r\n神器：不明            \r\n炎の色：柳色" />
+		<keyword key="戈伏の衝き手"              desc="契約している王：不明      \r\n神器：不明            \r\n炎の色：不明" />
+		<keyword key="輝爍の撒き手"              desc="契約している王：糜砕の裂眥\r\n神器：クルワッハ      \r\n炎の色：桃色" />
+		<keyword key="骸躯の換え手"              desc="契約している王：応化の伎芸\r\n神器：アンブロシア    \r\n炎の色：鳶色" />
+		<keyword key="姿影の派し手"              desc="契約している王：布置の霊泉\r\n神器：スプレット      \r\n炎の色：不明" />
+		<keyword key="犀渠の護り手"              desc="契約している王：吾鱗の泰盾\r\n神器：ターボル        \r\n炎の色：不明" />
+		<keyword key="晧露の請い手"              desc="契約している王：殊寵の鼓  \r\n神器：テオトル        \r\n炎の色：不明" />
+		<keyword key="理法の裁ち手"              desc="契約している王：不明      \r\n神器：不明            \r\n炎の色：不明" />
+		<keyword key="昏亜の御し手"              desc="契約している王：鬼道の魁主\r\n神器：フリズスキャルヴ\r\n炎の色：不明" />
+		<keyword key="具象の組み手"              desc="契約している王：弄巧の摽  \r\n神器：B･S･I         \r\n炎の色：不明" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="フレイムヘイズ">
+		<keyword key="マージョリー·ドー"        alias="Margery Daw" />
+		<keyword key="蹂躙の爪牙 マルコシアス"   alias="Marchosias" />
+		<keyword key="カムシン·ネブハーウ"      alias="Khamsin Nbh`w" />
+		<keyword key="不抜の尖嶺 ベヘモット"     alias="Behemoth" />
+		<keyword key="虞軒"                      alias="" />
+		<keyword key="奉の錦旆 帝鴻"             alias="" />
+		<keyword key="レベッカ·リード"          alias="" />
+		<keyword key="糜砕の裂眥 バラル"         alias="" />
+		<keyword key="ティス"                    alias="Tis" />
+		<keyword key="冥奥の環 アシズ"           alias="Asiz" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="フレイムヘイズ フレイムヘイズ兵団">
+		<keyword key="ゾフィー·サバリッシュ"    alias="Sophie Sawallisch" />
+		<keyword key="払の雷剣 タケミカヅチ"     alias="Takemikazuchi" />
+		<keyword key="カール·ベルワルド"        alias="Karl Berwald" />
+		<keyword key="キアラ·トスカナ"          alias="Chiara Toscana" />
+		<keyword key="破暁の先駆 ウートレンニャヤ"   alias="Outrenniaia" />
+		<keyword key="夕暮の後塵 ヴェチェールニャヤ" alias="Vetcherniaia" />
+		<keyword key="マティルダ·サントメール"  alias="Mathilde Saint-Omer" />
+		<keyword key="天壌の劫火" />
+		<keyword key="ヴィルヘルミナ·カルメル"  alias="Wilhelmina Carmel" />
+		<keyword key="夢幻の冠帯 ティアマトー"   alias="Tiamat" />
+		<keyword key="サーレ·ハビヒツブルグ"    alias="Sale Habichtsburg" />
+		<keyword key="絢の羂挂 ギゾー"           alias="Gizo" />
+		<keyword key="アーネスト·フリーダー"    alias="" />
+		<keyword key="応花の伎芸 ブリギット"     alias="" />
+		<keyword key="ザムエル·デマンティウス"  alias="" />
+		<keyword key="吾鱗の泰盾 ジルニトラ"     alias="" />
+		<keyword key="フランソワ·オーリック"    alias="" />
+		<keyword key="布置の霊泉 グローガッハ"   alias="" />
+		<keyword key="ヒルデガルド"              alias="" />
+		<keyword key="鬼道の魁主 ヴォーダン"     alias="" />
+		<keyword key="ダン ロジャース"           alias="" />
+		<keyword key="弄巧の摽 フィフィネラ"     alias="" />
+		<keyword key="アレックス"                alias="" />
+		<keyword key="ドゥニ"                    alias="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="フレイムヘイズ ドレル・パーティ">
+		<keyword key="ドレル·クーベリック"      alias="Drell Kubeli'k" />
+		<keyword key="虚の色森 ハルファス"       alias="Halphas" />
+		<keyword key="ピエトロ·モンテベルディ"  alias="Pietro Monteverdi" />
+		<keyword key="珠漣の清韻 センティア"     alias="Sentia" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="フレイムヘイズ 大地の四神">
+		<keyword key="イーストエッジ"            alias="EastEdge" />
+		<keyword key="啓導の籟 ケツアルコアトル" alias="Quetzalco'atl" />
+		<keyword key="センターヒル"              alias="" />
+		<keyword key="殊寵の鼓 トラロック"       alias="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="フレイムヘイズ 外伝">
+		<keyword key="ユーリイ·フヴォイカ"      alias="Yuri Chvojka" />
+		<keyword key="虺蜴の帥 ウァラク"         alias="Valac" />
+		<keyword key="クロード·テイラー"        alias="Claude Taylor" />
+		<keyword key="觜距の鎧仗 カイム"         alias="Caim" />
+		<keyword key="セシリア·ロドリーゴ"      alias="" />
+		<keyword key="欺蔽の套子 クエレブレ"     alias="" />
+		<keyword key="クレメンス·ロット"        alias="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="紅世の徒 無所属">
+		<keyword key="猎人 法利亚格尼"           desc="【红世使徒】\r\n真　　名：猎人          \r\n通　　称：法利亚格尼(Friagne)\r\n炎　　色：浅白色\r\n分　　类：王\r\n备　　注：「燐子」玛丽安、ニーナ" />
+		<keyword key="玛丽安"                    desc="【燐子】    \r\n主　人：「猎人」法利亚格尼" />
+		<keyword key="ニーナ" />
+		<keyword key="探耽求究 ダンタリオン"     alias="Dantalion" />
+		<keyword key="ドミノ" />
+		<keyword key="髄の楼閣 ガヴィダ"         alias="Gavida" />
+		<keyword key="彩飄 フィレス"             alias="Pheles" />
+		<keyword key="壊刃 サブラク"             alias="Sabrac" />
+		<keyword key="皁彦士 オオナムチ"         alias="" />
+		<keyword key="" />
+		<keyword key="屍拾い ラミー"             alias="Lamies" />
+		<keyword key="螺旋の風琴 リャナンシー"   alias="Leannán-Sídhe" />
+		<keyword key="愛染自 ソラト"             alias="Sorath" />
+		<keyword key="愛染他 ティリエル"         alias="Tiriel" />
+		<keyword key="笑謔の聘 ロフォカレ"       alias="Rofocale" />
+		<keyword key="纏玩 ウコバク"             alias="Ukobach" />
+		<keyword key="穿徹の洞 アナベルグ"       alias="Annaberg" />
+		<keyword key="海魔（仮）"                alias="Kraken" />
+		<keyword key="駆掠の礫 カシャ"           alias="Kasha" />
+		<keyword key="羿鱗 ニティカ"             alias="Nitika" />
+		<keyword key="戯睡郷 メア"               alias="Mare" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="紅世の徒 仮装舞踏会">
+		<keyword key="祭礼の蛇" />
+		<keyword key="千変 シュドナイ"           alias="Sydonay" />
+		<keyword key="頂の座 ヘカテー"           alias="Hecate" />
+		<keyword key="逆理の裁者 ベルペオル"     alias="Bel-Peol" />
+		<keyword key="嵐蹄 フェコルー"           alias="Fecor" />
+		<keyword key="千征令 オルゴン"           alias="Orgon" />
+		<keyword key="道司 ガープ"               alias="Gaap" />
+		<keyword key="淼渺吏 デカラビア"         alias="Dacarabia" />
+		<keyword key="驀地祲 リベザル"           alias="Ribesal" />
+		<keyword key="煬煽 ハボリム"             alias="" />
+		<keyword key="哮呼の狻猊 プルソン"       alias="" />
+		<keyword key="駝鼓の乱囃 ウアル"         alias="" />
+		<keyword key="" />
+		<keyword key="琉眼 ウィネ"               alias="Vine" />
+		<keyword key="翠翔 ストラス"             alias="Stolas" />
+		<keyword key="獰暴の鞍 オロバス"         alias="Orobas" />
+		<keyword key="朧光の衣 レライエ"         alias="Lerajie" />
+		<keyword key="蠱溺の盃 ピルソイン"       alias="Pirsoyn" />
+		<keyword key="聚散の丁 ザロービ"         alias="Zarovee" />
+		<keyword key="吼号呀 ビフロンス"         alias="Bifrons" />
+		<keyword key="ファレグ" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="紅世の徒 とむらいの鐘">
+		<keyword key="棺の織手 アシズ"           alias="Asiz" />
+		<keyword key="虹の翼 メリヒム"           alias="Merihim" />
+		<keyword key="甲鉄竜 イルヤンカ"         alias="Illyanka" />
+		<keyword key="大擁炉 モレク"             alias="Molech" />
+		<keyword key="闇の雫 チェルノボーグ"     alias="Chernobog" />
+		<keyword key="凶界卵 ジャリ"             alias="Jarri" />
+		<keyword key="巌凱 ウルリクムミ"         alias="Ullikummi" />
+		<keyword key="架綻の片 アルラウネ"       alias="Alraune" />
+		<keyword key="焚塵の関 ソカル"           alias="Sokar" />
+		<keyword key="天凍の倶 ニヌルタ"         alias="Ninurta" />
+		<keyword key="戎君 フワワ"               alias="Huwawa" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="紅世の徒 革正団">
+		<keyword key="征遼の睟 サラカエル"       alias="Sarakiel" />
+		<keyword key="吠狗首 ドゥーグ"           alias="Doog" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="紅世の徒 百鬼夜行">
+		<keyword key="深隠の柎 ギュウキ"         alias="gyūki" />
+		<keyword key="輿隷の御者 パラ"           alias="Para" />
+		<keyword key="大人君子号" />
+		<keyword key="温柔敦厚号" />
+		<keyword key="坤典の隧 ゼミナ"           alias="Žemyna" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="紅世の徒 巌楹院">
+		<keyword key="盤曲の台 ゴグマゴーグ"     alias="Gogmagog" />
+	</highlight>
+	<highlight separate="true" desc="炎色">
+		<keyword regcap="true" key=" \1&lt;span%20style=&amp;quot;font-family:sans-serif;color:rgb(215,000,058);&amp;quot;&gt;●&lt;/span&gt;\2" regexp="(%u708E%u3000%u3000%u8272%uFF1A)(%u7EA2%u83B2)"       comment="红莲" />
+		<keyword regcap="true" key=" \1&lt;span%20style=&amp;quot;font-family:sans-serif;color:rgb(255,255,252);&amp;quot;&gt;●&lt;/span&gt;\2" regexp="(%u708E%u3000%u3000%u8272%uFF1A)(%u6D45%u767D%u8272)" comment="浅白色" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="自在法" url="http://www1.atwiki.jp/sslibrary/pages/220.html">
+		<keyword key="封绝" />
+		<keyword key="炎弾" />
+		<keyword key="達意の言" />
+		<keyword key="人化" />
+		<keyword key="清めの炎" />
+	</highlight>
+	<highlight type="terminology" subtype="神器">
+		<keyword key="克库特斯"                  desc="【神器】\r\n持有人：「炎发灼眼的杀手」夏娜\r\n描　述：坠子型／指輪型" />
+		<keyword key="グリモア"                  desc="巨大な本型" />
+		<keyword key="ペルソナ"                  desc="現在はヘッドドレス型。過去は額の飾り紐型。両者共に戦闘時は仮面に変化" />
+		<keyword key="サービア"                  desc="飾り紐型"  />
+		<keyword key="ブンシェルルーテ"          desc="ステッキ型" />
+		<keyword key="ゾリャー"                  desc="巨大な鏃型／二個一組の鏃型の髪飾り" />
+		<keyword key="ドンナー"                  desc="蒼い十字の星型" />
+		<keyword key="無名の金環" />
+		<keyword key="ゴベルラ"                  desc="短剣型" />
+		<keyword key="テオトル"                  desc="浮き彫りを施した石のメダル型" />
+		<keyword key="レンゲ"                    desc="二丁一組の木製の十字操具型" />
+		<keyword key="ザイテ"                    desc="二丁一組の木製の十字操具型" />
+		<keyword key="ソアラー"                  desc="左を向いた鷲のバッジ型" />
+		<keyword key="昆吾"                      desc="直剣型" />
+		<keyword key="ゴローザ"                  desc="懐中時計型" />
+		<keyword key="クルワッハ"                desc="金色のブレスレット型" />
+		<keyword key="アンブロシア"              desc="胸に挿した洒落た小ぶりの造花型" />
+		<keyword key="スプレット"                desc="大きな壺型" />
+		<keyword key="ターボル"                  desc="親指大の銀杯型" />
+		<keyword key="テオトル"                  desc="角ばった石のメダル型）" />
+		<keyword key="フリズスキャルヴ"          desc="真っ赤な宝石をあしらったブローチ型" />
+		<keyword key="B·S·I"                   desc="万年筆型" />
+	</highlight>
+	<highlight type="terminology" subtype="宝具" url="http://www1.atwiki.jp/sslibrary/pages/191.html">
+		<keyword key="贽殿遮那"                  desc="【宝具】\r\n持有人：「炎发灼眼的杀手」夏娜\r\n描　述：大太刀型宝具  \r\n日本語：贄殿遮那" />
+		<keyword key="正规升半音号"              desc="【宝具】\r\n持有人：「猎人」法利亚格尼    \r\n描　述：卡片型宝具    \r\n日本語：レギュラー シャープ(Regular Sharp)" />
+		<keyword key="零時迷子"                  desc="【宝具】\r\n持有人：坂井悠二              \r\n描　述：悠二体内的宝具\r\n日本語：零時迷子" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="仮装舞踏会" />
+		<keyword key="とむらいの鐘" />
+		<keyword key="革正団" />
+		<keyword key="百鬼夜行" />
+		<keyword key="巌楹院" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="存在之力"                  desc="类　别：能源(?)       " />
+		<keyword key="" />
+		<keyword key="紅世の王"                  desc="类　别：呼称          " />
+		<keyword key="魔王" />
+		<keyword key="红世使徒"                  desc="类　别：种族          " />
+		<keyword key="使徒"                      desc="类　别：种族          " />
+		<keyword key="燐子"                      desc="类　别：种族(?)       " />
+		<keyword key="" />
+		<keyword key="紅世"                      desc="类　别：异世界        " />
+		<keyword key="火雾战士"                  desc="类　别：存在          \r\n日本語：フレイムヘイズ" />
+		<keyword key="神器"                      desc="类　别：器物          " />
+		<keyword key="運命" />
+		<keyword key="闘争の渦" />
+		<keyword key="自在式"                    desc="类　别：技术·現象    " />
+		<keyword key="自在法"                    desc="类　别：技术·能力    " />
+		<keyword key="宝具"                      desc="类　别：道具          " />
+		<keyword key="火炬"                      desc="类　别：自在法的生成物\r\n日本語：トーチ" />
+		<keyword key="密斯提斯"                  desc="类　别：火炬          \r\n日本語：ミステス" />
+		<keyword key="灵火"                      desc="日本語：灯" />
+	</highlight>
+</highlights>

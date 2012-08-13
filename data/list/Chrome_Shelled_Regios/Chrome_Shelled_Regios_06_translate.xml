@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0025" />
+	<chapter start="0030" end="0088" title="序　言" />
+	<chapter start="0092" end="0411" title="第一章　在毁坏的家中" />
+	<chapter start="0415" end="0791" title="第二章　蝴蝶显现" />
+	<chapter start="0795" end="1257" title="第三章　笼中之鸟" />
+	<chapter start="1261" end="1609" title="第四章　无主之剑" />
+	<chapter start="1613" end="2347" title="第五章　箱庭世界的中心" />
+	<chapter start="2351" end="2831" title="第六章　剑的主人" />
+	<chapter start="2835" end="2890" title="终　章" />
+	<chapter start="2895" end="3055" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_06_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img alt="插图001" filename="001" notfloat="true" />
+		<img alt="插图002" filename="002" notfloat="true" />
+		<img alt="插图003" filename="003" notfloat="true" />
+		<img alt="插图004" filename="004" notfloat="true" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图041" filename="041" />
+		<img alt="插图061" filename="061" />
+		<img alt="插图097" filename="097" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图153" filename="153" />
+		<img alt="插图189" filename="189" />
+		<img alt="插图213" filename="213" />
+		<img alt="插图263" filename="263" />
+		<img alt="插图271" filename="271" />
+	</imgs>
+</volume>

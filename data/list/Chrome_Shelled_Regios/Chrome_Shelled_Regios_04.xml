@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0086" />
+	<chapter start="0093" end="0121" title="序　幕" />
+	<chapter start="0127" end="0600" title="第一章　她的主张" />
+	<chapter start="0606" end="1055" title="第二章　各自的夜晚" />
+	<chapter start="1061" end="1580" title="第三章　想法与现实" />
+	<chapter start="1586" end="2041" title="第四章　局外人" />
+	<chapter start="2047" end="2488" title="第五章　那天的誓言" />
+	<chapter start="2494" end="2944" title="第六章　发狂的守护者" />
+	<chapter start="2950" end="3042" title="终　章" />
+	<chapter start="3048" end="3096" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_04_" suffix="_with_mark.jpg">
+		<img insert="0018" filename="000" notfloat="true" />
+		<img insert="0034" filename="004" />
+		<img insert="0034" filename="001" clear="both" />
+		<img insert="0034" filename="002" />
+		<img insert="0034" filename="003" />
+		<img insert="0034" filename="003b" />
+		<img alt="插图016" filename="016t" />
+		<img alt="插图023" filename="023t" />
+		<img alt="插图039" filename="039t" />
+		<img alt="插图042" filename="042t" />
+		<img alt="插图066" filename="066t" />
+		<img alt="插图092" filename="092t" />
+		<img alt="插图096" filename="096t" />
+		<img alt="插图119" filename="119t" />
+		<img alt="插图124" filename="124t" />
+		<img alt="插图131" filename="131t" />
+		<img alt="插图141" filename="141t" />
+	</imgs>
+</volume>

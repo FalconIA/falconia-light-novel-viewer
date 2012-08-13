@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0039" />
+	<chapter start="0044" end="0124" title="序　章　后台的表象" />
+	<chapter start="0129" end="0815" title="第一章　开学典礼" />
+	<chapter start="0821" end="0967" title="行间一" />
+	<chapter start="0972" end="1564" title="第二章　下课后" />
+	<chapter start="1569" end="2343" title="第三章　封闭化" />
+	<chapter start="2349" end="2364" title="行间二" />
+	<chapter start="2369" end="3141" title="第四章　休止符" />
+	<chapter start="3146" end="3329" title="终　章　舞台的内幕" />
+	<chapter start="3334" end="3347" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_06_" suffix="_with_mark.jpg">
+		<img insert="0015" filename="000" notfloat="true" />
+		<img insert="0032" filename="001" />
+		<img insert="0032" filename="002a" clear="both" />
+		<img insert="0032" filename="002b" />
+		<img insert="0032" filename="003a" />
+		<img insert="0032" filename="003b" />
+		<img insert="0032" filename="004" />
+		<img insert="0032" filename="005a" />
+		<img insert="0032" filename="005b" />
+		<img alt="插图013" filename="013t" />
+		<img alt="插图031" filename="031t" />
+		<img alt="插图033" filename="033t" />
+		<img alt="插图050" filename="050t" />
+		<img alt="插图065" filename="065t" />
+		<img alt="插图070" filename="070t" />
+		<img alt="插图088" filename="088t" />
+		<img alt="插图103" filename="103" />
+		<img alt="插图133" filename="133t" />
+		<img alt="插图144" filename="144t" />
+	</imgs>
+</volume>

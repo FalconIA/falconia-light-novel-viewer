@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0026" />
+	<chapter start="0031" end="1245" title="第五章　佣兵与骑士的邂逅与冲突" />
+	<chapter start="1251" end="1297" title="行间三" />
+	<chapter start="1303" end="2321" title="第六章　骑士与王女的防卫线破坏" />
+	<chapter start="2327" end="2413" title="行间四" />
+	<chapter start="2419" end="3487" title="第七章　王女与女王出色的恶党" />
+	<chapter start="3493" end="3529" title="行间五" />
+	<chapter start="3535" end="3974" title="第八章　女王与国家的国民大选" />
+	<chapter start="3980" end="4358" title="终　章　国家与幕后更强的敌人" />
+	<chapter start="4364" end="4380" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_18_" suffix=".jpg">
+		<img insert="0014" filename="000" notfloat="true" />
+		<img insert="0026" filename="002" />
+		<img insert="0026" filename="003" />
+		<img insert="0026" filename="005" />
+		<img alt="插图054" filename="054" />
+		<img alt="插图089" filename="089" />
+		<img alt="插图201" filename="201" />
+		<img alt="插图258-259" filename="258-259" />
+		<img alt="插图303" filename="303" />
+		<img alt="插图327" filename="327" />
+		<img alt="插图356-357" filename="356-357" />
+		<img alt="插图397" filename="397" />
+	</imgs>
+</volume>

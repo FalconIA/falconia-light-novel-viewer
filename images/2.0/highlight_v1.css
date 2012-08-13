@@ -1,0 +1,173 @@
+/* ==|=======================================================================
+   overlib
+   ========================================================================== */
+
+#overDiv {
+	line-height: 18px;
+	text-align: left;
+	max-width: 334px;
+	padding-left: 15px;
+}
+#overDiv table {
+	max-width: 334px;
+	/*background-color: #999999;*/
+	background-color: #76b41c;
+	float: left;
+}
+#overDiv table table {
+	padding: 2px 5px;
+	background-color: #333333;
+}
+#overDiv table table td {
+	padding: 0px;
+}
+#overDiv table table font {
+	font-family: 'SimSun', Verdana, Arial, Helvetica, sans-serif !important;
+	font-size: 14px;
+	color: #999999;
+}
+#overDiv table table font .over_alias {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*border-bottom: 1px solid #999999;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	display: inline-block;*/
+}
+#overDiv hr {
+	height: 1px;
+	margin: 2px -3px 5px;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+#overDiv cite {
+	color: #76b41c;
+}
+#overDiv img {
+	max-width: 320px;
+	border: 1px solid #999999;
+	margin: 3px 0px;
+}
+#overDiv img.nb {
+	border-color: transparent;
+}
+#overDiv img.left {
+	float: left;
+	margin-right: 4px;
+}
+#overDiv img.right {
+	float: right;
+	margin-left: 4px;
+}
+#overDiv img.avatar {
+	max-width: 320px;
+	border: none;
+	margin: -2px -5px;
+}
+
+
+.over_character {
+	/*color: #9f9f9f;*/
+	/*text-decoration: underline;*/
+	border-color: #76b41c;
+	/*margin-bottom: -1px;*/
+}
+.over_terminology {
+	border-color: #81c7cf;
+}
+.over_object,
+.over_equipment {
+	border-color: #79baec;
+}
+.over_ability {
+	border-color: #e57373;
+}
+.over_location {
+	border-color: #e6a05b;
+}
+.over_other,
+.over_comment {
+	border-color: #aaaaaa;
+	/*border-top-style: solid;
+	border-top-width: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	display: inline-block;*/
+	/*cursor: default;*/
+}
+.over_comment-light,
+.over_comment-light a {
+	color: #666666;
+}
+.over_comment-light a:hover {
+	color: #999999;
+}
+.over_character,
+.over_terminology,
+.over_object,
+.over_equipment,
+.over_ability,
+.over_location,
+.over_other,
+.over_comment {
+	/*color: #aaaaaa;
+	font-weight: bold;*/
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	/*margin-bottom: 1px;
+	display: inline-block;*/
+}
+.over_culture {
+	border-width: 0px !important;
+}
+#overDiv .over_character,
+#overDiv .over_terminology,
+#overDiv .over_object,
+#overDiv .over_equipment,
+#overDiv .over_ability,
+#overDiv .over_location,
+#overDiv .over_other,
+#overDiv .over_comment {
+	background-color: transparent;
+	border-width: 0px;
+	margin: 0px;
+}
+
+.over_alias,
+.over_desc {
+	cursor: help;
+}
+
+.over_replace {
+	/*font-weight: normal !important;
+	border-bottom: 0px !important;
+	margin-bottom: 0px !important;
+	display: inline-block;*/
+	position: relative;
+	cursor: default;
+}
+.over_replace div {
+	width: 100%;
+	height: 0;
+	border-style: solid none none none;
+	border-width: 1px;
+	/*border-top: 1px solid #76b41c;*/
+	margin-top: -0.75em;
+	position: absolute;
+	left: 0;
+}
+.over_replace del {
+	color: #999999;
+	/*text-decoration: line-through;*/
+}
+
+.over_translate {
+	border-bottom-style: dot;
+}
+
+.over_replaceFrom {
+	background-color: #555555;
+	border-style: none none solid none;/*none dashed solid dashed*/
+	border-width: 1px;
+	/*margin: 0px 1px 1px 1px;
+	display: inline-block;*/
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0033" />
+	<chapter start="0039" end="0208" title="序　章　行动开始" />
+	<chapter start="0214" end="0627" title="第一章　学园都市" />
+	<chapter start="0633" end="0736" title="行间一" />
+	<chapter start="0742" end="1653" title="第二章　罗马正教" />
+	<chapter start="1659" end="2352" title="第三章　英国清教" />
+	<chapter start="2358" end="2392" title="行间二" />
+	<chapter start="2397" end="2929" title="第四章　天草式十字凄教" />
+	<chapter start="2935" end="3143" title="终　章　行动结束" />
+	<chapter start="3149" end="3165" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_07_" suffix="_with_mark.jpg">
+		<img insert="0010" filename="000" notfloat="true" />
+		<img insert="0033" filename="001" />
+		<img insert="0033" filename="002a" clear="both" />
+		<img insert="0033" filename="002b" />
+		<img insert="0033" filename="003a" />
+		<img insert="0033" filename="003b" />
+		<img insert="0033" filename="004" />
+		<img insert="0033" filename="005a" />
+		<img alt="插图007" filename="007t" />
+		<img alt="插图017" filename="017t" />
+		<img alt="插图028" filename="028t" />
+		<img alt="插图037" filename="037t" />
+		<img alt="插图049" filename="049t" />
+		<img alt="插图060" filename="060t" />
+		<img alt="插图082" filename="082t" />
+		<img alt="插图125" filename="125" />
+		<img alt="插图143" filename="143t" />
+		<img alt="插图155" filename="155t" />
+	</imgs>
+</volume>

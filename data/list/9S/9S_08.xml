@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0021" />
+	<chapter start="0024" end="0027" title="－－－" />
+	<chapter start="0033" end="0135" title="序　曲" />
+	<chapter start="0141" end="1038" title="第一章　《自由》" />
+	<chapter start="1044" end="2104" title="第二章　嫉妒" />
+	<chapter start="2110" end="2774" title="第三章　目标" />
+	<chapter start="2780" end="4085" title="第四章　2222地点" />
+	<chapter start="4091" end="4256" title="终　曲" />
+	<chapter start="4262" end="4288" title="后　记" />
+	<imgs dir="9S" prefix="9S_08_" suffix="_with_mark.jpg">
+		<img insert="0010" filename="000" notfloat="true" />
+		<img insert="0021" filename="001" />
+		<img insert="0021" filename="002a" />
+		<img insert="0021" filename="002b" />
+		<img insert="0021" filename="003a" />
+		<img alt="插图021" filename="021t" />
+		<img alt="插图044" filename="044t" />
+		<img alt="插图080" filename="080t" />
+		<img alt="插图083" filename="083t" />
+		<img alt="插图096" filename="096t" />
+		<img alt="插图107" filename="107t" />
+		<img alt="插图125" filename="125t" />
+		<img alt="插图154" filename="154t" />
+		<img alt="插图187" filename="187t" />
+	</imgs>
+</volume>

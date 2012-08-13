@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0034" />
+	<chapter start="0039" end="0435" title="１弹　月下的双剑双枪" />
+	<chapter start="0440" end="1355" title="２弹　武侦高中的理子" />
+	<chapter start="1360" end="2037" title="３弹　狼与蕾姬" />
+	<chapter start="2042" end="2560" title="４弹　潜入作战" />
+	<chapter start="2565" end="3679" title="５弹　高度296公尺的弹子戏法" />
+	<chapter start="3684" end="3818" title="最终弹　偷了一个不得了的东西" />
+	<chapter start="3823" end="3881" title="尾声" />
+	<chapter start="3886" end="3930" title="后记" />
+	<imgs dir="Aria_the_Scarlet_Ammo" prefix="Aria_the_Scarlet_Ammo_03_" suffix=".jpg">
+		<img insert="0016" filename="000" notfloat="true" />
+		<img insert="0024" filename="001" />
+		<img insert="0024" filename="002" clear="both" />
+		<img insert="0024" filename="003" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图031" filename="031" />
+		<img alt="插图037" filename="037" />
+		<img alt="插图047" filename="047" />
+		<img alt="插图060" filename="060" />
+		<img alt="插图078" filename="078" />
+		<img alt="插图089" filename="089" />
+		<img alt="插图119" filename="119" />
+		<img alt="插图134" filename="134" />
+		<img alt="插图144" filename="144" />
+		<img alt="插图147" filename="147" />
+	</imgs>
+</volume>

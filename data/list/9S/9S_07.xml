@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0048" />
+	<chapter start="0052" end="0060" title="－－－" />
+	<chapter start="0066" end="0212" title="序　曲" />
+	<chapter start="0218" end="0780" title="第一章　夺回" />
+	<chapter start="0786" end="1464" title="第二章　比生命更可贵的事物" />
+	<chapter start="1470" end="2384" title="第三章　决战前夕" />
+	<chapter start="2390" end="3458" title="第四章　NCT攻防战" />
+	<chapter start="3464" end="3569" title="终　曲" />
+	<chapter start="3575" end="3627" title="后　记" />
+	<imgs dir="9S" prefix="9S_07_" suffix=".jpg">
+		<img alt="彩图002-003" filename="002-003" notfloat="true" />
+		<img alt="彩图004-005" filename="004-005" notfloat="true" />
+		<img alt="彩图006-007" filename="006-007" notfloat="true" />
+		<img insert="0014" filename="000" notfloat="true" />
+		<img insert="0019" filename="001" notfloat="true" />
+		<img insert="0043" filename="008" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图059" filename="059" />
+		<img alt="插图091" filename="091" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图145" filename="145" />
+		<img alt="插图201" filename="201" />
+		<img alt="插图287" filename="287" />
+		<img alt="插图327" filename="327" />
+	</imgs>
+</volume>

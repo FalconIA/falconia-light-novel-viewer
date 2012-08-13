@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0069" />
+	<chapter start="0074" end="0095" title="序　幕" />
+	<chapter start="0100" end="0596" title="第一章　我不会坦白的" />
+	<chapter start="0601" end="1067" title="第二章　海亚的决心" />
+	<chapter start="1072" end="1568" title="第三章　两幅画" />
+	<chapter start="1573" end="1999" title="第四章　战争的序幕" />
+	<chapter start="2004" end="2717" title="第五章　刀锋争" />
+	<chapter start="2722" end="2797" title="终　章" />
+	<chapter start="2802" end="2852" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_07_" suffix="_with_mark.jpg">
+		<img insert="0014" filename="000" notfloat="true" />
+		<img insert="0023" filename="001" />
+		<img insert="0058" filename="002" />
+		<img insert="0058" filename="003a" />
+		<img insert="0058" filename="003b" clear="both" />
+		<img insert="0058" filename="004" />
+		<img alt="插图016" filename="016t" />
+		<img alt="插图028" filename="028t" />
+		<img alt="插图038" filename="038t" />
+		<img alt="插图048" filename="048t" />
+		<img alt="插图059" filename="059t" />
+		<img alt="插图078" filename="078t" />
+		<img alt="插图086" filename="086t" />
+		<img alt="插图101" filename="101t" />
+		<img alt="插图115" filename="115t" />
+		<img alt="插图129" filename="129t" />
+	</imgs>
+</volume>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0013" />
+	<chapter start="0017" end="0585" title="Happy Hot Dash" />
+	<chapter start="0593" end="0624" title="我和那家伙的早晨时光" />
+	<chapter start="0632" end="1210" title="The Impact of childhood 01" />
+	<chapter start="1218" end="1246" title="我和那家伙的午餐时光" />
+	<chapter start="1254" end="1814" title="The Impact of childhood 02" />
+	<chapter start="1822" end="1843" title="我和那家伙的晚餐时光" />
+	<chapter start="1851" end="2383" title="The Impact of childhood 03" />
+	<chapter start="2391" end="2427" title="我和那家伙的夜晚时光" />
+	<chapter start="2435" end="3178" title="HAPPY BIRTHDAY" />
+	<chapter start="3186" end="3196" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_11_" suffix=".jpg">
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0013" filename="001" />
+		<img insert="0013" filename="003" />
+		<img insert="0013" filename="004" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图027" filename="027" />
+		<img alt="插图055" filename="055" />
+		<img alt="插图071" filename="071" />
+		<img alt="插图089" filename="089" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图129" filename="129" />
+		<img alt="插图149" filename="149" />
+		<img alt="插图155" filename="155" />
+		<img alt="插图187" filename="187" />
+		<img alt="插图205" filename="205" />
+		<img alt="插图219" filename="219" />
+		<img alt="插图263" filename="263" />
+	</imgs>
+</volume>

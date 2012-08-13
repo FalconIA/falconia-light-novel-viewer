@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0091" />
+	<chapter start="0097" end="0139" title="序　幕" />
+	<chapter start="0145" end="0419" title="第一章　思念的归宿" />
+	<chapter start="0425" end="1069" title="第二章　那一夜的事" />
+	<chapter start="1075" end="1615" title="第三章　在黑暗中，然后……" />
+	<chapter start="1621" end="2087" title="第四章　蒙住眼睛牵着手" />
+	<chapter start="2093" end="2739" title="第五章　两个战场" />
+	<chapter start="2745" end="2819" title="终　章" />
+	<chapter start="2825" end="2978" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_05_" suffix="_with_mark.jpg">
+		<img insert="0019" filename="000" notfloat="true" />
+		<img insert="0036" filename="004" />
+		<img insert="0036" filename="001" clear="both" />
+		<img insert="0036" filename="002" />
+		<img insert="0036" filename="003a" />
+		<img insert="0036" filename="003b" />
+		<img alt="插图015" filename="015t" />
+		<img alt="插图026" filename="026t" />
+		<img alt="插图034" filename="034t" />
+		<img alt="插图048" filename="048t" />
+		<img alt="插图067" filename="067t" />
+		<img alt="插图081" filename="081t" />
+		<img alt="插图113" filename="113t" />
+		<img alt="插图117" filename="117t" />
+		<img alt="插图127" filename="127t" />
+	</imgs>
+</volume>

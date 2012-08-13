@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0033" />
+	<chapter start="0038" end="0302" title="１弹　武装巫女" />
+	<chapter start="0307" end="0865" title="２弹　空手夺白刃" />
+	<chapter start="0870" end="1775" title="３弹　笼中鸟" />
+	<chapter start="1780" end="2181" title="４弹　人工海滨" />
+	<chapter start="2186" end="3531" title="５弹　钻石冰尘" />
+	<chapter start="3536" end="3769" title="最终弹　是谁放出了那道光？" />
+	<chapter start="3774" end="3858" title="尾声" />
+	<chapter start="3863" end="3898" title="后记" />
+	<imgs dir="Aria_the_Scarlet_Ammo" prefix="Aria_the_Scarlet_Ammo_02_" suffix=".jpg">
+		<img insert="0016" filename="001" notfloat="true" />
+		<img insert="0024" filename="005" />
+		<img insert="0024" filename="002" clear="both" />
+		<img insert="0024" filename="003" />
+		<img insert="0024" filename="004" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图017" filename="017" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图032" filename="032" />
+		<img alt="插图056" filename="056" />
+		<img alt="插图078" filename="078" />
+		<img alt="插图089" filename="089" />
+		<img alt="插图119" filename="119" />
+		<img alt="插图122" filename="122" />
+		<img alt="插图131" filename="131" />
+		<img alt="插图294" filename="294" />
+	</imgs>
+</volume>

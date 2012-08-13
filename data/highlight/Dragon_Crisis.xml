@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Dragon_Crisis" css="">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;" regexp="(http://www\.lightnovel\.cn/bbs/index.php)(?!['/]|&lt;/a&gt;)" alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\1\2&lt;/a&gt;" regexp="(http://)((?:[-\w\d.]+)/?[-_\w\d./]*)(?![-_\w\d./']|&lt;/a&gt;)" />
+		<keyword />
+		<keyword regexp="Dragon[ 　]Crisis[ 　]?～龙之界点～" regcap="true" key="&lt;em&gt;\0&lt;/em&gt;" desc="书名" />
+		<keyword regexp="城崎火也" key="&lt;em&gt;城崎火也&lt;/em&gt;" desc="作者" />
+		<keyword regexp="亚方逸树" key="&lt;em&gt;亜方逸樹&lt;/em&gt;" desc="插画" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="掮客" desc="经纪人。是以独立第三者的立场，媒介他人间商业上的交易，而收取佣金的中间商人。" />
+	</highlight>
+	<highlight type="character" subtype="" src="http://dash.shueisha.co.jp/feature/0811/index.html">
+		<keyword regexp="(如月)?龙司"             thumb="Dragon_Crisis/chara01.gif" key="\0" regcap="true" />
+		<keyword key="萝丝"                       thumb="Dragon_Crisis/chara02.gif" />
+		<keyword regexp="(七尾)?英理子"           thumb="Dragon_Crisis/chara06.gif" key="\0" regcap="true" />
+		<keyword key="七尾" />
+		<keyword regexp="玛格(莉特)?(?!(..)?花)"  thumb="Dragon_Crisis/chara05.gif" key="\0" regcap="true" />
+		<keyword regexp="奥德爱|小爱|牧原爱华"    thumb="Dragon_Crisis/chara04.gif" key="\0" regcap="true" />
+		<keyword regexp="薇安卡(·(A|雅蕾珊卓拉)·鲁)?|雅蕾珊卓拉" thumb="Dragon_Crisis/chara03.gif" key="\0" regcap="true" />
+		<keyword key="欧尼克斯"                   thumb="Dragon_Crisis/chara09.gif" />
+		<keyword key="サフィ"                     thumb="Dragon_Crisis/chara12.gif" />
+		<keyword regexp="乔治(·艾凡斯)?"         thumb="Dragon_Crisis/chara10.gif" key="\0" regcap="true" />
+		<keyword regexp="(江藤)?实咲"             thumb="Dragon_Crisis/chara07.gif" key="\0" regcap="true" />
+		<keyword key="江藤" />
+		<keyword />
+		<keyword key="户仓"                       thumb="Dragon_Crisis/chara11.gif" />
+		<keyword regexp="(相川)?真央"             thumb="Dragon_Crisis/chara08.gif" key="\0" regcap="true" />
+		<keyword />
+	</highlight>
+	<highlight type="character" subtype="chapter01">
+		<keyword key="甲斐" desc="毒牙的女干部，战斗时前线的指挥官。" />
+		<keyword />
+		<keyword key="伊丽娜" />
+		<keyword key="千崎" desc="遗物管理部保安部队。" />
+	</highlight>
+	<highlight type="character" subtype="chapter02">
+		<keyword key="真人" desc="真央的双胞胎哥哥。" />
+		<keyword key="相川" />
+	</highlight>
+	<highlight type="character" subtype="chapter03">
+		<keyword key="穗积" desc="青胡男爵。" />
+		<keyword key="斋木" />
+		<keyword key="古森" desc="斋木，等级九。" />
+	</highlight>
+	<highlight type="character" subtype="chapter04">
+		<keyword regexp="(守口)?香苗" key="\0" regcap="true" />
+		<keyword key="戴雷克"           desc="薇安卡的上司。" />
+		<keyword regexp="(如月)?黎一郎" desc="龙司的父亲。" key="\0" regcap="true" />
+		<keyword regexp="(如月)?羽奈"   desc="龙司的父亲。" key="\0" regcap="true" />
+		<keyword key="如月" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="阿尔巴尼亚" thumb="Location/250px-LocationAlbania.svg.png" />
+		<keyword />
+		<keyword />
+		<keyword />
+		<keyword />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="等级一到三" alias="Lv.1 ~ Lv.3" />
+		<keyword key="等级四到六" alias="Lv.4 ~ Lv.6" />
+		<keyword key="等级零" alias="Lv.0" />
+		<keyword key="等级一" alias="Lv.1" regexp="等级一(?!定)" />
+		<keyword key="等级二" alias="Lv.2" />
+		<keyword key="等级三" alias="Lv.3" />
+		<keyword key="等级四" alias="Lv.4" />
+		<keyword key="等级五" alias="Lv.5" />
+		<keyword key="等级六" alias="Lv.6" />
+		<keyword key="等级七" alias="Lv.7" />
+		<keyword key="等级八" alias="Lv.8" />
+		<keyword key="等级九" alias="Lv.9" />
+		<keyword key="等级十" alias="Lv.10" />
+		<keyword />
+		<keyword key="逸材"   alias="Lv.10" />
+		<keyword />
+		<keyword key="B等级" alias="B Rank" />
+		<keyword key="A等级" alias="A Rank" />
+		<keyword key="S等级" alias="S Rank" />
+	</highlight>
+	<highlight type="terminology" subtype="item">
+		<keyword key="龙息之痕" alias="Slash Breath" desc="短剑型S等级的遗物。" />
+		<keyword />
+		<keyword disable="true" key="ステッキ" />
+		<keyword key="真实之恋" />
+		<keyword />
+		<keyword key="白银神罚" alias="Ice Rage" desc="大剑型S等级的诅咒物。" />
+		<keyword />
+		<keyword key="守护者"   alias="GUARDIAN" desc="A等级的遗物。" />
+		<keyword key="追踪者"   alias="CHASER" desc="敌方的机器人。" />
+		<keyword />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="世界遗物保护协会" alias="Society" />
+		<keyword key="毒牙"             alias="Fang" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="宝藏猎人" />
+		<keyword key="遗物操纵使" alias="Breaker" />
+		<keyword key="遗物"       alias="Lost Precious" />
+		<keyword key="诅咒物"     alias="Cursed Precious" />
+		<keyword key="DRAGON" regexp="Dragon(?![ 　]+Crisis)" />
+	</highlight>
+</highlights>

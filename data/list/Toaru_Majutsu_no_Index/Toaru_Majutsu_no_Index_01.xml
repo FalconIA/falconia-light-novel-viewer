@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0029" />
+	<chapter start="0033" end="0170" title="序　章　关于幻想杀手少年的故事" />
+	<chapter start="0175" end="1265" title="第一章　魔法师降临高塔" />
+	<chapter start="1270" end="2062" title="第二章　奇术师带来终焉" />
+	<chapter start="2067" end="2569" title="第三章　魔道书静静微笑" />
+	<chapter start="2574" end="3090" title="第四章　退魔师选择终局" />
+	<chapter start="3095" end="3275" title="终　章　禁书目录少女的结局" />
+	<chapter start="3280" end="3294" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_01_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0029" filename="002" joinnext="true" />
+		<img insert="0029" filename="003" />
+		<img insert="0029" filename="004" joinnext="true" />
+		<img insert="0029" filename="005" />
+		<img insert="0029" filename="006" joinnext="true" />
+		<img insert="0029" filename="007" />
+		<img insert="0029" filename="008" />
+		<img alt="插图031" filename="031" />
+		<img alt="插图051" filename="051" />
+		<img alt="插图071" filename="071" />
+		<img alt="插图085" filename="085" />
+		<img alt="插图127" filename="127" />
+		<img alt="插图157" filename="157" />
+		<img alt="插图173" filename="173" />
+		<img alt="插图211" filename="211" />
+		<img alt="插图263" filename="263" />
+		<img alt="插图277" filename="277" />
+	</imgs>
+</volume>

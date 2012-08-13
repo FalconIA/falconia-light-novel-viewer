@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Baka_to_Test_to_Syoukanjuu" css="">
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="　　笨蛋,测试,召唤兽\[井上坚二\]\[台\\简\]&lt;br&gt;　　─+&lt;br&gt;　　轻之国度[^&lt;&gt;]+&lt;br&gt;　　未经许可，严禁转载&lt;br&gt;　　扫图：[^&lt;&gt;]+&lt;br&gt;　　录入：[^&lt;&gt;]+&lt;br&gt;　　─+" key="\0" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;" regexp="(http://www\.light-kingdom\.com/?)(?!['/]|&lt;/a&gt;)" alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;" regexp="(http://www\.lightnovel\.cn/bbs/?)(?!['/]|&lt;/a&gt;)" alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="轻之国度[key]&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;[/key]" regexp="轻之国度(www\.light-kingdom\.com)"  alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="[key]&lt;a href='http://\2' target='_blank'&gt;\1\2&lt;/a&gt;[/key]" regexp="(http://)((?:[-\w\d.]+)/?[-_\w\d./]*)(?![-_\w\d./']|&lt;/a&gt;)" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" regexp="笨蛋，测验，召唤兽|笨蛋、测验、召唤兽" key="\0" />
+		<keyword regcap="true" regexp="井上坚二" key="井上堅二" />
+		<keyword regcap="true" regexp="叶贺唯" key="葉賀唯" />
+	</highlight>
+	<highlight type="format" subtype="keyword_big_font">
+		<keyword disable="true" regcap="true" regexp="(&lt;br&gt;)　　(「日本史胜负　　　范围限定考试　　　满分一百分」)&lt;br&gt;　　(「A班 (?:　(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+雾岛翔子(?:　(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+97分」)&lt;br&gt;　　((?:　(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+ＶＳ)&lt;br&gt;　　(「F班 (?:　(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+坂本雄二(?:　(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+53分」)(&lt;br&gt;)" key="\1&lt;style type='text/css'&gt;.keyword_big_font{font-size:20px;line-height:1.5em;}&lt;/style&gt;　　[key]\2[/key]&lt;br&gt;　　[key]\3[/key]&lt;br&gt;　　[key]\4[/key]&lt;br&gt;　　[key]\5[/key]\6" />
+		<keyword regcap="true" regexp="■■([^&lt;&gt;■]+)■■" key="&lt;style type='text/css'&gt;.keyword_big_font{font-size:20px;line-height:1.5em;}&lt;/style&gt;[key]&lt;b&gt;\1&lt;/b&gt;[/key]" />
+	</highlight>
+	<highlight type="format" subtype="keyword_title_block">
+		<keyword regcap="true" regexp="二年F班　吉井明久同学的访谈" key="&lt;style type='text/css'&gt;.keyword_title_block{font-size:24px;font-weight:bold;line-height:1em;color:#444;background-color:#999;display:inline-block;padding:0.5em;}&lt;/style&gt;[key]\0[/key]" />
+	</highlight>
+	<highlight type="format">
+		<keyword regcap="true" regexp="(^(?:&lt;img [^&lt;&gt;]+&gt;)?　　)(?:((?:傻瓜测试|笨蛋测验)(?:&amp;nbsp;|　)+[^&lt;&gt;]+)((?:&lt;br&gt;)+　　))?(问题(?:&amp;nbsp;|　)+[^&lt;&gt;]+)(&lt;br&gt;)" key="\1[key]&lt;b&gt;\2&lt;/b&gt;[/key]\3[key]&lt;b&gt;\4&lt;/b&gt;[/key]\5" />
+		<keyword regcap="true" regexp="(^(?:&lt;img [^&lt;&gt;]+&gt;)?　　)(清凉祭　问卷调查|强化合宿　日记|笨蛋恋爱　心理测试|笨蛋测验　[^&lt;&gt;]+)((?:&lt;br&gt;)+)([^&lt;&gt;『』]+(?:&lt;br&gt;[^&lt;&gt;『』]+)?(?=&lt;br&gt;　　))(&lt;br&gt;　　『|&lt;br&gt;)" key="\1[key]&lt;b&gt;\2&lt;/b&gt;[/key]\3[key]&lt;b&gt;\4&lt;/b&gt;[/key]\5" />
+		<keyword regcap="true" regexp="(&lt;br&gt;(?:&lt;img [^&lt;&gt;]+&gt;)?　　)((?:姬路瑞希|土屋康太|吉井明久|雾岛翔子|坂本雄二|阪本雄二|岛田美波)的(?:答案|回答|日记|总结)|老师的意见|[二三]年级学生　[^&lt;&gt;]+|铁拳老师的建议)(&lt;br&gt;)" key="\1[key]&lt;b&gt;\2&lt;/b&gt;[/key]\3" />
+		<keyword key="「C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;6&lt;/sub&gt;」" regexp="「C6H6」" />
+		<keyword regcap="true" regexp="([^&lt;&gt;　、，。？！：；…—「」『』“”‘’（）]+)（划掉）" key="&lt;del&gt;\1&lt;/del&gt;" />
+		<keyword regcap="true" regexp="(&lt;br&gt;　　)(『(?:[Ａ-Ｆ]班|学年主任|(?:化学|体育)老师)　(?:[^『』](?!&lt;br&gt;))+[^『』])(&lt;br&gt;　　)((?:数学|化学|健康教育|综合科目)　(?:[^『』](?!&lt;br&gt;))+)(』&lt;br&gt;)" key="\1\2\3[key]　[/key]\4\5" />
+		<keyword regcap="true" regexp="■([^&lt;&gt;■]+)■" key="&lt;b&gt;\1&lt;/b&gt;" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注[\d一二三四五六七八九十]*：(?:\1[=＝，]([-_\w\d ]+)[，。])([^）]+)）" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注[\d一二三四五六七八九十]*：(?:「\1」|“\1”|\1[=＝：])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.'-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([ \w\d,.'-]+)（([^、，。？！：；（「『“‘）」』”’…—]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝：]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（(注[\d一二三四五六七八九十]+|译者注|翻译注|译注|自助|录入)：?((?:[^（）]+(?:（[^（）]+）)?)+)）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:(?:EP|译者(?!注)[^：）]*|译插)：|([^（）：]*(?:吐槽|某S(?:插花)?)：))((?:[^（）]+(?:（[^（）]+）)?)+))）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\2\3" />
+	</highlight>
+	<highlight type="uncensore">
+		<keyword regexp="内※裤" key="内裤" />
+	</highlight>
+	<highlight type="escape">
+		<keyword escape="亮"   regexp="漂亮|洪亮|一亮|光亮|响亮|擦亮|明亮|太亮|亮起|发亮|亮晃晃|亮光" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="工藤" regexp="工藤信也|工藤与森川|工藤信二|(B班的|没有胜算的)工藤同学|工藤同学(，需要帮助吗|悔恨地咬紧嘴唇|向老师提出问题)|「工藤。」「在。」" regcap="true" key="\0" />
+		<keyword escape="优子" regexp="小野寺优子" regcap="true" key="\0" />
+		<keyword escape="久保" regexp="「久保。」「在。」" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="根本" regexp="根本(不痛不痒|没办法|讨论不出|没有(?!发言权)|就是|没在听|不可能|没什么|是|连|就来不及)|我根本" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="一心" regexp="一心一意" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="清水" regexp="「清水。」「在。」" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="藤堂" regexp="藤堂的召唤兽|藤堂同学|「藤堂。」(?=「一定要杀了吉井！」)" regcap="true" key="\0" />
+		<keyword escape="西村" regexp="西村雄一郎" regcap="true" key="\0" />
+		<keyword escape="武"   regexp="武器|武藤|武术|武力" regcap="true" key="\0" />
+		<keyword escape="慎"   regexp="慎选|慎重|谨慎" regcap="true" key="\0" />
+		<keyword />
+	</highlight>
+	<highlight type="comment">
+		<keyword />
+	</highlight>
+	<highlight separate="false" type="character" subtype="translate">
+	</highlight>
+	<highlight separate="false" type="character" subtype="replaceFrom">
+		<keyword key="坂本雄二" regexp="阪本雄二" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_04.gif" desc="Replace From: 阪本雄二" />
+		<keyword key="坂本"     regexp="阪本"     tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_04.gif" desc="Replace From: 阪本雄二" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="F_Class">
+		<keyword key="吉井 明久" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_01.gif" _desc="F班。" />
+		<keyword key="小明明"    tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_01.gif" _desc="F班。" />
+		<keyword key="小明"      tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_01.gif" _desc="F班。" />
+		<keyword key="姬路 瑞希" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_02.gif" _desc="F班。" />
+		<keyword key="岛田 美波" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_03.gif" _desc="F班。" />
+		<keyword key="坂本 雄二" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_04.gif" _desc="F班。" />
+		<keyword key="木下 秀吉" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_05.gif" _desc="F班。" />
+		<keyword key="土屋 康太" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_06.gif" _desc="F班。" />
+		<keyword key="闷声色狼"  tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_06.gif" _alias="土屋康太" />
+		<keyword key="须川 亮"   desc="F班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="A_Class">
+		<keyword key="雾岛 翔子" tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_07.gif" _desc="A班。" />
+		<keyword key="坂本翔子"  tmbnb="true" thumb="Baka_to_Test_to_Syoukanjuu/_chara_07.gif" _desc="A班。" alias="雾岛翔子" />
+		<keyword key="工藤 爱子" thumb="Baka_to_Test_to_Syoukanjuu/_chara_a_02.jpg" desc="A班。" />
+		<keyword key="久保 利光" thumb="Baka_to_Test_to_Syoukanjuu/_chara_a_03.jpg" desc="A班。" />
+		<keyword key="木下 优子" desc="A班。" />
+		<keyword key="木下" />
+		<keyword key="佐藤 美穗" desc="A班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="B_Class">
+		<keyword key="根本 恭二" desc="B班。" />
+		<keyword key="岩下 律子" desc="B班。" />
+		<keyword key="菊入 真由美" desc="B班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="C_Class translate">
+		<keyword key="黑崎彻"    desc="C班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="C_Class">
+		<keyword key="小山 友香" thumb="Baka_to_Test_to_Syoukanjuu/_chara_c_01.jpg" desc="C班。" />
+		<keyword key="黑崎 トオル" desc="C班。" />
+		<keyword key="野口 一心" desc="C班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="D_Class">
+		<keyword key="清水 美春" thumb="Baka_to_Test_to_Syoukanjuu/_chara_d_01.jpg" desc="D班。" />
+		<keyword key="平贺 源二" desc="D班。" />
+		<keyword key="玉野 美纪" desc="D班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="E_Class">
+		<keyword key="中林 宏美" desc="E班。" />
+		<keyword key="古河 亚由美" desc="E班。" />
+		<keyword key="三上 美子" desc="E班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="3年生">
+		<keyword key="常村 勇作" desc="3年A班。" />
+		<keyword key="夏川 俊平" desc="3年A班。" />
+		<keyword key="常夏二人组" thumb="Baka_to_Test_to_Syoukanjuu/_chara_g_04.jpg" desc="3年A班。" />
+		<keyword key="小暮 葵"   desc="3年A班。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="学園関係者">
+		<keyword key="藤堂 薰"   thumb="Baka_to_Test_to_Syoukanjuu/_chara_o_01.jpg" desc="文月学園の学園長にして試験召喚システムの開発者。" />
+		<keyword key="西村 宗一" alias="铁人"     thumb="Baka_to_Test_to_Syoukanjuu/_chara_o_02.jpg" desc="生活指导的魔鬼教师。F班试召\n战争失败后担任其班导师。" />
+		<keyword key="铁人"      alias="西村宗一" thumb="Baka_to_Test_to_Syoukanjuu/_chara_o_02.jpg" desc="生活指导的魔鬼教师。F班试召\n战争失败后担任其班导师。" />
+		<keyword key="大岛 武"   desc="保健体育担当の教師。" />
+		<keyword key="福原 慎"   desc="原来二年F班的导师，试召战争失败后换为铁人。" />
+		<keyword key="布施 文博" desc="化学教师。" />
+		<keyword key="船越"      desc="数学教师。" />
+		<keyword key="木内"      desc="数学教师。" />
+		<keyword key="竹中"      desc="古典教师。" />
+		<keyword key="高桥 洋子" thumb="Baka_to_Test_to_Syoukanjuu/_chara_o_09.jpg" desc="学年主任，二年A班的导师。" />
+		<keyword key="远藤"      desc="英语教师。" />
+		<keyword key="竹内"      desc="现代国语教师。" />
+		<keyword key="寺井 伸介" desc="現国教師だがFクラスは教えていない。" />
+		<keyword key="向井"      desc="古典教师。" />
+		<keyword key="竹原"      desc="教务主任。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="生徒の家族">
+		<keyword key="岛田叶月"  thumb="Baka_to_Test_to_Syoukanjuu/_chara_m_01.jpg" desc="美波的妹妹，小学5年生。" />
+		<keyword key="叶月"      thumb="Baka_to_Test_to_Syoukanjuu/_chara_m_01.jpg" desc="美波的妹妹，小学5年生。" />
+		<keyword key="坂本 雪乃" desc="雄二の母親。" />
+		<keyword key="吉井 玲"   desc="吉井家の長女で明久の姉。" />
+		<keyword key="久保良光"  desc="利光の弟。" />
+		<keyword key="瑞希父亲"  desc="本名不明。駅前の人気喫茶店「ラ・ペディス」のマスター。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="その他の登場人物">
+		<keyword key="心中的恶魔" />
+		<keyword key="心中的天使" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="文月学园" />
+		<keyword regexp="([二三]年)?[A-F]班|[二三]—[A-F]|[A-FＡ-Ｆ](班|(?=(?:[、～][A-FＡ-Ｆ])*班))" regcap="true" key="\0" />
+		<keyword />
+		<keyword key="试兽召唤系统" />
+		<keyword key="测验召唤系统" />
+		<keyword key="试验召唤系统" />
+		<keyword key="测验召唤战争" />
+		<keyword key="试验召唤战争" />
+		<keyword key="试召战争" />
+		<keyword />
+		<keyword key="傻瓜测试" />
+		<keyword key="笨蛋测验" />
+		<keyword key="考试" disable="true" />
+		<keyword key="召唤力场" />
+		<keyword key="戦闘システム" />
+		<keyword key="物理干渉能力" />
+		<keyword key="干涉物理" desc="观察处分者和教师的召唤兽拥有干涉物理的能力。" />
+		<keyword key="干涉" desc="不同老师的召唤力场如果过于接近会互相抵消使得召唤兽消失。" />
+		<keyword />
+		<keyword key="观察处分者" desc="给成绩不佳又缺乏学习意愿的学生的处罚。被当作白痴的代名词。\n基本上就是专门替老师打杂的学生。拥有的召唤兽具有特权可以接触物体，可以用来做一些费力的杂事。" />
+		<keyword />
+		<keyword key="ムッツリ商会" desc="康太が学園内で秘密裏に運営している個人商店。" />
+		<keyword key="FFF団" desc="Fクラス内に存在する異端審問会。会長は亮、明久は１級審問官。協賛はムッツリ商会。" />
+		<keyword key="异端分子审判大会" alias="FFF団" />
+		<keyword key="异端分子审问大会" alias="FFF団" />
+		<keyword />
+		<keyword key="现代国语" />
+		<keyword key="古典文学" />
+		<keyword key="数学" />
+		<keyword key="物理" regexp="物理(?!现象)" />
+		<keyword key="化学" />
+		<keyword key="日本史" />
+		<keyword key="世界史" />
+		<keyword key="英文W" />
+		<keyword key="健康教育" />
+		<keyword key="综合科目" />
+		<keyword />
+		<keyword key="清凉祭" />
+		<keyword key="试兽召唤大会" />
+		<keyword key="试验召唤大会" />
+		<keyword key=    "召唤大会" />
+		<keyword key="学力强化集训" />
+		<keyword key=    "强化集训" />
+	</highlight>
+	<highlight type="equipment" subtype="">
+		<keyword key="测验召唤兽" />
+		<keyword key="试验召唤兽" />
+		<keyword key="召唤兽" />
+		<keyword />
+		<keyword key="白金手环" />
+		<keyword key="同時召喚型" />
+		<keyword key="代理召喚型" />
+		<keyword key="手环" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="试兽召唤" alias="Summon" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="如月高地" />
+	</highlight>
+</highlights>

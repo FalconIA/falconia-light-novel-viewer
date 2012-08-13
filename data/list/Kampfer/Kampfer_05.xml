@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0014" />
+	<chapter start="0019" end="1080" title="第一章" />
+	<chapter start="1086" end="2097" title="第二章" />
+	<chapter start="2103" end="2615" title="第三章" />
+	<chapter start="2621" end="2937" title="第四章" />
+	<chapter start="2943" end="2951" title="后　记" />
+	<imgs dir="Kampfer" prefix="Kampfer_05_" suffix=".jpg">
+		<img insert="0011" filename="001" notfloat="true" />
+		<img insert="0014" filename="003" />
+		<img insert="0014" filename="004" />
+		<img insert="0014" filename="005" />
+		<img insert="0014" filename="006" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010" filename="010" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图014" filename="014" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图016" filename="016" />
+	</imgs>
+</volume>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0036" />
+	<chapter start="0041" end="0050" title="宣战布告" />
+	<chapter start="0056" end="0142" title="序　章　火药味刺鼻的天空" />
+	<chapter start="0148" end="0804" title="第一章　善与恶，各自的入境" />
+	<chapter start="0810" end="0843" title="行间一" />
+	<chapter start="0849" end="2027" title="第二章　进攻与反攻的开幕" />
+	<chapter start="2033" end="2054" title="行间二" />
+	<chapter start="2060" end="2973" title="第三章　与疑念的墙壁的对峙" />
+	<chapter start="2979" end="3009" title="行间三" />
+	<chapter start="3015" end="3555" title="第四章　此时正是反击之时" />
+	<chapter start="3561" end="3908" title="战况报告" />
+	<chapter start="3914" end="3930" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_20_" suffix="">
+		<img insert="0011" filename="001.jpg" notfloat="true" />
+		<img insert="0036" filename="002.jpg" />
+		<img insert="0036" filename="003.jpg" />
+		<img insert="0036" filename="004.jpg" />
+		<img insert="0036" filename="005.jpg" />
+		<img insert="0036" filename="006.jpg" />
+		<img alt="插图025" filename="025.png" />
+		<img alt="插图037" filename="037.png" />
+		<img alt="插图081" filename="081.png" />
+		<img alt="插图141" filename="141.png" />
+		<img alt="插图197" filename="197.png" />
+		<img alt="插图312" filename="312.png" />
+		<img alt="插图324" filename="324.png" />
+		<img alt="插图368-369" filename="368-369.png" />
+	</imgs>
+</volume>

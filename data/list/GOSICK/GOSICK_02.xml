@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0039" />
+	<chapter start="0046" end="0071" title="序　幕　我不是罪人" />
+	<chapter start="0077" end="0880" title="第一章　维多利加·德·布洛瓦是灰狼" />
+	<chapter start="0886" end="0904" title="独　白　—monologue1—" />
+	<chapter start="0910" end="1319" title="第二章　帽盒里的松鼠" />
+	<chapter start="1325" end="1353" title="独　白　—monologue2—" />
+	<chapter start="1359" end="2185" title="第三章　柯蒂丽亚的女儿" />
+	<chapter start="2191" end="2219" title="独　白　—monologue3—" />
+	<chapter start="2226" end="2453" title="第四章　红芜菁灯笼与〈冬之男〉" />
+	<chapter start="2459" end="2465" title="独　白　—monologue4—" />
+	<chapter start="2472" end="3293" title="第五章　秘密沉睡在森林里" />
+	<chapter start="3299" end="3440" title="独　白　—monologue5—" />
+	<chapter start="3447" end="4058" title="第六章　金碟" />
+	<chapter start="4064" end="4256" title="尾　声　朋友" />
+	<chapter start="4262" end="4396" title="后　记" />
+	<imgs dir="GOSICK" prefix="GOSICK_02_" suffix=".jpg">
+	</imgs>
+</volume>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0014" />
+	<chapter start="0018" end="0114" title="序　幕" />
+	<chapter start="0120" end="0143" title="INTERLUDE 01" />
+	<chapter start="0149" end="0667" title="COOL IN THE CAFE" />
+	<chapter start="0673" end="0694" title="INTERLUDE 02" />
+	<chapter start="0700" end="1221" title="DIAMOND·PASSION" />
+	<chapter start="1227" end="1249" title="INTERLUDE 03" />
+	<chapter start="1255" end="1794" title="INNOCENCE WORLD" />
+	<chapter start="1800" end="1834" title="尾　声" />
+	<chapter start="1840" end="2813" title="在那平淡的日子里" />
+	<chapter start="2819" end="2871" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_08_" suffix=".jpg">
+		<img insert="0013" filename="000" notfloat="true" />
+		<img insert="0014" filename="001" />
+		<img insert="0014" filename="002" />
+		<img insert="0014" filename="003" />
+		<img insert="0014" filename="004" />
+		<img alt="插图039" filename="039" />
+		<img alt="插图045" filename="045" />
+		<img alt="插图053" filename="053" />
+		<img alt="插图065" filename="065" />
+		<img alt="插图091" filename="091" />
+		<img alt="插图101" filename="101" />
+		<img alt="插图117" filename="117" />
+		<img alt="插图149" filename="149" />
+		<img alt="插图153" filename="153" />
+		<img alt="插图153" filename="153" />
+		<img alt="插图169" filename="169" />
+		<img alt="插图195" filename="195" />
+	</imgs>
+</volume>

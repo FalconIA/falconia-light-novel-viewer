@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0019" />
+	<chapter start="0023" end="0032" title="－－－" />
+	<chapter start="0038" end="0078" title="序　曲" />
+	<chapter start="0084" end="1045" title="第一章　逐渐崩溃的日常" />
+	<chapter start="1051" end="1647" title="第二章　孵化" />
+	<chapter start="1653" end="2587" title="第三章　直线特快号" />
+	<chapter start="2593" end="3293" title="第四章　封印都市" />
+	<chapter start="3299" end="3310" title="终　章" />
+	<chapter start="3316" end="3326" title="后　记" />
+	<imgs dir="9S" prefix="9S_03_" suffix=".jpg">
+		<img insert="0009" filename="000" notfloat="true" />
+		<img insert="0014" filename="001" />
+		<img insert="0014" filename="002-003" clear="both" />
+		<img insert="0014" filename="004-005" />
+		<img insert="0014" filename="006-007" />
+		<img insert="0014" filename="008" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图033" filename="033" />
+		<img alt="插图067" filename="067" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图151" filename="151" />
+		<img alt="插图167" filename="167" />
+		<img alt="插图191" filename="191" />
+		<img alt="插图209" filename="209" />
+		<img alt="插图259" filename="259" />
+		<img alt="插图285" filename="285" />
+	</imgs>
+</volume>

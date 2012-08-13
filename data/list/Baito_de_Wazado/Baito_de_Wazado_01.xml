@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0014" />
+	<chapter start="0020" end="0357" title="第一章　不得安宁的新学期" />
+	<chapter start="0363" end="0715" title="第二章　头昏眼花的放学后" />
+	<chapter start="0721" end="0987" title="第三章　危险紧张的自行停课" />
+	<chapter start="0993" end="1342" title="第四章　立场混乱的午休" />
+	<chapter start="1348" end="1642" title="第五章　迈向破灭的课外活动" />
+	<chapter start="1648" end="2041" title="第六章　死与再生的自习时间" />
+	<chapter start="2047" end="2111" title="后　记" />
+	<imgs dir="Baito_de_Wazado" prefix="Baito_de_Wazado_01_" suffix=".jpg">
+		<img insert="0004" filename="000" notfloat="true" />
+		<img insert="0014" filename="001" />
+		<img insert="0014" filename="002" />
+		<img insert="0014" filename="003" />
+		<img insert="0014" filename="004" />
+		<img alt="插图101" filename="101" />
+		<img alt="插图102" filename="102" />
+		<img alt="插图103" filename="103" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+	</imgs>
+</volume>

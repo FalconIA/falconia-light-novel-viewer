@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0024" />
+	<chapter start="0030" end="0762" title="第一章　东比大附属高中的Sleeping" />
+	<chapter start="0768" end="1456" title="第二章　笼中的少女" />
+	<chapter start="1462" end="2124" title="第三章　学园祭前夕" />
+	<chapter start="2130" end="2802" title="第四章　人生中最棒的一天" />
+	<chapter start="2808" end="2820" title="后　记" />
+	<imgs dir="Venus_to_Mamoru" prefix="Venus_to_Mamoru_02_" suffix=".jpg">
+		<img insert="0010" filename="001" notfloat="true" />
+		<img insert="0024" filename="002" />
+		<img insert="0024" filename="003" />
+		<img insert="0024" filename="004" />
+		<img insert="0024" filename="005" />
+		<img insert="0024" filename="006" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010" filename="010" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图014" filename="014" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图016" filename="016" />
+	</imgs>
+</volume>

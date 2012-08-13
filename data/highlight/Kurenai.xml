@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Kurenai" css="">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment-light">
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>|（?注：)){0,100}.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="柏青哥" alias="弹珠机" desc="是一种具娱乐与博彩成份的机器，在日本很常见，在台湾称之为柏青哥（日语为“Pa-chin-ko”）。弹珠机本为纯机械式操作，但现代的弹珠机加入投币式自动赌博机（slot machine）元素。弹珠机店遍布日本全国各地，受到不少人欢迎；但作为有博彩成份的活动，弹珠机难以避免地与组织犯罪扯上关系。" />
+		<keyword key="凯文科斯纳" alias="Kevin Costner" desc="美国加利福尼亚州Lynwood出生的著名演员及导演，是好莱坞著名自导自演的艺人。" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="风　紫　鹤|环境|环视|环节|鼻环|一环|环绕|环顾|青梅竹马|酸梅|东南亚" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="">
+		<keyword regcap="true" key="\0" regexp="(红)?真九郎"        thumb="Kurenai/character/character01.gif" />
+		<keyword regcap="true" key="\0" regexp="小紫|(九凤院)?紫"   thumb="Kurenai/character/character02.gif" />
+		<keyword regcap="true" key="\0" regexp="(崩月)?夕乃"        thumb="Kurenai/character/character03.gif" />
+		<keyword regcap="true" key="\0" regexp="(村上)?银子"        thumb="Kurenai/character/character05.gif" />
+		<keyword regcap="true" key="\0" regexp="柔泽|红香"          thumb="Kurenai/character/character04.gif" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="五月雨庄">
+		<keyword key="闇绘"                                         thumb="Kurenai/character/character06.gif" />
+		<keyword key="暗绘"                                         thumb="Kurenai/character/character06.gif" />
+		<keyword key="武藤 环"                                      thumb="Kurenai/character/character07.gif" />
+		<keyword regcap="true" key="\0" regexp="环姐|小环" thumb="Kurenai/character/114_w.png" />
+		<keyword key="钢森" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="崩月家">
+		<keyword key="崩月 法泉" />
+		<keyword key="崩月 冥理" />
+		<keyword key="崩月 散鹤"                                    thumb="Kurenai/character/chara05_s.gif" />
+		<keyword key="小鹤"                                         thumb="Kurenai/character/chara05_s.gif" />
+		<keyword key="崩月" desc="里十三家" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="九凤院">
+		<keyword key="九凤院 莲丈"                                  thumb="Kurenai/character/character09.gif" />
+		<keyword key="九凤院 苍树" />
+		<keyword key="九凤院 龙士"                                  thumb="Kurenai/character/character08.gif" />
+		<keyword key="骑场 大作" />
+		<keyword key="林倩心"                                       thumb="Kurenai/character/character11.gif" />
+		<keyword key="志具原 理津" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="恶宇商会">
+		<keyword key="斩岛 切彦"                                    thumb="Kurenai/character/character10.gif" />
+		<keyword key="断头台"         desc="斩岛 切彦" />
+		<keyword key="星啮 绝奈"      desc="孤人要塞" />
+		<keyword key="孤人要塞"       desc="星啮 绝奈" />
+		<keyword key="露西·梅"                                     thumb="Kurenai/character/character12.gif" />
+		<keyword key="丹尼尔·布兰查" desc="铁腕" />
+		<keyword key="铁腕"           desc="丹尼尔·布兰查" />
+		<keyword key="法兰克·布兰卡" desc="大脚" />
+		<keyword key="大脚"           desc="法兰克·布兰卡" />
+		<keyword key="杰基耶夫" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="char_other">
+		<keyword key="犬塚 弥生" thumb="Kurenai/character/chara09_s.gif" />
+		<keyword key="村上 银次" />
+		<keyword key="村上 银正" />
+		<keyword key="山浦 铜太" />
+		<keyword key="东西南" />
+		<keyword key="南" />
+		<keyword key="杉原 麻里子" />
+		<keyword key="田渊薰" />
+		<keyword key="柳川" />
+		<keyword key="濑川 静之" />
+		<keyword key="濑川 早纪" />
+		<keyword key="" />
+		<keyword key="大卫" />
+		<keyword key="戴维" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter02">
+		<keyword key="工藤 绫" />
+	</highlight>
+	<highlight type="character" subtype="replaceFrom">
+		<keyword regcap="true" key="圆堂" regexp="円堂" desc="From: \0&lt;br /&gt;里十三家" />
+	</highlight>
+	<highlight type="character">
+		<keyword key="九凤院" desc="表御三家" />
+		<keyword key="麒麟塚" desc="表御三家" />
+		<keyword key="皇牙宫" desc="表御三家" />
+		<keyword key="" />
+		<keyword key="歪空" desc="里十三家" />
+		<keyword key="堕花" desc="里十三家" />
+		<keyword key="斩岛" desc="里十三家" />
+		<keyword key="圆堂" desc="里十三家" />
+		<keyword key="崩月" desc="里十三家" />
+		<keyword key="虚村" desc="里十三家" />
+		<keyword key="豪我" desc="里十三家" />
+		<keyword key="师水" desc="里十三家" />
+		<keyword key="戒园" desc="里十三家" />
+		<keyword key="御巫" desc="里十三家" />
+		<keyword key="病叶" desc="里十三家" />
+		<keyword key="亚城" desc="里十三家" />
+		<keyword key="星啮" desc="里十三家" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter01">
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="五月雨庄" />
+		<keyword key="枫味亭" />
+		<keyword key="奥之院" />
+		<keyword key="山浦医院" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="表御三家" />
+		<keyword key="里十三家" />
+		<keyword disable="true" key="堕花" />
+		<keyword disable="true" key="円堂" />
+		<keyword disable="true" key="崩月" />
+		<keyword disable="true" key="星啮" />
+		<keyword disable="true" key="歪空" />
+		<keyword disable="true" key="虚村" />
+		<keyword disable="true" key="豪我" />
+		<keyword disable="true" key="师水" />
+		<keyword disable="true" key="戒园" />
+		<keyword disable="true" key="御巫" />
+		<keyword disable="true" key="病叶" />
+		<keyword disable="true" key="亚城" />
+		<keyword key="恶宇商会" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+</highlights>

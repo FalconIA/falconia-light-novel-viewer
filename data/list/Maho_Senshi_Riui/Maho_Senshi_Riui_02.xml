@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0030" />
+	<chapter start="0036" end="0140" title="序　章" />
+	<chapter start="0146" end="0751" title="第Ⅰ章　盛夏的不速之客" />
+	<chapter start="0757" end="1385" title="第Ⅱ章　狂暴的精灵" />
+	<chapter start="1391" end="2072" title="第Ⅲ章　四大魔法师之塔" />
+	<chapter start="2078" end="2196" title="终　章" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_02_" suffix=".jpg">
+	</imgs>
+</volume>

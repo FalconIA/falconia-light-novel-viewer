@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0014" />
+	<chapter start="0019" end="0066" title="序　章　缺陷电力" />
+	<chapter start="0071" end="0514" title="第一章　幻想杀手" />
+	<chapter start="0519" end="1558" title="第二章　缺陷电力" />
+	<chapter start="1563" end="2102" title="第三章　超电磁炮" />
+	<chapter start="2107" end="2993" title="第四章　一方通行" />
+	<chapter start="2998" end="3112" title="终　章　独一无二" />
+	<chapter start="3117" end="3146" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_03_" suffix=".jpg">
+		<img insert="0007" filename="001" notfloat="true" />
+		<img insert="0008" filename="002" />
+		<img insert="0008" filename="003" />
+		<img insert="0008" filename="004" />
+		<img insert="0008" filename="005" />
+		<img insert="0008" filename="006" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010" filename="010" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图014" filename="014" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图016" filename="016" />
+		<img alt="插图017" filename="017" />
+		<img alt="插图018" filename="018" />
+		<img alt="插图019" filename="019" />
+	</imgs>
+</volume>

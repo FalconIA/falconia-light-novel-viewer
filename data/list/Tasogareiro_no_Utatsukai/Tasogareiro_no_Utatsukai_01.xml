@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0029" />
+	<chapter start="0035" end="0295" title="序奏　彩虹与夜色的交会──&lt;br /&gt;　　　远在起始之前──" />
+	<chapter start="0301" end="0849" title="一奏　红色与夜色的练习曲" />
+	<chapter start="0855" end="1365" title="二奏　群众的交响曲" />
+	<chapter start="1371" end="1528" title="间奏　风唤起了枯草色的回忆" />
+	<chapter start="1534" end="2075" title="三奏　开端与约定的歌剧" />
+	<chapter start="2081" end="2981" title="四奏　誓者高歌，世界啊，迎接黄昏" />
+	<chapter start="2987" end="3441" title="终奏　你所盼望的喜悦──&lt;br /&gt;　　　夏娃在黎明时微笑──" />
+	<chapter start="3447" end="3575" title="赠奏　黎明色的咏使" />
+	<chapter start="3582" end="3619" title="后记" />
+	<chapter start="3626" end="3656" title="解说" />
+	<imgs dir="Tasogareiro_no_Utatsukai" prefix="Tasogareiro_no_Utatsukai_01_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0029" filename="001" />
+		<img insert="0029" filename="002" />
+		<img insert="0029" filename="003" />
+		<img insert="0029" filename="004" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图113" filename="113" />
+		<img alt="插图114" filename="114" />
+		<img alt="插图115" filename="115" />
+		<img alt="插图116" filename="116" />
+	</imgs>
+</volume>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0016" />
+	<chapter start="0022" end="0243" title="第一章　冯·泽尔布斯特" />
+	<chapter start="0249" end="0408" title="第二章　女王与公爵" />
+	<chapter start="0414" end="0584" title="第三章　烈风之加琳" />
+	<chapter start="0590" end="1078" title="第四章　拉·瓦利艾尔家族" />
+	<chapter start="1084" end="1297" title="第五章　新学期" />
+	<chapter start="1303" end="1629" title="第六章　个人授课" />
+	<chapter start="1635" end="1774" title="第七章　罗马利亚教皇" />
+	<chapter start="1780" end="2071" title="第八章　尤尔姆冈特" />
+	<chapter start="2077" end="2412" title="第九章　西木之再会" />
+	<chapter start="2418" end="2913" title="第十章　二重奏之心" />
+	<chapter start="2919" end="3002" title="终　章" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_11_" suffix=".jpg">
+		<img insert="0013" filename="000" notfloat="true" />
+		<img insert="0016" filename="001" />
+		<img insert="0016" filename="002" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图113" filename="113" />
+	</imgs>
+</volume>

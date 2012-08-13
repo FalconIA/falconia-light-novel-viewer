@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0020" />
+	<chapter start="0025" end="0048" title="序　章" />
+	<chapter start="0053" end="0375" title="第一章　无意交错的违和" />
+	<chapter start="0380" end="0413" title="行间一" />
+	<chapter start="0418" end="1398" title="第二章　浮云上的钢之战场" />
+	<chapter start="1403" end="1431" title="行间二" />
+	<chapter start="1436" end="2826" title="第三章　英国迷踪里的魔法结社" />
+	<chapter start="2831" end="3569" title="第四章　招来灾厄与战争之剑" />
+	<chapter start="3574" end="3715" title="终　章　各人的思绪与心情" />
+	<chapter start="3720" end="3737" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_17_" suffix=".jpg">
+		<img alt="彩图002" filename="002" notfloat="true" />
+		<img alt="彩图006" filename="006" notfloat="true" />
+		<img alt="彩图007" filename="007" notfloat="true" />
+		<img alt="彩图008" filename="008" notfloat="true" />
+		<img alt="彩图009" filename="009" notfloat="true" />
+		<img alt="插图019" filename="019" />
+		<img alt="插图055" filename="055" />
+		<img alt="插图126" filename="126" />
+		<img alt="插图190-191" filename="190-191" />
+		<img alt="插图225" filename="225" />
+		<img alt="插图253" filename="253" />
+		<img alt="插图345" filename="345" />
+	</imgs>
+</volume>

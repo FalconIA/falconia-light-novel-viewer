@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Ichiban_Ushiro_no_Daimao" css="">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;" regexp="(http://www\.lightnovel\.cn/bbs/?)(?!['/]|&lt;/a&gt;)" alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\1\2&lt;/a&gt;" regexp="(http://)((?:[-\w\d.]+)/?[-_\w\d./]*)(?![-_\w\d./']|&lt;/a&gt;)" />
+		<keyword />
+		<keyword regexp="最后大魔王"  key="&lt;em&gt;最后大魔\e王&lt;/em&gt;" desc="书名" />
+		<keyword regexp="水城正太郎"  key="&lt;em&gt;水城正太郎&lt;/em&gt;"   desc="作者" />
+		<keyword regexp="伊藤宗一"    key="&lt;em&gt;伊藤宗一&lt;/em&gt;"     desc="插画" />
+		<keyword regexp="伊藤(?=老师)" key="&lt;em&gt;伊藤&lt;/em&gt;"        desc="插画" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（译?注：(?:\1[=＝，]([-_\w\d ]+)，([-_\w\d ]+)[，。])((?:[^（）]+(?:（[^（）]+）)?)+)）"      key="[key]\1[/key]\2" alias="\1 (\3, \4)" desc="\5" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（译?注：(?:\1[=＝，]([-_\w\d ]+)[，。])((?:[^（）]+(?:（[^（）]+）)?)+)）"      key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（译?注：(?:「\1」|“\1”|\1[=＝：，])((?:[^（）]+(?:（[^（）]+）)?)+)）"      key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="true"  regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：((?:[^（）]+(?:（[^（）]+）)?)+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.'-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([ \w\d,.'-]+)（([^、，。？！：；（「『“‘）」』”’…—]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝：]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（(译?注|译者注|翻译注|译注|自助|录入)[：，]((?:[^（）]+(?:（[^（）]+）)?)+)）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:(?:EP|译者(?!注)[^：）]*|译插)：|([^（）：]*(?:吐槽|某S(?:插花)?)：))((?:[^（）]+(?:（[^（）]+）)?)+))）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\2\3" />
+	</highlight>
+	<highlight type="escape">
+		<keyword escape="宽" regexp="宽广|宽恕|宽敞|宽度" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="神" regexp="扫图之神|神情|眼神|精神|神态|神经|炯炯有神|神秘|牛鬼蛇神|心领神会|回神|神采|神似|神圣|回过神来|失神|费神|神色|聚精会神" regcap="true" key="\0" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="コンスタン魔術学院">
+		<keyword key="纱伊 阿九斗" _thumb="Ichiban_Ushiro_no_Daimao/chara01.jpg" desc="高中1年A班。" />
+		<keyword key="小阿"        _thumb="Ichiban_Ushiro_no_Daimao/chara01.jpg" desc="高中1年A班。" />
+		<keyword key="曾我 萤娜"   _thumb="Ichiban_Ushiro_no_Daimao/chara02.jpg" desc="高中1年A班。" />
+		<keyword key="服部 绚子"   _thumb="Ichiban_Ushiro_no_Daimao/chara03.jpg" desc="高中1年A班班长。" />
+		<keyword key="可萝奈"      _thumb="Ichiban_Ushiro_no_Daimao/chara04.jpg" desc="阿九斗的监视员。" />
+		<keyword key="三轮 宽"     _thumb="Ichiban_Ushiro_no_Daimao/chara07.jpg" desc="高中1年A班。" />
+		<keyword key="阿宽"        _thumb="Ichiban_Ushiro_no_Daimao/chara07.jpg" desc="高中1年A班。" />
+		<keyword key="江藤 不二子" _thumb="Ichiban_Ushiro_no_Daimao/chara05.jpg" desc="高中3年生。学院女子宿舍宿舍长。" />
+		<keyword key="鸟井 美津子" desc="校医兼高中1年A班导师。" />
+		<keyword key="白石 莉莉"   _thumb="Ichiban_Ushiro_no_Daimao/chara06.jpg" desc="生徒会长。" />
+		<keyword key="大竹 美智惠" desc="生徒会副会长。" />
+		<keyword key="神山 カンナ" desc="生徒会会计。" />
+		<keyword key="アルヌール"  desc="生徒会书记。" />
+		<keyword />
+		<keyword key="木村 健司"   desc="地下排行榜第三名。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="帝国">
+		<keyword key="照屋 荣子" desc="帝国公安委員会の公儀隠密で。" />
+		<keyword key="大和 望一郎" desc="帝国公安委員会に所属する栄子の主。" />
+		<keyword key="加寿子" desc="帝国を統べる女帝。" />
+		<keyword key="2V" desc="CIMO8の一員。" />
+		<keyword key="ミスターX" desc="CIMO8の一員。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="その他">
+		<keyword key="彼得豪森" desc="「魔王の遺物」飞龙" />
+		<keyword key="服部 ゆう子" desc="絢子の妹。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="神">
+		<keyword regexp="柯[·＝]罗神?" regcap="true" key="\0" desc="以慈爱为主要教义的神。" />
+		<keyword regexp="斯哈拉神?" regcap="true" key="\0" desc="视勇猛果敢的行动为美德的神。" />
+		<keyword regexp="玛克德神?" regcap="true" key="\0" />
+		<keyword regexp="姆利特神?" regcap="true" key="\0" desc="国土之神。" />
+		<keyword key="国土之神" alias="姆利特神" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="family_name">
+		<keyword key="服部" desc="スハラ神を信仰する一族である服部家。" />
+		<keyword key="江藤" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="人造人" regexp="人造人(?:（LIRADAN）)?" alias="LIRADAN (リラダン)" />
+		<keyword key="LIRADAN" alias="人造人" />
+		<keyword key="魔王" />
+		<keyword key="天神" />
+		<keyword key="主神" />
+		<keyword key=  "神明" />
+		<keyword key=  "神" />
+		<keyword key="自同律" />
+		<keyword />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="CIMO8" />
+		<keyword />
+		<keyword key="康士坦魔术学院" />
+		<keyword key=      "魔术学院" />
+		<keyword key="康士坦学园" />
+		<keyword key=      "魔法学园" />
+		<keyword />
+		<keyword key="帝国公安委员会" />
+		<keyword key=    "公安委员会" />
+		<keyword key="骑上团" />
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword regexp="(国家|一级)+魔术师" regcap="true" key="\0" />
+		<keyword key="警备魔术师" />
+		<keyword key=  "黑魔术师" />
+		<keyword key=    "魔术师" />
+		<keyword key=    "魔法师" />
+		<keyword key="大祭司" />
+		<keyword key="骑士" regexp="骑士(?!团|专用装备研究所)" />
+		<keyword key="军人" />
+		<keyword key="医生" />
+		<keyword key="外交官" />
+		<keyword key="技师" />
+		<keyword />
+		<keyword key="公仪密探" />
+		<keyword key=    "密探" />
+		<keyword key="公仪" desc="斯哈拉教派中的公务员。" />
+		<keyword key="忍者" desc="斯哈拉信徒所组成的战斗集团。" />
+		<keyword />
+		<keyword key="测量士" desc="以冒险者的身分前往世界各地，将各地状况报告给姆利特神知晓的重要工作。" />
+		<keyword />
+		<keyword key="监察员" />
+		<keyword />
+		<keyword key="清扫委员" />
+		<keyword key="风纪委员长" />
+		<keyword key="风纪委员" regexp="风纪委员(?!室)" />
+		<keyword key="宿舍长" />
+		<keyword key="学生会长" />
+		<keyword key="副会长" />
+		<keyword key="书记" />
+		<keyword key="会计" />
+	</highlight>
+	<highlight type="equipment" subtype="">
+		<keyword key="人工精灵" />
+		<keyword key="八咫鸟" />
+		<keyword />
+		<keyword key="魔法道具" />
+		<keyword key="魔法药剂" />
+		<keyword key="魔法药" />
+		<keyword key="魔法杖" />
+		<keyword key="冲击警棍" />
+		<keyword key="电磁警棍" />
+		<keyword key=    "警棍" />
+		<keyword key="药物散布机" />
+		<keyword key="飞翔器具" />
+		<keyword key="咏唱枪" />
+		<keyword key="咏唱左轮手枪" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="禁咒" />
+		<keyword />
+		<keyword key="能源波" />
+		<keyword key="死灵术" />
+		<keyword key="幻觉" />
+		<keyword key="治疗" />
+		<keyword key="念动" />
+		<keyword key="爆发" regexp="爆发(?=』|系)" />
+		<keyword key="心灵" regexp="心灵(?=』)" />
+		<keyword key="操具" />
+		<keyword key="宗教" regexp="宗教(?=』)" />
+		<keyword key="变化" regexp="变化(?=』)" />
+		<keyword />
+		<keyword key="魔术系统" />
+		<keyword key="魔法弹" />
+		<keyword key="魔法阵" />
+		<keyword />
+		<keyword key="隐身魔法" />
+		<keyword key="飞翔魔法" />
+		<keyword key="隔音魔法" />
+		<keyword />
+		<keyword key="玛那力场" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="帝都中央车站大楼" />
+		<keyword key="帝都中央发电设施" />
+		<keyword key="帝都中央发电所" />
+		<keyword key="帝都" />
+		<keyword />
+		<keyword key="主校舍" />
+		<keyword key="旧校舍" />
+		<keyword key=  "校舍" />
+		<keyword key="保健室" />
+		<keyword key="学生会办公室" />
+		<keyword key="风纪委员室" />
+		<keyword key="精神修养房" />
+		<keyword />
+		<keyword key="学生宿舍" />
+		<keyword key="男生宿舍" />
+		<keyword key="女生宿舍" />
+		<keyword key=    "宿舍" />
+		<keyword />
+		<keyword key="地下迷宫" />
+		<keyword key="旧作战室" />
+		<keyword key="旧兵营" />
+		<keyword />
+		<keyword key="纪念馆" />
+		<keyword key="纳骨堂" />
+		<keyword key="骑士团研究所" />
+		<keyword key="骑士专用装备研究所" />
+		<keyword key="骑士团专用装备研究所" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="玛那" alias="Mana (マナ)" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="黑魔术" />
+		<keyword key=  "魔术" />
+		<keyword key=  "魔法" />
+	</highlight>
+</highlights>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0025" />
+	<chapter start="0031" end="0173" title="第六章　生还" />
+	<chapter start="0179" end="0480" title="第七章　犹豫" />
+	<chapter start="0486" end="0655" title="第八章　最后的决断" />
+	<chapter start="0661" end="1079" title="第九章　地狱深处" />
+	<chapter start="1085" end="1186" title="终　曲" />
+	<chapter start="1191" end="1864" title="特别收录" />
+	<chapter start="1868" end="2012" title="卷末特别企划" />
+	<chapter start="2017" end="2178" title="卷末特别企划2" />
+	<imgs dir="Kurenai" prefix="Kurenai_04_" suffix="_with_mark.jpg">
+	</imgs>
+</volume>

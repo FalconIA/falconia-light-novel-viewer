@@ -1,0 +1,34 @@
+<volume>
+	<chapter start="0001" end="0017" />
+	<chapter start="0020" end="0085" title="序　章　过暗的圣堂" />
+	<chapter start="0090" end="0522" title="第一章　瞬息万变的速度" />
+	<chapter start="0527" end="0640" title="行间一" />
+	<chapter start="0645" end="1094" title="第二章　决定的导火线" />
+	<chapter start="1099" end="1139" title="行间二" />
+	<chapter start="1144" end="2365" title="第三章　离魔法师太遥远之物" />
+	<chapter start="2370" end="2387" title="行间三" />
+	<chapter start="2392" end="3107" title="第四章　覆盖天空的钢铁群" />
+	<chapter start="3112" end="3356" title="终　章　答案连接下一个谜" />
+	<chapter start="3361" end="3380" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_14_" suffix=".jpg">
+		<img insert="0016" filename="000" notfloat="true" />
+		<img insert="0017" filename="001" />
+		<img insert="0017" filename="002a" clear="both" />
+		<img insert="0017" filename="002b" />
+		<img insert="0017" filename="002c" />
+		<img insert="0017" filename="003" />
+		<img insert="0017" filename="004a" />
+		<img insert="0017" filename="004b" />
+		<img insert="0017" filename="005" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010" filename="010" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图014" filename="014" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图016" filename="016" />
+	</imgs>
+</volume>

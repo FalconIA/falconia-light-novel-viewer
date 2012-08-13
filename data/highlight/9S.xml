@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="9S" css="">
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="　　(?:=(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+&lt;br&gt;(　　(?:扫图：|录入：|轻之国度|未经许可|译者：|转载)[^&lt;&gt;]+&lt;br&gt;)+　　(?:=(?:&lt;span [^&lt;&gt;]+&gt;&lt;/span&gt;)?)+" key="\0" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;" regexp="(http://www\.light-kingdom\.com/?)(?!['/]|&lt;/a&gt;)" alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;" regexp="(http://www\.lightnovel\.cn/bbs/?)(?!['/]|&lt;/a&gt;)" alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="轻之国度[key]&lt;a href='http://www.lightnovel.cn/' target='_blank'&gt;\1&lt;/a&gt;[/key]" regexp="轻之国度(www\.light-kingdom\.com|www\.lightnovel\.cn/bbs)"  alias="Redirect to: http://www.lightnovel.cn/" />
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\1\2&lt;/a&gt;" regexp="(http://)((?:[-\w\d.]+)/?[-_\w\d./]*)(?![-_\w\d./']|&lt;/a&gt;)" />
+	</highlight>
+	<highlight>
+		<keyword regexp="９Ｓ"         key="&lt;em&gt;９Ｓ&lt;/em&gt;"       desc="书名" />
+		<keyword regexp="9S(?!/|_)"    key="&lt;em&gt;9S&lt;/em&gt;"         desc="书名" />
+		<keyword regexp="nine S"       key="&lt;em&gt;nine S&lt;/em&gt;"     desc="书名" />
+		<keyword regexp="叶山透"       key="&lt;em&gt;葉山透&lt;/em&gt;"     desc="作者" />
+		<keyword regexp="叶山　透"     key="&lt;em&gt;葉山　透&lt;/em&gt;"   desc="作者" />
+		<keyword regexp="叶山 透"      key="&lt;em&gt;葉山 透&lt;/em&gt;"    desc="作者" />
+		<keyword regexp="叶山"         key="&lt;em&gt;葉山&lt;/em&gt;"       desc="作者" />
+		<keyword regexp="山本ヤマト"   key="&lt;em&gt;山本ヤマト&lt;/em&gt;" desc="插画" />
+		<keyword regexp="山本(?=老师)" key="&lt;em&gt;山本&lt;/em&gt;"       desc="插画" />
+		<keyword regexp="增田メグミ"   key="&lt;em&gt;増田メグミ&lt;/em&gt;" desc="插画" />
+		<keyword regexp="增田(?=老师)" key="&lt;em&gt;増田&lt;/em&gt;"       desc="插画" />
+		<keyword regexp="邱锺仁"       key="&lt;em&gt;邱鍾仁&lt;/em&gt;"     desc="译者" />
+	</highlight>
+	<highlight type="format" subtype="keyword_type_err replaceFrom">
+		<keyword regcap="true" regexp="┠([^┠╂┨]*)╂([^┠╂┨]*)┨" key="&lt;style type='text/css'&gt;.keyword_type_err{border-bottom-style:dashed;}&lt;/style&gt;[key]&lt;var&gt;\1&lt;/var&gt;[/key]" desc="\2" />
+		<keyword regcap="true" regexp="┠([^┠╂┨]*)┨"               key="&lt;style type='text/css'&gt;.keyword_type_err{border-bottom-style:dashed;}&lt;/style&gt;[key]&lt;var&gt;\1&lt;/var&gt;[/key]" />
+	</highlight>
+	<highlight type="format" subtype="keyword_big_font">
+		<keyword regcap="true" regexp="■■([^&lt;&gt;■]+)■■" key="&lt;style type='text/css'&gt;.keyword_big_font{font-size:20px;line-height:1.5em;}&lt;/style&gt;[key]&lt;b&gt;\1&lt;/b&gt;[/key]" />
+	</highlight>
+	<highlight type="format">
+		<keyword regcap="true" regexp="■([^&lt;&gt;■]+)■" key="&lt;b&gt;\1&lt;/b&gt;" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:\1[=＝，]([-_\w\d ]+)，([-_\w\d ]+)[，。])((?:[^（）]+(?:（[^（）]+）)?)+[^。])）" key="[key]\1[/key]\2" alias="\1 (\3, \4)" desc="\5。" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:\1[=＝，]([-_\w\d ]+)，([-_\w\d ]+)[，。])((?:[^（）]+(?:（[^（）]+）)?)+)）"      key="[key]\1[/key]\2" alias="\1 (\3, \4)" desc="\5" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:\1[=＝，]([-_\w\d ]+)[，。])((?:[^（）]+(?:（[^（）]+）)?)+[^。])）" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4。" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:\1[=＝，]([-_\w\d ]+)[，。])((?:[^（）]+(?:（[^（）]+）)?)+)）"      key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:「\1」|“\1”|\1[=＝：，])((?:[^（）]+(?:（[^（）]+）)?)+[^。])）" key="[key]\1[/key]\2" alias="\1" desc="\3。" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注\d*：(?:「\1」|“\1”|\1[=＝：，])((?:[^（）]+(?:（[^（）]+）)?)+)）"      key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="true"  regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：((?:[^（）]+(?:（[^（）]+）)?)+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.'-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([ \w\d,.'-]+)（([^、，。？！：；（「『“‘）」』”’…—]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝：]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（(注\d*|译者注|翻译注|译注|自助|录入)[：，]((?:[^（）]+(?:（[^（）]+）)?)+[^。])）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2。" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（(注\d*|译者注|翻译注|译注|自助|录入)[：，]((?:[^（）]+(?:（[^（）]+）)?)+)）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:(?:EP|译者(?!注)[^：）]*|译插)：|([^（）：]*(?:吐槽|某S(?:插花)?)：))((?:[^（）]+(?:（[^（）]+）)?)+))）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\2\3" />
+	</highlight>
+	<highlight type="uncensore">
+	</highlight>
+	<highlight type="escape">
+		<keyword escape="一" regexp="一个|一副" regcap="true" key="\0" />
+		<keyword escape="诚" regexp="诚恳|诚挚|诚意|虔诚|诚惶诚恐" regcap="true" key="\0" />
+		<keyword escape="环" regexp="循环|环境|环视|环顾|环绕|一环|环抱|环海|环节|手环|耳环" regcap="true" key="\0" />
+		<keyword escape="晶" regexp="结晶|亮晶晶|晶片|液晶|水晶" regcap="true" key="\0" />
+		<keyword escape="萌" regexp="萌芽|萌生" regcap="true" key="\0" />
+		<keyword escape="孝" regexp="孝子" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="怜" regexp="怜爱|怜悯|自怜|可怜|怜香" regcap="true" key="\0" />
+		<keyword escape="扇" regexp="一扇|几扇|风扇|这扇|扇着|扇门|那扇" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="谦" regexp="谦虚|谦信" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="笠原" regexp="小笠原海峡" regcap="true" key="\0" />
+		<keyword />
+		<keyword escape="真目" regexp="目瞪口呆" regcap="true" key="\0" />
+		<keyword />
+		<keyword />
+		<keyword escape="二号机" regexp="(这里是)二号机" regcap="true" key="\1二&lt;!----&gt;号机" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="奇檬子" alias="気持ち(kimochi)" desc="情绪，情感" />
+		<keyword key="阿奇里斯腱" desc="阿基里斯是荷马史诗中的英雄。据说他出生后，母亲为了使他能刀枪不入，便把他浸入冥河水里，但他被母亲捏住的脚踵未能浸到冥河水，成了他的致命弱点。后来他被帕里斯射中脚踵而死，死后住在冥间，统治亡灵。\n形容一个比较美好或圆满的事务中，一个不大却很危险的漏洞。" />
+		<keyword key="其来有自" desc="指事情的发生、发展有其来由，并非偶然。" />
+		<keyword key="严苛" desc="严厉苛刻。" />
+		<keyword />
+		<keyword key="宇宙尘" alias="Cosmic Dust" desc="由众多细小粒子组成的一种固态尘埃，自宇宙大爆炸起，便四散在浩翰宇宙之中。宇宙尘的组成包含硅酸盐、碳等元素以及水分，部分来自彗星、小行星等星体的崩解而产生。直径在0.01微米到10微米之间。" />
+		<keyword key="蕈" desc="一种食用真菌，尤指蘑菇。" />
+		<keyword />
+		<keyword key="Stradivarius" thumb="Comment/100px-Stradivarius_violin_front.jpg" tmbft="left" desc="A Stradivarius is a violin or other stringed instrument built by a member of the Stradivari family, particularly Antonio Stradivari. According to their reputation, the quality of their sound has defied attempts to explain or reproduce, though this belief is controversial. The name &quot;Stradivarius&quot; has also become a superlative applied to designate excellence. To be called &quot;the Stradivari&quot; of any field is to be deemed the finest there is." />
+		<keyword key="Giuseppe del Gesu" thumb="Comment/100px-Cannone_font.jpg" tmbft="left" desc="Violins built by a member of Bartolomeo Giuseppe Antonio Guarneri del Gesù (21 August 1698 – 17 October 1744) who was an Italian luthier from the Guarneri house of Cremona." />
+		<keyword />
+		<keyword key="杜拉铝" regexp="杜拉铝(?:（Duralumin）)?" alias="Duralumin" desc="杜拉铝（硬铝）是最早的硬化铝合金，主要合金元素有铜、锰及镁 现在常用的合金类型是AA2024，其中有（重量百分比）4.4%铜、1.5%镁、0.6%锰。典型降伏强度450Mpa，降伏强度的差异主要取决于温度。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="translate">
+	</highlight>
+	<highlight separate="false" type="character" subtype="replaceFrom">
+	</highlight>
+	<highlight separate="true"  type="character" subtype="メインキャラクター ">
+		<keyword key="坂上 斗真" />
+		<keyword key="峰岛 由宇" />
+		<keyword key="真目 麻耶" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="ADEM">
+		<keyword key="伊达 真治" desc="ADEM的总司令。" />
+		<keyword key="岸田 群平" desc="NCT研究所的最高负责人。把她当成自己的女儿。" desc_jpn="NCT研究所の最高責任者で、由宇をほとんど娘のように思っているようである、由宇の良き理解者。" />
+		<keyword key="八代一"    desc="伊达的秘书官。" />
+		<keyword key="八代"      desc="伊达的秘书官。" />
+		<keyword key="小八"      desc="伊达的秘书官。" />
+		<keyword key="荻原 诚"   desc="斗真学校的转学生。八代的直属部下。" />
+		<keyword key="莲杖 直人" desc="海外研修的先进LC部队成员。" />
+		<keyword key="环 晶"     desc="海外研修的先进LC部队成员。" />
+		<keyword key="小环"      desc="海外研修的先进LC部队成员。" />
+		<keyword key="小晶"      desc="海外研修的先进LC部队成员。" />
+		<keyword key="越塚 清志郎" desc="海外研修的先进LC部队成员。" />
+		<keyword key="吉见 萌"   desc="海外研修的先进LC部队成员。" />
+		<keyword key="小萌"      desc="海外研修的先进LC部队成员。" />
+		<keyword key="朝仓 小夜子" desc="开发Leptoneta的技术人员，擅长电脑操作。双目失明。" />
+		<keyword key="木梨 孝"   desc="LAFI二号机的开发管理主任。" />
+		<keyword key="星野义"    desc="自卫队队员。" />
+		<keyword key="星野"      desc="自卫队队员。" />
+		<keyword key="久野木"    desc="LC部队，球体实验室夺还作战队长。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="ミネルヴァ">
+		<keyword key="史薇拉娜·可丽儿·博金斯卡娅" desc="第一个峰岛勇次郎遗产的受害者。密诺娃的创始人。可丽儿的母亲。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="真目家・八陣家">
+		<keyword key="怜"        desc="真目麻耶的贴身侍卫。" />
+		<keyword key="真目 不坐" desc="真目家现任家主。" />
+		<keyword key="可丽儿"    desc="真目蛟的女儿。" />
+		<keyword key="真目 胜司" desc="真目家长子。" />
+		<keyword key="六道 才火" desc="勝司の守り目。" />
+		<keyword key="六道 舞风" desc="七原罪的成员。" />
+		<keyword key="野地"      desc="六道舞风，别西卜，七原罪的成员。" />
+		<keyword key="六道 扇"   desc="八陣家の中でも異能の家系である六道家がまだ没落する前、そのときの真目家の当主から力を恐れられたほどの人物。" />
+		<keyword key="真目 北斗" desc="真目家次子。" />
+		<keyword key="真目 蛟"   desc="鸣神尊的前任继承者。" />
+		<keyword key="坂上美纱子" desc="斗真的母亲。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="蜃気楼">
+		<keyword key="风间 辽"   desc="海市蜃楼的领袖。" />
+		<keyword key="宫根 琉璃子" desc="海市蜃楼的成员、遗产抢夺时混入组织中做为内应。" />
+		<keyword key="光城 时贞" desc="海市蜃楼的成员。瑠璃子的原恋人。" />
+		<keyword key="亚门"      desc="海市蜃楼的成员。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="ミネルヴァ">
+		<keyword key="Goldy"    desc="密诺娃成员，代号G。" />
+		<keyword _k_="J"        desc="密诺娃成员，代号J。" regexp="([^\w\d])J(?!\w|\d)" regcap="true" key="\1[key]J[/key]" />
+		<keyword key="Cuculus"  desc="密诺娃成员，代号C。" />
+		<keyword key="Magician" desc="密诺娃成员，代号M的老人。" />
+		<keyword key="Bigfoot"  desc="密诺娃成员，代号B。" />
+		<keyword key="Speed"    desc="密诺娃成员，代号S。" />
+		<keyword key="Puppet"   desc="密诺娃成员，代号P。" />
+		<keyword key="Reverse"  desc="密诺娃成员。" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="ミネルヴァ">
+		<keyword key="Double Ace" alias="艾莉西亚·新井" desc="密诺娃成员。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="海星">
+		<keyword key="黑川 谦" desc="海星的首领。" />
+		<keyword key="福田"    desc="海星的成员。黑川的部下。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="七つの大罪">
+		<keyword key="路西华"   alias="Lucifer"   desc="七原罪的首领，年龄超过一百岁的稳重老人。" />
+		<keyword key="利未安森" alias="Leviathan" desc="七原罪的成员。" />
+		<keyword key="利未安"   alias="Leviathan" desc="七原罪的成员。" />
+		<keyword key="别西卜"   alias="Beelzebub" desc="七原罪的成员。" />
+		<keyword key="撒旦"     alias="Satan"     desc="七原罪的成员。" />
+		<keyword key="阿斯莫德" alias="Asmodeus"  desc="七原罪的成员。" />
+		<keyword key="贝芬格"   alias="Belphegor" desc="七原罪的成员。" />
+		<keyword key="玛门"     alias="Mammon"    desc="七原罪的成员。" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="峰岛遗产管理局" alias="ADEM (The Administrative Division of the Estate of Mineshima)" />
+		<keyword key="反峰岛勇次郎遗产犯罪部队" alias="Legacy Counter部队(LC部队)" />
+		<keyword />
+		<keyword key="伊瓦诺夫研究所" />
+	</highlight>
+	<highlight type="equipment" subtype="">
+		<keyword key="峰岛勇次郎遗产" alias="EM (Estate of Mineshima)" desc="峰岛勇次郎发明的超时代科技。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="その他の人物">
+		<keyword key="峰岛 勇次郎" desc="存在诸多谜团的疯狂科学家。" />
+		<keyword key="峰岛勇"    desc="峰岛勇次郎的原名。" />
+		<keyword />
+		<keyword key="横田 健一" desc="球体实验室的技术主任。" />
+		<keyword key="横田 镜花" desc="横田健一的女儿。4岁。" />
+		<keyword key="横田 和惠" desc="横田健一的妻子。" />
+		<keyword key="横田" />
+		<keyword />
+		<keyword key="笠原实"    desc="无人多脚型战车「Leptoneta」的开发主任。" />
+		<keyword key="笠原"      desc="无人多脚型战车「Leptoneta」的开发主任。" />
+		<keyword key="Leo"       desc="无人多脚型战车「Leptoneta」的开发主任。" regexp="Leo(?!\w)" alias="笠原实" />
+		<keyword key="杵岛"      desc="防卫厅副长官。" />
+		<keyword key="志村 圭吾" desc="自卫队队员。" />
+		<keyword key="佐伯 弘明" desc="ADEM查察成员。" />
+		<keyword />
+		<keyword key="变异体"    desc="元は木梨孝だったもの、正式な呼び名は不明。" />
+		<keyword key="长谷川 京一" desc="斗真的同学。" />
+		<keyword />
+		<keyword key="艾莉西亚·新井"             desc="盗まれた遺産フリーダムに関する調査を目的に日本に送られたDIAのエージェントでアメリカ人。" />
+		<keyword key="艾莉" regexp="艾莉(?!西亚)" desc="盗まれた遺産フリーダムに関する調査を目的に日本に送られたDIAのエージェントでアメリカ人。" />
+		<keyword />
+		<keyword key="道恩·海莫斯" desc="美国国防情报局局长。" />
+		<keyword />
+		<keyword key="叶甫根尼·乌曼诺夫" desc="契格耶夫卡第二空军基地士兵。" />
+		<keyword key="雷嘉德" desc="美国第四舰队舰长。" />
+		<keyword />
+		<keyword key="索尔盖·伊瓦诺夫" desc="冷战时代被誉为苏联疯狂头脑的天才科学家。" />
+		<keyword key=  "伊凡·伊瓦诺夫" desc="索尔盖·伊瓦诺夫的接班人。" />
+		<keyword key=        "伊瓦诺夫" desc="联疯科学家。" />
+		<keyword key="玛格莉特" desc="伊凡·伊瓦诺夫的助手。" />
+		<keyword key="亚历山大·罗曼克夫" desc="俄罗斯的驻外武官。" />
+		<keyword key="果戈理" desc="西伯利亚军管区的司令官。ADEM留俄期间的负责人。" />
+	</highlight>
+	<highlight separate="true"  type="character" subtype="family_name">
+		<keyword key="真目家" />
+		<keyword key="真目" />
+		<keyword key="八阵家" />
+		<keyword key="六道家" desc="八阵家之一。" />
+		<keyword key="六道" />
+		<keyword key="四四家" desc="八阵家之一。" />
+		<keyword />
+		<keyword key="峰岛家" />
+		<keyword key="峰岛" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="ADEM" alias="The Administrative Division of the Estate of Mineshima (峰岛遗产管理局)" />
+		<keyword key="The Administrative Division of the Estate of Mineshima" alias="ADEM (峰岛遗产管理局)" />
+		<keyword key="NCT研究所" alias="Non-Cognizable Technology Laboratory" />
+		<keyword key="NCT"       alias="Non-Cognizable Technology (不明科技)" />
+		<keyword key="Non-Cognizable Technology"       alias="NCT (不明科技)" />
+		<keyword key="第二京都条约" desc="国連で定められた峰島勇次郎の遺産の運用における規制。" />
+		<keyword key="脑中黑子" desc="知覚の外。大脳の深部にある未使用領域。峰島勇次郎のライフワーク。" />
+		<keyword key="八十八元素" desc="LAFIサードの中で生まれた88の意識体。" />
+		<keyword key="Ｍ〇二〇八文书" desc="五年前所发现的大批峰岛勇次郎研究文件，被无知的发现者丢上了网路。" />
+		<keyword />
+		<keyword key="反遗产犯罪" alias="Legacy Counter" regexp="反遗产犯罪(?!部队)"     />
+		<keyword key="Legacy Counter" alias="反遗产犯罪" regexp="Legacy Counter(?!部队)" />
+		<keyword />
+		<keyword key="祸神之血" desc="真目家男性子孙身上的血统，\n拥有斩人的杀戮冲动的人格。" />
+		<keyword key="祸神血统" desc="真目家男性子孙身上的血统，\n拥有斩人的杀戮冲动的人格。" />
+		<keyword />
+		<keyword />
+		<keyword key="反遗产犯罪部队" alias="Legacy Counter部队 (LC部队)" />
+		<keyword key="Legacy Counter部队" alias="反遗产犯罪部队" />
+		<keyword key="先进LC部队" alias="Legacy Counter部队 (反遗产犯罪部队)" />
+		<keyword key=    "LC部队" alias="Legacy Counter部队 (反遗产犯罪部队)" />
+		<keyword key=    "LC"     alias="Legacy Counter部队 (反遗产犯罪部队)" />
+		<keyword />
+		<keyword key="海市蜃楼" regexp="海市蜃楼(?:（MIRAGE）)?" alias="MIRAGE (ミラージュ)" desc="遗产抢夺集团。主要目的是抢夺峰岛勇次郎的遗产，经由非法途径加以变卖。" />
+		<keyword key="密诺娃" alias="Minerva (ミネルヴァ)" desc="抢夺并非法贩卖峰岛勇次郎遗产的EM犯罪组织，传闻资金来源与美国政府有关。" />
+		<keyword key="七原罪" desc="在中东地区令人闻风色变的佣兵部队。" />
+		<keyword key="海星" desc="" />
+		<keyword key="沙皇研究局" />
+		<keyword key="迅雷队" desc="GRU的特殊部队。" />
+		<keyword />
+		<keyword key="DIA" alias="Defense Intelligence Agency (美国国防情报局)" />
+		<keyword key="FBI" alias="Federal Bureau of Investigation (联邦调查局)" desc="美国联邦调查局，是美国司法部的主要调查机关。" />
+		<keyword key="俄罗斯联邦武装部队总参谋部情报总局" alias="GRU \n(Glavnoye Razvedyvatel'noye Upravleniye)" desc="Main Intelligence Directorate of the General Staff of the Armed Forces of the Russian Federation." />
+		<keyword key="GRU" alias="Glavnoye Razvedyvatel'noye Upravleniye \n(情报总局)" desc="GRU is the foreign military intelligence directorate of the General Staff of the Armed Forces of the Russian Federation. Its meaning is Main Intelligence Directorate." />
+		<keyword key="俄罗斯联邦保安厅" regexp="俄罗斯联邦保安厅(?:（KGB）)" alias="KGB"                                     desc="冷战时代的苏联的情报机构。" />
+		<keyword key="KGB" alias="Комитет Государственной Безопасности \n(国家安全委员会)" desc="冷战时代的苏联的情报机构。" />
+		<keyword key="俄罗斯联邦安全总局" alias="FSB (Federal Security Service)" desc="俄罗斯联邦安全局是俄罗斯负责国内事务的当地情报机构，为苏联时期契卡 (Cheka)、秘密警察、KGB的继承组织，目前总部位于莫斯科卢比杨卡广场。" />
+		<keyword key="FSB" alias="Federal Security Service (俄罗斯联邦安全局)"   desc="俄罗斯联邦安全局是俄罗斯负责国内事务的当地情报机构，为苏联时期契卡 (Cheka)、秘密警察、KGB的继承组织，目前总部位于莫斯科卢比杨卡广场。" />
+		<keyword />
+		<keyword key="霹雳小组" alias="SWAT (Special Weapons And Tactics)" desc="美国警察中的特种部队，专门训练作执行危险任务。当中包括执行高度危险性拘捕令、营救人质及／或军事介入、阻止恐怖份子攻击以及从事重型武装危机。" />
+		<keyword key="SWAT"     alias="Special Weapons And Tactics"        desc="美国警察中的特种部队，专门训练作执行危险任务。当中包括执行高度危险性拘捕令、营救人质及／或军事介入、阻止恐怖份子攻击以及从事重型武装危机。" />
+		<keyword regexp="(美国海豹部队)(?:（SEALS）)?" regcap="true" key="\1" alias="Sea, Air, and Land Teams (Navy SEALs)"      desc="美国海军海豹突击队是直属美国海军的一支特种部队，亦是世界知名的特种三栖部队，主要任务包括：非常规战争、国内外防御、直接行动、反恐怖主义行动、特殊侦查任务五项。" />
+		<keyword regexp="SEAL(?!s)S?"                  regcap="true" key="\0"             alias="Sea, Air, and Land Teams (海豹突击队)" desc="美国海军海豹突击队是直属美国海军的一支特种部队，亦是世界知名的特种三栖部队，主要任务包括：非常规战争、国内外防御、直接行动、反恐怖主义行动、特殊侦查任务五项。" />
+		<keyword key="SAS" alias="Special Air Service (特种空勤团)" desc="特种空勤团是英国陆军执行特种任务的主力部队，前身为二次大战中在北非战线执行敌后任务的陆军志愿人员，人数稀少且作风低调。" />
+		<keyword key="SBS" alias="Special Boat Service (特种海勤团)" desc="The Special Boat Service (SBS) is the special forces unit of the British Royal Navy." />
+		<keyword key="SAT" alias="Special Assault Team (特殊急襲部隊)" desc="特殊急袭部队是隶属于日本警察的特殊反恐部队。其主要任务是对任何劫持交通工具、恐怖主义、强大火力犯罪等进行迅速的反应压制。" />
+		<keyword key="SIT" alias="Special Investigation Team (特殊捜査班)" desc="全国の都道府県警察本部、刑事部捜査第一課に設置されている係で、人質立て篭もり事件や、誘拐事件等の捜査を担当している。" />
+		<keyword key="SST" alias="Special Security Team (特殊警備隊)" desc="特殊急襲部隊とは、海上保安庁に所属し、海上テロ事案等への対処を任務とする特殊部隊である。" />
+		<keyword key="SBU" alias="Special Boarding Unit (特別警備隊)" desc="特別警備隊は、2001年創隊の海上自衛隊の特殊部隊である。全自衛隊で初めて特殊部隊として創設された部隊でもある。" />
+	</highlight>
+	<highlight type="terminology" subtype="order">
+		<keyword key="E-001" desc="放弃ADEM总部。" />
+		<keyword key="E-060" desc="条件特赦。" />
+		<keyword />
+		<keyword key="S状况" desc="有入侵者企图前往NCT研究所最底层，绑走或暗杀峰岛由宇。" />
+		<keyword />
+		<keyword key="Na-12号作战" desc="占领NCT研究所。" />
+		<keyword key="Ke-7号作战"  desc="夺取峰岛由宇知识。" />
+		<keyword key="Ro-44号作战" desc="占领球体实验室。" />
+		<keyword key="A-0号作战"   desc="瘫痪警方与自卫队。" />
+		<keyword key="Ro－十七号作战" desc="" />
+	</highlight>
+	<highlight type="terminology" subtype="room">
+		<keyword key="CDC" regexp="CDC(?:（战斗指挥室）)?" alias="Combat Information Cente (战斗指挥室)" desc="On aircraft carriers the area of CIC is called the combat direction center (CDC)." />
+		<keyword key="战斗指挥中心"                        alias="CDC (Combat Information Cente)"        desc="On aircraft carriers the area of CIC is called the combat direction center (CDC)." />
+		<keyword key="船上减压室" regexp="船上减压室(?:（DDC）)?"          alias="DDC (Deck Decompression Chamber)"        desc="帮深海作业的潜水员进行加压或减压，让他们能够慢慢适应深海压力跟大气压力的差距，避免引发潜水夫病。" />
+		<keyword key="DDC" regexp="DDC(?:（deck decompression chamber）)?" alias="Deck Decompression Chamber (船上减压室)" desc="帮深海作业的潜水员进行加压或减压，让他们能够慢慢适应深海压力跟大气压力的差距，避免引发潜水夫病。" />
+	</highlight>
+	<highlight type="equipment" subtype="">
+		<keyword regexp="([A-FP])(级遗产|(?=级?、[A-E]级遗产))" regcap="true" key="\0" alias="\1-Rank Legacy" desc="峰岛勇次郎发明的超时代科技。" />
+		<keyword key="遗产" alias="EM (Estate of Mineshima)" desc="峰岛勇次郎发明的超时代科技。" />
+		<keyword key="EM" regexp="EM(?!\w|\d)" alias="Estate of Mineshima" desc="峰岛勇次郎发明的超时代科技。" />
+		<keyword />
+		<keyword key="鸣神尊" desc="继承祸神之血的真目家男子所相传的小刀。" desc_jpn="禍神の血を受け継ぐ真目家男子に相続される小刀。" />
+		<keyword />
+		<keyword key="LAFI一号机" desc="A级遗产，超级电脑。\n负责控制球体实验室全区。" />
+		<keyword key="LAFI二号机" desc="A级遗产，超级电脑。\n负责控制NCT设施。" />
+		<keyword key="LAFI三号机" desc="A级遗产，超级电脑。\n携带型。" />
+		<keyword key="LAFI四号机" desc="存放在比良见特别进出管制禁区地下避难所。" />
+		<keyword key="LAFI"       desc="A级遗产，超级电脑。" />
+		<keyword regexp="[一二三四]号机" regcap="true" key="\0" alias="LAFI\0" desc="A级遗产，超级电脑。" />
+		<keyword key="球体实验室" alias="Sphere Lab (スフィアラボ)" desc="直径525m，几乎完全呈球型的大规模研究设施。是以完全封闭的方式，重现自然环境循环体系的研究所。" />
+		<keyword key="雾斩" desc="D级遗产。" />
+		<keyword key="A9泛用特殊装甲" desc="E级遗产。" />
+		<keyword key="A9特殊泛用装甲" desc="E级遗产。" />
+		<keyword key="万象迷彩" desc="能够隐庇光、声音、热量等各种侦测手段的特殊迷彩。" />
+		<keyword key="大脑代理装置" desc="代理脑部控制身体的机械。" />
+		<keyword regexp="(多段加速式)?轻瓦斯枪" regcap="true" key="\0" desc="原本是小型化的宇宙尘高速冲撞实验用器材。由直径9厘米的铝弹以超过三十马赫的超高速度在大气中飞行时所发出的威力产生巨大的破坏力。" />
+		<keyword key="Leptoneta" desc="无人多脚型战车。" />
+		<keyword key="视觉毒" desc="D级遗产。" />
+		<keyword key="天堂之门" desc="" />
+		<keyword key="基因重组技术" alias="Genome Remodel" desc="B级遗产。" />
+		<keyword key="水精灵" alias="Undine" desc="环晶所使用的遗产。" />
+		<keyword key="因果观测镜" alias="Causality Goggles" desc="莲杖直人所使用的遗产。" />
+		<keyword key="T02型合金" desc="相当于D级遗产。峰岛勇次郎所开发的七种硬度超越钻石的物质之一。" />
+		<keyword key="摩擦力去除剂" alias="Friction Cancellation" desc="相当于D级遗产。" />
+		<keyword regexp="《自由》" regcap="true" key="〈[key]自由[/key]〉" alias="Freedom (フリーダム)" desc="全长超过320米，整体超过480米的飞行航空母舰，世界最大的飞行器。" />
+		<keyword key="T00型合金" desc="D级遗产。" />
+		<keyword key="T00合金"   desc="D级遗产。" />
+		<keyword key="分子间作用力控制装置" alias="Intermolecular Force Control" desc="通称IFC，是一种能够控制无机物质分子间作用力控制无机物质的形状的装置。" />
+		<keyword key="IFC" alias="Intermolecular Force Control \n(分子间作用力控制装置)"  desc="是一种能够控制无机物质分子间作用力控制无机物质的形状的装置。" />
+		<keyword />
+		<keyword key="大脑保密处置" alias="Brain Protect (ブレインプロテクト)" desc="以脑神经干涉防止遗产相关机密外泄的处置。" />
+		<keyword key="大脑保密措施" alias="Brain Protect (ブレインプロテクト)" desc="以脑神经干涉防止遗产相关机密外泄的措施。" />
+		<keyword />
+		<keyword key="梦魇" alias="Nightmare" desc="F级遗产。" />
+		<keyword key="电子融合处置" alias="Electron Fusion" desc="" />
+		<keyword key="T04型合金" desc="" />
+		<keyword key="死亡伏蝎" desc="遗产兵器。" />
+		<keyword key="自由卸压式深海作业潜水装" desc="E级遗产。" />
+		<keyword key="天之琼矛" desc="海星所有〈自由〉机载超高出力雷射炮。" />
+		<keyword regexp="《钻石刀》" regcap="true" key="〈[key]钻石刀[/key]〉" desc="" />
+		<keyword />
+		<keyword key="无机生命体" desc="" />
+		<keyword regexp="《无机生物》" regcap="true" key="〈[key]无机生物[/key]〉" desc="" />
+		<keyword regexp="《花》" regcap="true" key="〈[key]花[/key]〉" desc="无机生命体。" />
+		<keyword regexp="《棒》" regcap="true" key="〈[key]棒[/key]〉" desc="无机生命体。" />
+		<keyword regexp="《锤》" regcap="true" key="〈[key]锤[/key]〉" desc="无机生命体。" />
+		<keyword regexp="《嘴》" regcap="true" key="〈[key]嘴[/key]〉" desc="无机生命体。" />
+		<keyword regexp="《蚊》" regcap="true" key="〈[key]蚊[/key]〉" desc="无机生命体。其中最小的物种。" />
+		<keyword regexp="《山峰》" regcap="true" key="〈[key]山峰[/key]〉" desc="无机生命体。其中最大的物种。" />
+		<keyword />
+		<keyword key="S-00001" alias="峰岛由宇" />
+		<keyword key="A-00104" alias="LAFI一号机" />
+		<keyword key="A-02005" alias="变异的半个大脑" />
+		<keyword key="B-00019" alias="基因重组技术" />
+		<keyword key="B-00305" alias="撒旦" />
+		<keyword key="B-00445" alias="抗冲击防护服" />
+		<keyword key="D-00052" alias="雾斩" />
+		<keyword key="D-99999" alias="绿色液体炸弹" />
+		<keyword key="E-00317" alias="摩擦力去除剂" />
+		<keyword />
+		<keyword key="混沌领域" desc="LAFI的底层。" />
+		<keyword key="防护服" desc="防弹防刃服。" />
+		<keyword key="磁单极" regexp="磁单极(?:（Monopole）)?" alias="Monopole" desc="只有一个磁极的磁体。" />
+		<keyword key="磁单体" regexp="磁单体(?:（Monopole）)?" alias="Monopole" desc="只有一个磁极的磁体。" />
+		<keyword />
+		<keyword key="True Eye 20000" desc="真目家开发的超级电脑。" />
+		<keyword key="True Eye 10000" desc="真目家开发的超级电脑。" />
+		<keyword />
+		<keyword key="EMJ-III" desc="具备匿踪功能的战略核子导弹。" />
+		<keyword key="EMJ-I"   desc="匿踪核子导弹的测试型。" />
+		<keyword key="詹姆斯·F·惠特摩尔号" desc="尼米兹级航空母舰。" />
+	</highlight>
+	<highlight type="equipment" subtype="Weapon">
+		<keyword key="DRAEGER LAR/V" alias="Dräger LAR V" thumb="Weapon/190px-larv_us.jpg" desc="" />
+		<keyword />
+		<keyword key="S&amp;amp;W642" alias="Smith &amp; Wesson Model 642" thumb="Weapon/320px-S&amp;W642.jpg" desc="The Smith &amp; Wesson Model 640 Centennial is easily the most recommended variant of the J-frame line if the Internet counts for anything in gun selection. In 2006, the best selling firearm offered by Smith &amp; Wesson was the Model 642, the Airweight version of the 640." />
+		<keyword />
+		<keyword key="SIG P230" alias="SIG Sauer P230" thumb="Weapon/320px-Sig_Sauer_P230.jpg" desc="The SIG Sauer P230 is a small, semi-automatic handgun chambered in .32 ACP or .380 Auto. Beginning in 1996 it was replaced by the model P232." />
+		<keyword key="M9手枪" alias="M9 pistol" thumb="Weapon/320px-M9-pistolet.jpg" desc="M9手枪（美国军方正式名称：Pistol, Semiautomatic, 9mm, M9）是美军在1990年起装备的制式手枪，由意大利贝瑞塔92F（早期型M9）及92FS衍生而成。" />
+		<keyword key="贝瑞塔9000S" alias="Beretta 9000S" thumb="Weapon/320px-9000S_Type_F.jpg" desc="The Beretta 9000 is a series of modern compact size semi-automatic pistols designed and manufactured by Beretta of Italy. It is used primarily for civilian self defense." />
+		<keyword key="柯特" _alias="Colt" tmbnb="true" thumb="Weapon/220px-Colt_logo.svg.png" />
+		<keyword key="反坦克手枪" alias="Walther Kampfpistole" thumb="Weapon/320px-Kampfpistole.jpg" desc="The world's first and last &quot;anti-armor pistol&quot;. It was developed by the German army during WW2, and was introduced to the Germans in 1941. Even though very innovative, it was inaccurate and the Kampfpistole rounds lacked explosives to put down the enemy armours. " />
+		<keyword />
+		<keyword key="MP5" alias="Heckler &amp; Koch MP5" thumb="Weapon/320px-MP5.jpg" desc="由德国军械厂黑克勒-科赫（Heckler &amp; Koch，H&amp;K）所设计及制造的冲锋枪。由于该系列冲锋枪获多国的军队、保安部队、警队选择作为制式枪械使用，因此具有极高的知名度。" />
+		<keyword />
+		<keyword regexp="89R步枪|89式5.56步枪" regcap="true" key="\0" alias="Howa Type 89 Assault Rifle \n(89式5.56mm小銃)" thumb="Weapon/320px-Howa_type_89_01.jpg" desc="89式5.56毫米步枪是丰和64式7.62毫米步枪的后继，并由丰和工业基于美制AR-18突击步枪开发而成。亦是根据NATO标准的5.56毫米口径突击步枪。\nまた、初期に導入された89式の刻印は「89式5.56mm小銃」であったが、近年導入されている89式には「89R」の刻印がある。" />
+		<keyword key="M4RIS" alias="M4A1 with Rail Interface System (RIS)" tmbnb="true" thumb="Weapon/320px-M4-Transparent.png" desc="M4卡宾枪（M4 carbine）是M16突击步枪的缩短版本，获世界各国的军队及警队采用。" />
+		<keyword key="MK23SOCOM" alias="Heckler &amp; Koch MK23 Mod 0" thumb="Weapon/320px-MK23_SOCOM.jpg" desc="HK MK23 Mod 0（Heckler &amp; Koch MK23 Mod 0, MK23 SOCOM, USSOCOM）是1991年由黑克勒·科赫设计和生产的半自动手枪。这把手枪的特别设计之处是：比赛等级、可加装消声器和雷射指示器（LAM）和能够发射.45 ACP（11.43 x 23 mm）的AA18、A475比赛级高压子弹。此枪曾成功击败柯尔特OHWS，通过美国特种部队司令部（United States Special Operations Command，简称USSOCOM，辖下部队包括DEVGRU、Delta Force和绿色贝雷帽等特种部队）在20世纪90年代的特种部队计划。" />
+		<keyword />
+		<keyword regexp="((巴雷特)?M82A?)(?:（Barrett M82A）)?" regcap="true" key="\1" alias="Barrett M82" thumb="Weapon/320px-M82rys.jpg" desc="由美国巴雷特研发生产的重型SASR（Special Application Scoped Rifle，特殊用途狙击步枪），M82几乎是主要西方国家的军队都有使用，包括美军特种部队。美军昵称“轻50”（Light Fifty）因为其使用M2重机枪的大口径.50 BMG（12.7mm）弹药，此枪有两种衍生型—原本的M82A1（A3）和采用无托结构设计以便于携带的M82A2，随后的XM500也继承它的设计精神，使用了无托结构设计。" />
+		<keyword />
+		<keyword key="MINIMI机枪" alias="FN Minimi" thumb="Weapon/320px-M249_FN_MINIMI_DA-SC-85-11586_c1.jpg" desc="FN Minimi是由比利时Fabrique Nationale公司设计的气体传动式轻机枪，被世界多国采用为制式装备，当中包括著名的美国M249班用自动武器（M249 SAW）。" />
+		<keyword key="格林机关炮" alias="Gatling gun" thumb="Weapon/320px-Vulcan1.jpg" desc="采用加特林原理运作的多管机枪及机炮的称呼。" />
+		<keyword regexp="12.7公厘的重机枪M2" key="12.7厘米的重机枪M2" alias="M2 Browning machine gun \n(12.7mm重機関銃M2)" thumb="Weapon/320px-Machine_gun_M2_1.jpg" desc="勃朗宁M2（M2 Machine Gun），俗称五零／点五零机枪（Browning Machine Gun，Cal. .50， M2HB，Flexible.），是由约翰·勃朗宁在一战后设计的重机枪，采用12.7 x 99毫米（.50 BMG）大口径弹药，从1921年就开始使用服役至今，除了增加了快拆枪管以外原始设计几乎没做太大更动。\nReplace From: 12.7公厘的重机枪M2" />
+		<keyword />
+		<keyword key="LAT"                                                                  alias="Light Anti-Tank"       thumb="Weapon/320px-USAF_M72_LAW.jpg" desc="The M72 LAW (Light Anti-Tank Weapon) is a portable one-shot 66 mm unguided anti-tank weapon." />
+		<keyword regexp="(轻型)(对|反)(战车)((导向)?飞弹)" regcap="true" key="\1\2坦克导弹" alias="Light Anti-Tank (LAT)" thumb="Weapon/320px-USAF_M72_LAW.jpg" desc="The M72 LAW (Light Anti-Tank Weapon) is a portable one-shot 66 mm unguided anti-tank weapon.\nReplace From: \0" />
+		<keyword key="RPG" alias="Rocket-propelled grenade (RPG)" thumb="Weapon/320px-Rpg-7.jpg" desc="前苏联研制的反坦克及一般支援武器。是把手榴弹或反战车高爆弹装到火箭前端，再装置在筒状物发射的武器。特点是粗糙、便宜、操作容易，却火力强大，在世界上被普遍使用。" />
+		<keyword />
+		<keyword regexp="120公厘迫击炮" key="120厘米迫击炮" alias="Mortier 120mm Rayé Tracté Modèle F1 \n(MO-120-RT-61)" thumb="Weapon/320px-Mor120.jpg" desc="The Mortier 120mm Rayé Tracté Modèle F1 (MO-120-RT-61, &quot;120mm rifled towed mortar, model F1&quot;) is a heavy mortar used by the French Army.\nReplace From: 120公厘迫击炮" />
+		<keyword regexp="84公厘无反动炮" key="84厘米无反动炮" alias="Carl Gustav recoilless rifle \n(84mm無反動砲, 84R)" thumb="Weapon/320px-Carl_Gustaf._recoilless.rifle.jpg" desc="The Carl Gustaf (also Carl-Gustaf and M2CG; pronounced &quot;Carl Gustav&quot;) is the common name for the 84 mm man-portable multi-role recoilless rifle produced by Saab Bofors Dynamics (formerly Bofors Anti-Armour AB) in Sweden.\nReplace From: 84公厘无反动炮" />
+		<keyword />
+		<keyword />
+		<keyword key="狂风式" alias="VA-111 Shkval (暴风)" thumb="Weapon/190px-Shkval.jpg" tmbft="left" desc="The VA-111 Shkval torpedo and its descendants are supercavitating torpedoes developed by the Soviet Union. They are capable of speeds in excess of 200 knots (370 km/h)." />
+		<keyword />
+		<keyword />
+		<keyword key="指挥通讯车" alias="Type 82 Command Communication Vehicle (82式指揮通信車, CCV)" thumb="Weapon/320px-JGSDF_Type82_Command_Communication_Vehicle20090419-03.jpg" desc="82式指揮通信車は、日本において第二次世界大戦後初めて実用化された装輪装甲車である。" />
+		<keyword key="96式轮型装甲车" alias="Type 96 Wheeled Armored Personnel Carrier (96式装輪装甲車, WAPC)" thumb="Weapon/320px-JGSDF_APC_Type_96_at_JGSDF_Camp_Shimoshizu_02.jpg" desc="96式装甲运兵车是陆上自卫队的轮型装甲运兵车。" />
+		<keyword key="89式装甲战斗车" alias="Mitsubishi Type 89 IFV (89式装甲戦闘車)" thumb="Weapon/320px-Type89_FV.jpg" desc="89式装甲战斗车是陆上自卫队搭配战车使用的步兵战车、兼具武器和装甲是开发成功的日本第一种步兵战车。" />
+		<keyword />
+		<keyword regexp="(90式)战车" regcap="true" key="\1坦克" alias="Type 90 MBT (90式戦車)" thumb="Weapon/320px-JGSDF_MBT_Type_90_at_JGSDF_PI_center_2.jpg" desc="90式坦克是为了取代61式坦克及部分74式坦克而开发的日本陆上自卫队的第三代坦克。" />
+		<keyword key="74式" alias="Type 74 MBT (74式戦車)" thumb="Weapon/320px-Japanese_-_Type_74_tank_-_2.jpg" desc="74式坦克是为了取代61式坦克而开发的日本陆上自卫队的第二代坦克。" />
+		<keyword key="T-80U" alias="T-80U" thumb="Weapon/320px-T-80U-2002-Kubinka.jpg" desc="T-80主战坦克是由苏联鄂木斯克坦克制造所研制的第三代主战坦克，1976年定型并装备部队，1987年停产，现时约有2200辆。" />
+		<keyword />
+		<keyword />
+		<keyword regexp="(SDV)(（小型潜艇）)?" regcap="true" key="\1" alias="SEAL Delivery Vehicle" thumb="Weapon/320px-US_Navy_SEAL_SEAL_Delivery_Vehicle_(SDV).jpg" desc="The SEAL Delivery Vehicle or (SDV) is a manned submersible and a type of Swimmer Delivery Vehicle used to deliver United States Navy SEALs and their equipment for special operations missions." />
+		<keyword regexp="尼米兹级(航空母舰)?" regcap="true" key="\0" alias="Nimitz class aircraft carrier" thumb="Weapon/320px-USS_Nimitz_(CVN-68).jpg" desc="尼米兹级核动力航空母舰是美国海军所使用的一种多用途大型航空母舰，也是目前世界上最大型的作战船舰级别，一共有10艘同型舰。所有尼米兹级航空母舰都是采核动力推进，装备4座升降机、4台蒸汽弹射器和4条拦阻索，可以每20秒弹射出一架作战飞机。舰载作战联队中的机型配备根据作战任务性质的不同也有所不同，可搭载不同用途的舰载飞机对敌方飞机、船只、潜艇和陆地目标发动攻击，并保护海上舰队。以它为核心的战斗群通常由4至6艘巡洋舰、驱逐舰、潜艇和补给舰只构成。" />
+		<keyword />
+		<keyword />
+		<keyword regexp="AS322L|超级美洲豹" regcap="true" key="\0" alias="Eurocopter AS332L" thumb="Weapon/320px-as332l.jpg" desc="The Eurocopter AS332 Super Puma is a four-bladed, twin-engine, medium-size utility helicopter marketed for both civil and military use. Originally designed and built by Aérospatiale, it is an enlarged and re-engined version of the original Aérospatiale Puma." />
+		<keyword regexp="RAH-66|卡曼契" regcap="true" key="\0" alias="Boeing/Sikorsky RAH-66 Comanche" thumb="Weapon/320px-Rah-66.jpg" desc="RAH-66卡曼契由波音与塞考斯基飞行器合作开发，曾是美国陆军先进的军用直升机，其搭配低可侦测性（“匿踪”）科技，预定做为武装侦查任务用。" />
+		<keyword key="黑鹰直升机" alias="Sikorsky UH-60 Black Hawk" thumb="Weapon/320px-uh-60l.jpg" desc="UH-60黑鹰直升机是从西科斯基公司生产的双涡轮轴引擎、单旋翼直升机S-70型发展而来的一种中型通用／攻击直升机。" />
+		<keyword regexp="UH-60J(多功能攻击直升机)?" regcap="true" key="\0" alias="Mitsubishi UH-60JA Black Hawk" thumb="Weapon/320px-UH-60JA_GAB001.jpg" desc="Utility version for the Japan Ground Self-Defense Force based on the UH-60J." />
+		<keyword key="眼镜蛇式反坦克直升机" alias="Bell AH-1 Cobra" thumb="Weapon/320px-AH-1S_Cobra.jpg" desc="AH-1 眼镜蛇(公司名：Bell 209)是一台由贝尔直升机公司所制造的攻击直升机。" />
+		<keyword key="CH-47J" alias="Kawasaki CH-47J Chinook" thumb="Weapon/320px-CH-47J_JGSDF_JG2934.jpg" desc="授权日本川崎重工生产的CH-47D多功能、双引擎，双螺旋桨的中型运输直升机，配备空中和陆上自卫队。" />
+		<keyword />
+		<keyword key="Hughes H-4" alias="Hughes H-4 Hercules" thumb="Weapon/320px-H-4_Hercules_2.jpg" desc="The Hughes H-4 Hercules (registration NX37602) (&quot;Spruce Goose&quot;) was a prototype heavy transport aircraft designed and built by the Hughes Aircraft company." />
+		<keyword regexp="STRIKE EAGLE（F-15E）" regcap="true" key="STRIKE EAGLE" alias="McDonnell Douglas F-15E Strike Eagle" thumb="Weapon/320px-F-15E.jpg" desc="F-15E攻击鹰式战斗轰炸机是美国空军的全天候打击战机，用于深入敌人后方对地面目标之阻绝。衍生自F-15空优战机的F-15E，在沙漠风暴行动中，它证明了它能深入打击敌高价值目标，及执行密接空中支援（close air support）任务，进行空陆协同作战。" />
+		<keyword key="F-15" alias="McDonnell Douglas F-15 Eagle" thumb="Weapon/320px-F-15,_71st_Fighter_Squadron,_in_flight.jpg" desc="F-15鹰式战斗机，是一款美国开发生产的全天候、高机动性的战术战斗机。针对获得与维持空优而设计的它，是美国空军现役的主力战机之一。" />
+		<keyword regexp="F-117A?" regcap="true" key="\0" alias="Lockheed F-117A Nighthawk" thumb="Weapon/320px-F-117_Nighthawk_Front.jpg" desc="F-117“夜鹰”是美国空军的一种隐身攻击机，也是世界上第一款完全以隐形技术设计的飞机。F-117由洛克希德公司设计生产，它的原型技术直接来源于海弗蓝（Have Blue）计划。" />
+		<keyword regexp="Yak-141( Freestyle)?" regcap="true" key="\0" alias="Yakovlev Yak-141" thumb="Weapon/320px-Yak41M_over_Baku.jpg" desc="雅克-141，北约代号“自由式”(Freestyle)，是一台苏联研制的超音速垂直起降战斗机。然而由于计划中止，Yak-141从未量产。" />
+		<keyword regexp="JSF（联合战术打击机）" key="JSF" alias="Joint Strike Fighter Program (联合打击战斗机计划)" thumb="Weapon/190px-JSF_logo.jpg" tmbft="left" desc="联合打击战斗机计划是一个发展和收购计划，将为美国和其盟国取代大量的老化中的战斗机、战斗轰炸机和攻击机。波音的X-32和洛克希德公司的X-35经过一轮竞争之后，最后选择了X-35的设计作基础。这就是F-35闪电II打击战斗机，它在未来将取代各种西方主力战机，包括F-16、A-10、F/A-18、AV-8B和海鹞式战机。" />
+		<keyword regexp="A/F-22猛禽式|F-22A" regcap="true" key="\0" alias="Lockheed Martin F/A-22 Raptor" thumb="Weapon/320px-Lockheed_Martin_F-22A_Raptor_JSOH.jpg" desc="F-22“猛禽”是由美国洛克希德·马丁、波音和通用动力公司公司联合设计的新一代重型隐形战斗机，也是现今唯一投入使用的“第五代战斗机”。它将成为21世纪的主战机种。主要任务是取得和保持战区制空权，这是F-15的后续型号。" />
+		<keyword regexp="(F/A-18)(（大黄蜂式）)?" regcap="true" key="\1" alias="McDonnell Douglas F/A-18 Hornet" thumb="Weapon/320px-USMC_FA-18_Hornet.jpg" desc="F/A-18大黄蜂战斗攻击机是美国海军所发展一种专门针对航空母舰起降而开发的对空／对地全天候多功能舰载机，它同时也是美国军方第一架同时拥有战斗机与攻击机身份的机种，对于空间有限、承载机队数量不多的航空母舰而言，像F/A-18这种角色多变的泛用机种，是非常优秀的配属选择，也是目前美国海军最重要的舰载机种 。" />
+		<keyword regexp="Mi-24|雌鹿式" regcap="true" key="\0" alias="Mil Mi-24 Hind" thumb="Weapon/320px-Mi24CP_edit.jpg" desc="Mil Mi-24，北约代号雌鹿（Hind），由米尔莫斯科直升机工厂1972年开始生产，定位为大型直升机空中炮艇和低运量兵员运输用途，最初为苏联空军使用，成功后外销30国以上。" />
+		<keyword />
+		<keyword key="Cypher" alias="Sikorsky Cypher" thumb="Weapon/320px-Cypher-UAV.jpg" desc="The Sikorsky Cypher and Cypher II are types of unmanned aerial vehicles developed by Sikorsky Aircraft." />
+	</highlight>
+	<highlight type="equipment" subtype="Travel">
+		<keyword key="道奇战斧" alias="Dodge Tomahawk" thumb="Travel/320px-Dodge-Tomahawk-lo_angle.jpg" desc="" />
+		<keyword />
+		<keyword key="F40" alias="Ferrari F40" thumb="Travel/320px-f40-yellow2.jpg" desc="法拉利F40是一款高性能跑车，是法拉利车厂为了庆祝其品牌创建40周年而设计的。这款跑车于1987年的法兰克福车展中首度亮相，它从&quot;288 GTO&quot;型车款发展而来，并使用了不少前作的设计元素。" />
+		<keyword key="马莎拉蒂" regexp="马莎拉蒂(?:（Maserati）)?" alias="Maserati" tmbnb="true" thumb="Travel/100px-Maserati_logo.svg.png" _desc="玛莎拉蒂（Maserati）是一家知名意大利赛车与跑车生产商，于1914年在博洛尼亚成立。" />
+		<keyword key="Quattroporte" alias="Maserati Quattroporte" tmbnb="true" thumb="Travel/320px-2009_Maserati_Quattroporte_Sport_GT_S.jpg" desc="" />
+		<keyword key="奔驰" regexp="宾士" alias="Mercedes-Benz" tmbnb="true" thumb="Travel/100px-Mercedes-Benz_logo.svg.png" desc="Replace From: 宾士" />
+		<keyword key="Camaro" alias="Chevrolet Camaro (fifth generation)" thumb="Travel/320px-Camaro_Bumblebee.jpg" desc="雪佛兰Camaro（Chevrolet Camaro）第五代是通用雪佛兰于2009年推出的一款小马车，采用Zeta底盘其概念车在2006和2007相继发表，也出现在变形金刚 (2007年电影)中担任大黄蜂的变形。最后量产版也极像概念车，售价约3万美金。" />
+		<keyword />
+		<keyword key="Terex" alias="" tmbnb="true" thumb="Travel/175px-TerexLogo.png" desc="" />
+		<keyword key="TITAN" alias="Terex 33-19 Titan" thumb="Travel/320px-Terex_Titan.jpg" desc="The Terex 33-19 Titan was a prototype off-highway, ultra class, rigid frame, three-axle, diesel/AC electric powertrain haul truck designed and built by the Terex Division of General Motors in 1973. Only one 33-19 was ever produced. " />
+		<keyword />
+		<keyword regexp="VTOL飞?机?" regcap="true" key="\0" alias="Vertical Take-Off and Landing aircraft" desc="可垂直起降的固定机翼飞机。" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="鸣神流" desc="真目家の男子が幼少の頃より仕込まれる門外不出の武術の流派名。古武術もとり入れている。" />
+		<keyword key="读心能力" desc="六道家的能力。" />
+		<keyword />
+		<keyword key="雷鸣动" desc="八阵家绝技。" />
+		<keyword key="神鸣杀" desc="八阵家绝技。利用音波共鸣跟空气对流来产生真空刀刃。" />
+		<keyword />
+		<keyword key="电子融合能力" regexp="电子融合能力(?:（Electron Fusion）)?" alias="Electron Fusion" desc="在精神层级跟LAFI同调的能力。" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="弧石岛" desc="位于九州大隅半岛东南方近海的小岛。" />
+		<keyword key="奖励都市《希望》"          desc="由真目家收购进行重新开发的都市。" disable="true" />
+		<keyword key="奖励都市" alias="〈希望〉" desc="由真目家收购进行重新开发的都市。" />
+		<keyword regexp="《希望》" regcap="true" key="〈[key]希望[/key]〉" desc="由真目家收购进行重新开发的都市。" />
+		<keyword key="比良见特别进出管制禁区" desc="10年前の爆発事件の被災地域、峰島勇次郎の元研究所を中心とする元市街地を含む。" />
+		<keyword key="比良见"                 desc="10年前の爆発事件の被災地域、峰島勇次郎の元研究所を中心とする元市街地を含む。" />
+		<keyword />
+		<keyword key="KIBOU" desc="位于〈希望〉的全球最高规模最大的大楼。" />
+		<keyword key="契格耶夫卡第二空军基地" desc="开发违法使用遗产科技兵器的俄罗斯军事基地。" />
+		<keyword key="2222地点" desc="〈自由〉坠入太平洋两千两百二十二米深的地点。" />
+		<keyword />
+		<keyword key="厚木航空基地" alias="United States Naval Air Facility Atsugi\n厚木海軍飛行場 (厚木基地)" desc="驻日美军与海上自卫队共用基地。" />
+		<keyword key="厚木基地"     alias="United States Naval Air Facility Atsugi\n厚木海軍飛行場 (厚木基地)" desc="驻日美军与海上自卫队共用基地。" />
+		<keyword key="嘉手纳基地" alias="Kadena Air Base\嘉手納飛行場 (嘉手納基地)" desc="驻日美军空军基地。" />
+		<keyword key="西伯利亚军管区" />
+		<keyword />
+		<keyword key="亚利桑纳" />
+		<keyword key="西伯利亚" />
+	</highlight>
+	<highlight type="culture" subtype="replaceFrom">
+		<keyword regexp="公尺" key="米"   desc="Replace From: 公尺" />
+		<keyword regexp="公厘" key="厘米" desc="Replace From: 公厘" />
+		<keyword />
+		<keyword regexp="标的物" key="标志物" desc="Replace From: 标的物" />
+		<keyword regexp="不轮转" key="不熟练" desc="Replace From: 不轮转" />
+		<keyword regexp="身分" key="身份" desc="Replace From: 身分" />
+		<keyword regexp="型录" key="目录" desc="Replace From: 型录" />
+		<keyword />
+		<keyword regexp="战车" key="坦克" desc="Replace From: 战车" />
+		<keyword regexp="飞弹" key="导弹" desc="Replace From: 飞弹" />
+		<keyword regexp="空蚀" key="空泡" desc="Replace From: 空蚀" />
+	</highlight>
+</highlights>

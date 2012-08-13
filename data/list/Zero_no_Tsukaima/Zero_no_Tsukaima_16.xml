@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0026" />
+	<chapter start="0030" end="0413" title="第一章　战后封赏" />
+	<chapter start="0419" end="0678" title="第二章　寻找房屋" />
+	<chapter start="0684" end="0931" title="第三章　安莉埃塔的忧郁，露易丝的不安，才人的前程" />
+	<chapter start="0937" end="1169" title="第四章　母亲和表姐" />
+	<chapter start="1175" end="1347" title="第五章　才人·修瓦里埃·平贺·德·奥鲁尼艾鲁" />
+	<chapter start="1353" end="1524" title="第六章　安稳的日常" />
+	<chapter start="1530" end="1672" title="第七章　卡德米的艾蕾欧诺尔" />
+	<chapter start="1678" end="1867" title="第八章　宅邸的地下室" />
+	<chapter start="1873" end="2035" title="第九章　密会" />
+	<chapter start="2041" end="2385" title="第十章　元素的兄弟" />
+	<chapter start="2391" end="2533" title="尾　声" />
+	<chapter start="2539" end="2648" title="后　记" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_16_" suffix=".jpg">
+		<img insert="0025" filename="000" notfloat="true" />
+		<img insert="0026" filename="001" />
+		<img insert="0026" filename="002" />
+		<img insert="0026" filename="003" />
+		<img insert="0026" filename="004" />
+		<img alt="插图100" filename="100" />
+		<img alt="插图101" filename="101" />
+		<img alt="插图102" filename="102" />
+		<img alt="插图103" filename="103" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+	</imgs>
+</volume>

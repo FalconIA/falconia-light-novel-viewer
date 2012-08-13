@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0012" />
+	<chapter start="0017" end="0352" title="第一章　甜美的诱惑" />
+	<chapter start="0358" end="0951" title="第二章　一年三班座号八号　九凤院紫" />
+	<chapter start="0957" end="1521" title="第三章　斩岛的利刃" />
+	<chapter start="1527" end="2456" title="第四章　大骗子" />
+	<chapter start="2462" end="2979" title="第五章　所以，她决定了结生命" />
+	<chapter start="2985" end="3276" title="第六章　与你同行" />
+	<chapter start="3282" end="3660" title="第七章　约定" />
+	<chapter start="3666" end="3689" title="后　记" />
+	<imgs dir="Kurenai" prefix="Kurenai_02_" suffix=".jpg">
+		<img insert="0012" filename="001" notfloat="true" />
+		<img insert="0012" filename="002" />
+		<img insert="0012" filename="003" />
+		<img insert="0012" filename="004" />
+		<img insert="0012" filename="005" />
+		<img alt="插图006" filename="006" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010" filename="010" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013" filename="013" />
+		<img alt="插图014" filename="014" />
+	</imgs>
+</volume>

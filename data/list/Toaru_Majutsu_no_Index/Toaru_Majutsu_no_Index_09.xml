@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0016" />
+	<chapter start="0022" end="0094" title="序　章　第三者眼中的准备时间" />
+	<chapter start="0100" end="0712" title="第一章　大热天的开始信号" />
+	<chapter start="0718" end="0762" title="行间一" />
+	<chapter start="0768" end="1639" title="第二章　魔法师与超能力者的竞技场" />
+	<chapter start="1645" end="2103" title="第三章　追兵与逃亡者的战略" />
+	<chapter start="2109" end="2168" title="行间二" />
+	<chapter start="2174" end="2594" title="第四章　战争的结局是胜是败" />
+	<chapter start="2600" end="2951" title="行间三" />
+	<chapter start="2957" end="2972" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_09_" suffix="_with_mark.jpg">
+		<img insert="0013" filename="000" notfloat="true" />
+		<img insert="0016" filename="001" />
+		<img insert="0016" filename="002a" />
+		<img insert="0016" filename="002b" />
+		<img insert="0016" filename="003a" />
+		<img insert="0016" filename="003b" />
+		<img alt="插图023" filename="023t" />
+		<img alt="插图029" filename="029t" />
+		<img alt="插图035" filename="035t" />
+		<img alt="插图055" filename="055t" />
+		<img alt="插图061" filename="061t" />
+		<img alt="插图099" filename="099" />
+		<img alt="插图104" filename="104t" />
+		<img alt="插图115" filename="115t" />
+	</imgs>
+</volume>

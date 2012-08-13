@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0178" />
+	<chapter start="0184" end="1026" title="第Ⅰ章　女战士的假日" />
+	<chapter start="1032" end="1911" title="第Ⅱ章　遥远的呼唤" />
+	<chapter start="1917" end="2833" title="第Ⅲ章　复仇代理人" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_03_" suffix=".jpg">
+	</imgs>
+</volume>

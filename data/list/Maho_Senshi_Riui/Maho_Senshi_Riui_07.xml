@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0210" />
+	<chapter start="0215" end="1082" title="第Ⅰ章　龙所栖息的柯堂" />
+	<chapter start="1088" end="1402" title="第Ⅱ章　在酒吧" />
+	<chapter start="1408" end="2164" title="第Ⅲ章　世界上最美丽的" />
+	<chapter start="2170" end="2564" title="第Ⅳ章　洋娃娃的模型屋" />
+	<chapter start="2570" end="2748" title="后　记" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_07_" suffix=".jpg">
+	</imgs>
+</volume>

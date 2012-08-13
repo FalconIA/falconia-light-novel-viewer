@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0050" />
+	<chapter start="0057" end="0722" title="１弹　猎「人」" />
+	<chapter start="0729" end="1497" title="２弹　水仗" />
+	<chapter start="1504" end="2390" title="３弹　修学旅行Ⅰ" />
+	<chapter start="2397" end="3217" title="４弹　闪光弹·音响弹" />
+	<chapter start="3224" end="3360" title="GoForTheNEXT!　雷姬" />
+	<chapter start="3367" end="3407" title="后记" />
+	<imgs dir="Aria_the_Scarlet_Ammo_translate" prefix="Aria_the_Scarlet_Ammo_06_" suffix=".jpg">
+		<img insert="0037" filename="000" notfloat="true" />
+		<img insert="0042" filename="002" />
+		<img insert="0042" filename="003-005" />
+		<img insert="0042" filename="006-008" />
+		<img alt="插图031" filename="031" />
+		<img alt="插图067" filename="067" />
+		<img alt="插图071" filename="071" />
+		<img alt="插图087" filename="087" />
+		<img alt="插图099" filename="099" />
+		<img alt="插图129" filename="129" />
+		<img alt="插图143" filename="143" />
+		<img alt="插图177" filename="177" />
+		<img alt="插图199" filename="199" />
+		<img alt="插图243" filename="243" />
+		<img alt="插图262" filename="262" />
+		<img alt="插图263" filename="263" />
+	</imgs>
+</volume>

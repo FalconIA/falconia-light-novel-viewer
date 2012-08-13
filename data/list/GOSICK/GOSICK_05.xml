@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0072" />
+	<chapter start="0079" end="0133" title="序　幕　造成坠落的玛利亚" />
+	<chapter start="0139" end="0740" title="第一章　没有维多利加的学园" />
+	<chapter start="0746" end="0767" title="　　　　灵界收音机—wiretap radio1—" />
+	<chapter start="0773" end="0876" title="第二章　〈魔术幻灯秀之夜〉" />
+	<chapter start="0882" end="0981" title="　　　　幻灯机—ghost machine 1—" />
+	<chapter start="0987" end="1192" title="第三章　寂静的黑色维多利加" />
+	<chapter start="1198" end="1250" title="　　　　幻灯机—ghost machine2—" />
+	<chapter start="1256" end="1447" title="第四章　费尔姐妹的姐妹橱柜" />
+	<chapter start="1453" end="1464" title="　　　　灵界收音机—wiretap radio2—" />
+	<chapter start="1470" end="1532" title="　　　　黑死病面具" />
+	<chapter start="1538" end="1663" title="第五章　甜甜圈是一圈边缘围成的洞" />
+	<chapter start="1669" end="1804" title="　　　　幻灯机—ghost machine3—" />
+	<chapter start="1810" end="1931" title="第六章　螺旋迷宫与遗物箱" />
+	<chapter start="1937" end="1953" title="　　　　灵界收音机—wiretap radio3—" />
+	<chapter start="1959" end="2091" title="第七章　妖艳的黑色维多利加" />
+	<chapter start="2097" end="2181" title="　　　　幻灯机—ghost machine4—" />
+	<chapter start="2187" end="2397" title="第八章　逼近的水" />
+	<chapter start="2403" end="2435" title="　　　　幻灯机—ghost machine5—" />
+	<chapter start="2441" end="2578" title="尾　声　羁绊" />
+	<chapter start="2584" end="2600" title="　　　　灵界收音机—wiretap radio4—" />
+	<chapter start="2606" end="2632" title="序幕２　小小的红——" />
+	<chapter start="2638" end="2710" title="后　记" />
+	<imgs dir="GOSICK" prefix="GOSICK_05_" suffix=".jpg">
+		<img insert="0011" filename="001" notfloat="true" />
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0016" filename="002" notfloat="true" />
+		<img insert="0016" filename="003" notfloat="true" />
+		<img insert="0016" filename="004" notfloat="true" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图113" filename="113" />
+		<img alt="插图114" filename="114" />
+		<img alt="插图115" filename="115" />
+		<img alt="插图116" filename="116" />
+		<img alt="插图117" filename="117" />
+	</imgs>
+</volume>

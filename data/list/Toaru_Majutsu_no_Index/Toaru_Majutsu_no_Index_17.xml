@@ -1,0 +1,30 @@
+<volume>
+	<chapter start="0001" end="0032" />
+	<chapter start="0036" end="0037" title="序　章" />
+	<chapter start="0042" end="0370" title="第一章　不经意对话中的异样" />
+	<chapter start="0375" end="0408" title="行间一" />
+	<chapter start="0415" end="1575" title="第二章　漂浮云端的钢铁战场" />
+	<chapter start="1580" end="1608" title="行间二" />
+	<chapter start="1613" end="3060" title="第三章　英国迷宫的魔法结社" />
+	<chapter start="3065" end="3848" title="第四章　招致战争与灾祸之剑" />
+	<chapter start="3854" end="3997" title="终　章　各方的想法与心思" />
+	<chapter start="4002" end="4019" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_17_" suffix=".jpg">
+		<img insert="0027" filename="000" notfloat="true" />
+		<img insert="0032" filename="001" />
+		<img insert="0032" filename="002" />
+		<img insert="0032" filename="003" />
+		<img insert="0032" filename="004" />
+		<img insert="0032" filename="005" />
+		<img insert="0032" filename="006" />
+		<img alt="彩图004" filename="004" notfloat="true" />
+		<img alt="彩图005" filename="005" notfloat="true" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010" filename="010" notfloat="true" />
+		<img alt="插图011" filename="011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013" filename="013" />
+	</imgs>
+</volume>

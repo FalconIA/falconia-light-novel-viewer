@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0005" />
+	<chapter start="0009" end="0069" title="序　章" />
+	<chapter start="0075" end="0660" title="第一章　魔法师出租中！" />
+	<chapter start="0666" end="1203" title="第二章　魔法师的投标" />
+	<chapter start="1209" end="1642" title="第三章　魔法师之〈夜〉" />
+	<chapter start="1648" end="2085" title="第四章　魔法师的禁忌" />
+	<chapter start="2091" end="2511" title="第五章　魔法师的形体" />
+	<chapter start="2517" end="2838" title="第六章　魔法师的末日" />
+	<chapter start="2844" end="3516" title="第七章　魔法师之瞳" />
+	<chapter start="3522" end="3540" title="后　记" />
+	<imgs dir="Rental_Magica" prefix="Rental_Magica_01_" suffix=".jpg">
+		<img insert="0004" filename="000" notfloat="true" />
+		<img insert="0005" filename="001" />
+		<img insert="0005" filename="002" />
+		<img insert="0005" filename="003" />
+		<img insert="0005" filename="004" />
+		<img insert="0005" filename="005" />
+		<img alt="插图047" filename="047" />
+		<img alt="插图051" filename="051" />
+		<img alt="插图085" filename="085" />
+		<img alt="插图117" filename="117" />
+		<img alt="插图135" filename="135" />
+		<img alt="插图147" filename="147" />
+		<img alt="插图227" filename="227" />
+		<img alt="插图273" filename="273" />
+	</imgs>
+</volume>

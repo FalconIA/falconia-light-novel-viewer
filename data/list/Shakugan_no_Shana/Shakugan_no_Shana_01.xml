@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0005" />
+	<chapter start="0011" end="0026" title="序　章" />
+	<chapter start="0032" end="0687" title="第一章　脱轨的世界" />
+	<chapter start="0693" end="1498" title="第二章　黄昏、雨夜、以及早晨" />
+	<chapter start="1504" end="2196" title="第三章　夏娜" />
+	<chapter start="2202" end="2778" title="第四章　悠二" />
+	<chapter start="2784" end="3424" title="第五章　火雾战士" />
+	<chapter start="3430" end="3523" title="尾　声" />
+	<chapter start="3529" end="3543" title="后　记" />
+	<imgs dir="Shakugan_no_Shana" prefix="Shakugan_no_Shana_01_" suffix=".jpg">
+		<img insert="0006" filename="000" notfloat="true" />
+		<img insert="0007" filename="001" />
+		<img insert="0007" filename="001b" />
+		<img insert="0007" filename="002" />
+		<img insert="0007" filename="002b" />
+		<img insert="0007" filename="003" />
+		<img insert="0007" filename="003b" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图057" filename="057" />
+		<img alt="插图067" filename="067" />
+		<img alt="插图097" filename="097" />
+	</imgs>
+</volume>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0019" />
+	<chapter start="0025" end="0697" title="第一章" />
+	<chapter start="0703" end="1204" title="第二章" />
+	<chapter start="1210" end="1817" title="第三章" />
+	<chapter start="1823" end="2487" title="第四章" />
+	<chapter start="2493" end="3095" title="第五章" />
+	<chapter start="3101" end="3559" title="第六章" />
+	<chapter start="3565" end="3736" title="第七章" />
+	<chapter start="3742" end="3769" title="后　记" />
+	<imgs dir="God's_Notepad" prefix="God's_Notepad_04_" suffix=".jpg">
+		<img insert="0015" filename="001" notfloat="true" />
+		<img insert="0016" filename="002" notfloat="true" />
+		<img insert="0016" filename="003" notfloat="true" />
+		<img insert="0016" filename="004" notfloat="true" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+	</imgs>
+</volume>

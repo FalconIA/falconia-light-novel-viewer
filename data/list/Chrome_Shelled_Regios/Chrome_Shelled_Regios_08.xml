@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0060" />
+	<chapter start="0065" end="0160" title="序幕" />
+	<chapter start="0165" end="0188" title="插曲 01" />
+	<chapter start="0193" end="0723" title="cool in the cafe" />
+	<chapter start="0728" end="0749" title="插曲 02" />
+	<chapter start="0754" end="1287" title="diamond passion" />
+	<chapter start="1292" end="1314" title="插曲 03" />
+	<chapter start="1319" end="1854" title="innocence wonder" />
+	<chapter start="1859" end="1896" title="终章" />
+	<chapter start="1901" end="2874" title="平淡无奇的那一天" />
+	<chapter start="2879" end="2945" title="后记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_08_" suffix="_with_mark.jpg">
+		<img insert="0014" filename="000" notfloat="true" />
+		<img insert="0034" filename="001" />
+		<img insert="0034" filename="002" />
+		<img insert="0034" filename="003a" />
+		<img insert="0034" filename="003b" clear="both" />
+		<img insert="0034" filename="004" />
+		<img alt="插图022" filename="022t" />
+		<img alt="插图024" filename="024t" />
+		<img alt="插图029" filename="029t" />
+		<img alt="插图034" filename="034t" />
+		<img alt="插图047" filename="047t" />
+		<img alt="插图052" filename="052t" />
+		<img alt="插图059" filename="059t" />
+		<img alt="插图075" filename="075t" />
+		<img alt="插图077" filename="077t" />
+		<img alt="插图085" filename="085t" />
+		<img alt="插图097" filename="097t" />
+	</imgs>
+</volume>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0199" />
+	<chapter start="0204" end="1089" title="第Ⅰ章　又一次，还是为了爱" />
+	<chapter start="1095" end="1482" title="第Ⅱ章　时之戒指" />
+	<chapter start="1488" end="2260" title="第Ⅲ章　亡灵的告白" />
+	<chapter start="2266" end="2436" title="后　记" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_06_" suffix=".jpg">
+	</imgs>
+</volume>

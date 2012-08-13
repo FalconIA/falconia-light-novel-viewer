@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0016" />
+	<chapter start="0021" end="1011" title="第一章" />
+	<chapter start="1017" end="1553" title="第二章" />
+	<chapter start="1559" end="2347" title="第三章" />
+	<chapter start="2353" end="2746" title="第四章" />
+	<chapter start="2752" end="2766" title="后　记" />
+	<imgs dir="Kampfer" prefix="Kampfer_06_" suffix=".jpg">
+		<img insert="0013" filename="001" notfloat="true" />
+		<img insert="0016" filename="004" />
+		<img insert="0016" filename="005" />
+		<img insert="0016" filename="006" />
+		<img insert="0016" filename="007" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图010-011" filename="010-011" />
+		<img alt="插图012" filename="012" />
+		<img alt="插图013-014" filename="013-014" />
+		<img alt="插图015-016" filename="015-016" />
+		<img alt="插图017" filename="017" />
+		<img alt="插图018-019" filename="018-019" />
+		<img alt="插图020" filename="020" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图022" filename="022" />
+		<img alt="插图023" filename="023" />
+		<img alt="插图024" filename="024" />
+		<img alt="插图025" filename="025" />
+		<img alt="插图026" filename="026" />
+		<img alt="插图027" filename="027" />
+	</imgs>
+</volume>

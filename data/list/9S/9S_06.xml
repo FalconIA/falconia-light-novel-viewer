@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0033" />
+	<chapter start="0037" end="0041" title="－－－" />
+	<chapter start="0047" end="0087" title="序　曲" />
+	<chapter start="0093" end="0812" title="第一章　包围网" />
+	<chapter start="0818" end="1985" title="第二章　重现" />
+	<chapter start="1991" end="3033" title="第三章　传达不到的心意" />
+	<chapter start="3039" end="3562" title="第四章　时限" />
+	<chapter start="3568" end="3608" title="终　曲" />
+	<chapter start="3614" end="3634" title="后　记" />
+	<imgs dir="9S" prefix="9S_06_" suffix=".jpg">
+		<img insert="0010" filename="000" notfloat="true" />
+		<img insert="0028" filename="001" />
+		<img insert="0028" filename="002" />
+		<img insert="0028" filename="003" />
+		<img insert="0028" filename="004" />
+		<img insert="0028" filename="005" />
+		<img insert="0028" filename="005b" />
+		<img alt="插图035" filename="035t" />
+		<img alt="插图040" filename="040t" />
+		<img alt="插图052" filename="052t" />
+		<img alt="插图063" filename="063t" />
+		<img alt="插图098" filename="098" />
+		<img alt="插图113" filename="113" />
+		<img alt="插图120" filename="120" />
+		<img alt="插图135" filename="135" />
+		<img alt="插图162" filename="162" />
+		<img alt="插图167" filename="167" />
+	</imgs>
+</volume>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0006" />
+	<chapter start="0011" end="0334" title="第一章　露易丝之恐怖" />
+	<chapter start="0340" end="0617" title="第二章　森之妖精" />
+	<chapter start="0623" end="0911" title="第三章　背负者的相会和别离" />
+	<chapter start="0917" end="1193" title="第四章　修瓦利埃之封号" />
+	<chapter start="1199" end="1694" title="第五章　水精灵骑士队（奥提奴）" />
+	<chapter start="1700" end="1913" title="第六章　女王的思念" />
+	<chapter start="1919" end="2116" title="第七章　劝诱" />
+	<chapter start="2122" end="2497" title="第八章　斯雷普尼尔舞会" />
+	<chapter start="2503" end="2909" title="第九章　同怪鸟的决战" />
+	<chapter start="2915" end="3102" title="终　章" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_09_" suffix=".jpg">
+		<img insert="0003" filename="000" notfloat="true" />
+		<img insert="0006" filename="001" />
+		<img insert="0006" filename="002" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图113" filename="113" />
+	</imgs>
+</volume>

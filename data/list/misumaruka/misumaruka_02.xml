@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0045" />
+	<chapter start="0050" end="0385" title="第一章　小国家群症候群" />
+	<chapter start="0391" end="0848" title="第二章　选拔开始" />
+	<chapter start="0854" end="1477" title="第三章　向南去" />
+	<chapter start="1483" end="2141" title="第四章　自由的骑士" />
+	<chapter start="2147" end="2864" title="第五章　紧随而去的理性" />
+	<chapter start="2870" end="3212" title="第六章　纸牌游戏" />
+	<chapter start="3218" end="3266" title="后　记" />
+	<imgs dir="misumaruka" prefix="misumaruka_02_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0045" filename="004" />
+		<img insert="0045" filename="005" />
+		<img insert="0045" filename="006" />
+		<img insert="0045" filename="011" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图051" filename="051" />
+		<img alt="插图079" filename="079" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图149" filename="149" />
+		<img alt="插图239" filename="239" />
+		<img alt="插图273" filename="273" />
+	</imgs>
+</volume>

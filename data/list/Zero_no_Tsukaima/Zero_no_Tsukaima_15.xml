@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0019" />
+	<chapter start="0023" end="0327" title="第一章　加鲁加索鲁" />
+	<chapter start="0333" end="0673" title="第二章　沙洲骑士赛" />
+	<chapter start="0679" end="0933" title="第三章　动摇的心" />
+	<chapter start="0939" end="1144" title="第四章　火石" />
+	<chapter start="1150" end="1485" title="第五章　蜜月" />
+	<chapter start="1491" end="1583" title="第六章　塔巴萨漫长的一夜" />
+	<chapter start="1589" end="1779" title="第七章　安莉埃塔的外交方案" />
+	<chapter start="1785" end="2009" title="第八章　加冕式" />
+	<chapter start="2015" end="2404" title="第九章　梦之迷宫的出口" />
+	<chapter start="2410" end="2513" title="尾　声" />
+	<chapter start="2519" end="2541" title="后　记" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_15_" suffix=".jpg">
+		<img insert="0018" filename="000" notfloat="true" />
+		<img insert="0019" filename="001" />
+		<img insert="0019" filename="002" />
+		<img insert="0019" filename="003" />
+		<img insert="0019" filename="004" />
+		<img alt="插图018" filename="018" />
+		<img alt="插图038" filename="038" />
+		<img alt="插图082" filename="082" />
+		<img alt="插图118" filename="118" />
+		<img alt="插图148" filename="148" />
+		<img alt="插图176" filename="176" />
+		<img alt="插图184" filename="184" />
+		<img alt="插图202" filename="202" />
+		<img alt="插图228" filename="228" />
+		<img alt="插图259" filename="259" />
+	</imgs>
+</volume>

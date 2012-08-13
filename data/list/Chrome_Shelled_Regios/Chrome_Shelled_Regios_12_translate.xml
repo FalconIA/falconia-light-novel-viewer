@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0026" />
+	<chapter start="0031" end="0081" title="序　章　——行军都市——" />
+	<chapter start="0086" end="0537" title="第一章　混乱都市" />
+	<chapter start="0542" end="0935" title="第二章　堕影都市" />
+	<chapter start="0940" end="1283" title="第三章　枪壳都市" />
+	<chapter start="1288" end="1730" title="第四章　鬼魅都市" />
+	<chapter start="1735" end="2310" title="第五章　斩奸都市" />
+	<chapter start="2314" end="2919" title="终　章　——虚穴都市——" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_12_" suffix=".jpg">
+		<img insert="0016" filename="000" notfloat="true" />
+		<img insert="0017" filename="001" />
+		<img insert="0017" filename="002" />
+		<img insert="0017" filename="003" />
+		<img alt="插图029" filename="029" />
+		<img alt="插图049" filename="049" />
+		<img alt="插图085" filename="085" />
+		<img alt="插图099" filename="099" />
+		<img alt="插图127" filename="127" />
+		<img alt="插图163" filename="163" />
+		<img alt="插图189" filename="189" />
+		<img alt="插图205" filename="205" />
+		<img alt="插图237" filename="237" />
+	</imgs>
+</volume>

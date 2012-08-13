@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0060" />
+	<chapter start="0066" end="0115" title="序　章" />
+	<chapter start="0121" end="1017" title="第一章　薇安卡来袭" />
+	<chapter start="1023" end="1589" title="第二章　又见小爱" />
+	<chapter start="1595" end="2185" title="第三章　她的秘密" />
+	<chapter start="2191" end="2767" title="第四章　危险的测验" />
+	<chapter start="2773" end="3239" title="第五章　奇迹的瞬间" />
+	<chapter start="3245" end="3311" title="终　章" />
+	<chapter start="3317" end="3338" title="后　记" />
+	<imgs dir="Dragon_Crisis" prefix="Dragon_Crisis_04_" suffix="_with_mark.jpg">
+		<img insert="0016" filename="000" notfloat="true" />
+		<img insert="0050" filename="001" notfloat="true" />
+		<img insert="0050" filename="002a" />
+		<img insert="0050" filename="002b" clear="both" />
+		<img insert="0050" filename="003" />
+		<img insert="0050" filename="004" />
+		<img insert="0050" filename="005" />
+		<img alt="插图010" filename="010t" />
+		<img alt="插图033" filename="033t" />
+		<img alt="插图054" filename="054t" />
+		<img alt="插图071" filename="071t" />
+		<img alt="插图099" filename="099t" />
+		<img alt="插图110" filename="110t" />
+		<img alt="插图116" filename="116t" />
+		<img alt="插图121" filename="121t" />
+	</imgs>
+</volume>

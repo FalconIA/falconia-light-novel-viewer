@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0036" />
+	<chapter start="0043" end="0084" title="序　章" />
+	<chapter start="0091" end="0371" title="第一问" />
+	<chapter start="0378" end="0914" title="第二问" />
+	<chapter start="0921" end="1536" title="第三问" />
+	<chapter start="1543" end="2084" title="第四问" />
+	<chapter start="2091" end="2311" title="第五问" />
+	<chapter start="2318" end="2828" title="第六问" />
+	<chapter start="2835" end="2996" title="最终问题" />
+	<chapter start="3003" end="3056" title="后　记" />
+	<imgs dir="Baka_to_Test_to_Syoukanjuu" prefix="Baka_to_Test_to_Syoukanjuu_04_" suffix=".jpg">
+		<img insert="0019" filename="000" notfloat="true" />
+		<img insert="0027" filename="001a" />
+		<img insert="0027" filename="001b" />
+		<img insert="0027" filename="001c" />
+		<img insert="0027" filename="001d" />
+		<img insert="0027" filename="001e" />
+		<img insert="0027" filename="002" />
+		<img insert="0027" filename="003" />
+		<img insert="0027" filename="004" />
+		<img alt="插图009" filename="009" />
+		<img alt="插图029" filename="029" />
+		<img alt="插图045" filename="045" />
+		<img alt="插图065" filename="065" />
+		<img alt="插图069" filename="069" />
+		<img alt="插图095" filename="095" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图115" filename="115" />
+		<img alt="插图117" filename="117" />
+		<img alt="插图135" filename="135" />
+		<img alt="插图143" filename="143" />
+		<img alt="插图155" filename="155" />
+		<img alt="插图157" filename="157" />
+		<img alt="插图159" filename="159" />
+		<img alt="插图173" filename="173" />
+		<img alt="插图175" filename="175" />
+		<img alt="插图177" filename="177" />
+		<img alt="插图199" filename="199" />
+		<img alt="插图215" filename="215" />
+		<img alt="插图217" filename="217" />
+		<img alt="插图227" filename="227" />
+		<img alt="插图233" filename="233" />
+	</imgs>
+</volume>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0002" />
+	<chapter start="0008" end="0254" title="序　章" />
+	<chapter start="0264" end="0478" title="来自白之国的插班生　第一章" />
+	<chapter start="0484" end="0886" title="来自白之国的插班生　第二章" />
+	<chapter start="0892" end="1162" title="来自白之国的插班生　第三章" />
+	<chapter start="1168" end="1436" title="来自白之国的插班生　第四章" />
+	<chapter start="1446" end="1607" title="突击吧，水精灵骑士队　第一章" />
+	<chapter start="1613" end="2148" title="突击吧，水精灵骑士队　第二章" />
+	<chapter start="2158" end="2348" title="才人的一日使用权　第一章" />
+	<chapter start="2354" end="2694" title="才人的一日使用权　第二章" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_12_" suffix=".jpg">
+		<img insert="0003" filename="000" notfloat="true" />
+		<img insert="0004" filename="001" />
+		<img insert="0004" filename="002" />
+	</imgs>
+</volume>

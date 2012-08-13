@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Kampfer" css="">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>|（?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（吐槽：([^（）]+)）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\1" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="怪咖" desc="台语的「咖」是指「角」，就是「角色」意思。怪咖，怪人。" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="朋友" />
+	</highlight>
+	<highlight type="character" subtype="replaceFrom">
+	</highlight>
+	<highlight separate="true" type="character" subtype="星鐵学院男子部">
+		<keyword key="濑能 名津流"  thumb="Kampfer/chara/naturu_s.jpg" />
+		<keyword key="小名津流"     thumb="Kampfer/chara/naturu_s.jpg" />
+		<keyword key="小名名"       thumb="Kampfer/chara/naturu_s.jpg" />
+		<keyword key="小流流"       thumb="Kampfer/chara/naturu_s.jpg" />
+		<keyword key="小赖赖"       thumb="Kampfer/chara/naturu_s.jpg" />
+		<keyword key="东田 干仁" />
+		<keyword key="半泽 友一" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="星鐵学院女子部">
+		<keyword key="美嶋 红音"    thumb="Kampfer/chara/akane_s.jpg" />
+		<keyword key="小红音"       thumb="Kampfer/chara/akane_s.jpg" />
+		<keyword key="三乡 雫"      thumb="Kampfer/chara/shizuku_s.jpg" />
+		<keyword key="小雫"         thumb="Kampfer/chara/shizuku_s.jpg" />
+		<keyword key="近堂 水琴"    thumb="Kampfer/chara/mikoto_s.jpg" />
+		<keyword key="沙仓 枫"      thumb="Kampfer/chara/kaede_s.jpg" />
+		<keyword key="小枫"         thumb="Kampfer/chara/kaede_s.jpg" />
+		<keyword key="葛原 みどり" />
+		<keyword key="西乃 增美" />
+		<keyword key="植田 牧惠" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="白のケンプファー">
+		<keyword key="植田 理香"    thumb="Kampfer/chara/rika.jpg" />
+		<keyword key="中尾 沙也香"  thumb="Kampfer/chara/sayaka.jpg" />
+		<keyword key="山川 凉花"    thumb="Kampfer/chara/ryoka.jpg" />
+		<keyword key="皆川 瞳美"    thumb="Kampfer/chara/hitomi.jpg" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="臓物アニマル">
+		<keyword key="切腹虎"       thumb="Kampfer/chara/tiger.jpg" desc="内脏动物系列第五只。" />
+		<keyword key="切腹黑兔"     thumb="Kampfer/chara/rabbit.jpg" />
+		<keyword key="电死山猫"     thumb="Kampfer/chara/cat.jpg" />
+		<keyword key="肇事逃逸河马" thumb="Kampfer/chara/hippo.jpg" />
+		<keyword key="窒息野狗"     thumb="Kampfer/chara/dog.jpg" />
+		<keyword key="窒息野犬"     thumb="Kampfer/chara/dog.jpg" />
+		<keyword key="ギロチンシマウマ" />
+		<keyword key="ウエジニライオン" />
+		<keyword key="イキウメハイエナ"       thumb="Kampfer/chara/イキウメハイエナ.jpg" />
+		<keyword key="クシザシネズミ十二兄弟" thumb="Kampfer/chara/mouse.jpg" />
+		<keyword key="火刑狮子"     thumb="Kampfer/chara/lion.jpg" />
+		<keyword key="飚血羚羊"     alias="チダルマカモシカ" />
+		<keyword key="中毒浣熊"     thumb="Kampfer/chara/palm-civet.jpg" />
+		<keyword key="ハリツケエゾジカ" />
+		<keyword key="断指山猪" />
+		<keyword key="碾死小鹿" />
+		<keyword key="" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="臓物アニマル">
+		<keyword key="モデレーター" />
+		<keyword key="副班长" />
+		<keyword key="班长" />
+		<keyword key="会计" />
+	</highlight>
+	<highlight type="character" subtype="chara_other">
+		<keyword regcap="true" key="\0" regexp="(源)?静香" desc="藤子·F·不二雄的漫画《哆啦A梦》中登场的女主角。" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter01">
+	</highlight>
+	<highlight type="terminology" subtype="nick">
+		<keyword key="星铁学院的两大美女" />
+		<keyword key="星铁学院两大美女" />
+		<keyword key="星铁三大美女" />
+		<keyword key="" />
+		<keyword key="内脏动物系列" />
+		<keyword key="内脏动物" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="ミスコン" />
+		<keyword key="美少女研究会" />
+		<keyword key="男女正常交往地下委员会" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword key="肯普法战士" />
+		<keyword key="调停者" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="肯普法" alias="Kämpfer" />
+		<keyword key="誓约之环" />
+		<keyword key="" />
+		<keyword key="非法社团" />
+		<keyword key="" />
+		<keyword key="戈贝尔枪" />
+		<keyword key="草巴魔法" />
+		<keyword key="修贝亚特剑" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="私立星铁学院高中" />
+		<keyword key="星铁学院" />
+		<keyword key="星铁" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+</highlights>

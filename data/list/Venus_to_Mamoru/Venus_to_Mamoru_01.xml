@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0017" />
+	<chapter start="0023" end="0178" title="序　章　魔女的告白" />
+	<chapter start="0184" end="0846" title="第一章　学生会的法则" />
+	<chapter start="0852" end="1518" title="第二章　魔女贝雅特丽齐与吉村护的学园" />
+	<chapter start="1524" end="2143" title="第三章　灵魂之火消失在黑暗中" />
+	<chapter start="2149" end="2663" title="第四章　染血的周末约会" />
+	<chapter start="2669" end="3192" title="第五章　闪耀鲜红的日常生活开端" />
+	<chapter start="3198" end="3308" title="终　章　少年的告白" />
+	<chapter start="3314" end="3321" title="后　记" />
+	<imgs dir="Venus_to_Mamoru" prefix="Venus_to_Mamoru_01_" suffix=".jpg">
+		<img insert="0010" filename="001" notfloat="true" />
+		<img insert="0017" filename="002" />
+		<img insert="0017" filename="003" />
+		<img insert="0017" filename="004" />
+		<img insert="0017" filename="005" />
+		<img insert="0017" filename="006" />
+		<img alt="插图080" filename="080" />
+		<img alt="插图099" filename="099" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图133" filename="133" />
+		<img alt="插图147" filename="147" />
+		<img alt="插图211" filename="211" />
+		<img alt="插图222" filename="222" />
+		<img alt="插图237" filename="237" />
+		<img alt="插图248" filename="248" />
+		<img alt="插图268" filename="268" />
+		<img alt="插图272" filename="272" />
+	</imgs>
+</volume>

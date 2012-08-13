@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Rental_Magica" css="">
+	<highlight>
+		<keyword key="魔法人力派遣公司" />
+		<keyword key="&lt;a href='http://www.lightnovel.cn/bbs' target='_blank'&gt;http://www.lightnovel.cn/bbs&lt;/a&gt;" regexp="http://www\.lightnovel\.cn/bbs" />
+		<keyword key="&lt;a href='http://www.lightnovel.cn' target='_blank'&gt;http://www.lightnovel.cn&lt;/a&gt;" regexp="http://www\.lightnovel\.cn(?!/)" />
+		<keyword regcap="true" regexp="(龙莲寺|来龙去脉)" key="\0" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="アストラル">
+		<keyword key="伊庭 树" />
+		<keyword key="穗波·高濑·安布勒" />
+		<keyword key="猫屋敷 莲" />
+		<keyword key="青龙" />
+		<keyword key="白虎" />
+		<keyword key="朱雀" />
+		<keyword key="玄武" />
+		<keyword key="葛城 美贯" />
+		<keyword key="黑羽 真奈美" />
+		<keyword key="奥尔德宾·戈尔沃茨" alias="Ortwin Grautz" />
+		<keyword key="拉碧丝" />
+		<keyword key="只莲" />
+		<keyword key="ヘイゼル・アンブラー" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="アストラル関係者">
+		<keyword key="伊庭 司" />
+		<keyword key="尤戴克斯·特罗迪" />
+		<keyword key="柏原 代介" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="魔術結社ゲーティア">
+		<keyword key="安缇莉西亚·雷·梅札斯" />
+		<keyword key="安缇莉西亚" />
+		<keyword key="安缇" />
+		<keyword key="达佛涅" />
+		<keyword key="欧兹华德·雷·梅札斯" />
+		<keyword key="クライヴ・ローランド" />
+		<keyword key="ガラ" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="協会">
+		<keyword key="影崎" />
+		<keyword key="达留斯·利维" />
+		<keyword key="石动 圭" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="螺旋なる蛇">
+		<keyword key="冯·库鲁达" />
+		<keyword key="ツェツィーリエ" />
+		<keyword disable="true" key="础" />
+		<keyword key="メルキオーレ" />
+		<keyword key="オードリー・ラーター" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="葛城家">
+		<keyword key="葛城 铃香" />
+		<keyword key="葛城 桔梗" />
+		<keyword key="葛城香" />
+		<keyword key="紫藤 辰巳" />
+		<keyword key="橘 弓鹤" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="八葉">
+		<keyword key="御厨 庚申" />
+		<keyword key="御厨 藤次" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="character_other 魔術側">
+		<keyword key="马库雷瓦" />
+		<keyword key="狄亚娜" />
+		<keyword key="御凪 镐" />
+		<keyword key="御凪 诸刃" />
+		<keyword key="石动 朔夜" />
+		<keyword key="クロエ・ラドクリフ" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="character_other 一般人側">
+		<keyword key="日下部 勇花" />
+		<keyword key="山田 和志" />
+		<keyword key="功刀 翔子" />
+		<keyword key="苫小牧 千鸟" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="chapter01">
+		<keyword key="欧特罗司" comment="魔犬" />
+		<keyword key="海瑟" comment="董事" />
+		<keyword disable="true" key="伊斯玛尔·达里布" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="神道课" />
+		<keyword key="阴阳道课" />
+		<keyword key="咒具课" />
+		<keyword key="女巫巫术课" />
+		<keyword key="咒物课" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="居尔特魔法" />
+		<keyword key="女巫巫术" />
+		<keyword key="所罗门王的魔法" />
+		<keyword key="所罗门魔法" />
+		<keyword key="所罗门七十二柱魔神" />
+		<keyword key="七十二柱魔神" />
+		<keyword key="七十二魔神" />
+		<keyword key="神道" />
+		<keyword key="阴阳道" />
+		<keyword key="骚灵现象" alias="Poltergeist" />
+		<keyword key="炼金术" regexp="炼金术(?!师)" />
+		<keyword key="密宗" />
+		<keyword key="魔眼" />
+		<keyword key="ルーン魔術" />
+		<keyword key="死灵术" />
+		<keyword key="道术" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="咒术 居尔特魔法">
+		<keyword key="灵树的后裔" />
+		<keyword key="" />
+		<keyword key="槲寄生的飞镖" />
+		<keyword key="槲寄生飞镖" />
+	</highlight>
+	<highlight type="ability" subtype="咒术 所罗门七十二柱魔神">
+		<keyword key="王命之唤起" />
+		<keyword key="" />
+		<keyword key="格莱杨拉波尔" desc="掌控 二十六 军团的强大伯爵" />
+		<keyword key="弗内乌"       desc="支配 二十九 军团的侯爵" />
+		<keyword key="沙克斯"       desc="支配 三十   军团的伟大侯爵" />
+		<keyword key="巴钦"         desc="支配 三十   军团的强大侯爵" />
+		<keyword key="马尔巴士"     desc="统领 三十六 军团的王者" />
+		<keyword key="斯伯纳克"     desc="统治 五十   军团的强壮大侯爵" />
+		<keyword key="艾利欧格"     desc="统治 六十   军团的坚强骑士" />
+		<keyword key="布提斯"       desc="支配 六十   军团的睿智伯爵" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="咒术 神道">
+		<keyword disable="true" key="祓除" />
+		<keyword key="祓禊" />
+		<keyword key="大祓结界" />
+		<keyword key="" />
+		<keyword key="禊" />
+		<keyword key="" />
+		<keyword key="镇魂" />
+		<keyword key="镇魂" />
+	</highlight>
+	<highlight type="ability" subtype="咒术 阴阳道">
+		<keyword key="阴阳五行之式" />
+		<keyword key="碟仙" />
+		<keyword key="巫毒咒术" />
+		<keyword key="灵摆占卜" />
+		<keyword disable="true" key="占卜" regexp="占卜(?!杖|馆)" />
+		<keyword key="式神" />
+		<keyword key="避凶方位" />
+		<keyword key="火行符咒" />
+		<keyword key="泰山府君炎罗符咒" />
+		<keyword key="水行符咒" />
+		<keyword key="黑龙北斗水帝符咒" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="咒术 魔眼">
+		<keyword key="妖精眼" />
+		<keyword key="邪视" />
+		<keyword key="蜥怪之瞳" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="咒术">
+		<keyword key="夜" regexp="夜(?=〉)" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="阿斯特拉尔" />
+		<keyword key="盖提亚" />
+		<keyword key="所罗门王" />
+		<keyword key="メイザース家" />
+		<keyword key="レメゲトン" alias="Lemegeton" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="学院" />
+		<keyword key="葛城家" />
+		<keyword key="协会" />
+		<keyword key="蔵名神社" />
+		<keyword key="特里斯美吉斯托斯" />
+		<keyword key="螺旋なる蛇" />
+		<keyword key="銀の騎士団" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="アガシオン" />
+		<keyword key="位阶" />
+		<keyword key="阴阳五行" />
+		<keyword key="唤起" />
+		<keyword key="契约仪式" />
+		<keyword key="契约" />
+		<keyword key="仪式" />
+		<keyword key="咒波污染" />
+		<keyword key="咒物" />
+		<keyword key="咒力" />
+		<keyword key="投标" />
+		<keyword key="入信儀式" />
+		<keyword key="蜥怪" alias="Basilisk" />
+		<keyword key="人工生命体" alias="Homunculus" />
+		<keyword key="魔法系统" />
+		<keyword key="魔法决斗" />
+		<keyword key="魔法书" />
+		<keyword key="龙穴" />
+		<keyword key="龙脉" />
+		<keyword key="龙" regexp="龙(?!面|卷风)" />
+		<keyword key="灵脉" />
+		<keyword key="" />
+		<keyword key="咒术" />
+		<keyword key="咒波干涉" />
+		<keyword key="咒波" />
+		<keyword key="咒语" />
+		<keyword key="咒具" />
+		<keyword key="咏唱" />
+		<keyword key="魔法圆阵" />
+		<keyword key="魔法圆" />
+		<keyword key="魔法阵" />
+		<keyword key="魔法结社" />
+		<keyword key="魔法" regexp="魔法(?!师|集团)" />
+	</highlight>
+	<highlight>
+		<keyword key="胆小鬼" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="鬼" regexp="鬼(?!屋|门|火|故事)" />
+		<keyword key="管狐" />
+	</highlight>
+	<highlight type="terminology" subtype="咒物">
+		<keyword key="槲寄生" />
+		<keyword key="玉串" />
+		<keyword key="占卜杖" />
+		<keyword key="符咒" />
+		<keyword key="橡树魔杖" />
+		<keyword key="荷鲁斯之眼" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="仙丹 灵药">
+		<keyword disable="true" key="曼陀罗根" />
+		<keyword disable="true" key="蝙蝠翅" />
+		<keyword disable="true" key="蟾蜍内脏" />
+		<keyword disable="true" key="氧化镁溶剂" />
+		<keyword key="" />
+		<keyword key="冬虫夏草" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="阴阳眼" />
+		<keyword key="净眼" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="other" subtype="location">
+	</highlight>
+	<highlight>
+		<keyword key="雷" />
+		<keyword regcap="true" regexp="(颗|灵|松)树" key="\1[key]树[/key]" />
+	</highlight>
+	<highlight type="character">
+		<keyword key="小树" regexp="小树(?!枝|荫|林|木|干|龄)" />
+		<keyword key="树" regexp="树(?!枝|荫|林|木|干)" />
+		<keyword key="橘" regexp="橘(?!小户)" />
+		<keyword key="司" regexp="司(?=先生)" />
+	</highlight>
+	<highlight>
+		<keyword disable="true" key="&lt;span style='font-weight: bold; color: red;'&gt;.&lt;/span&gt;" regexp="\." />
+		<keyword disable="true" key="&lt;span style='font-weight: bold; color: red;'&gt;·&lt;/span&gt;" regexp="·" />
+	</highlight>
+</highlights>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<novel title="魔法禁书目录" author="鎌池和馬" id="Toaru_Majutsu_no_Index" highlightver="2" highlight="Toaru_Majutsu_no_Index.xml">
+		<volume title="魔法禁书目录 第01卷" id="Toaru_Majutsu_no_Index_01" thumb="01_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/product_201205231707241.jpg" thumbsize="160,237" />
+		<volume title="魔法禁书目录 第02卷" id="Toaru_Majutsu_no_Index_02" thumb="02_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/608055959585128.jpg" thumbsize="160,233" />
+		<volume title="魔法禁书目录 第03卷" id="Toaru_Majutsu_no_Index_03" thumb="03_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/10634365956113880.jpg" thumbsize="160,238" />
+		<volume title="魔法禁书目录 第04卷" id="Toaru_Majutsu_no_Index_04" thumb="04_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/11088911795764123.jpg" thumbsize="160,236" />
+		<volume title="魔法禁书目录 第05卷" id="Toaru_Majutsu_no_Index_05" thumb="05_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/472007403351052.jpg" thumbsize="160,233" />
+		<volume title="魔法禁书目录 第06卷" id="Toaru_Majutsu_no_Index_06" thumb="06_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/1007865334162993.jpg" thumbsize="160,237" />
+		<volume title="魔法禁书目录 第07卷" id="Toaru_Majutsu_no_Index_07" thumb="07_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/6286910512460423.jpg" thumbsize="160,237" />
+		<volume title="魔法禁书目录 第08卷" id="Toaru_Majutsu_no_Index_08" thumb="08_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/659924917671698.jpg" thumbsize="160,237" />
+		<volume title="魔法禁书目录 第09卷" id="Toaru_Majutsu_no_Index_09" thumb="09_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/687556022953169.jpg" thumbsize="160,234" />
+		<volume title="魔法禁书目录 第10卷" id="Toaru_Majutsu_no_Index_10" thumb="10_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/9698710708390823.jpg" thumbsize="160,234" />
+		<volume title="魔法禁书目录 第11卷" id="Toaru_Majutsu_no_Index_11" thumb="11_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/470504439358850.jpg" thumbsize="160,233" />
+		<volume title="魔法禁书目录 第12卷" id="Toaru_Majutsu_no_Index_12" thumb="12_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/969376227993245.jpg" thumbsize="160,237" />
+		<volume title="魔法禁书目录 第13卷" id="Toaru_Majutsu_no_Index_13" thumb="13_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/11737411031965766.jpg" thumbsize="160,236" />
+		<volume title="魔法禁书目录 第14卷" id="Toaru_Majutsu_no_Index_14" thumb="14_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/847038850191446.jpg" thumbsize="160,236" vertpagefix="6" />
+		<volume title="魔法禁书目录 第15卷" id="Toaru_Majutsu_no_Index_15" thumb="15_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/566535143571146.jpg" thumbsize="160,235" />
+		<volume title="魔法禁书目录 第16卷" id="Toaru_Majutsu_no_Index_16" thumb="16_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/600387255277296.jpg" thumbsize="160,235" />
+		<volume title="魔法禁书目录 第17卷" id="Toaru_Majutsu_no_Index_17" thumb="17_m.jpg" thumb2="http://www.kadokawa.com.tw/Upload/6299763665102628.jpg" thumbsize="160,236" />
+		<volume title="魔法禁书目录 第11卷 （翻译版｜待续）" id="Toaru_Majutsu_no_Index_11_translate" old="true" thumb="00000036_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000036/base/001.jpg?1290393682" thumbsize="161,230" />
+		<volume title="魔法禁书目录 第13卷 （翻译版）" id="Toaru_Majutsu_no_Index_13_translate" old="true" thumb="00000038_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000038/base/001.jpg?1290393682" thumbsize="164,230" />
+		<volume title="魔法禁书目录 第14卷 （翻译版）" id="Toaru_Majutsu_no_Index_14_translate" old="true" thumb="00000039_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000039/base/001.jpg?1290393682" thumbsize="161,230" />
+		<volume title="魔法禁书目录 第15卷 （翻译版）" id="Toaru_Majutsu_no_Index_15_translate" old="true" thumb="00000040_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000040/base/001.jpg?1290393682" thumbsize="161,230" />
+		<volume title="魔法禁书目录 第16卷 （翻译版）" id="Toaru_Majutsu_no_Index_16_translate" old="true" thumb="00000041_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000041/base/001.jpg?1290393683" thumbsize="161,230" />
+		<volume title="魔法禁书目录 第17卷 （翻译版）" id="Toaru_Majutsu_no_Index_17_translate" old="true" thumb="00000042_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000042/base/001.jpg?1290393683" thumbsize="160,230" />
+		<volume title="魔法禁书目录 第18卷 （翻译版）" id="Toaru_Majutsu_no_Index_18_translate" thumb="00000043_001.jpg" thumb2="http://www.project-index.net/core_sys/images/contents/00000043/base/001.jpg?1290393683" thumbsize="160,229" />
+		<volume title="魔法禁书目录 第19卷 （翻译版）" id="Toaru_Majutsu_no_Index_19_translate" thumb="00000044_001.gif" thumb2="http://www.project-index.net/core_sys/images/contents/00000044/base/001.gif?1290393691" thumbsize="160,229" />
+		<volume title="魔法禁书目录 第20卷 （翻译版）" id="Toaru_Majutsu_no_Index_20_translate" thumb="00000046_001.gif" thumb2="http://www.project-index.net/core_sys/images/contents/00000046/base/001.gif?1290393691" thumbsize="160,228" />
+	</novel>
+	<novel title="钢壳都市雷吉欧斯" author="雨木シュウスケ" id="Chrome_Shelled_Regios" highlight="Chrome_Shelled_Regios.xml">
+		<volume title="钢壳都市雷吉欧斯 01" id="Chrome_Shelled_Regios_01" thumb="200512000167.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200512/200512000167.jpg" />
+		<volume title="钢壳都市雷吉欧斯 02 silent talk" id="Chrome_Shelled_Regios_02" thumb="200603000058.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200603/200603000058.jpg" />
+		<volume title="钢壳都市雷吉欧斯 03 sentimental voice" id="Chrome_Shelled_Regios_03" thumb="200604000055.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200604/200604000055.jpg" />
+		<volume title="钢壳都市雷吉欧斯 04 confidential call" id="Chrome_Shelled_Regios_04" thumb="200607000049.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200607/200607000049.jpg" />
+		<volume title="钢壳都市雷吉欧斯 05 emotional howl" id="Chrome_Shelled_Regios_05" thumb="200610000092.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200610/200610000092.jpg" />
+		<volume title="钢壳都市雷吉欧斯 06 red nocturne" id="Chrome_Shelled_Regios_06" thumb="200702000397.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200702/200702000397.jpg" />
+		<volume title="钢壳都市雷吉欧斯 07 white opera" id="Chrome_Shelled_Regios_07" thumb="200708000144.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200708/200708000144.jpg" />
+		<volume title="钢壳都市雷吉欧斯 08 mixing note （短编集）" id="Chrome_Shelled_Regios_08" thumb="200710000286.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200710/200710000286.jpg" />
+		<volume title="钢壳都市雷吉欧斯 09 blue mazurka" id="Chrome_Shelled_Regios_09" thumb="200802000492.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200802/200802000492.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第05卷 （翻译版）" id="Chrome_Shelled_Regios_05_translate" old="true" thumb="200610000092.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200610/200610000092.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第06卷 （翻译版）" id="Chrome_Shelled_Regios_06_translate" old="true" thumb="200702000397.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200702/200702000397.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第07卷 （翻译版）" id="Chrome_Shelled_Regios_07_translate" old="true" thumb="200708000144.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200708/200708000144.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第08卷 （翻译版）" id="Chrome_Shelled_Regios_08_translate" old="true" thumb="200710000286.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200710/200710000286.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第09卷 （翻译版｜部分）" id="Chrome_Shelled_Regios_09_translate" old="true" thumb="200802000492.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200802/200802000492.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第10卷 （短编集｜翻译版）" id="Chrome_Shelled_Regios_10_translate" thumb="200802000493.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200802/200802000493.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第11卷 （短编集｜翻译版）" id="Chrome_Shelled_Regios_11_translate" thumb="200802000494.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200802/200802000494.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第12卷 （翻译版）" id="Chrome_Shelled_Regios_12_translate" thumb="200802000495.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200802/200802000495.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第13卷 （翻译版）" id="Chrome_Shelled_Regios_13_translate" thumb="200902000257.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200902/200902000257.jpg" />
+		<volume title="钢壳都市雷吉欧斯 第14卷 （翻译版）" id="Chrome_Shelled_Regios_14_translate" thumb="200902000258.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200902/200902000258.jpg" />
+	</novel>
+	<novel title="魔法人力派遣公司" author="三田誠" id="Rental_Magica" highlight="Rental_Magica.xml">
+		<volume title="魔法人力派遣公司1 魔法师出租中！" id="Rental_Magica_01" thumb="200405000263.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200405/200405000263.jpg" thumbsize="160,230" />
+		<volume title="魔法人力派遣公司2 魔法师VS炼金术师！" id="Rental_Magica_02" thumb="200411000130.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200411/200411000130.jpg" />
+		<volume title="魔法人力派遣公司3 魔法师，集合！" id="Rental_Magica_03" thumb="200411000149.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200411/200411000149.jpg" />
+	</novel>
+	<novel title="零之使魔" author="ヤマグチノボル" id="Zero_no_Tsukaima" highlight="Zero_no_Tsukaima.xml">
+		<volume title="零之使魔 第01卷" id="Zero_no_Tsukaima_01" thumb="ISBN4-8401-1105-7.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN4-8401-1105-7.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第09卷" id="Zero_no_Tsukaima_09" thumb="ISBN4-8401-1707-1.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN4-8401-1707-1.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第10卷" id="Zero_no_Tsukaima_10" thumb="ISBN4840117667.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN4840117667.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第11卷" id="Zero_no_Tsukaima_11" thumb="ISBN978-4-8401-1859-0_1.jpeg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-1859-0_1.jpeg" thumbsize="170,226" />
+		<volume title="零之使魔 第12卷" id="Zero_no_Tsukaima_12" thumb="zero12_cov-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000172/zero12_cov-thumb10.jpg" />
+		<volume title="零之使魔 第13卷" id="Zero_no_Tsukaima_13" thumb="ISBN978-4-8401-2110-1zero13-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-2110-1zero13-thumb10.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第14卷" id="Zero_no_Tsukaima_14" thumb="ISBN978-4-8401-2319-8zero14-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000172/ISBN978-4-8401-2319-8zero14-thumb10.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第15卷" id="Zero_no_Tsukaima_15" thumb="ISBN978-4-8401-2419-5zerono15_tokusou-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-2419-5zerono15_tokusou-thumb10.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第16卷" id="Zero_no_Tsukaima_16" thumb="ISBN978-4-8401-2664-9zero16-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-2664-9zero16-thumb10.jpg" thumbsize="170,226" />
+		<volume title="零之使魔 第17卷" id="Zero_no_Tsukaima_17" thumb="ISBN978-4-8401-2807-0zero17-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-2807-0zero17-thumb10.jpg" thumbsize="170,226" />
+	</novel>
+	<novel title="打工魔法师" author="椎野美由貴" id="Baito_de_Wazado" highlight="Baito_de_Wazado.xml">
+		<volume title="打工魔法师 第01卷" id="Baito_de_Wazado_01" thumb="200207000101.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200207/200207000101.jpg" />
+	</novel>
+	<novel title="魔法战士李维" author="椎野美由貴" id="Maho_Senshi_Riui" highlight="Maho_Senshi_Riui.xml">
+		<volume title="魔法战士李维 第01卷" id="Maho_Senshi_Riui_01" thumb="" />
+		<volume title="魔法战士李维 第02卷" id="Maho_Senshi_Riui_02" thumb="" />
+		<volume title="魔法战士李维 第03卷" id="Maho_Senshi_Riui_03" thumb="" />
+		<volume title="魔法战士李维 第04卷" id="Maho_Senshi_Riui_04" thumb="" />
+		<volume title="魔法战士李维 第05卷" id="Maho_Senshi_Riui_05" thumb="" />
+		<volume title="魔法战士李维 第06卷" id="Maho_Senshi_Riui_06" thumb="" />
+		<volume title="魔法战士李维 第07卷" id="Maho_Senshi_Riui_07" thumb="200000000013.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200000/200000000013.jpg" />
+		<volume title="魔法战士李维 第08卷" id="Maho_Senshi_Riui_08" thumb="200105000230.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200105/200105000230.jpg" />
+		<volume title="魔法战士李维 剑之王国的魔法战士" id="Maho_Senshi_Riui_Second_01" thumb="200107000591.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200107/200107000591.jpg" />
+	</novel>
+	<novel title="Dragon Crisis ～龙之界点～" author="城崎火也" id="Dragon_Crisis" highlight="Dragon_Crisis.xml">
+		<volume title="Dragon Crisis ～龙之界点～ Series1" id="Dragon_Crisis_01" thumb="978-4-08-630339-2.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/978-4-08-630339-2.jpg" thumbsize="160,228" />
+		<volume title="Dragon Crisis ～龙之界点～ Series2" id="Dragon_Crisis_02" thumb="978-4-08-630353-8.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/978-4-08-630353-8.jpg" thumbsize="160,228" />
+		<volume title="Dragon Crisis ～龙之界点～ Series3" id="Dragon_Crisis_03" thumb="978-4-08-630373-6.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/978-4-08-630373-6.jpg" thumbsize="160,228" />
+		<volume title="Dragon Crisis ～龙之界点～ Series4" id="Dragon_Crisis_04" thumb="978-4-08-630393-4.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/978-4-08-630393-4.jpg" thumbsize="160,228" />
+	</novel>
+	<novel title="黄昏色的咏使" author="細音啓" id="Tasogareiro_no_Utatsukai" highlight="Tasogareiro_no_Utatsukai.xml">
+		<volume title="黄昏色的咏使 第01卷" id="Tasogareiro_no_Utatsukai_01" thumb="200608000251.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200608/200608000251.jpg" />
+	</novel>
+	<novel title="神的记事本" author="杉井光" id="God's_Notepad" highlight="God's_Notepad.xml">
+		<volume title="神的记事本 第01卷" id="God's_Notepad_01" thumb="978-4-8402-3691-1.jpg" thumb2="http://asciimw.jp/search/img-item/978-4-8402-3691-1.jpg" thumbsize="160,229" />
+		<volume title="神的记事本 第02卷" id="God's_Notepad_02" thumb="978-4-8402-3888-5.jpg" thumb2="http://asciimw.jp/search/img-item/978-4-8402-3888-5.jpg" thumbsize="160,229" />
+		<volume title="神的记事本 第03卷" id="God's_Notepad_03" thumb="978-4-04-867097-5.jpg" thumb2="http://asciimw.jp/search/img-item/978-4-04-867097-5.jpg" thumbsize="166,229" />
+		<volume title="神的记事本 第04卷" id="God's_Notepad_04" thumb="978-4-04-867910-7.jpg" thumb2="http://asciimw.jp/search/img-item/978-4-04-867910-7.jpg" thumbsize="160,229" />
+	</novel>
+	<novel title="神献上女神的祝福" author="岩田洋季" id="Venus_to_Mamoru" highlight="Venus_to_Mamoru.xml">
+		<volume title="献上女神的祝福 第01卷" id="Venus_to_Mamoru_01" thumb="402455.jpg" thumb2="http://asciimw.jp/search/img-item/402455.jpg" thumbsize="160,229" />
+		<volume title="献上女神的祝福 第02卷" id="Venus_to_Mamoru_02" thumb="402544.jpg" thumb2="http://asciimw.jp/search/img-item/402544.jpg" thumbsize="160,229" />
+	</novel>
+	<novel title="灼眼的夏娜" author="高橋弥七郎" id="Shakugan_no_Shana" highlight="Shakugan_no_Shana.xml">
+		<volume title="灼眼的夏娜 第01卷" id="Shakugan_no_Shana_01" thumb="402218.jpg" thumb2="http://asciimw.jp/search/img-item/402218.jpg" thumbsize="160,234" />
+	</novel>
+	<novel title="GOSICK" author="桜庭一樹" id="GOSICK" highlight="GOSICK.xml">
+		<volume title="GOSICK 第01卷 （翻译版）" id="GOSICK_01" thumb="200310000043.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200310/200310000043.jpg" thumbsize="160,229" />
+		<volume title="GOSICK 第02卷 －其罪无名－" id="GOSICK_02" thumb="200403000156.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200403/200403000156.jpg" thumbsize="160,229" />
+		<volume title="GOSICK 第03卷 －蓝蔷薇下－" id="GOSICK_03" thumb="200407000284.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200407/200407000284.jpg" />
+		<volume title="GOSICK 第04卷 －为愚者代辩－" id="GOSICK_04" thumb="200410000325.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200410/200410000325.jpg" />
+		<volume title="GOSICK 第05卷 －别西卜的头骨－" id="GOSICK_05" thumb="200510000048.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200510/200510000048.jpg" />
+	</novel>
+	<novel title="红" author="片山憲太郎" id="Kurenai" highlight="Kurenai.xml">
+		<volume title="红" id="Kurenai_01" thumb="4-08-630272-1.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/4-08-630272-1.jpg" thumbsize="160,228" />
+		<volume title="红 ～断头台～" id="Kurenai_02" thumb="4-08-630290-X.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/4-08-630290-X.jpg" thumbsize="160,228" />
+		<volume title="红 ～丑恶祭～（上）" id="Kurenai_03" thumb="978-4-08-630342-2.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/978-4-08-630342-2.jpg" thumbsize="160,228" />
+		<volume title="红 ～丑恶祭～（下） （翻译版）" id="Kurenai_04" thumb="978-4-08-630416-0.jpg" thumb2="http://books.shueisha.co.jp/search/book_image/978-4-08-630416-0.jpg" thumbsize="160,228" />
+	</novel>
+	<novel title="肯普法" author="築地俊彦" id="Kampfer" highlight="Kampfer.xml">
+		<volume title="肯普法 第01卷" id="Kampfer_01" thumb="ISBN4-8401-1749-7.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN4-8401-1749-7.jpg" thumbsize="170,226" />
+		<volume title="肯普法 第02卷" id="Kampfer_02" thumb="ISBN4840117675.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN4840117675.jpg" thumbsize="170,226" />
+		<volume title="肯普法 第03卷" id="Kampfer_03" thumb="ISBN978-4-8401-1826-2.jpeg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-1826-2.jpeg" thumbsize="170,226" />
+		<volume title="肯普法 第04卷 （翻译版）" id="Kampfer_04" thumb="ISBN978-4-8401-1870-5_11.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-1870-5_11.jpg" />
+		<volume title="肯普法 第05卷 （翻译版）" id="Kampfer_05" thumb="kenpu5cov-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000172/kenpu5cov-thumb10.jpg" />
+		<volume title="肯普法 第06卷 （翻译版）" id="Kampfer_06" thumb="ISBN9784840121316_kenpu6-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN9784840121316_kenpu6-thumb10.jpg" thumbsize="169,226" />
+		<volume title="肯普法 第07卷 （翻译版）" id="Kampfer_07" thumb="ISBN978-4-8401-2308-2kenpu7-thumb10.jpg" thumb2="http://www.mediafactory.co.jp/files/d000174/ISBN978-4-8401-2308-2kenpu7-thumb10.jpg" thumbsize="169,226" />
+	</novel>
+	<novel title="密斯玛路卡兴国物语" author="トモアキ" id="misumaruka" highlight="misumaruka.xml">
+		<volume title="密斯玛路卡兴国物语 第01卷" id="misumaruka_01" thumb="200710000052.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200710/200710000052.jpg"   />
+		<volume title="密斯玛路卡兴国物语 第02卷" id="misumaruka_02" thumb="200710000053.jpg" thumb2="http://www.kadokawa.co.jp/cover_b/200710/200710000053.jpg"  />
+	</novel>
+	<novel title="绯弹的亚莉亚" author="赤松中学" id="Aria_the_Scarlet_Ammo" highlight="Aria_the_Scarlet_Ammo.xml">
+		<volume title="绯弹的亚莉亚 01" id="Aria_the_Scarlet_Ammo_01" thumb="st_001.jpg" thumb2="http://www.mediafactory.co.jp/bunkoj/aria/common/img/st_001.jpg" />
+		<volume title="绯弹的亚莉亚 02 燃烧的钻石冰尘" id="Aria_the_Scarlet_Ammo_02" thumb="st_002.jpg" thumb2="http://www.mediafactory.co.jp/bunkoj/aria/common/img/st_002.jpg" />
+		<volume title="绯弹的亚莉亚 03 蜂蜜色的陷阱" id="Aria_the_Scarlet_Ammo_03" thumb="st_003.jpg" thumb2="http://www.mediafactory.co.jp/bunkoj/aria/common/img/st_003.jpg" />
+		<volume title="绯弹的亚莉亚 04 陨落的绯弹 （翻译版）" id="Aria_the_Scarlet_Ammo_04_translate" thumb="st_004.jpg" thumb2="http://www.mediafactory.co.jp/bunkoj/aria/common/img/st_004.jpg" />
+		<volume title="绯弹的亚莉亚 05 序曲的终止线 （翻译版）" id="Aria_the_Scarlet_Ammo_05_translate" thumb="st_005.jpg" thumb2="http://www.mediafactory.co.jp/bunkoj/aria/common/img/st_005.jpg" />
+		<volume title="绯弹的亚莉亚 06 绝对半径2051 （翻译版）" id="Aria_the_Scarlet_Ammo_06_translate" thumb="st_006.jpg" thumb2="http://www.mediafactory.co.jp/bunkoj/aria/common/img/st_006.jpg" />
+	</novel>
+	<novel title="笨蛋，测验，召唤兽" author="井上堅二" id="Baka_to_Test_to_Syoukanjuu" highlight="Baka_to_Test_to_Syoukanjuu.xml">
+		<volume title="笨蛋，测验，召唤兽 第01卷" id="Baka_to_Test_to_Syoukanjuu_01" thumb="06275901_m.jpg" thumb2="http://www.enterbrain.co.jp/up_files/product/2007/06275901_m.jpg" thumbsize="163,226" />
+		<volume title="笨蛋，测验，召唤兽 第02卷" id="Baka_to_Test_to_Syoukanjuu_02" thumb="06278901_m.jpg" thumb2="http://www.enterbrain.co.jp/up_files/product/2007/06278901_m.jpg" thumbsize="161,226" />
+		<volume title="笨蛋，测验，召唤兽 第03卷" id="Baka_to_Test_to_Syoukanjuu_03" thumb="07271301_m.jpg" thumb2="http://www.enterbrain.co.jp/up_files/product/2007/07271301_m.jpg" />
+		<volume title="笨蛋，测验，召唤兽 第03.5卷" id="Baka_to_Test_to_Syoukanjuu_03.5" thumb="07275001_m.jpg" thumb2="http://www.enterbrain.co.jp/up_files/product/2008/07275001_m.jpg" thumbsize="160,228" />
+		<volume title="笨蛋，测验，召唤兽 第04卷" id="Baka_to_Test_to_Syoukanjuu_04" thumb="07278101_m.jpg" thumb2="http://www.enterbrain.co.jp/up_files/product/2008/07278101_m.jpg" thumbsize="160,228" />
+	</novel>
+	<novel title="9S" author="葉山透" id="9S" highlight="9S.xml">
+		<volume title="9S 第01卷" id="9S_01" thumb="9S.jpg" thumb2="http://www.lafi.net/pic/9S.jpg" thumbsize="160,229" />
+		<volume title="9S 第02卷" id="9S_02" thumb="9S2.jpg" thumb2="http://www.lafi.net/pic/9S2.jpg" thumbsize="160,229" />
+		<volume title="9S 第03卷" id="9S_03" thumb="9S3.jpg" thumb2="http://www.lafi.net/pic/9S3.jpg" thumbsize="160,229" />
+		<volume title="9S 第04卷" id="9S_04" thumb="9S4.jpg" thumb2="http://www.lafi.net/pic/9S4.jpg" thumbsize="160,229" />
+		<volume title="9S 第05卷" id="9S_05" thumb="9S5.jpg" thumb2="http://www.lafi.net/pic2/9S5.jpg" thumbsize="160,229" />
+		<volume title="9S 第06卷" id="9S_06" thumb="9s6.jpg" thumb2="http://www.lafi.net/Book/9s6.jpg" thumbsize="160,229" />
+		<volume title="9S 第07卷" id="9S_07" thumb="9s7.jpg" thumb2="http://www.lafi.net/Book/9s7.jpg" thumbsize="160,229" />
+		<volume title="9S 第08卷" id="9S_08" thumb="9s8.jpg" thumb2="http://www.lafi.net/Book/9s8.jpg" thumbsize="160,229" />
+		<volume title="9S 第09卷" id="9S_09" thumb="978-4-04-867135-4.jpg" thumb2="http://asciimw.jp/search/img-item/978-4-04-867135-4.jpg" thumbsize="160,229" />
+		<volume title="9S 第10卷" id="9S_10" thumb="978-4-04-868014-1.jpg" thumb2="http://asciimw.jp/search/img-item/978-4-04-868014-1.jpg" thumbsize="160,229" />
+	</novel>
+	<novel title="最后大魔王" author="水城正太郎" id="Ichiban_Ushiro_no_Daimao" highlight="Ichiban_Ushiro_no_Daimao.xml">
+		<volume title="最后大魔王 第01卷" id="Ichiban_Ushiro_no_Daimao_01" thumb="0802new03.jpg" thumb2="http://www.hobbyjapan.co.jp/hjbunko/images/0802new03.jpg" thumbsize="163,226" />
+		<volume title="最后大魔王 第02卷" id="Ichiban_Ushiro_no_Daimao_02" thumb="0805new04.jpg" thumb2="http://www.hobbyjapan.co.jp/hjbunko/images/0805new04.jpg" thumbsize="163,226" />
+	</novel>
+</list>

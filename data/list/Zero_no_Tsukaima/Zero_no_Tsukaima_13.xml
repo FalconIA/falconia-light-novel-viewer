@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0030" />
+	<chapter start="0037" end="0273" title="第一章　罗马利亚" />
+	<chapter start="0279" end="0875" title="第二章　才人的决意" />
+	<chapter start="0881" end="1092" title="第三章　在『东方』号上" />
+	<chapter start="1098" end="1473" title="第四章　两支骑士队" />
+	<chapter start="1479" end="1685" title="第五章　教皇的说服" />
+	<chapter start="1691" end="1924" title="第六章　长枪" />
+	<chapter start="1930" end="2317" title="第七章　世界门" />
+	<chapter start="2323" end="2512" title="第八章　笑容的意义" />
+	<chapter start="2518" end="2637" title="尾　声" />
+	<chapter start="2643" end="2667" title="后　记" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_13_" suffix=".jpg">
+		<img insert="0017" filename="000" notfloat="true" />
+		<img insert="0018" filename="001" />
+		<img insert="0018" filename="002" />
+		<img alt="插图025" filename="025" />
+		<img alt="插图037" filename="037" />
+		<img alt="插图051" filename="051" />
+		<img alt="插图083" filename="083" />
+		<img alt="插图147" filename="147" />
+		<img alt="插图179" filename="179" />
+		<img alt="插图193" filename="193" />
+		<img alt="插图225" filename="225" />
+		<img alt="插图244" filename="244" />
+		<img alt="插图257" filename="257" />
+	</imgs>
+</volume>

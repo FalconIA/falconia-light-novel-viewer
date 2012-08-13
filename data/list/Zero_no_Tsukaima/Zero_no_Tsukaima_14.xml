@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0033" />
+	<chapter start="0040" end="0226" title="第一章　花坛骑士的叛乱" />
+	<chapter start="0232" end="0610" title="第二章　即位三周年纪念典礼" />
+	<chapter start="0616" end="0856" title="第三章　精灵刚达尔夫" />
+	<chapter start="0862" end="1147" title="第四章　水之都" />
+	<chapter start="1153" end="1351" title="第五章　六千年前" />
+	<chapter start="1358" end="1672" title="第六章　虎街道" />
+	<chapter start="1679" end="2007" title="第七章　阿奎利亚(水之都)的圣女" />
+	<chapter start="2014" end="2323" title="第八章　钢铁之虎" />
+	<chapter start="2330" end="2577" title="第九章　记忆的羁绊" />
+	<chapter start="2583" end="2697" title="尾　声" />
+	<chapter start="2703" end="2770" title="后　记" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_14_" suffix=".jpg">
+		<img insert="0016" filename="000" notfloat="true" />
+		<img insert="0017" filename="001" />
+		<img insert="0017" filename="002" />
+		<img alt="插图030" filename="030" />
+		<img alt="插图068" filename="068" />
+		<img alt="插图090" filename="090" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图120" filename="120" />
+		<img alt="插图138" filename="138" />
+		<img alt="插图186" filename="186" />
+		<img alt="插图232" filename="232" />
+		<img alt="插图242" filename="242" />
+		<img alt="插图249" filename="249" />
+	</imgs>
+</volume>

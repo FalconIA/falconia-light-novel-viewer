@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0020" />
+	<chapter start="0024" end="0110" title="序　章　恶党们无聊的交易" />
+	<chapter start="0115" end="0805" title="第一章　姑且相信善意" />
+	<chapter start="0810" end="0890" title="行间一" />
+	<chapter start="0895" end="1727" title="第二章　简单又复杂的问题" />
+	<chapter start="1732" end="1770" title="行间二" />
+	<chapter start="1775" end="3088" title="第三章　毁灭开拓出更宽的道路" />
+	<chapter start="3093" end="3628" title="第四章　诱人下地狱的两只怪物" />
+	<chapter start="3633" end="3739" title="终　章　悲剧不是终结" />
+	<chapter start="3744" end="3762" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_19_" suffix=".jpg">
+		<img insert="0012" filename="001" notfloat="true" />
+		<img insert="0020" filename="002" />
+		<img insert="0020" filename="003" />
+		<img insert="0020" filename="004" />
+		<img insert="0020" filename="005" />
+		<img alt="插图039" filename="039" />
+		<img alt="插图059" filename="059" />
+		<img alt="插图137" filename="137" />
+		<img alt="插图165" filename="165" />
+		<img alt="插图242" filename="242" />
+		<img alt="插图266" filename="266" />
+		<img alt="插图288" filename="288" />
+		<img alt="插图335" filename="335" />
+	</imgs>
+</volume>

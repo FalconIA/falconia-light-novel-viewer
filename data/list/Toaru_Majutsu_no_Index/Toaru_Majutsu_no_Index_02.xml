@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0036" />
+	<chapter start="0041" end="0218" title="序　章　不变的日常" />
+	<chapter start="0223" end="0862" title="第一章　玻璃要塞" />
+	<chapter start="0867" end="0906" title="行间一" />
+	<chapter start="0911" end="2103" title="第二章　魔女猎捕与火焰同行" />
+	<chapter start="2108" end="2820" title="第三章　主好比封闭世界的神" />
+	<chapter start="2825" end="2870" title="行间二" />
+	<chapter start="2875" end="3223" title="第四章　死亡接龙" />
+	<chapter start="3228" end="3378" title="终　章　侵蚀的吸血杀手" />
+	<chapter start="3383" end="3413" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_02_" suffix="">
+		<img insert="0006" filename="000.jpg" notfloat="true" />
+		<img alt="插图001" filename="001.jpg" notfloat="true" />
+		<img alt="插图002-003" filename="002-003.jpg" notfloat="true" />
+		<img alt="插图004" filename="004.jpg" notfloat="true" />
+		<img alt="插图005" filename="005.jpg" notfloat="true" />
+		<img alt="插图006" filename="006.jpg" notfloat="true" />
+		<img alt="插图007" filename="007.jpg" notfloat="true" />
+		<img alt="插图008" filename="008.jpg" notfloat="true" />
+		<img alt="插图029" filename="029.png" />
+		<img alt="插图047" filename="047.png" />
+		<img alt="插图093" filename="093.png" />
+		<img alt="插图106" filename="106.png" />
+		<img alt="插图124" filename="124.png" />
+		<img alt="插图153" filename="153.png" />
+		<img alt="插图182" filename="182.png" />
+		<img alt="插图219" filename="219.png" />
+		<img alt="插图264" filename="264.png" />
+		<img alt="插图265" filename="265.png" />
+		<img alt="插图288" filename="288.png" />
+		<img alt="插图297" filename="297.png" />
+	</imgs>
+</volume>

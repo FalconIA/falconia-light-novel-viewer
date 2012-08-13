@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0049" />
+	<chapter start="0055" end="0096" title="序　幕　「黑塔幻想」" />
+	<chapter start="0102" end="0882" title="第一章　练金术师的回忆录" />
+	<chapter start="0888" end="1038" title="利维坦　—LEVIATHAN1—" />
+	<chapter start="1044" end="1397" title="第二章　上发条的黑暗历史" />
+	<chapter start="1403" end="1425" title="非洲之歌" />
+	<chapter start="1431" end="1811" title="第三章　美丽的怪物" />
+	<chapter start="1817" end="1850" title="利维坦　—LEVIATHAN2—" />
+	<chapter start="1856" end="2130" title="第四章　坏心荷叶边与臭蜥蜴" />
+	<chapter start="2136" end="2331" title="利维坦　—LEVIATHAN3—" />
+	<chapter start="2337" end="2907" title="第五章　再见怪物" />
+	<chapter start="2913" end="2983" title="利维坦　—LEVIATHAN4—" />
+	<chapter start="2989" end="3133" title="尾　声　预感" />
+	<chapter start="3139" end="3248" title="后　记" />
+	<imgs dir="GOSICK" prefix="GOSICK_04_" suffix=".jpg">
+		<img insert="0009" filename="001" notfloat="true" />
+		<img insert="0010" filename="002" />
+		<img insert="0010" filename="003" />
+		<img insert="0010" filename="004" />
+		<img alt="插图007" filename="007" />
+		<img alt="插图035" filename="035" />
+		<img alt="插图039" filename="039" />
+		<img alt="插图054" filename="054" />
+		<img alt="插图059" filename="059" />
+		<img alt="插图083" filename="083" />
+		<img alt="插图120" filename="120" />
+		<img alt="插图135" filename="135" />
+		<img alt="插图142" filename="142" />
+		<img alt="插图147" filename="147" />
+	</imgs>
+</volume>

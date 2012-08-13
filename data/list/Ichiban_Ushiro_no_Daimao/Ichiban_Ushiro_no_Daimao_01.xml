@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0023" />
+	<chapter start="0026" end="0075" title="－－－" />
+	<chapter start="0081" end="0481" title="第一章　魔王不小心诞生了" />
+	<chapter start="0487" end="1060" title="第二章　奇怪的监察员" />
+	<chapter start="1066" end="1824" title="第三章　有点可怕的学姐" />
+	<chapter start="1830" end="2186" title="第四章　那个固执己见的女孩子" />
+	<chapter start="2192" end="2492" title="第五章　威胁性十足的乐天派" />
+	<chapter start="2498" end="2522" title="后　记" />
+	<imgs dir="Ichiban_Ushiro_no_Daimao" prefix="Ichiban_Ushiro_no_Daimao_01_" suffix="_with_mark.jpg">
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0018" filename="001" />
+		<img insert="0018" filename="002" />
+		<img insert="0018" filename="003" />
+		<img alt="插图015" filename="015t" />
+		<img alt="插图043" filename="043t" />
+		<img alt="插图050" filename="050t" />
+		<img alt="插图057" filename="057t" />
+		<img alt="插图065" filename="065t" />
+		<img alt="插图073" filename="073t" />
+		<img alt="插图092" filename="092t" />
+		<img alt="插图106" filename="106t" />
+		<img alt="插图116" filename="116t" />
+		<img alt="插图120" filename="120t" />
+	</imgs>
+</volume>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0011" />
+	<chapter start="0015" end="0840" title="魔法师出租中！" />
+	<chapter start="0846" end="0869" title="〈阿斯特拉尔〉业务日志１" />
+	<chapter start="0875" end="1546" title="魔法师与偷花贼" />
+	<chapter start="1552" end="1572" title="〈阿斯特拉尔〉业务日志２" />
+	<chapter start="1578" end="2623" title="魔法师与夏季祭典" />
+	<chapter start="2629" end="2649" title="〈阿斯特拉尔〉业务日志３" />
+	<chapter start="2655" end="3330" title="魔法师与肖像画" />
+	<chapter start="3336" end="3357" title="〈阿斯特拉尔〉业务日志４" />
+	<chapter start="3363" end="3395" title="后　记" />
+	<imgs dir="Rental_Magica" prefix="Rental_Magica_03_" suffix=".jpg">
+		<img insert="0010" filename="000" notfloat="true" />
+		<img insert="0011" filename="001" />
+		<img insert="0011" filename="002" />
+		<img insert="0011" filename="003" />
+		<img insert="0011" filename="004" />
+		<img insert="0011" filename="005" />
+		<img alt="插图023" filename="023" />
+		<img alt="插图067" filename="067" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图131" filename="131" />
+		<img alt="插图165" filename="165" />
+		<img alt="插图205" filename="205" />
+		<img alt="插图229" filename="229" />
+		<img alt="插图263" filename="263" />
+	</imgs>
+</volume>

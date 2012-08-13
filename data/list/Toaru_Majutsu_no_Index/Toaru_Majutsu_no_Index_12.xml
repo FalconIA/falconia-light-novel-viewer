@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0074" />
+	<chapter start="0079" end="0104" title="序　章　白井黑子与床与枕头" />
+	<chapter start="0109" end="0603" title="第一章　上午课堂的向阳处" />
+	<chapter start="0608" end="0649" title="行间一" />
+	<chapter start="0654" end="1128" title="第二章　惩罚游戏的滋味？" />
+	<chapter start="1133" end="1220" title="行间二" />
+	<chapter start="1225" end="1617" title="第三章　御坂跟御坂妹妹" />
+	<chapter start="1622" end="1653" title="行间三" />
+	<chapter start="1658" end="1987" title="第四章　缓缓交错的两组" />
+	<chapter start="1992" end="2083" title="行间四" />
+	<chapter start="2088" end="2657" title="第五章　过于暧昧的日没" />
+	<chapter start="2662" end="2759" title="行间五" />
+	<chapter start="2764" end="2784" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_12_" suffix="_with_mark.jpg">
+		<img alt="彩图001" filename="001" notfloat="true" />
+		<img alt="彩图002b" filename="002b" notfloat="true" />
+		<img alt="彩图003" filename="003" notfloat="true" />
+		<img alt="彩图002a" filename="002a" notfloat="true" />
+		<img insert="0011" filename="000" notfloat="true" />
+		<img alt="插图009" filename="009t" />
+		<img alt="插图030" filename="030t" />
+		<img alt="插图034" filename="034t" />
+		<img alt="插图045" filename="045t" />
+		<img alt="插图051" filename="051t" />
+		<img alt="插图056" filename="056t" />
+		<img alt="插图067" filename="067t" />
+		<img alt="插图079" filename="079t" />
+		<img alt="插图101" filename="101t" />
+		<img alt="插图123" filename="123" />
+	</imgs>
+</volume>

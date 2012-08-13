@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0022" />
+	<chapter start="0024" end="0027" title="－－－" />
+	<chapter start="0033" end="0124" title="序　曲" />
+	<chapter start="0130" end="0913" title="第一章　遗产的剥夺者" />
+	<chapter start="0919" end="1888" title="第二章　再次前往球体实验室" />
+	<chapter start="1894" end="3169" title="第三章　实力差距" />
+	<chapter start="3175" end="3994" title="第四章　遗产的继承者" />
+	<chapter start="4000" end="4046" title="终　曲" />
+	<chapter start="4052" end="4076" title="后　记" />
+	<chapter start="4082" end="4113" title="台湾版后记" />
+	<imgs dir="9S" prefix="9S_01_" suffix=".jpg">
+		<img insert="0003" filename="000" notfloat="true" />
+		<img insert="0016" filename="001" notfloat="true" />
+		<img insert="0016" filename="002-003j" notfloat="true" />
+		<img insert="0016" filename="004-005j" notfloat="true" />
+		<img insert="0016" filename="006-007j" notfloat="true" />
+		<img insert="0016" filename="008" notfloat="true" />
+		<img alt="插图041" filename="041" />
+		<img alt="插图065" filename="065" />
+		<img alt="插图093" filename="093" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图153" filename="153" />
+		<img alt="插图197" filename="197" />
+		<img alt="插图247" filename="247" />
+		<img alt="插图295" filename="295" />
+		<img alt="插图321" filename="321" />
+		<img alt="插图361" filename="361" />
+	</imgs>
+</volume>

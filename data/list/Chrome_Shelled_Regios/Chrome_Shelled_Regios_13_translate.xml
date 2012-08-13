@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0015" />
+	<chapter start="0021" end="0113" title="序" />
+	<chapter start="0119" end="1833" title="华彩乐章～load it" />
+	<chapter start="1839" end="1966" title="尾　声" />
+	<chapter start="1972" end="2457" title="bottle letter for you" />
+	<chapter start="2463" end="2993" title="ghost in ghost" />
+	<chapter start="3000" end="3030" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_13_" suffix=".jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0015" filename="002" />
+		<img insert="0015" filename="003" />
+		<img insert="0015" filename="005" />
+		<img alt="插图045" filename="045" />
+		<img alt="插图057" filename="057" />
+		<img alt="插图223" filename="223" />
+		<img alt="插图245" filename="245" />
+		<img alt="插图261" filename="261" />
+		<img alt="插图277" filename="277" />
+		<img alt="插图293" filename="293" />
+	</imgs>
+</volume>

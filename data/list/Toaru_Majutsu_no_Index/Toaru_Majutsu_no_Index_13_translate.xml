@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0017" />
+	<chapter start="0021" end="0734" title="第六章　被冰冷的雨水淋着的街道" />
+	<chapter start="0739" end="0778" title="行间六" />
+	<chapter start="0783" end="1692" title="第七章　将雨粒变成血色" />
+	<chapter start="1697" end="1761" title="行间七" />
+	<chapter start="1766" end="2511" title="第八章　神之右席与虚数学区与" />
+	<chapter start="2516" end="2563" title="行间八" />
+	<chapter start="2568" end="3149" title="第九章　不同的障碍" />
+	<chapter start="3154" end="4042" title="第十章　属于他们各自的战场" />
+	<chapter start="4047" end="4358" title="终　章　正与负的必往之路" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_13_" suffix=".jpg">
+		<img insert="0009" filename="000" notfloat="true" />
+		<img insert="0017" filename="001" />
+		<img insert="0017" filename="002" />
+		<img insert="0017" filename="003" />
+		<img insert="0017" filename="004" />
+		<img alt="插图021" filename="021" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图119" filename="119" />
+		<img alt="插图181" filename="181" />
+		<img alt="插图218-219" filename="218-219" />
+		<img alt="插图271" filename="271" />
+		<img alt="插图288" filename="288" />
+		<img alt="插图333" filename="333" />
+	</imgs>
+</volume>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0016" />
+	<chapter start="0022" end="0600" title="第五章　紧张线上的休息时间" />
+	<chapter start="0606" end="0630" title="行间四" />
+	<chapter start="0636" end="1384" title="第六章　追击的再开与结束" />
+	<chapter start="1390" end="1441" title="行间五" />
+	<chapter start="1447" end="2169" title="第七章　该打倒的敌人，该守护的人" />
+	<chapter start="2175" end="2206" title="行间六" />
+	<chapter start="2212" end="3133" title="第八章　握紧右拳的理由" />
+	<chapter start="3139" end="3555" title="终　章　战争结束后等待的人们" />
+	<chapter start="3561" end="3577" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_10_" suffix="_with_mark.jpg">
+		<img insert="0013" filename="000" notfloat="true" />
+		<img insert="0016" filename="001" />
+		<img insert="0016" filename="002a" />
+		<img insert="0016" filename="002b" />
+		<img insert="0016" filename="003a" />
+		<img insert="0016" filename="003b" />
+		<img alt="插图008" filename="008t" />
+		<img alt="插图026" filename="026t" />
+		<img alt="插图046" filename="046t" />
+		<img alt="插图058" filename="058t" />
+		<img alt="插图066" filename="066t" />
+		<img alt="插图116" filename="116" />
+		<img alt="插图127" filename="127t" />
+		<img alt="插图151" filename="151t" />
+	</imgs>
+</volume>

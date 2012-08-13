@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0031" />
+	<chapter start="0038" end="0188" title="序　章　北意大利的旅行" />
+	<chapter start="0194" end="0432" title="第一章　Chioggia的街道" />
+	<chapter start="0438" end="0492" title="行间一" />
+	<chapter start="0498" end="0696" title="第二章　前往伦敦的准备" />
+	<imgs dir="Toaru_Majutsu_no_Index_translate" prefix="Toaru_Majutsu_no_Index_11_fb3-179_" suffix=".jpg">
+		<img insert="0015" filename="001" notfloat="true" />
+		<img insert="0023" filename="002" />
+		<img insert="0023" filename="003" />
+		<img insert="0023" filename="004" />
+		<img insert="0023" filename="005" />
+		<img insert="0023" filename="006" />
+		<img insert="0023" filename="007" />
+		<img insert="0023" filename="008" />
+		<img insert="0023" filename="009" />
+		<img insert="0023" filename="010" />
+		<img alt="插图033" filename="033" />
+		<img alt="插图083" filename="083" />
+	</imgs>
+</volume>

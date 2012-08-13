@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0066" />
+	<chapter start="0072" end="0124" title="序　章" />
+	<chapter start="0130" end="0852" title="第一章　被捉走的少女" />
+	<chapter start="0858" end="1484" title="第二章　龙司的苦难" />
+	<chapter start="1490" end="2132" title="第三章　暗黑的袭击" />
+	<chapter start="2138" end="2741" title="第四章　决心" />
+	<chapter start="2747" end="3256" title="第五章　赌命的再会" />
+	<chapter start="3262" end="3357" title="终　章" />
+	<chapter start="3363" end="3384" title="后　记　An afterword" />
+	<imgs dir="Dragon_Crisis" prefix="Dragon_Crisis_01_" suffix="_with_mark.jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0039" filename="001" notfloat="true" />
+		<img insert="0039" filename="002" notfloat="true" />
+		<img insert="0039" filename="002b" />
+		<img insert="0039" filename="003" clear="both" />
+		<img insert="0039" filename="004" />
+		<img insert="0039" filename="005" />
+		<img alt="插图009t" filename="009t" />
+		<img alt="插图025t" filename="025t" />
+		<img alt="插图044t" filename="044t" />
+		<img alt="插图050t" filename="050t" />
+		<img alt="插图080t" filename="080t" />
+		<img alt="插图091t" filename="091t" />
+		<img alt="插图107t" filename="107t" />
+		<img alt="插图120t" filename="120t" />
+		<img alt="插图126t" filename="126t" />
+		<img alt="插图134t" filename="134t" />
+	</imgs>
+</volume>

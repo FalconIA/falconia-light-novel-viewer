@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0006" />
+	<chapter start="0012" end="0332" title="第一章　“东方”号" />
+	<chapter start="0338" end="0523" title="第二章　精灵" />
+	<chapter start="0529" end="0874" title="第三章　不安与嫉妒" />
+	<chapter start="0880" end="1153" title="第四章　女王和骑士们" />
+	<chapter start="1159" end="1278" title="第五章　兄弟" />
+	<chapter start="1284" end="1563" title="第六章　被囚禁的六人" />
+	<chapter start="1569" end="1776" title="第七章　过去的清算" />
+	<chapter start="1782" end="2028" title="第八章　旧奥尔良公爵官邸" />
+	<chapter start="2034" end="2360" title="第九章　阿含布拉城" />
+	<chapter start="2366" end="2796" title="第十章　伊瓦尔汀的勇者" />
+	<chapter start="2802" end="2951" title="尾　声" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_10_" suffix=".jpg">
+		<img insert="0003" filename="000" notfloat="true" />
+		<img insert="0006" filename="001" />
+		<img insert="0006" filename="002" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图112" filename="112" />
+	</imgs>
+</volume>

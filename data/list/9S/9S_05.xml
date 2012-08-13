@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0020" />
+	<chapter start="0024" end="0029" title="－－－" />
+	<chapter start="0035" end="0156" title="序　曲" />
+	<chapter start="0162" end="0856" title="第一章　强夺" />
+	<chapter start="0862" end="1676" title="第二章　遭到破坏的日常" />
+	<chapter start="1682" end="2783" title="第三章　比良见特别进出管制禁区" />
+	<chapter start="2789" end="3954" title="第四章　虚假的天空" />
+	<chapter start="3960" end="4084" title="终　曲" />
+	<chapter start="4090" end="4122" title="后　记" />
+	<imgs dir="9S" prefix="9S_05_" suffix="_with_mark.jpg">
+		<img insert="0009" filename="000" notfloat="true" />
+		<img insert="0015" filename="001" />
+		<img insert="0015" filename="002" />
+		<img insert="0015" filename="003" />
+		<img insert="0015" filename="004" />
+		<img insert="0015" filename="005" />
+		<img alt="插图025" filename="025t" />
+		<img alt="插图041" filename="041t" />
+		<img alt="插图052" filename="052t" />
+		<img alt="插图075" filename="075t" />
+		<img alt="插图107" filename="107t" />
+		<img alt="插图110" filename="110t" />
+		<img alt="插图120" filename="120t" />
+		<img alt="插图153" filename="153t" />
+		<img alt="插图166" filename="166t" />
+		<img alt="插图193" filename="193t" />
+	</imgs>
+</volume>

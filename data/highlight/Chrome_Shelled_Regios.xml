@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Toaru_Majutsu_no_Index" css="" wiki="http://ja.wikipedia.org/wiki/鋼殻のレギオス" wiki2="http://www14.atwiki.jp/regios/">
+	<highlight>
+		<keyword regcap="true" regexp="http://www\.lightnovel\.cn(/bbs)?(/index.php)?|http://www\.sosg\.net/" key="&lt;a href='\0' target='_blank'&gt;\0&lt;/a&gt;" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="((扫图/(?!录入)|录入/|发布于/)(.(?!&lt;br ?/?>))+.|转载请保留以上录入信息|禁止转载SF小说频道)" key="\0" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:\1[=＝，]([-_\w\d ]+)，)([^）]+)）" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*(?:（注：(?:「\1」|“\1”|【\1】|\1[=＝])([^）]+)）|｛(?:(?:注：)?「\1」|“\1”|【\1】|\1[=＝])([^｝]+)｝)" key="[key]\1[/key]\2" alias="\1" desc="\3\4" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)((?:[^　，。？！：；…—「」“”](?!br ?/?>))+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)*[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)((?:[^　，。？！：；…—「」“”](?!br ?/?>))+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)*[ 　]*｛(?:注：)?([^｝]+)｝" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+		<keyword disable="false" regcap="true" regexp="(&lt;img [^>]+>)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）(?:&lt;br ?/?>)?" key="\1" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword disable="true" regcap="true" regexp="｛([^｝]+)｝" key="\0" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（(译者注|翻译注|译注|自助)：([^（）]+)）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:译者(?!注)[^：）]*|译插)：([^（）]+))）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\2" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="胫骨" desc="胫骨，小腿双骨之一，位于小腿的内侧，对支持体重起重要作用。可分为一体和两端。" />
+	</highlight>
+	<highlight type="escape">
+		<keyword key="《雷吉欧斯》" />
+		<keyword key="钢壳都市雷吉欧斯" />
+		<keyword key="利格扎力欧的洗礼" />
+		<keyword />
+		<keyword escape="丽琳" key="菲丽琳" />
+		<keyword escape="迪恩" key="德伊·玛古" />
+		<keyword escape="辛" regcap="true" regexp="辛苦|辛劳|千辛万苦|香辛|辛勤|很辛…|艰辛" key="\0" />
+		<keyword escape="臣" regcap="true" regexp="臣服|功臣|称臣" key="\0" ch="07" />
+		<keyword escape="宾" regcap="true" regexp="来宾|上宾|嘉宾" disable="true" />
+		<keyword />
+		<keyword escape="复原" regcap="true" regexp="恢复|复原时候|回复原状|恢复原状|立刻复原后|复原了的话" key="\0" />
+		<keyword escape="刭射" key="射了" />
+		<keyword escape="点破" regcap="true" regexp="破坏禁闭鸟群的装置|破绽" key="\0" />
+		<keyword escape="紫电" regcap="true" regexp="紫电闪过|紫电的" key="\0" />
+		<keyword escape="地走" regcap="true" regexp="走[着入向在到去进了]" key="\0" />
+		<keyword />
+		<keyword escape="四足野兽" key="类似四足野兽" ch="09"  />
+		<keyword />
+		<keyword escape="刭流" key="流动" />
+		<keyword escape="武者" key="武者对战" ch="04" disable="true" />
+		<keyword escape="武者" key="绝强武者" ch="04" />
+		<keyword escape="都震" key="震撼" />
+	</highlight>
+	<highlight type="other" subtype="transChange">
+		<keyword ch="10" replace="连接" key="阿库亚苏" alias="アクセス(access)" />
+		<keyword ch="13" replace="升学并且住进了学生宿舍" key="升入大学并且进入了学生&lt;!----&gt;会" regexp="升入大学并且进入了学生会" />
+		<keyword ch="13" replace="需求" key="利古艾斯特" alias="リクエスト(request)" />
+		<keyword />
+		<keyword ch="11" key="大厅" regexp="大广间" alias="大広間(Large Hall)" desc="Replaced From: 大广间" />
+		<keyword ch="11" key="大厅" regexp="广间" alias="広間(Hall)" desc="Replaced From: 广间" />
+		<keyword ch="11" key="活页笔记本" regexp="FileBook" desc="Replaced From: FileBook" jpn="ファイルブック" />
+		<keyword ch="11" key="笔记本" regexp="NoteBook" desc="Replaced From: FileBook" jpn="ノート" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="english_alias" disable="true">
+		<keyword key="雷冯·沃尔夫修丁·阿尔塞夫" alias="Layfon Wolfstein Alseif" />
+		<keyword key="雷冯·阿尔塞夫" alias="Layfon Alseif" />
+		<keyword key="妮娜·安多克" alias="Nina Antalk" />
+		<keyword key="菲丽·罗斯" alias="Felli Loss" />
+		<keyword key="夏尼德·耶利普顿" alias="Sharnid Elipton" />
+		<keyword key="哈雷·萨顿" alias="Harley Sutton" />
+		<keyword key="" alias="" />
+		<keyword key="卡利安·罗斯" alias="Karian Loss" />
+		<keyword key="梵希·哈尔迪" alias="Vanze Haldey" />
+		<keyword key="梅珍·多林丹" alias="Meishen Trinden" />
+		<keyword key="米菲·罗丁" alias="Mifi Rotten" />
+		<keyword key="迪恩·丁" alias="Dinn Dee" />
+		<keyword key="妲尔洁娜·杰·玛提尔那" alias="Dalshena Che Matelna" />
+		<keyword key="哥尔尼欧·鲁肯斯" alias="Gorneo Luckens" />
+		<keyword key="香媞·莱德" alias="Shante Laite" />
+		<keyword key="佛梅德·卡连" alias="Fomed Garen" desc="都市警察强行警备课课长" />
+		<keyword key="娜尔姬·凯鲁尼" alias="Naruki Gerlni" />
+		<keyword key="" alias="" />
+		<keyword key="海亚·萨林邦·莱亚" alias="Haia Salinvan Lyia" />
+		<keyword key="费尔玛斯" alias="Fermaus" disable="true" />
+		<keyword key="缪珐·蕗法" alias="Myunfa Rufa" />
+		<keyword key="" alias="" />
+		<keyword key="莉琳·马菲斯" alias="Leerin Marfes" />
+		<keyword key="爱尔榭拉·亚尔莫尼斯" alias="Alsheyra Almonise" />
+		<keyword key="席诺拉·爱蕾斯拉" alias="Synola Leiser" />
+		<keyword key="戴尔克·塞哈丁" alias="Derp Psyharden" />
+		<keyword key="卡哈尔德·巴连" alias="Gahard Vallen" />
+		<keyword key="" alias="" />
+		<keyword key="萨瓦利斯·库尔拉冯·鲁肯斯" alias="Savaris Qaulafin Luckens" desc="武器：格闘" />
+		<keyword key="林戴斯·沙沃雷德·海顿"     alias="Lintence Savoled Haden"   desc="武器：鋼糸" />
+		<keyword key="卡娜丽丝·耶莉佛斯·利维"   alias="Kanaris Earifon Rivin"    desc="武器：細剣" />
+		<keyword key="" alias="Delbone Quantis Myuura" />
+		<keyword key="" alias="Reverse Irjinas Elmen" />
+		<keyword key="" alias="Cauntia Valmon Farnes" />
+		<keyword key="" alias="Tigris Noieran Ronsmaia" />
+		<keyword key="" alias="Karuvarn Geordius Midontto" />
+		<keyword key="" alias="Barmelin Swattis Nolne" />
+		<keyword key="" alias="Troiatte Gavanest Frandin" />
+		<keyword key="" alias="Ruimei Garrand MacRing" />
+		<keyword key="" alias="" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="translate">
+		<keyword         sub="Layfon_Leerin" />
+		<keyword ch="11" key="小琳" alias="リー" />
+		<keyword />
+		<keyword         sub="武芸科" />
+		<keyword />
+		<keyword         sub="武芸科以外の学科" />
+		<keyword ch="12" key="炼金科长" />
+		<keyword />
+		<keyword         sub="グレンダン三王家" />
+		<keyword ch="13" key="库拉利贝尔·隆斯麦亚" desc="武器：胡蝶炎翅剣" alias="クラリーベル・ロンスマイア" />
+		<keyword ch="12" key="库拉利贝尔"           desc="武器：胡蝶炎翅剣" alias="クラリーベル・ロンスマイア" />
+		<keyword ch="14" key="库拉丽贝鲁"           desc="武器：胡蝶炎翅剣" alias="クラリーベル・ロンスマイア" />
+		<keyword ch="13" key="库拉拉"        		desc="武器：胡蝶炎翅剣" alias="クララ(クラリーベル・ロンスマイア)" />
+		<keyword ch="14" key="梅法·修达特"         desc="莉琳的母亲" />
+		<keyword />
+		<keyword         sub="サリンバン教導傭兵団" />
+		<keyword />
+		<keyword         sub="電子精霊たち" />
+		<keyword ch="14" key="极炎的饿狼" alias="威赛海姆" />
+		<keyword />
+		<keyword         sub="character_other" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="replaceFrom">
+		<keyword         sub="Layfon_Leerin" />
+		<keyword ch="07" key="雷冯·沃尔夫修丁·阿尔塞夫" regexp="雷冯·沃尔夫修丁·阿尔谢夫" desc="Replaced From: 雷冯·沃尔夫修丁·阿尔谢夫" />
+		<keyword ch="08" key="雷冯·沃尔夫修丁·阿尔塞夫" regexp="雷冯·沃尔夫斯丁·阿尔赛夫" desc="Replaced From: 雷冯·沃尔夫斯丁·阿尔赛夫" />
+		<keyword ch="07" key="雷冯·阿尔塞夫" regexp="雷冯·阿尔谢夫" desc="Replaced From: 雷冯·阿尔谢夫" />
+		<keyword ch="11" key="雷冯·阿尔塞夫" regexp="雷冯·阿鲁塞夫" desc="Replaced From: 雷冯·阿鲁塞夫" />
+		<keyword ch="14" key="雷冯·阿尔塞夫" regexp="雷冯·阿鲁赛夫" desc="Replaced From: 雷冯·阿鲁赛夫" />
+		<keyword ch="08" key="沃尔夫修丁" regexp="沃尔夫斯丁" desc="Replaced From: 沃尔夫斯丁" />
+		<keyword ch="14" key="沃尔夫修丁" regexp="沃鲁夫修汀" desc="Replaced From: 沃鲁夫修汀" />
+		<keyword ch="09" key="莉琳·马菲斯" regexp="莉琳·玛菲斯" desc="Replaced From: 莉琳·玛菲斯" />
+		<keyword ch="11" key="莉琳·马菲斯" regexp="丽琳·玛菲斯" desc="Replaced From: 丽琳·玛菲斯" />
+		<keyword ch="14" key="莉琳·马菲斯" regexp="莉林·玛菲斯" desc="Replaced From: 莉林·玛菲斯" />
+		<keyword ch="12" key="莉琳" regexp="丽琳(?!·)" desc="Replaced From: 丽琳" />
+		<keyword ch="14" key="莉琳" regexp="莉林(?!·)" desc="Replaced From: 莉林" />
+		<keyword />
+		<keyword         sub="第17小隊メンバー" />
+		<keyword ch="07" key="妮娜·安多克" regexp="妮娜·安托克" desc="Replaced From: 妮娜·安托克" />
+		<keyword ch="10" key="安多克" regexp="安托克" desc="Replaced From: 安托克" />
+		<keyword ch="14" key="夏尼德·耶利普顿" regexp="夏尼德·埃利普顿" desc="Replaced From: 夏尼德·埃利普顿" />
+		<keyword ch="14" key="夏尼德" regexp="夏尼特" desc="Replaced From: 夏尼特" />
+		<keyword />
+		<keyword         sub="Layfon_Classmate" />
+		<keyword ch="09" key="梅珍" regexp="梅仙" desc="Replaced From: 梅仙" />
+		<keyword ch="14" key="梅珍" regexp="梅谢" desc="Replaced From: 梅谢" />
+		<keyword ch="09" key="娜尔姬" regexp="娜儿姬" desc="Replaced From: 娜儿姬" />
+		<keyword ch="11" key="娜尔姬" regexp="娜露基" desc="Replaced From: 娜露基" />
+		<keyword ch="12" key="娜尔姬" regexp="娜鲁奇" desc="Replaced From: 娜鲁奇" />
+		<keyword ch="11" key="娜姬" regexp="娜基" desc="Replaced From: 娜基" />
+		<keyword ch="12" key="娜姬" regexp="娜奇" desc="Replaced From: 娜奇" />
+		<keyword />
+		<keyword         sub="武芸科" />
+		<keyword ch="07" key="梵希·哈尔迪" regexp="梵希·哈尔蒂" desc="第一小队队长（武艺长）\r\nReplaced From: 梵希·哈尔蒂" />
+		<keyword ch="07" key="梵希" regexp="梵杰" desc="第一小队队长（武艺长）\r\nReplaced From: 梵杰" />
+		<keyword ch="09" key="梵希" regexp="樊泽" desc="第一小队队长（武艺长）\r\nReplaced From: 樊泽" />
+		<keyword ch="12" key="梵希" regexp="万泽" desc="第一小队队长（武艺长）\r\nReplaced From: 万泽" />
+		<keyword ch="05" key="哥尔尼欧·鲁肯斯" regexp="高鲁赫雷·路克斯" desc="第五小队队长\r\nReplaced From: 高鲁赫雷·路克斯" />
+		<keyword ch="05" key="哥尔尼欧" regexp="高鲁赫雷" desc="第五小队队长\r\nReplaced From: 高鲁赫雷" />
+		<keyword ch="09" key="哥尔尼欧" regexp="哥鲁尼奥" desc="第五小队队长\r\nReplaced From: 哥鲁尼奥" />
+		<keyword ch="11" key="哥尔尼欧" regexp="格鲁尼奥" desc="第五小队队长\r\nReplaced From: 格鲁尼奥" />
+		<keyword ch="13" key="哥尔尼欧" regexp="格尔尼奥" desc="第五小队队长\r\nReplaced From: 格尔尼奥" />
+		<keyword ch="14" key="哥尔尼欧" regexp="高鲁涅奥" desc="第五小队队长\r\nReplaced From: 高鲁涅奥" />
+		<keyword ch="07" key="哥尔" regexp="高鲁" desc="第五小队队长\r\nReplaced From: 高鲁" />
+		<keyword ch="09" key="哥尔" regexp="哥鲁" desc="第五小队队长\r\nReplaced From: 哥鲁" />
+		<keyword ch="05" key="香媞" regexp="夏忒" desc="第五小队队长\r\nReplaced From: 夏忒" />
+		<keyword ch="05" key="香媞" regexp="香缇" desc="第五小队队长\r\nReplaced From: 香缇" />
+		<keyword ch="05" key="迪恩·丁" regexp="德伊·特伊" desc="第十小队队长\r\nReplaced From: 德伊·特伊" />
+		<keyword ch="07" key="迪恩·丁" regexp="德伊·德因" desc="第十小队队长\r\nReplaced From: 德伊·德因" />
+		<keyword ch="14" key="迪恩·丁" regexp="丁恩·迪"   desc="第十小队队长\r\nReplaced From: 丁恩·迪" />
+		<keyword ch="05" key="迪恩" regexp="德伊" desc="第十小队队长\r\nReplaced From: 德伊" />
+		<keyword ch="14" key="迪恩" regexp="丁恩" desc="第十小队队长\r\nReplaced From: 丁恩" />
+		<keyword ch="05" key="妲尔洁娜·杰·玛提尔那" regexp="达鲁雪娜·谢·玛德露娜" desc="第十小队副队长 => 第十七小队\r\nReplaced From: 达鲁雪娜·谢·玛德露娜" />
+		<keyword ch="05" key="妲尔洁娜" regexp="达鲁雪娜" desc="第十小队副队长 => 第十七小队\r\nReplaced From: 达鲁雪娜" />
+		<keyword ch="09" key="妲尔洁娜" regexp="达尔雪娜" desc="第十小队副队长 => 第十七小队\r\nReplaced From: 达尔雪娜" />
+		<keyword ch="14" key="妲尔洁娜" regexp="达露雪娜" desc="第十小队副队长 => 第十七小队\r\nReplaced From: 达露雪娜" />
+		<keyword ch="05" key="洁娜" regexp="雪娜" desc="第十小队副队长 => 第十七小队\r\nReplaced From: 雪娜" />
+		<keyword ch="07" key="辛·凯汉" regexp="臣·凯汉" desc="第十四小队队长\r\nReplaced From: 臣·凯汉" />
+		<keyword ch="07" key="辛" regexp="臣" desc="第十四小队队长\r\nReplaced From: 臣" />
+		<keyword ch="07" key="温斯" regexp="维斯" desc="第三小队队长\r\nReplaced From: 维斯" />
+		<keyword />
+		<keyword         sub="武芸科以外の学科" />
+		<keyword ch="11" key="卡利安·罗斯" regexp="卡里安·罗斯" desc="Replaced From: 卡里安·罗斯" />
+		<keyword ch="07" key="卡利安" regexp="卡里安" desc="Replaced From: 卡里安" />
+		<keyword ch="07" key="佛梅德" regexp="弗梅德" desc="Replaced From: 弗梅德" />
+		<keyword ch="09" key="佛梅德" regexp="福梅德" desc="Replaced From: 福梅德" />
+		<keyword ch="05" key="奇利克" regexp="基里库" desc="Replaced From: 基里库" />
+		<keyword ch="09" key="奇利克" regexp="基里克" desc="Replaced From: 基里克" />
+		<keyword />
+		<keyword         sub="グレンダン三王家" />
+		<keyword ch="05" key="爱尔榭拉·亚尔莫尼斯" regexp="艾尔雪拉·艾露莫里斯" desc="Replaced From: 艾尔雪拉·艾露莫里斯" />
+		<keyword ch="08" key="爱尔榭拉·亚尔莫尼斯" regexp="阿露雪拉·阿鲁莫尼斯" desc="Replaced From: 阿露雪拉·阿鲁莫尼斯" />
+		<keyword ch="09" key="爱尔榭拉·亚尔莫尼斯" regexp="阿尔雪拉·阿尔摩尼斯" desc="Replaced From: 阿尔雪拉·阿尔摩尼斯" />
+		<keyword ch="12" key="爱尔榭拉·亚尔莫尼斯" regexp="阿尔雪拉·阿鲁莫尼斯" desc="Replaced From: 阿尔雪拉·阿鲁莫尼斯" />
+		<keyword ch="13" key="爱尔榭拉·亚尔莫尼斯" regexp="艾尔雪拉·亚尔莫尼斯" desc="Replaced From: 艾尔雪拉·亚尔莫尼斯" />
+		<keyword ch="14" key="爱尔榭拉·亚尔莫尼斯" regexp="阿鲁谢拉·阿鲁莫尼斯" desc="Replaced From: 阿鲁谢拉·阿鲁莫尼斯" />
+		<keyword ch="05" key="爱尔榭拉" regexp="艾尔雪拉" desc="Replaced From: 艾尔雪拉" />
+		<keyword ch="08" key="爱尔榭拉" regexp="阿露雪拉" desc="Replaced From: 阿露雪拉" />
+		<keyword ch="09" key="爱尔榭拉" regexp="阿尔雪拉" desc="Replaced From: 阿尔雪拉" />
+		<keyword ch="14" key="爱尔榭拉" regexp="阿鲁谢拉" desc="Replaced From: 阿鲁谢拉" />
+		<keyword ch="08" key="亚尔莫尼斯" regexp="阿鲁莫尼斯" desc="古连丹三王家\r\nRReplaced From: 阿鲁莫尼斯" />
+		<keyword ch="05" key="席诺拉·爱蕾斯拉" regexp="席诺拉·艾雷斯拉" desc="Replaced From: 席诺拉·艾雷斯拉" />
+		<keyword ch="12" key="席诺拉" regexp="吉诺拉" desc="Replaced From: 吉诺拉" />
+		<keyword ch="12" key="席诺拉" regexp="西诺拉" desc="Replaced From: 西诺拉" />
+		<keyword ch="09" key="黑尔达·优特诺尔" regexp="海鲁达·尤特诺尔" desc="Replaced From: 海鲁达·尤特诺尔" />
+		<keyword ch="13" key="黑尔达·优特诺尔" regexp="艾尔达·尤特诺尔" desc="Replaced From: 艾尔达·尤特诺尔" />
+		<keyword ch="14" key="黑尔达·优特诺尔" regexp="海鲁达·尤特诺鲁" desc="Replaced From: 海鲁达·尤特诺鲁" />
+		<keyword ch="12" key="黑尔达" regexp="黑露达" desc="Replaced From: 黑露达" />
+		<keyword ch="13" key="黑尔达" regexp="艾尔达" desc="Replaced From: 艾尔达" />
+		<keyword ch="08" key="敏斯·优特诺尔" regexp=  "敏斯·尤特诺尔" desc="Replaced From: 敏斯·尤特诺尔" />
+		<keyword ch="13" key="敏斯·优特诺尔" regexp="米索斯·尤特诺尔" desc="Replaced From: 米索斯·尤特诺尔" />
+		<keyword ch="13" key="敏斯" regexp="米索斯" desc="Replaced From: 米索斯" />
+		<keyword ch="13" key="莉琳·优特诺尔" regexp="莉琳·尤特诺尔" desc="Replaced From: 莉琳·尤特诺尔" />
+		<keyword ch="14" key="莉琳·优特诺尔" regexp="莉林·尤特诺鲁" desc="Replaced From: 莉林·尤特诺鲁" />
+		<keyword ch="08" key="优特诺尔" regexp="尤特诺尔" desc="古连丹三王家\r\nReplaced From: 尤特诺尔" />
+		<keyword ch="14" key="优特诺尔" regexp="尤特诺鲁" desc="古连丹三王家\r\nReplaced From: 尤特诺鲁" />
+		<keyword ch="08" key="利瓦尼斯" regexp="里贝涅斯" desc="三王家旁系所集结创立的武门\r\nReplaced From: 里贝涅斯" />
+		<keyword />
+		<keyword         sub="サリンバン教導傭兵団" />
+		<keyword ch="05" key="海亚·萨林邦·莱亚" regexp="哈伊阿·萨林邦·莱亚" desc="Replaced From: 哈伊阿·萨林邦·莱亚" />
+		<keyword ch="07" key="海亚·萨林邦·莱亚" regexp="哈依阿·萨林邦·莱阿" desc="Replaced From: 哈依阿·萨林邦·莱阿" />
+		<keyword ch="07" key="海亚·莱亚" regexp="哈依阿·莱阿" desc="Replaced From: 哈依阿·莱阿" />
+		<keyword ch="05" key="海亚" regexp="哈伊阿" desc="Replaced From: 哈伊阿" />
+		<keyword ch="07" key="海亚" regexp="哈依阿" desc="Replaced From: 哈依阿" />
+		<keyword ch="07" key="缪珐" regexp="缪芳" desc="Replaced From: 缪芳" />
+		<keyword ch="07" key="费尔玛斯·弗尔" regexp="菲鲁茅斯·弗阿" desc="Replaced From: 菲鲁茅斯·弗阿" />
+		<keyword ch="09" key="费尔玛斯·弗尔" regexp="菲尔茅斯·弗亚" desc="Replaced From: 菲尔茅斯·弗亚" />
+		<keyword ch="05" key="费尔玛斯" regexp="菲尔马旺斯" desc="Replaced From: 菲尔马旺斯" />
+		<keyword ch="06" key="费尔玛斯" regexp="菲鲁茅斯" desc="Replaced From: 菲鲁茅斯" />
+		<keyword ch="09" key="费尔玛斯" regexp="菲尔茅斯" desc="Replaced From: 菲尔茅斯" />
+		<keyword ch="14" key="费尔玛斯" regexp="菲鲁玛乌斯" desc="Replaced From: 菲鲁玛乌斯" />
+		<keyword ch="14" key="留河·凯鸠" regexp="刘芳·贺寿" desc="Replaced From: 刘芳·贺寿" />
+		<keyword ch="05" key="留河" regexp="刘昊" desc="Replaced From: 刘昊" />
+		<keyword ch="05" key="留河" regexp="刘芳" desc="Replaced From: 刘芳" />
+		<keyword />
+		<keyword         sub="槍殻都市グレンダン" />
+		<keyword ch="05" key="戴尔克·赛哈丁" regexp="德鲁库·赛哈德" desc="Replaced From: 德鲁库·赛哈德" />
+		<keyword ch="13" key="戴尔克·赛哈丁" regexp="德鲁克·赛哈典" desc="Replaced From: 德鲁克·赛哈典" />
+		<keyword ch="05" key="戴尔克" regexp="德鲁库" desc="Replaced From: 德鲁库" />
+		<keyword ch="07" key="戴尔克" regexp="德鲁克" desc="Replaced From: 德鲁克" />
+		<keyword ch="08" key="戴尔克" regexp="迪鲁克" desc="Replaced From: 迪鲁克" />
+		<keyword ch="24" key="戴尔克" regexp="迪鲁库" desc="Replaced From: 迪鲁库" />
+		<keyword ch="05" key="赛哈丁" regexp="赛哈德(?!刀争术)" desc="Replaced From: 赛哈德" />
+		<keyword ch="07" key="赛哈丁" regexp="撒哈迪(?!刀争术)" desc="Replaced From: 撒哈迪" />
+		<keyword ch="09" key="赛哈丁" regexp="塞哈典(?!刀争术)" desc="Replaced From: 塞哈典" />
+		<keyword ch="13" key="赛哈丁" regexp="赛哈典(?!刀争术)" desc="Replaced From: 赛哈典" />
+		<keyword ch="05" key="卡哈尔德·巴连" regexp="加哈路德·巴雷" desc="Replaced From: 加哈路德·巴雷" />
+		<keyword ch="08" key="卡哈尔德·巴连" regexp="加哈鲁特·巴雷" desc="Replaced From: 加哈鲁特·巴雷" />
+		<keyword ch="10" key="卡哈尔德·巴连" regexp="加哈鲁德·巴雷" desc="Replaced From: 加哈鲁德·巴雷" />
+		<keyword ch="11" key="卡哈尔德·巴连" regexp="佳哈鲁特·巴雷" desc="Replaced From: 佳哈鲁特·巴雷" />
+		<keyword ch="12" key="卡哈尔德·巴连" regexp="伽哈鲁特·巴雷" desc="Replaced From: 伽哈鲁特·巴雷" />
+		<keyword ch="05" key="卡哈尔德" regexp="加哈路德" desc="Replaced From: 加哈路德" />
+		<keyword ch="09" key="卡哈尔德" regexp="伽哈路德" desc="Replaced From: 伽哈路德" />
+		<keyword ch="10" key="卡哈尔德" regexp="加哈鲁德" desc="Replaced From: 加哈鲁德" />
+		<keyword ch="12" key="卡哈尔德" regexp="加哈鲁特" desc="Replaced From: 加哈鲁特" />
+		<keyword ch="14" key="卡哈尔德" regexp="贾哈鲁特" desc="Replaced From: 贾哈鲁特" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="Layfon_Leerin" disable="true">
+		<keyword key="雷冯·沃尔夫修丁·阿尔塞夫" />
+		<keyword key="沃尔夫修丁" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="Layfon_Leerin">
+		<keyword key="雷冯·沃尔夫修丁·阿尔塞夫" />
+		<keyword key="雷冯·阿尔塞夫" disable="true" />
+		<keyword key="雷顿" />
+		<keyword key="冯冯" />
+		<keyword key="莉琳·马菲斯" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="第17小隊メンバー">
+		<keyword key="雷冯·阿尔塞夫"         disable="true" />
+		<keyword key="妮娜·安多克" />
+		<keyword key="菲丽·罗斯" />
+		<keyword key="夏尼德·耶利普顿" />
+		<keyword key="哈雷·萨顿" />
+		<keyword key="娜尔姬·凯鲁尼"         disable="true" />
+		<keyword key="妲尔洁娜·杰·玛提尔那" disable="true" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="Layfon_Classmate">
+		<keyword key="梅珍·多林丹" />
+		<keyword key="小梅" />
+		<keyword key="娜尔姬·凯鲁尼" />
+		<keyword key="娜姬" />
+		<keyword key="米菲·罗丁" />
+		<keyword key="小米" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="武芸科">
+		<keyword key="梵希·哈尔迪"               desc="第一小队队长（武艺长）" />
+		<keyword key="哥尔尼欧··鲁肯斯"         desc="第五小队队长" />
+		<keyword key="哥尔" regexp="哥尔(?!尼欧)" desc="第五小队队长" />
+		<keyword key="香媞·莱德"                 desc="第五小队副队长" />
+		<keyword key="火神" alias="香媞·莱德" />
+		<keyword key="迪恩·丁"                   desc="第十小队队长"                 separate="false" />
+		<keyword key="迪恩"                       desc="第十小队队长" />
+		<keyword key="妲尔洁娜·杰·玛提尔那"     desc="第十小队副队长 => 第十七小队" separate="false" />
+		<keyword key="妲尔洁娜"                   desc="第十小队副队长 => 第十七小队" />
+		<keyword key="洁娜"                       desc="第十小队副队长 => 第十七小队" />
+		<keyword key="辛·凯汉"                   desc="第十四小队队长" />
+		<keyword key="温斯"                       desc="第三小队队长" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="武芸科以外の学科">
+		<keyword key="卡利安·罗斯" />
+		<keyword key="佛梅德·卡连" desc="都市警察强行警备课课长" />
+		<keyword key="奇利克·塞隆" desc="复合炼金钢的开发者" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="グレンダン三王家">
+		<keyword key="爱尔榭拉·亚尔莫尼斯" />
+		<keyword key="席诺拉·爱蕾斯拉" />
+		<keyword key="黑尔达·优特诺尔" jpn="ヘルダー" />
+		<keyword key="敏斯·优特诺尔" />
+		<keyword key="莉琳·优特诺尔" />
+		<keyword key="迪古利斯·诺耶兰·隆斯麦亚" disable="true" />
+		<keyword jpn="クラリーベル・ロンスマイア" />
+		<keyword />
+		<keyword key="亚尔莫尼斯"   desc="古连丹三王家" />
+		<keyword key="优特诺尔"     desc="古连丹三王家" />
+		<keyword key="··隆斯麦亚" desc="古连丹三王家" />
+		<keyword />
+		<keyword key="利瓦尼斯" desc="三王家旁系所集结创立的武门" jpn="リヴァネス" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="天剣授受者 translate">
+		<keyword         sub="Reverse Irjinas Elmen" />
+		<keyword ch="14" key="立瓦斯·伊吉纳斯·埃卢曼"   desc="武器：盾"   alias="Reverse Irjinas Elmen" />
+		<keyword />
+		<keyword         sub="Cauntia Valmon Farnes" />
+		<keyword ch="14" key="卡温提亚·瓦卢蒙·佛涅斯"   desc="武器：青龍偃月刀" alias="Cauntia Valmon Farnes" />
+		<keyword />
+		<keyword         sub="Troiatte Gavanest Frandin" />
+		<keyword />
+		<keyword         sub="Ruimei Garrand MacRing" />
+		<keyword ch="12" key="鲁梅·加兰特·麦克林格"     desc="武器：鉄球" alias="Ruimei Garrand MacRing"/>
+		<keyword ch="13" key="麦克林格"                   desc="武器：鉄球" alias="MacRing" />
+		<keyword />
+		<keyword />
+		<keyword ch="14" key="艾鲁斯玛乌·裘安迪斯·弗尔" desc="费尔玛斯·弗尔\r\nReplaced From: 艾鲁斯玛乌·奇安提斯·佛阿" regexp="艾鲁斯玛乌·奇安提斯·佛阿" alias="エルスマウ・キュアンティス・フォーア" />
+		<keyword ch="14" key="艾鲁斯玛乌·弗尔"           desc="费尔玛斯·弗尔\r\nReplaced From: 艾鲁斯玛乌·佛阿" regexp="艾鲁斯玛乌·佛阿" alias="エルスマウ・フォーア" />
+		<keyword ch="14" key="艾鲁斯玛乌"                 desc="费尔玛斯·弗尔" alias="エルスマウ・フォーア" />
+		<keyword />
+		<keyword />
+		<keyword ch="11" key="斯匹纳·诺耶兰·佐雷古" regexp="斯匹纳·诺伊艾兰·佐雷古" desc="活到了一百四十岁的天剑\r\nReplaced From: 斯匹纳·诺伊艾兰·佐雷古" alias="スピナー・ノイエラン・ゾレッグ" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="天剣授受者 replaceFrom">
+		<keyword         sub="Savaris Qaulafin Luckens" />
+		<keyword ch="07" key="萨瓦利斯·库尔拉冯·鲁肯斯" regexp="萨布艾利斯·奎尔拉芬·鲁格斯"   desc="武器：格闘\r\nReplaced From: 萨布艾利斯·奎尔拉芬·鲁格斯" />
+		<keyword ch="08" key="萨瓦利斯·库尔拉冯·鲁肯斯" regexp="萨巴利斯·库奥鲁拉夫因·鲁肯斯" desc="武器：格闘\r\nReplaced From: 萨巴利斯·库奥鲁拉夫因·鲁肯斯" />
+		<keyword ch="09" key="萨瓦利斯·库尔拉冯·鲁肯斯" regexp="萨巴利斯·库鲁拉菲·鲁肯斯"     desc="武器：格闘\r\nReplaced From: 萨巴利斯·库鲁拉菲·鲁肯斯" />
+		<keyword ch="10" key="萨瓦利斯·库尔拉冯·鲁肯斯" regexp="萨布艾力斯·库尔拉冯·路金斯"   desc="武器：格闘\r\nReplaced From: 萨布艾力斯·库尔拉冯·路金斯" />
+		<keyword ch="05" key="萨瓦利斯" regexp="萨布艾里斯" desc="武器：格闘\r\nReplaced From: 萨布艾里斯" />
+		<keyword ch="05" key="萨瓦利斯" regexp="萨布艾利斯" desc="武器：格闘\r\nReplaced From: 萨布艾利斯" />
+		<keyword ch="08" key="萨瓦利斯" regexp="萨巴利斯"   desc="武器：格闘\r\nReplaced From: 萨巴利斯" />
+		<keyword ch="10" key="萨瓦利斯" regexp="萨布艾力斯" desc="武器：格闘\r\nReplaced From: 萨布艾力斯" />
+		<keyword ch="05" key="鲁肯斯" regexp="路克斯" desc="Replaced From: 路克斯" />
+		<keyword ch="07" key="鲁肯斯" regexp="鲁格斯" desc="Replaced From: 鲁格斯" />
+		<keyword ch="10" key="鲁肯斯" regexp="路金斯" desc="Replaced From: 路金斯" />
+		<keyword ch="12" key="鲁肯斯" regexp="路肯斯" desc="Replaced From: 路肯斯" />
+		<keyword />
+		<keyword         sub="Lintence Savoled Haden" />
+		<keyword ch="07" key="林戴斯·沙沃蕾德·海顿" regexp="林丹斯·萨波莱特·哈登"   desc="武器：鋼糸\r\nReplaced From: 林丹斯·萨波莱特·哈登" />
+		<keyword ch="14" key="林戴斯·沙沃蕾德·海顿" regexp="林提斯·萨沃雷伊德·哈丁" desc="武器：鋼糸\r\nReplaced From: 林提斯·萨沃雷伊德·哈丁" />
+		<keyword ch="05" key="林戴斯" regexp="林丹斯" desc="武器：鋼糸\r\nReplaced From: 林丹斯" />
+		<keyword ch="14" key="林戴斯" regexp="林蒂斯" desc="武器：鋼糸\r\nReplaced From: 林蒂斯" />
+		<keyword ch="14" key="林戴斯" regexp="林提斯" desc="武器：鋼糸\r\nReplaced From: 林提斯" />
+		<keyword />
+		<keyword         sub="Kanaris Earifon Rivin" />
+		<keyword ch="05" key="卡娜丽丝·耶莉佛斯·利维" regexp="卡娜丽丝·艾丽仸丝·莉温" desc="武器：細剣\r\nReplaced From: 卡娜丽丝·艾丽仸丝·莉温" />
+		<keyword ch="08" key="卡娜丽丝·耶莉佛斯·利维" regexp="卡娜丽斯·艾阿丽冯·李文" desc="武器：細剣\r\nReplaced From: 卡娜丽斯·艾阿丽冯·李文" />
+		<keyword ch="05" key="卡娜丽丝" regexp="卡娜丽斯" desc="武器：細剣\r\nReplaced From: 卡娜丽斯" />
+		<keyword ch="09" key="卡娜丽丝" regexp="卡利娜斯" desc="武器：細剣\r\nReplaced From: 卡利娜斯" />
+		<keyword ch="14" key="卡娜丽丝" regexp="卡纳利斯" desc="武器：細剣\r\nReplaced From: 卡纳利斯" />
+		<keyword />
+		<keyword         sub="Delbone Quantis Myuura" />
+		<keyword ch="07" key="德尔波妮·裘安迪斯·缪拉" regexp="黛尔伯奈·奎安迪斯·缪拉" desc="武器：念威\r\nReplaced From: 黛尔伯奈·奎安迪斯·缪拉" />
+		<keyword ch="07" key="德尔波妮" regexp="黛尔伯奈" desc="武器：念威\r\nReplaced From: 黛尔伯奈" />
+		<keyword ch="08" key="德尔波妮" regexp="迪鲁波尼" desc="武器：念威\r\nReplaced From: 迪鲁波尼" />
+		<keyword ch="09" key="德尔波妮" regexp="德鲁波捏" desc="武器：念威\r\nReplaced From: 德鲁波捏" />
+		<keyword ch="12" key="德尔波妮" regexp="德尔波涅" desc="武器：念威\r\nReplaced From: 德尔波涅" />
+		<keyword ch="14" key="德尔波妮" regexp="迪鲁波涅" desc="武器：念威\r\nReplaced From: 迪鲁波涅" />
+		<keyword ch="12" key="裘安迪斯" regexp="奎安迪斯" desc="武器：念威\r\nReplaced From: 奎安迪斯" />
+		<keyword ch="14" key="裘安迪斯" regexp="裘安提斯" desc="武器：念威\r\nReplaced From: 裘安提斯" />
+		<keyword />
+		<keyword         sub="Reverse Irjinas Elmen" />
+		<keyword ch="tw" key="利法斯" regexp="利瓦斯" desc="武器：盾\r\nReplaced From: 利瓦斯" />
+		<keyword ch="07" key="利法斯" regexp="利巴斯" desc="武器：盾\r\nReplaced From: 利巴斯" />
+		<keyword ch="08" key="利法斯" regexp="里巴斯" desc="武器：盾\r\nReplaced From: 里巴斯" />
+		<keyword ch="12" key="利法斯" regexp="里瓦斯" desc="武器：盾\r\nReplaced From: 里瓦斯" />
+		<keyword ch="14" key="利法斯" regexp="立瓦斯" desc="武器：盾\r\nReplaced From: 立瓦斯" />
+		<keyword ch="14" key="利法"   regexp="立瓦"   desc="武器：盾\r\nReplaced From: 立瓦" />
+		<keyword />
+		<keyword         sub="Cauntia Valmon Farnes" />
+		<keyword ch="07" key="卡温迪亚" regexp="卡翁蒂娅" desc="武器：青龍偃月刀\r\nReplaced From: 卡翁蒂娅" />
+		<keyword ch="08" key="卡温迪亚" regexp="卡文提雅" desc="武器：青龍偃月刀\r\nReplaced From: 卡文提雅" />
+		<keyword ch="09" key="卡温迪亚" regexp="卡温蒂亚" desc="武器：青龍偃月刀\r\nReplaced From: 卡温蒂亚" />
+		<keyword ch="09" key=    "迪亚" regexp=    "蒂亚" desc="武器：青龍偃月刀\r\nReplaced From: 蒂亚" />
+		<keyword ch="12" key="卡温迪亚" regexp="卡乌提亚" desc="武器：青龍偃月刀\r\nReplaced From: 卡乌提亚" />
+		<keyword ch="14" key="卡温迪亚" regexp="卡温提亚" desc="武器：青龍偃月刀\r\nReplaced From: 卡温提亚" />
+		<keyword ch="14" key="卡温"     regexp="卡乌"     desc="武器：青龍偃月刀\r\nReplaced From: 卡恩" />
+		<keyword ch="14" key=    "迪亚" regexp=    "提亚" desc="武器：青龍偃月刀\r\nReplaced From: 提亚" />
+		<keyword />
+		<keyword         sub="Tigris Noieran Ronsmaia" />
+		<keyword ch="08" key="迪古利斯·诺耶兰·隆斯麦亚" regexp="迪克利斯·诺伊耶朗·罗斯迈尔" desc="武器：弓\r\nReplaced From: 迪克利斯·诺伊耶朗·罗斯迈尔" />
+		<keyword ch="11" key="迪古利斯·诺耶兰·隆斯麦亚" regexp="迪古利斯·诺伊艾兰·隆斯麦亚" desc="武器：弓\r\nReplaced From: 迪古利斯·诺伊艾兰·隆斯麦亚" />
+		<keyword ch="08" key="迪古利斯·隆斯麦亚" regexp="迪克利斯·罗斯迈尔" desc="武器：弓\r\nReplaced From: 迪克利斯·罗斯迈尔" />
+		<keyword ch="08" key="迪古利斯" regexp="迪克利斯" desc="武器：弓\r\nReplaced From: 迪克利斯" />
+		<keyword ch="14" key="迪古利斯" regexp="提古利斯" desc="武器：弓\r\nReplaced From: 提古利斯" />
+		<keyword ch="14" key="迪古"     regexp="提古"     desc="武器：弓\r\nReplaced From: 提古" />
+		<keyword ch="08" key="隆斯麦亚" regexp="罗斯迈尔" desc="古连丹三王家\r\nReplaced From: 罗斯迈尔" />
+		<keyword ch="14" key="隆斯麦亚" regexp="伦斯迈亚" desc="古连丹三王家\r\nReplaced From: 伦斯迈亚" />
+		<keyword ch="11" key="诺耶兰" regexp="诺伊艾兰" desc="Replaced From: 诺伊艾兰" />
+		<keyword />
+		<keyword         sub="Karuvarn Geordius Midontto" />
+		<keyword ch="08" key="卡尔冯·凯欧迪斯·米德诺特" regexp="卡鲁邦·盖奥鲁迪斯·敏德诺特" desc="武器：剣\r\nReplaced From: 卡鲁邦·盖奥鲁迪斯·敏德诺特" />
+		<keyword ch="08" key="卡尔冯·米德诺特" regexp="卡鲁邦·敏德诺特" desc="武器：剣\r\nReplaced From: 卡鲁邦·敏德诺特" />
+		<keyword ch="12" key="卡尔冯" regexp="卡鲁瓦" desc="武器：剣\r\nReplaced From: 卡鲁瓦" />
+		<keyword ch="14" key="卡尔冯" regexp="凯鲁万" desc="武器：剣\r\nReplaced From: 凯鲁万" />
+		<keyword />
+		<keyword         sub="Barmelin Swattis Nolne" />
+		<keyword ch="08" key="帕梅琳" regexp="芭梅琳" desc="武器：砲\r\nReplaced From: 芭梅琳" />
+		<keyword ch="09" key="帕梅琳" regexp="帕美琳" desc="武器：砲\r\nReplaced From: 帕美琳" />
+		<keyword ch="14" key="帕梅琳" regexp="巴梅林" desc="武器：砲\r\nReplaced From: 巴梅林" />
+		<keyword ch="14" key="史瓦迪斯" regexp="斯瓦缇斯" desc="武器：砲\r\nReplaced From: 斯瓦缇斯" />
+		<keyword />
+		<keyword         sub="Troiatte Gavanest Frandin" />
+		<keyword ch="tw" key="特洛伊亚特" regexp="特罗亚德"   desc="武器：杖\r\nReplaced From: 特罗亚德" />
+		<keyword ch="07" key="特洛伊亚特" regexp="特罗伊阿特" desc="武器：杖\r\nReplaced From: 特罗伊阿特" />
+		<keyword ch="08" key="特洛伊亚特" regexp="托罗伊阿德" desc="武器：杖\r\nReplaced From: 托罗伊阿德" />
+		<keyword ch="09" key="特洛伊亚特" regexp="特罗伊亚特" desc="武器：杖\r\nReplaced From: 特罗伊亚特" />
+		<keyword ch="12" key="特洛伊亚特" regexp="特洛伊阿特" desc="武器：杖\r\nReplaced From: 特洛伊阿特" />
+		<keyword />
+		<keyword         sub="Ruimei Garrand MacRing" />
+		<keyword ch="tw" key="鲁伊梅" regexp="路伊梅"     desc="武器：鉄球\r\nReplaced From: 路伊梅" />
+		<keyword ch="tw" key="鲁伊梅" regexp="鲁梅"       desc="武器：鉄球\r\nReplaced From: 鲁梅" />
+		<keyword ch="06" key="鲁伊梅" regexp="露伊梅依"   desc="武器：鉄球\r\nReplaced From: 露伊梅依" />
+		<keyword ch="06" key="鲁伊梅" regexp="鲁依梅伊"   desc="武器：鉄球\r\nReplaced From: 鲁依梅伊" />
+		<keyword ch="08" key="鲁伊梅" regexp="鲁伊梅伊"   desc="武器：鉄球\r\nReplaced From: 鲁伊梅伊" />
+		<keyword ch="09" key="鲁伊梅" regexp="鲁梅"       desc="武器：鉄球\r\nReplaced From: 鲁梅" disable="true" />
+		<keyword ch="09" key="鲁伊"   regexp="鲁伊(?!梅)" desc="武器：鉄球\r\nReplaced From: 鲁伊" disable="true" />
+		<keyword />
+		<keyword />
+		<keyword ch="07" key="弗尔" regexp="弗阿"         desc="Replaced From: 弗阿" />
+		<keyword ch="14" key="弗尔" regexp="佛阿"         desc="Replaced From: 佛阿" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="天剣授受者">
+		<keyword sub="Savaris Qaulafin Luckens" />
+		<keyword key="萨瓦利斯·库尔拉冯·鲁肯斯" desc="武器：格闘" />
+		<keyword key="萨瓦" regexp="萨瓦(?!利斯)" desc="武器：格闘" />
+		<keyword sub="Lintence Savoled Haden" />
+		<keyword key="林戴斯·沙沃雷德·海顿"     desc="武器：鋼糸" />
+		<keyword sub="Kanaris Earifon Rivin" />
+		<keyword key="卡娜丽丝·耶莉佛斯·利维"   desc="武器：細剣" ch="05c(2)" />
+		<keyword key="卡娜丽丝·耶尔利冯·利文"   desc="武器：細剣" ch="08(1)" />
+		<keyword key="·利文"                                       ch="12tr(2)" />
+		<keyword sub="Delbone Quantis Myuura" />
+		<keyword key="德尔波妮·裘安迪斯·缪拉"   desc="武器：念威" />
+		<keyword sub="Reverse Irjinas Elmen" />
+		<keyword key="利法斯"                     desc="武器：盾"   ch="05(1) 08(5) 09(25)" />
+		<keyword key="利瓦斯"                     desc="武器：盾"   ch="07(1)" disable="true" />
+		<keyword sub="Cauntia Valmon Farnes" />
+		<keyword key="卡温迪亚"                   desc="武器：青龍偃月刀" />
+		<keyword key=    "迪亚"                   desc="武器：青龍偃月刀" />
+		<keyword sub="Tigris Noieran Ronsmaia" />
+		<keyword key="迪古利斯·诺耶兰·隆斯麦亚" desc="武器：弓" />
+		<keyword key="诺耶兰" />
+		<keyword key="迪古" regexp="迪古(?!利斯)" desc="武器：弓" />
+		<keyword sub="Karuvarn Geordius Midontto" />
+		<keyword key="卡尔冯·凯欧迪斯·米德诺特" desc="武器：剣" />
+		<keyword sub="Barmelin Swattis Nolne" />
+		<keyword key="帕梅琳·史瓦迪斯·诺尔尼"   desc="武器：砲" />
+		<keyword sub="Troiatte Gavanest Frandin" />
+		<keyword key="特罗亚德"                   desc="武器：杖"   ch="07(1)" disable="true" />
+		<keyword key="特洛伊亚特"                 desc="武器：杖"   ch="08(5) 09(7)" />
+		<keyword sub="Ruimei Garrand MacRing" />
+		<keyword key="路伊梅"                     desc="武器：鉄球" ch="06(1)" disable="true" />
+		<keyword key="鲁梅"                       desc="武器：鉄球" ch="08(1)" disable="true" />
+		<keyword key="鲁伊梅"                     desc="武器：鉄球" ch="09(2)" />
+		<keyword key="鲁伊"                       desc="武器：鉄球" ch="14tr" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="サリンバン教導傭兵団">
+		<keyword key="海亚·萨林邦·莱亚" />
+		<keyword key="缪珐·蕗法" />
+		<keyword key="费尔玛斯·弗尔" />
+		<keyword key="留河·萨林邦·凯鸠" ch="04-1" />
+		<keyword key="流河·萨林邦·凯鸠" ch="04-2" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="槍殻都市グレンダン">
+		<keyword key="戴尔克·赛哈丁" />
+		<keyword />
+		<keyword key="·鲁肯斯" />
+		<keyword key="卡哈尔德·巴连" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="電子精霊たち">
+		<keyword disable="true" key="サヤ" />
+		<keyword disable="true" key="シュナイバル" />
+		<keyword disable="true" key="ツェルニ" />
+		<keyword disable="true" key="グレンダン" />
+		<keyword disable="true" key="メルニスク" />
+		<keyword disable="true" key="マイアス" />
+		<keyword disable="true" key="ヴェルゼンハイム" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="character_other translate">
+		<keyword ch="12" key="沙耶" desc="所有电子精灵的原型。古连丹的真正的意志。" alias="サヤ" />
+		<keyword />
+		<keyword ch="14" key="纳米合成树脂·母体Ⅲ·多琳达纳" alias="ナノセルロイド・マザーⅢ・ドゥリンダナ" />
+		<keyword ch="14" key="多琳达纳" alias="ドゥリンダナ" />
+		<keyword ch="14" key="纳米合成树脂·母体Ⅰ·雷万汀" alias="ナノセルロイド・マザーⅠ・レヴァンティン" />
+		<keyword ch="14" key="雷万汀" alias="レヴァンティン" />
+		<keyword ch="14" key="Nano Celluloid" alias="ナノセルロイド" />
+		<keyword ch="14" key="纳米合成树脂"   alias="ナノセルロイド" />
+		<keyword ch="14" key="纳米合成树脂"   alias="ナノセルロイド" regexp="纳罗塞鲁罗伊德" desc="Replaced From: 纳罗塞鲁罗伊德" />
+		<keyword ch="12" key="妮露菲莉娅" desc="洁尔妮地下深处的研究所里沉眠的少女。黑暗。" alias="ニルフィリア" />
+		<keyword ch="12" key="妮卢菲莉亚" desc="洁尔妮地下深处的研究所里沉眠的少女。黑暗。" alias="ニルフィリア" />
+		<keyword ch="13" key="妮尔菲丽亚" desc="洁尔妮地下深处的研究所里沉眠的少女。黑暗。" alias="ニルフィリア" />
+		<keyword ch="14" key="妮卢菲利亚" desc="洁尔妮地下深处的研究所里沉眠的少女。黑暗。" alias="ニルフィリア" />
+		<keyword ch="12" key="阿雷·伽菲特" desc="武芸者の原型。月。" alias="アイレイン・ガーフィート" />
+		<keyword ch="13" key="艾伦"         desc="武艺家的原型。月。" alias="アイレイン・ガーフィート" />
+		<keyword ch="14" key="艾连"         desc="武艺家的原型。月。" alias="アイレイン・ガーフィート" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="character_other replaceFrom">
+		<keyword ch="07" key="迪克塞利欧·马斯肯" regexp="迪克塞利奥·马斯盖伊" desc="Replaced From: 迪克塞利奥·马斯盖伊" />
+		<keyword ch="09" key="迪克塞利欧·马斯肯" regexp="迪克塞里奥·马斯肯" desc="Replaced From: 迪克塞里奥·马斯肯" />
+		<keyword ch="10" key="迪克塞利欧·马斯肯" regexp="迪克赛里奥·马斯肯" desc="Replaced From: 迪克赛里奥·马斯肯" />
+		<keyword ch="12" key="迪克塞利欧·马斯肯" regexp="迪克泽利奥·马斯克茵" desc="Replaced From: 迪克泽利奥·马斯克茵" />
+		<keyword ch="13" key="迪克塞利欧·马斯肯" regexp="迪克塞利欧·马斯金" desc="Replaced From: 迪克塞利欧·马斯金" />
+		<keyword ch="13" key="迪克塞利欧·马斯肯" regexp="迪库塞利奥·麦斯肯" desc="Replaced From: 迪库塞利奥·麦斯肯" />
+		<keyword ch="14" key="迪克塞利欧·马斯肯" regexp="迪库塞里奥·马斯肯" desc="Replaced From: 迪库塞里奥·马斯肯" />
+		<keyword ch="14" key="迪克塞利欧" regexp="迪库塞里奥" desc="Replaced From: 迪库塞里奥" />
+		<keyword ch="14" key="迪克" regexp="迪库(?!鲁)" desc="Replaced From: 迪库" />
+		<keyword ch="12" key="马斯肯" regexp="马斯克茵" desc="Replaced From: 马斯克茵" />
+		<keyword />
+		<keyword ch="06" key="克劳德塞尔·分离母体Ⅳ·哈尔贝" regexp="藏人细胞·分离母体4号·哈鲁佩" desc="Replaced From: 藏人细胞·分离母体4号·哈鲁佩" />
+		<keyword ch="06" key="克劳德塞尔·分离母体Ⅳ" regexp="藏人细胞·分离母体4号" desc="Replaced From: 藏人细胞·分离母体4号" />
+		<keyword ch="06" key="哈尔贝" regexp="哈鲁佩" desc="Replaced From: 哈鲁佩" />
+		<keyword />
+		<keyword ch="05" key="伊格纳西斯" regexp="伊古纳西斯" desc="Replaced From: 伊古纳西斯" />
+		<keyword ch="06" key="利格扎力欧" regexp="利古扎里奥(?!机关)" desc="Replaced From: 利古扎里奥" />
+		<keyword ch="07" key="利格扎力欧" regexp="利古萨里奥(?!机关)" desc="Replaced From: 利古萨里奥" />
+		<keyword ch="10" key="利格扎力欧" regexp="利古扎利奥(?!机关)" desc="Replaced From: 利古扎利奥" />
+		<keyword ch="13" key="利格扎力欧" regexp="利古莎丽奥(?!机关)" desc="Replaced From: 利古莎丽奥" />
+		<keyword ch="14" key="利格扎力欧" regexp="立古扎里奥(?!机关)" desc="Replaced From: 立古扎里奥" />
+		<keyword />
+		<keyword ch="06" key="罗伊·安东尼欧" regexp="罗伊·恩特里奥" desc="Replaced From: 罗伊·恩特里奥" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="character_other">
+		<keyword key="狼面众" />
+		<keyword key="狼面男" />
+		<keyword />
+		<keyword key="迪克塞利欧·马斯肯" />
+		<keyword key="迪克" />
+		<keyword />
+		<keyword key="克劳德塞尔·分离母体Ⅳ·哈尔贝" jpn="クラウドセル・分離マザーIV・ハルペー" />
+		<keyword key="克劳德塞尔·分离母体Ⅳ" />
+		<keyword key="哈尔贝" jpn="ハルペー" />
+		<keyword key="克劳德塞尔" _alias="Cloud Cell" />
+		<keyword />
+		<keyword key="伊格纳西斯" jpn="イグナシス" />
+		<keyword key="利格扎力欧" regexp="利格扎力欧(?!装置)" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="污染兽 replaceFrom">
+		<keyword ch="07" key="贝希默多" regexp="贝希魔朵" desc="被命名的污染兽\r\nReplaced From: 贝希魔朵" />
+		<keyword ch="09" key="贝希默多" regexp="贝西墨德" desc="被命名的污染兽\r\nReplaced From: 贝西墨德" />
+		<keyword ch="14" key="贝希默多" regexp="贝西莫托" desc="被命名的污染兽\r\nReplaced From: 贝西莫托" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="污染兽">
+		<keyword key="贝希默多" desc="被命名的污染兽" jpn="ベヒモト" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="短編の登場人物 translate">
+		<keyword ch="10" key="艾丽" alias="エーリ ??岁 ♀" desc="洁尔妮一般教养科二年级生，菲丽的同班同学" jpn="エーリ" />
+		<keyword ch="11" key="埃德·德隆" alias="エド・ドロン ??岁 ♂" desc="洁尔妮一般教养科一年级生，雷冯＆三人娘的同班同学" jpn="エド・ドロン" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="短編の登場人物 replaceFrom">
+		<keyword ch="08" key="杰米斯" regexp="杰伊米斯" alias="??岁 ♂" desc="洁尔妮一般教养科四年级生，主修时装设计，夏尼德在一年级时的同学\r\nReplaced From: 杰伊米斯"/>
+		<keyword ch="08" key="赛莉娜·宾" regexp="赛丽娜·禀" alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长\r\nReplaced From: 赛丽娜·禀" />
+		<keyword ch="08" key="赛莉娜"     regexp="赛丽娜"     alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长\r\nReplaced From: 赛丽娜" />
+		<keyword ch="09" key="赛莉娜"     regexp="塞丽娜"     alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长\r\nReplaced From: 赛丽娜" />
+		<keyword ch="10" key="赛莉娜"     regexp="谢琳娜"     alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长\r\nReplaced From: 赛丽娜" />
+		<keyword ch="11" key="赛莉娜"     regexp="赛利娜"     alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长\r\nReplaced From: 赛利娜" />
+		<keyword ch="08" key="蕾芙" regexp="列伊" alias="??岁 ♀" desc="洁尔妮一般教养科三年级生，妮娜所住女子宿舍的女学生\r\nReplaced From: 列伊" />
+		<keyword ch="09" key="蕾芙" regexp="雷乌" alias="??岁 ♀" desc="洁尔妮一般教养科三年级生，妮娜所住女子宿舍的女学生\r\nReplaced From: 雷乌" />
+		<keyword ch="10" key="蕾芙" regexp="蕾舞" alias="??岁 ♀" desc="洁尔妮一般教养科三年级生，妮娜所住女子宿舍的女学生\r\nReplaced From: 蕾舞" />
+	</highlight>
+	<highlight type="character" separate="false" subtype="短編の登場人物">
+		<keyword key="杰米斯" alias="??岁 ♂" desc="洁尔妮一般教养科四年级生，主修时装设计，夏尼德在一年级时的同学" jpn="ジェイミス" />
+		<keyword key="杰米"   alias="??岁 ♂" desc="洁尔妮一般教养科四年级生，主修时装设计，夏尼德在一年级时的同学" />
+		<keyword key="赛莉娜·宾" alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长" jpn="セリナ・ビーン" />
+		<keyword key="赛莉娜"     alias="??岁 ♀" desc="洁尔妮炼金科四年级生，妮娜所住女子宿舍的宿舍长" />
+		<keyword key="蕾芙" alias="??岁 ♀" desc="洁尔妮一般教养科三年级生，妮娜所住女子宿舍的女学生" jpn="レウ" />
+		<keyword key="辛·凯汉" disable="true" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="chapter06">
+		<keyword key="罗伊·安东尼欧" alias="19岁 ♂" desc="学园都市麦亚斯都市警察强行机动部队第一队队长" jpn="ロイ・エントリオ" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="chapter08 replaceFrom">
+		<keyword ch="08" key="露夏" regexp="鲁夏" alias="??岁 ♀" desc="古连丹孤儿院的姐姐\r\nReplaced From: 鲁夏" />
+		<keyword ch="11" key="米提夏" regexp="米特莎" desc="妮娜的黑白熊布偶\r\nReplaced From: 米特莎" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="chapter08">
+		<keyword key="史蒂芬" alias="宠物" desc="赛莉娜饲养的雪貂" jpn="ステファン" />
+		<keyword key="米提夏" alias="布偶" desc="妮娜的黑白熊布偶" jpn="ミーテッシャ" />
+		<keyword key="露夏" alias="??岁 ♀" desc="古连丹孤儿院的姐姐" jpn="ルシャ" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="chapter11 translate">
+		<keyword ch="11" key="艾米·酷库" alias="アイミ・クク ??岁 ♀" desc="洁尔妮一般教养科一年级生，雷冯＆三人娘的同班同学" />
+		<keyword ch="11" key="梅法·修塔托" regexp="梅法·修塔托(?!事件)" alias="メイファー・シュタット ??岁 ♂" desc="携带寄生型老性体进入古连丹的流浪汉" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="chapter13 translate">
+		<keyword ch="13" key="夏丽·玛切" alias="シャーリー・マーチ ??岁 ♀" desc="洁尔妮毕业生" />
+		<keyword ch="13" key="伊拉·罗西利尼亚" alias="イラ・ロシリニア ??岁 ♀" desc="洁尔妮学生，怪奇愛好会の会長" />
+	</highlight>
+	<highlight type="character" separate="true"  subtype="chapter14 translate">
+		<keyword ch="14" key="玛鲁库特" alias="三个月" desc="古连丹，露夏与鲁伊梅的孩子" />
+		<keyword ch="14" key="小玛鲁"   alias="三个月" desc="古连丹，露夏与鲁伊梅的孩子" />
+		<keyword ch="14" key="玛鲁"     alias="三个月" desc="古连丹，露夏与鲁伊梅的孩子" />
+		<keyword ch="14" key="罗米娜" alias="??岁 ♀" desc="古连丹孤儿院的孤儿，现任院长" />
+		<keyword ch="14" key="罗米"   alias="??岁 ♀" desc="古连丹孤儿院的孤儿，现任院长" />
+		<keyword ch="14" key="托比埃"   alias="12岁 ♂" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="托比"     alias="12岁 ♂" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="安利"     alias="??岁 ♀" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="拉妮埃塔" alias="??岁 ♀" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="彼那"   alias="??岁 ♂" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="提多"   alias="??岁 ♂" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="威斯夫" alias="??岁 ♂" desc="古连丹孤儿院的孤儿" />
+		<keyword ch="14" key="霍伦"   alias="??岁 ♂" desc="古连丹孤儿院的孤儿" />
+	</highlight>
+	<highlight type="ability" subtype="translate">
+		<keyword         key="外力系冲刭的变化" regexp="外力系冲刭的变化(?!招式)" />
+		<keyword ch="12" jpn="爆導掌" key="爆导拳" alias="外力系冲刭变化" />
+		<keyword ch="12" jpn="剛昇弾" key="刚升弹" alias="外力系冲刭变化" />
+		<keyword ch="14" jpn="剛昇弾" key="钢升弹" alias="外力系冲刭变化" />
+		<keyword />
+		<keyword ch="14" key="饿狼驱" alias="外力系冲刭变化" />
+		<keyword ch="14" key="迷霞·散华" alias="外力系冲刭变化" />
+		<keyword ch="14" key="迷霞"   alias="外力系冲刭变化" />
+		<keyword ch="14" key="震电"   alias="外力系冲刭变化" />
+		<keyword />
+		<keyword />
+		<keyword         key="外力系冲刭化炼变化招式" />
+		<keyword         jpn="七つ牙" />
+		<keyword         jpn="ボウソウゲキ" />
+		<keyword ch="12" jpn="気縮爆" key="气缩爆" alias="外力系冲刭化炼变化" desc="将大气压缩，然后让其爆炸" />
+		<keyword />
+		<keyword />
+		<keyword         key="内力系活刭的变化" regexp="内力系活刭的变化(?!招式)" />
+		<keyword ch="14" key="照星眼" alias="内力系活刭变化" />
+		<keyword />
+		<keyword />
+		<keyword         key="活刭冲刭混合变化招式" />
+		<keyword />
+		<keyword ch="14" key="舞乐·鸣风" alias="活刭冲刭混合变化" />
+		<keyword ch="14" key="金刚刭·壁" alias="活刭冲刭混合变化" />
+		<keyword />
+		<keyword />
+		<keyword ch="11" jpn="逆螺子" key="逆螺子" alias="赛哈丁刀争术" desc="在刀身上缠绕双重螺旋状的刭穿透对方，在内部解放出螺旋" />
+		<keyword ch="12" jpn="焔切り・翔刃" key="焰切·翔刃" alias="赛哈丁刀争术" />
+		<keyword ch="12" jpn="焔重ね・紅布" key="焰重·红布" alias="赛哈丁刀争术" />
+		<keyword />
+		<keyword ch="14" key="地走" alias="赛哈丁刀争术" />
+		<keyword ch="14" key="鎌首" alias="赛哈丁刀争术" />
+		<keyword />
+		<keyword />
+		<keyword         jpn="鋼糸の技" />
+		<keyword />
+		<keyword ch="14" key="针化妆" alias="钢丝招式" />
+		<keyword />
+	</highlight>
+	<highlight type="ability" subtype="replaceFrom">
+		<keyword disable="true" ch="10" key="复原" regexp="复元" alias="restoration" />
+		<keyword />
+		<keyword ch="11" key="咆刭杀" regexp="咆哮刭" alias="外力系冲刭变化" desc="口中释放出震动波破坏分子结构（鲁肯斯秘奥义）\r\nReplaced From: 咆哮刭" />
+		<keyword disable="true" ch="07" key="刚力冲破·咬牙" regexp="刚力撤破·咬牙" alias="外力系冲刭变化" desc="外侧的冲刭和彻刭同时破坏内外部\r\nReplaced From: 刚力撤破·咬牙" />
+		<keyword disable="true" ch="09" key="刚力冲破"       regexp="刚力撤破"      alias="外力系冲刭变化" desc="（鲁肯斯的秘奥义）\r\nReplaced From: 刚力撤破" />
+		<keyword ch="09" key="刚力撤破·突"   regexp="刚力撤破 突"   alias="外力系冲刭变化" desc="比拳击的破坏力更深地突入，再让冲刭爆裂的技巧（萨瓦利斯的绝理之一）\r\nReplaced From: 刚力撤破 突" />
+		<keyword ch="12" key="刚力撤破·突"   regexp="刚力徹破·突"  alias="外力系冲刭变化" desc="比拳击的破坏力更深地突入，再让冲刭爆裂的技巧（萨瓦利斯的绝理之一）\r\nReplaced From: 刚力徹破·突" />
+		<keyword />
+		<keyword ch="11" key="赛哈丁刀争术" regexp="赛哈德刀争术" desc="Replaced From: 赛哈德刀争术" />
+		<keyword disable="true" ch="09" key="焰切"   regexp="焰斩"   alias="赛哈丁刀争术" desc="居合拔刀时使用斩击和冲刭的二段攻击\r\nReplaced From: 焰斩" />
+		<keyword ch="09" key="波纹突刺" regexp="波纹拔刀斩" alias="赛哈丁刀争术" desc="将刭侵入对方的细胞内部，并引起延迟爆炸\r\nReplaced From: 波纹拔刀斩" />
+		<keyword ch="11" key="波纹突刺" regexp="拔波纹"     alias="赛哈丁刀争术" desc="将刭侵入对方的细胞内部，并引起延迟爆炸\r\nReplaced From: 拔波纹" />
+		<keyword disable="true" ch="09" key="横渡水镜" regexp="水镜(?!渡)" alias="赛哈丁刀争术" desc="超过旋刭的瞬间移动\r\nReplaced From: 水镜" />
+		<keyword ch="14" key="横渡水镜" regexp="水镜渡" alias="赛哈丁刀争术" desc="超过旋刭的瞬间移动\r\nReplaced From: 水镜渡" />
+		<keyword />
+		<keyword ch="07" key="操弦曲·跳虫" regexp="操弦曲·跳之虫" desc="钢丝编织的圆锥刺进对方后解开从而由内而外撕裂躯体\r\nReplaced From: 操弦曲·跳之虫" />
+		<keyword ch="12" key="操弦曲·跳虫" regexp="缲弦曲·跳虫"   desc="钢丝编织的圆锥刺进对方后解开从而由内而外撕裂躯体\r\nReplaced From: 缲弦曲·跳虫" />
+		<keyword />
+		<keyword ch="12" key="鲁肯斯秘奥义" regexp="鲁肯斯秘奥(?!义)" desc="Replaced From: 鲁肯斯秘奥" />
+		<keyword />
+		<keyword ch="14" key="枪冲术" regexp="铳击术" desc="使用枪的格斗术\r\nReplaced From: 铳击术" />
+	</highlight>
+	<highlight type="ability">
+		<keyword key="复原" regexp="复原(?:（restoration）)?" alias="restoration" />
+		<keyword />
+		<keyword key="刭射" disable="true" />
+		<keyword />
+		<keyword key="龙旋刭" alias="活刭冲刭混合变化" desc="以活刭强化的臂力回转躯体朝周围释放冲刭形成龙卷风" />
+		<keyword />
+		<keyword key="外力系冲刭的变化招式" />
+		<keyword key="外力系冲刭变化招式" />
+		<keyword key="外力系冲刭变化" />
+		<keyword key="针刭"   alias="外力系冲刭变化" desc="以刭贯通剑身顺着挥动之势凝缩成固体射出" />
+		<keyword key="涡刭"   alias="外力系冲刭变化" desc="释放无数刭流能源块形成气旋" desc_jpn="大気の渦の内部に相手を取り込み無数の衝剄で撃つ" />
+		<keyword key="咆刭杀" alias="外力系冲刭变化" desc="口中释放出震动波破坏分子结构（鲁肯斯秘奥义）" />
+		<keyword key="闪断"   alias="外力系冲刭变化" desc="将剑身上凝缩的刭保持着斩线的型态射出" />
+		<keyword key="蚀坏"   alias="外力系冲刭变化" desc="阻碍对方武器中刭的流动使其失去硬度从而坏掉武器" desc2="使对方的武器中刭的流动变钝而失去硬度并将其破坏掉" />
+		<keyword key="九乃"   alias="外力系冲刭变化" desc="指间形成如细针般的刭弹一齐射出" />
+		<keyword key="背狼冲" alias="外力系冲刭变化" desc="背后放出冲刭后利用其反作用力加大推动力" />
+		<keyword key="饿蛇"   alias="外力系冲刭变化" desc="与大剃刀一起回转挖向周围（卡温迪亚的招式）" />
+		<keyword key="爆刺孔" alias="外力系冲刭变化" desc="将剑刺入对方体内的同时激发具有方向性的爆炸" />
+		<keyword key="流滴"   alias="外力系冲刭变化" desc="释放出冲刭渗入细胞内进行破坏" />
+		<keyword key="点破"   alias="外力系冲刭变化" desc="集中冲刭以高速击出" />
+		<keyword key="刚力冲破·咬牙" alias="外力系冲刭变化" desc="外侧的冲刭和彻刭同时破坏内外部" ch="07" />
+		<keyword key="刚力撤破·咬牙" alias="外力系冲刭变化" desc="外侧的冲刭和彻刭同时破坏内外部" ch="09" />
+		<keyword key="刚力冲破·突"   disable="true" />
+		<keyword key="刚力撤破·突"   alias="外力系冲刭变化" desc="比拳击的破坏力更深地突入，再让冲刭爆裂的技巧（萨瓦利斯的绝理之一）" ch="09" />
+		<keyword key="刚力撤破"       alias="外力系冲刭变化" desc="渗透破坏系刭技" ch="09" />
+		<keyword key="蛇落"   alias="外力系冲刭变化" desc="在空中凝聚龙卷风形的冲刭从对方的头上方攻击" />
+		<keyword key="焰蛇"   alias="外力系冲刭变化" desc="将火刭形成龙卷风放出，蛇落的变形" />
+		<keyword key="封心突" alias="外力系冲刭变化" desc="将凝缩成针状的冲刭打入刭路从而影响周围的肉体及神经（赛哈丁刀技）" />
+		<keyword key="刃铠"   alias="外力系冲刭变化" desc="将刭半物质化形成铠甲，或以刃状形态射向附近的物体（卡尔冯的招式）"  />
+		<keyword key="轰剑"   alias="外力系冲刭变化" desc="凝聚刭覆盖到剑身上形成巨大的剑" desc_jpn="剄を練り上げ刀身を覆うように収束させる" />
+		<keyword key="圆砾"   alias="外力系冲刭变化" desc="将冲刭以使用者为中心刮向四周，从而吹飞周围的敌人（赛哈丁刀技）" />
+		<keyword key="爆導掌" disable="true" />
+		<keyword key="剛昇弾" disable="true" />
+		<keyword />
+		<keyword key="外力系冲刭化炼变化招式" />
+		<keyword key="外力系冲刭的化炼变化" />
+		<keyword key="外力系冲刭化炼变化" />
+		<keyword key="化炼刭"                            desc="刭流性质变化的技巧" />
+		<keyword key="炎刭将弹闪" alias="外力系冲刭化炼变化" desc="将化炼变化为炎块的刭弹射出（鲁肯斯的武技）" />
+		<keyword key="炎刭"       alias="外力系冲刭化炼变化" />
+		<keyword key="风烈刭" alias="外力系冲刭化炼变化" desc="踢脚时将化炼变化为真空之刃的刭弹射出" />
+		<keyword key="蛇流"   alias="外力系冲刭化炼变化" desc="把化炼刭构成的细线粘到对方身上，借由细线传导拳头的冲击" />
+		<keyword key="风蛇"   alias="外力系冲刭化炼变化" desc="扭曲拳中释放出的冲刭从而击打对方的侧面" />
+		<keyword key="七つ牙" disable="true" />
+		<keyword key="紫电"   alias="外力系冲刭化炼变化" desc="通过锁链以雷电攻击被捕缚的对方" />
+		<keyword key="ボウソウゲキ" disable="true" />
+		<keyword key="気縮爆" disable="true" />
+		<keyword />
+		<keyword key="内力系活刭的变化招式" />
+		<keyword key="内力系活刭变化招式" />
+		<keyword key="内力系活刭变化" />
+		<keyword key="旋刭"   alias="内力系活刭变化" desc="大幅强化腿力，使高速移动成为可能" />
+		<keyword key="疾影"   alias="内力系活刭变化" desc="散发出强力的气后用杀刭进行移动，使对方看到自己的残影" />
+		<keyword key="战声"   alias="内力系活刭变化" desc="震动空气将刭与声音一同大声放出的威吓术" />
+		<keyword key="杀刭"   alias="内力系活刭变化" desc="隐藏气息" />
+		<keyword />
+		<keyword key="活刭冲刭的混合变化招式" />
+		<keyword key="活刭、冲刭混合变化招式" />
+		<keyword key="活刭冲刭混合变化招式" />
+		<keyword key="活刭冲刭混合变化" />
+		<keyword key="冲刭活刭混合变化" />
+		<keyword key="龙旋刭" alias="活刭冲刭混合变化" disable="true" />
+		<keyword key="千斩闪" alias="活刭冲刭混合变化" desc="残像攻击（雷冯参考千人冲自创的招式）" />
+		<keyword key="千人冲" alias="活刭冲刭混合变化" desc="残像攻击（鲁肯斯秘奥义）" />
+		<keyword key="雷迅"   alias="冲刭活刭混合变化" desc="以超绝的速度突进追加冲刭攻击（迪克的招式）" />
+		<keyword key="雷霆"   alias="冲刭活刭混合变化" desc="在极近距离发出的雷迅变化形招式（迪克的招式）" />
+		<keyword key="天剑技·霞楼" alias="活刭冲刭混合变化" desc="瞬用的斩击放出冲刭浸透到目标的体内，然后四散成无数的斩击（天剑技）" />
+		<keyword key="霞楼"         alias="活刭冲刭混合变化" desc="瞬用的斩击放出冲刭浸透到目标的体内，然后四散成无数的斩击（天剑技）" />
+		<keyword key="金刚刭" alias="冲刭活刭混合变化" desc="活刭强化肉体的同时将冲刭反射回去的专门防御的刭技（利法斯的招式）" />
+		<keyword />
+		<keyword key="赛哈丁刀争术" />
+		<keyword key="焰切" regexp="焰切(?!·)" alias="赛哈丁刀争术" desc="居合拔刀时使用斩击和冲刭的二段攻击" />
+		<keyword key="焰斩" regexp="焰斩(?!·)" alias="赛哈丁刀争术" desc="居合拔刀时使用斩击和冲刭的二段攻击" ch="09" />
+		<keyword key="焰重" regexp="焰重(?!·)" alias="赛哈丁刀争术" desc="在焰切的基础上封住对方的动作后向上放出两次太刀" />
+		<keyword key="焰返" regexp="焰返(?!·)" alias="赛哈丁刀争术" desc="在焰切的基础上封住对方的动作后向上放出两次太刀" ch="09" />
+		<keyword key="波纹突刺" alias="赛哈丁刀争术" desc="将刭侵入对方的细胞内部，并引起延迟爆炸" />
+		<keyword key="逆螺子" disable="true" />
+		<keyword key="焔切り・翔刃" disable="true" />
+		<keyword key="焔重ね・紅布" disable="true" />
+		<keyword key="横渡水镜" alias="赛哈丁刀争术" desc="超过旋刭的瞬间移动" />
+		<keyword />
+		<keyword key="鋼糸の技" disable="true" />
+		<keyword key="操弦曲·跳虫" alias="钢丝招式" desc="钢丝编织的圆锥刺进对方后解开从而由内而外撕裂躯体" />
+		<keyword key="操弦曲·崩落" alias="钢丝招式" desc="用钢丝编织的网关住对方，再把钢丝内的刭流变化成冲刭朝内部释放" />
+		<keyword key="操弦曲" desc="林戴斯独特的钢丝招式" />
+		<keyword />
+		<keyword key="天剑技" desc="雷冯成为天剑继承者后，自行创造出来的特有技巧" />
+		<keyword key="绝理之一" desc="习完各种鲁肯斯格斗术系谱中招式的人，将其中一项技巧升华为自己的必杀一击" />
+		<keyword />
+		<keyword key="外力系冲刭"                desc="以冲击波形式将刭释放至外界" />
+		<keyword key="冲刭"   alias="外力系冲刭" desc="以冲击波形式将刭释放至外界" />
+		<keyword key="外力系" />
+		<keyword key="内力系活刭"                desc="直接强化肉体" />
+		<keyword key="活刭"   alias="内力系活刭" desc="直接强化肉体" />
+		<keyword key="内力系" />
+		<keyword key="赛哈丁刀技" />
+		<keyword key="赛哈丁流刀技" disable="true" />
+		<keyword key="鲁肯斯秘奥义" />
+		<keyword key="鲁肯斯的秘奥义" disable="true" />
+		<keyword />
+		<keyword key="彻刭"   alias="赛哈丁对人武技" desc="伤害所有内脏的技巧" />
+		<keyword key="疾刭"                          desc="足技" />
+		<keyword />
+		<keyword key="威吓术" />
+		<keyword key="捕缚术" />
+		<keyword key="格斗术" />
+		<keyword key="枪冲术" desc="使用枪的格斗术" jpn="銃衝術" />
+	</highlight>
+	<highlight type="location" separate="true"  subtype="translate">
+		<keyword key="\0" alias="サントブルグ"     desc="流易都市\2" regcap="true" regexp="(流易都市)?(萨特布鲁古(?!12)|桑德布尔古(?!13))" />
+		<keyword key="\0" alias="メルニスク"      _desc="白炎都市\2" regcap="true" regexp="(白炎都市)?(迈尔尼斯克(?!13)|梅鲁尼斯库(?!14))" />
+		<keyword />
+		<keyword ch="11" key="美卡" desc="梅珍来洁尔妮时路过的都市" alias="メッカ" />
+		<keyword ch="13" key="隆迪莉娅" desc="白炎都市的邻近都市" />
+		<keyword ch="13" key="卡拉玛丽娜斯" desc="白炎都市的邻近都市" />
+		<keyword />
+		<keyword />
+		<keyword ch="11" key="整备工厂" alias="メンテナンス工場" />
+		<keyword ch="11" key="湖底回廊" desc="养殖湖的湖底，耐压玻璃包裹着的宽阔走廊" alias="湖底回廊" />
+		<keyword ch="12" key="秘密研究所" alias="秘密の研究所" />
+		<keyword />
+		<keyword ch="10" key="林卡" desc="所在地：洁尔妮\r\n糕点店" alias="リンカ" />
+		<keyword ch="11" key="麦克多汉堡" desc="所在地：洁尔妮\r\n快餐店" alias="マルクド・バーガー" />
+		<keyword ch="11" key="麦克多"     desc="所在地：洁尔妮\r\n快餐店" alias="マルクド・バーガー" />
+		<keyword />
+		<keyword />
+		<keyword ch="10" key="雷瓦忒" desc="狼面衆の語った正体不明の単語\r\nグレンダンが目指すもの" alias="レヴァンティン" />
+	</highlight>
+	<highlight type="location" separate="false" subtype="replaceFrom" disable="true">
+		<keyword disable="true" ch="06" key="学园都市洁尔妮" regexp="学园都市洁露尼" desc="Replaced From: 学园都市洁露尼" />
+		<keyword disable="true" ch="08" key="学园都市洁尔妮" regexp="学园都市杰尔尼" desc="Replaced From: 学园都市杰尔尼" />
+		<keyword disable="true" ch="06" key="洁尔妮" regexp="洁露尼" desc="Replaced From: 洁露尼" alias="Zuellni" />
+		<keyword disable="true" ch="08" key="洁尔妮" regexp="杰尔尼" desc="Replaced From: 杰尔尼" alias="Zuellni" />
+		<keyword disable="true" ch="09" key="洁尔妮" regexp="洁儿尼" desc="Replaced From: 洁儿尼" alias="Zuellni" />
+		<keyword disable="true" ch="12" key="洁尔妮" regexp="洁露妮" desc="Replaced From: 洁露妮" alias="Zuellni" />
+		<keyword disable="true" ch="13" key="洁尔妮" regexp="洁尔尼" desc="Replaced From: 洁尔尼" alias="Zuellni" />
+		<keyword disable="true" ch="14" key="洁尔妮" regexp="谢鲁尼" desc="Replaced From: 谢鲁尼" alias="Zuellni" />
+		<keyword disable="true" ch="12" key="古连丹" regexp="古莲丹" desc="Replaced From: 古莲丹" alias="Glendan" />
+		<keyword disable="true" ch="08" key="约尔得姆" regexp="约路泰鲁" desc="Replaced From: 约路泰鲁" />
+		<keyword disable="true" ch="09" key="约尔得姆" regexp="约尔特姆" desc="Replaced From: 约尔特姆" />
+		<keyword disable="true" ch="09" key="约尔得姆" regexp="尤鲁提姆" desc="Replaced From: 尤鲁提姆" />
+		<keyword disable="true" ch="06" key="学园都市麦亚斯" regexp="学园都市玛伊阿斯" desc="Replaced From: 学园都市玛伊阿斯" />
+		<keyword disable="true" ch="07" key="学园都市麦亚斯" regexp="学园都市梅耶斯" desc="Replaced From: 学园都市梅耶斯" />
+		<keyword disable="true" ch="06" key="麦亚斯" regexp="玛伊阿斯" desc="Replaced From: 玛伊阿斯" />
+		<keyword disable="true" ch="07" key="麦亚斯" regexp="梅耶斯" desc="Replaced From: 梅耶斯" />
+		<keyword disable="true" ch="09" key="麦亚斯" regexp="麦阿斯" desc="Replaced From: 麦阿斯" />
+		<keyword disable="true" ch="12" key="麦亚斯" regexp="麦耶斯" desc="Replaced From: 麦耶斯" />
+		<keyword disable="true" ch="13" key="修奈巴尔" regexp="修耐巴尔" desc="Replaced From: 修耐巴尔" />
+	</highlight>
+	<highlight type="location" separate="false" subtype="replaceFrom">
+		<keyword key="\1洁尔妮" alias="Zuellni" desc="Replaced From: \0" regcap="true" regexp="(学园都市)?(洁露尼(?!06)|杰尔尼(?!08)|洁儿尼(?!09)|洁露妮(?!12)|洁尔尼(?!13)|谢鲁妮(?!14)|谢鲁尼(?!14))" />
+		<keyword key="\1古连丹" alias="Glendan" desc="Replaced From: \0" regcap="true" regexp="(枪壳都市)?(古莲丹(?!12))" />
+		<keyword />
+		<keyword key="\1约尔得姆"   desc="交通都市约尔得姆\r\nReplaced From: \0" regcap="true" regexp="(交通都市)?(约路泰鲁(?!08)|约尔特姆(?!09)|尤鲁特姆(?!11)|尤鲁提姆(?!13))" />
+		<keyword key="\1耶尔帕"     desc="森海都市耶尔帕　\r\nReplaced From: \0" regcap="true" regexp="(森海都市)?(艾露帕(?!10)|艾鲁帕(?!14))" />
+		<keyword key="\1麦亚斯"     desc="Replaced From: \0" regcap="true" regexp="(学园都市)?(玛伊阿斯(?!06)|梅耶斯(?!07)|麦阿斯(?!09)|麦耶斯(?!12))" />
+		<keyword key="\1法鲁尼尔"   desc="Replaced From: \0" regcap="true" regexp="(学园都市)?(法鲁尼露(?!09)|法尔尼露(?!13)|法鲁尼鲁(?!14))" />
+		<keyword key="\1修奈巴尔"   desc="Replaced From: \0" regcap="true" regexp="(仙莺都市)?(修奈巴鲁(?!12)|修耐巴尔(?!13))" />
+		<keyword key="\1威赛海姆"   desc="Replaced From: \0" regcap="true" regexp="(强欲都市|沙砾都市)?(威尔杰海姆(?!09)|威尔泽海姆(?!09)|霍尔因海姆(?!10)|威尔泽海姆(?!12)|瓦鲁赞海姆(?!14))" />
+		<keyword key="\1伊亚海姆"   desc="法轮都市伊亚海姆\r\nReplaced From: \0" regcap="true" regexp="(法轮都市)?(依阿海姆(?!08))" />
+		<keyword />
+		<keyword />
+		<keyword ch="09" key="学园都市" regexp="学院都市(?!联盟)" desc="Replaced From: 学院都市" />
+		<keyword ch="13" key="强欲都市" regexp="贪婪都市" desc="强欲都市威赛海姆\r\nReplaced From: 贪婪都市" />
+		<keyword />
+		<keyword />
+		<keyword key="外围地带" desc="Replaced From: \0" regcap="true" regexp="外缘部分(?!05)|外缘部位(?!06)|外缘部(?!01tw)|外缘地带(?!06tw)" />
+		<keyword key="住宿设施" desc="Replaced From:\0" regcap="true" regexp="宿泊所(?!05)|宿泊设施(?!05)" />
+		<keyword ch="13" key="避难所" regexp="谢尔塔" desc="Replaced From: 谢尔塔" />
+		<keyword ch="10" key="野战场" regexp="野战场地" desc="Replaced From: 野战场地" />
+		<keyword />
+		<keyword />
+		<keyword key="内院" desc="所在地：古连丹\r\nReplaced From: \0" regcap="true" regexp="里之院(?!09)|里院(?!14)" />
+	</highlight>
+	<highlight type="location" separate="true">
+		<keyword key="学园都市 洁尔妮" />
+		<keyword key="洁尔妮" alias="Zuellni" />
+		<keyword key="枪壳都市 古连丹" />
+		<keyword key="古连丹" alias="Glendan" />
+		<keyword key="贝利贞"              desc="被污染兽摧毁的都市" />
+		<keyword key="交通都市 约尔得姆"   desc="交通都市约尔得姆" />
+		<keyword key="交通都市 约尔德姆"   desc="交通都市约尔得姆" ch="04(1) 08(2)" />
+		<keyword key="交通都市 约尔提姆"   desc="交通都市约尔得姆" ch="08(1->0)" disable="true" />
+		<keyword key="碧坛都市 鲁鲁库莱夫" desc="碧坛都市鲁鲁库莱夫" />
+		<keyword key="森海都市 耶尔帕"     desc="森海都市耶尔帕" />
+		<keyword key="彩药都市 凯尔尼斯"   desc="彩药都市凯尔尼斯" />
+		<keyword key="学园都市 麦亚斯" />
+		<keyword key="学园都市 法鲁尼尔" />
+		<keyword key="仙莺都市 修奈巴尔" />
+		<keyword key="强欲都市 威赛海姆"   desc="强欲都市威赛海姆" />
+		<keyword key="法轮都市 伊亚海姆"   desc="法轮都市伊亚海姆" />
+		<keyword key="" _key="蓝曲都市 考瓦斯" />
+		<keyword key="" _key="流易都市 桑托布鲁歌" />
+		<keyword key="" _key="白炎都市 梅鲁妮斯克" />
+		<keyword key="？？都市 古连丹" disable="true" />
+		<keyword key="沙砾都市 威赛海姆" ch="14tr" />
+		<keyword jpn="？？都市 イストラニルア" />
+		<keyword />
+		<keyword key="学园都市" regexp="学园都市(?!联盟)" />
+		<keyword />
+		<keyword />
+		<keyword key="外围地带" jpn="外縁部" />
+		<keyword key="外缘部"   jpn="外縁部" ch="01(1)" />
+		<keyword key="外缘地带" jpn="外縁部" ch="06(1)" />
+		<keyword key="机轮部门" jpn="機関部" />
+		<keyword key="机轮部"   jpn="機関部" />
+		<keyword key="机轮室"   jpn="機関部" />
+		<keyword key="避难所"   jpn="シェルター" />
+		<keyword key="避难处"   jpn="シェルター" />
+		<keyword key="住宿设施" jpn="宿泊施設" />
+		<keyword key="野战场"   jpn="野戦グラウンド" />
+		<keyword key="练武馆"   jpn="練武館" />
+		<keyword key="学生会大楼"   jpn="生徒会棟" />
+		<keyword key="果树园" />
+		<keyword key="养殖湖" jpn="養殖湖" />
+		<keyword />
+		<keyword key="沙那其大街" desc="所在地：洁尔妮\r\n流浪巴士住宿设施所在地" />
+		<keyword key="沙那其街"   desc="所在地：洁尔妮\r\n流浪巴士住宿设施所在地" />
+		<keyword key="凯尼街" desc="所在地：洁尔妮" />
+		<keyword key="利荷斯克街" desc="所在地：洁尔妮" />
+		<keyword />
+		<keyword key="穆尔的店" desc="所在地：洁尔妮\r\n第十七小队常去的店" jpn="ミュールの店" />
+		<keyword key="MIRA咖啡厅" desc="所在地：洁尔妮\r\n一家以穿着可爱制服的女仆为卖点的咖啡店" jpn="喫茶ミラ" />
+		<keyword key="MIRA"       desc="所在地：洁尔妮\r\n一家以穿着可爱制服的女仆为卖点的咖啡店" jpn="喫茶ミラ" />
+		<keyword key="湖之家" desc="所在地：洁尔妮\r\n养殖湖沙滩上的餐厅" jpn="湖の家" />
+		<keyword />
+		<keyword />
+		<keyword key="内院" desc="所在地：古连丹" jpn="奥の院" />
+		<keyword />
+		<keyword key="孤儿院" desc="所在地：古连丹" />
+		<keyword key="上级学校" desc="所在地：古连丹" />
+		<keyword key="高等研究院" desc="所在地：古连丹" />
+	</highlight>
+	<highlight type="object" subtype="translate">
+		<keyword ch="13" key="金黄色雄山羊" alias="メルニスク" regexp="金黄色牡山羊" desc="Replaced From: 金黄色牡山羊" />
+		<keyword ch="13" key="金黄的雄山羊" alias="メルニスク" regexp="金黄的牡山羊" desc="Replaced From: 金黄的牡山羊" />
+		<keyword ch="14" key="黄金的雄山羊" alias="メルニスク" regexp="黄金的牧羊"   desc="Replaced From: 黄金的牧羊" />
+		<keyword />
+		<keyword ch="13" key="长毛的四足兽" alias="古连丹" />
+		<keyword ch="13" key="长毛四足兽"   alias="古连丹" />
+		<keyword />
+		<keyword ch="13" key="半兽半人" alias="修奈巴尔" />
+		<keyword />
+		<keyword ch="13" key="极炎之饿狼" alias="極炎の餓狼" />
+		<keyword />
+		<keyword />
+		<keyword />
+		<keyword ch="10" key="哈托沙的果实" jpn="ハトシアの実" />
+		<keyword ch="10" key="哈托沙果实"   jpn="ハトシアの実" />
+		<keyword ch="10" key="哈托沙"       jpn="ハトシア" />
+		<keyword ch="14" key="哈特西亚"       jpn="ハトシア" />
+		<keyword />
+		<keyword ch="12" key="守护兽" regexp="守护兽(?!计划)" />
+		<keyword ch="12" key="皮鲁鲁" desc="巨大的细长的鱼" jpn="ピルル" />
+		<keyword />
+		<keyword ch="12" key="圣剑" jpn="聖剣" />
+		<keyword ch="12" key="faceman系统" jpn="フェイスマンシステム" />
+	</highlight>
+	<highlight type="object" subtype="replaceFrom">
+		<keyword ch="13" key="金黄色的雄山羊" alias="メルニスク" regexp="金黄色的牡山羊" desc="Replaced From: 金黄色的牡山羊" />
+		<keyword ch="13" key="雄山羊" alias="メルニスク" regexp="牡山羊" desc="Replaced From: 牡山羊" />
+		<keyword />
+		<keyword />
+		<keyword />
+		<keyword ch="11" key="都市旗" regexp="都市旗帜" desc="Replaced From: 都市旗帜" />
+		<keyword ch="11" key="空气罩" alias="Air Filter" regexp="空气净化罩" desc="Replaced From: 空气净化罩" />
+		<keyword ch="10" key="空气罩" alias="Air Filter" regexp="空气过滤器(?:（air filter）)?" desc="Replaced From: 空气过滤器" />
+		<keyword ch="11" key="有机隔离板" regexp="有机防护板" desc="Replaced From: 有机防护板" />
+		<keyword />
+		<keyword ch="13" key="念威爆雷" regexp="念威暴雷" desc="Replaced From: 念威暴雷" />
+		<keyword />
+		<keyword ch="08" key="两轮机动车" alias="Land Roller" regexp="兰特罗拉" desc="Replaced From: 兰特罗拉" />
+		<keyword ch="12" key="两轮机动车" alias="Land Roller" regexp="机车(?:（两轮机动车）)?" desc="Replaced From: 机车" />
+		<keyword     replace="两轮机动车" alias="Land Roller" key="视野辅助仪" ch="12" />
+		<keyword disable="true" ch="05" key="防护衣" regexp="防护服" desc="Replaced From: 防护服" jpn="遮断スーツ" />
+		<keyword key="防护衣" desc="Replaced From: \0" regcap="true" regexp="防护服(?!05)|防护装(?!05tw)|隔离衣(?!07tw)|隔离装(?!09tw)" />
+		<keyword />
+		<keyword ch="10" key="违禁酒" regexp="违法酒" desc="Replaced From: 违法酒" />
+		<keyword />
+		<keyword ch="05" key="周刊LOOKEN" regexp="周刊鲁昆" desc="Replaced From: 周刊鲁昆" />
+		<keyword ch="08" key="周刊LOOKEN" regexp="路坦周刊" desc="Replaced From: 路坦周刊" />
+		<keyword />
+		<keyword ch="14" key="超硒矿山" regexp="塞鲁妮姆矿山" desc="Replaced From: 塞鲁妮姆矿山" />
+		<keyword />
+		<keyword ch="06" key="利格扎力欧装置" regexp="利古扎里奥机关" desc="Replaced From: 利古扎里奥机关" />
+		<keyword ch="07" key="利格扎力欧装置" regexp="利古萨里奥机关" desc="Replaced From: 利古萨里奥机关" />
+		<keyword ch="10" key="利格扎力欧装置" regexp="利古扎利奥机关" desc="Replaced From: 利古扎利奥机关" />
+	</highlight>
+	<highlight type="object" subtype="電子精霊たち">
+		<keyword jpn="髪の長い童女" />
+		<keyword key="一头长发的女童"     alias="洁尔妮" ch="06" />
+		<keyword key="发长过身的裸身女童" alias="洁尔妮" ch="03" />
+		<keyword key="女童" alias="洁尔妮" />
+		<keyword />
+		<keyword jpn="黄金色の牡山羊" alias="メルニスク" />
+		<keyword key="黄金色的雄山羊" alias="メルニスク" />
+		<keyword key="金黄色的雄山羊" alias="メルニスク" />
+		<keyword key="黄金色雄山羊"   alias="メルニスク" />
+		<keyword key="雄山羊" alias="メルニスク" />
+		<keyword />
+		<keyword jpn="蒼銀色の四足の獣" />
+		<keyword key="四足的野兽" alias="古连丹" />
+		<keyword key="四足野兽"   alias="古连丹" />
+		<keyword />
+		<keyword jpn="茶褐色の小鳥" />
+		<keyword key="小鸟" regexp="小鸟(?=姿态)" alias="麦亚斯" />
+		<keyword />
+		<keyword jpn="成人した男性" />
+		<keyword />
+		<keyword jpn="半人半獣の鳥" />
+		<keyword />
+	</highlight>
+	<highlight type="object">
+		<keyword key="自律型移动都市" regexp="自律型移动都市(?:（雷吉欧斯）)?" alias="雷吉欧斯" />
+		<keyword key="自律型都市" />
+		<keyword disable="true" key="雷吉欧斯" alias="Regios" />
+		<keyword key="流浪巴士" jpn="放浪バス" />
+		<keyword key="路面电车" />
+		<keyword />
+		<keyword key="都市旗" jpn="都市旗" />
+		<keyword key="空气罩" alias="Air Filter" jpn="エアフィルター" />
+		<keyword key="滤净器" jpn="濾過機" />
+		<keyword key="无机隔离板" jpn="無機プレート" />
+		<keyword key="有机隔离板" jpn="有機プレート" />
+		<keyword key="涌水树" jpn="湧水樹" />
+		<keyword />
+		<keyword jpn="白金" regcap="true" regexp="白金(炼金钢)?" key="\0" desc="刭流传导率最好" />
+		<keyword jpn="軽金" regcap="true" regexp="轻金(炼金钢)?" key="\0" />
+		<keyword jpn="重晶" regcap="true" regexp="重晶(炼金钢)?" key="\0" />
+		<keyword jpn="黒鋼" regcap="true" regexp="黑钢(炼金钢)?" key="\0" desc="重视密度，相对地刭流传导率下降" />
+		<keyword jpn="青石" regcap="true" regexp="青石(炼金钢)?" key="\0" desc="刭流传导率优良（黑钢混合的比例不同）" />
+		<keyword jpn="紅玉" regcap="true" regexp="红玉(炼金钢)?" key="\0" desc="刭的变化最容易（黑钢混合的比例不同）" />
+		<keyword jpn="碧宝" regcap="true" regexp="碧玉(炼金钢)?" key="\0" desc="刭的收束率优良（黑钢混合的比例不同）" />
+		<keyword key="钢铁炼金钢" jpn="鋼鉄" desc="斩击武器能做出最细致的调整" />
+		<keyword key="简易型复合炼金钢" jpn="簡易型複合" />
+		<keyword key="简易复合炼金钢"   jpn="簡易型複合" />
+		<keyword key="复合炼金钢" jpn="複合" />
+		<keyword key="炼金钢" regexp="炼金钢(?!技师)" />
+		<keyword disable="true" jpn="錬金鋼" regcap="true" regexp="(白金|轻金|重晶|黑钢|青石|红玉|碧玉|钢铁|(简易)?复合)?炼金钢" key="\0" />
+		<keyword />
+		<keyword key="天剑" regexp="天剑(?!继承者|技|授受者|的接受者)" />
+		<keyword />
+		<keyword key="探查子" />
+		<keyword key="念威端子" />
+		<keyword key="念威爆雷" />
+		<keyword />
+		<keyword key="刭脉加速药" />
+		<keyword key="刭罗炮" />
+		<keyword key="凝缩刭弹" />
+		<keyword key="刭弹" />
+		<keyword key="刭块" />
+		<keyword />
+		<keyword key="修练服" />
+		<keyword key="制服" />
+		<keyword key="徽章" desc="小队成员独有的徽章（银色圆形，刻有小队的编号）" jpn="バッジ" />
+		<keyword key="带剑许可证" desc="武艺科学生携带炼金钢必要的许可证" jpn="帯剣許可（証）" />
+		<keyword key="带剑许可"   desc="武艺科学生携带炼金钢必要的许可"   jpn="帯剣許可（証）" />
+		<keyword key="剑带" />
+		<keyword key="两轮机动车" alias="Land Roller" jpn="ランドローラー" />
+		<keyword key="都市外装备"     jpn="都市外装備" />
+		<keyword key="都市外专用装备" jpn="都市外装備" ch="06" />
+		<keyword key="防护衣" jpn="遮断スーツ" />
+		<keyword disable="true" key="防护装" jpn="遮断スーツ" ch="05(1) 09(2)" />
+		<keyword disable="true" key="隔离衣" jpn="遮断スーツ" ch="07(5) 09(2)" />
+		<keyword disable="true" key="隔离装" jpn=    "スーツ" ch="09(2)" />
+		<keyword key="硬球" />
+		<keyword key="质量兵器" desc="外围地带设置的导弹等重型武器" jpn="質量兵器" />
+		<keyword />
+		<keyword disable="true" key="基因合成的果实" />
+		<keyword key="迪吉" jpn="ディジー" />
+		<keyword key="违禁酒" desc="基因合成的果实酿造的酒" jpn="違法酒" />
+		<keyword />
+		<keyword key="周刊LOOKEN" jpn="週刊ルックン" />
+		<keyword key="烟火" desc="本来的烟火是用火药射上去的，现在的烟火是用立体空间投影技术重现的影像" jpn="花火" />
+		<keyword />
+		<keyword key="维尼斯雷夫公司" desc="隶属于设籍碧坛都市鲁鲁库莱夫的流通企业" jpn="ヴィネスレイフ" />
+		<keyword />
+		<keyword disable="true" key="超硒元素矿山" />
+		<keyword disable="true" key="超硒元素" />
+		<keyword disable="true" key="超硒矿山" />
+		<keyword disable="true" key="超硒矿石" />
+		<keyword disable="true" key="超硒矿" />
+		<keyword disable="true" key="超硒" jpn="セルニウム" />
+		<keyword jpn="セルニウム" regcap="true" regexp="超硒(元素)?(矿(山|石)?)?" key="\0" />
+		<keyword />
+		<keyword key="污染物质" />
+		<keyword />
+		<keyword key="利格扎力欧装置" jpn="リグザリオ機関" />
+	</highlight>
+	<highlight type="terminology">
+		<keyword key="影武者" jpn="影武者" />
+	</highlight>
+	<highlight type="terminology" subtype="translate">
+		<keyword ch="11" key="都市对抗战" jpn="都市対抗戦" />
+		<keyword />
+		<keyword ch="10" key="司法研究科" />
+		<keyword />
+		<keyword ch="12" key="守护兽计划" />
+		<keyword />
+		<keyword ch="10" key="零领域"   alias="ゼロ領域" />
+		<keyword ch="14" key="零之领域" alias="ゼロ領域" />
+		<keyword ch="10" key="绝缘空间" alias="絶界の無間" />
+		<keyword ch="10" key="安睡之子" alias="眠り子" />
+		<keyword ch="10" key="神赐之子" alias="申し子" />
+		<keyword ch="13" key="蔷薇环十字"   alias="茨輪の十字" />
+		<keyword ch="14" key="荆棘轮的十字" alias="茨輪の十字" />
+		<keyword ch="14" key="荆棘的墓碑标记" alias="茨の園の墓標" />
+		<keyword ch="10" key="荆棘之眼" alias="茨（の目）" />
+		<keyword ch="10" key="荆棘"     alias="茨（の目）" />
+		<keyword ch="10" key="梦的碎片" alias="夢片" />
+		<keyword ch="12" key="束缚的末端" alias="縛鎖のスエ" />
+		<keyword ch="12" key="月亮的影子" alias="ツきの影" />
+		<keyword ch="12" key="月的孩子" alias="月の子" />
+		<keyword ch="12" key="修正之战" alias="直しの戦" />
+		<keyword ch="13" key="复仇之刃" alias="復讐の刃" />
+		<keyword ch="13" key="憎恶之炎" alias="憎悪の炎" />
+		<keyword ch="13" key="复仇之炎" alias="復讐の炎" />
+		<keyword ch="13" key="绝界探查计划" alias="絶界探査計画" />
+		<keyword ch="13" key="理想之人" alias="望みの者" />
+		<keyword ch="13" key="破坏之焰" alias="破壊の炎" />
+		<keyword ch="13" key="守护者之剑" alias="守護者の剣" />
+		<keyword />
+		<keyword />
+		<keyword ch="11" key="梅法·修塔托事件" desc="叫メイファー・シュタット的男人体内携带寄生型老性体进入古连丹的事件" alias="メイファー・シュタット事件" />
+	</highlight>
+	<highlight type="terminology" subtype="replaceFrom">
+		<keyword ch="14" key="废贵族" regexp="废弃族" desc="Replaced From: 废弃族" />
+		<keyword />
+		<keyword ch="09" key="学园都市联盟" regexp="学院都市联盟" desc="Replaced From: 学院都市联盟" />
+		<keyword />
+		<keyword ch="05" key="影武者" regexp="影武艺者" desc="Replaced From: 影武艺者" />
+		<keyword ch="05" key="武艺家" regexp="武艺者" desc="Replaced From: 武艺者" />
+		<keyword ch="05" key="武艺家" regexp="武者"   desc="Replaced From: 武者" />
+		<keyword ch="05" key="念威操作者" regexp="念威操纵者" desc="Replaced From: 念威操纵者" />
+		<keyword ch="08" key="念威操作者" regexp="念威使"     desc="Replaced From: 念威使" />
+		<keyword ch="14" key="念威操作者" regexp="念威操者"   desc="Replaced From: 念威操者" />
+		<keyword />
+		<keyword ch="05" key="天剑继承者" regexp="天剑授受者" desc="Replaced From: 天剑授受者" />
+		<keyword ch="11" key="天剑继承者" regexp="天剑的接受者" desc="Replaced From: 天剑的接受者" />
+		<keyword ch="14" key="萨林邦教导佣兵团" regexp="萨利班教导佣兵团" desc="Replaced From: 萨利班教导佣兵团" />
+		<keyword ch="14" key="萨林邦佣兵团"     regexp="塞林班佣兵团"     desc="Replaced From: 塞林班佣兵团" />
+		<keyword />
+		<keyword ch="10" key="假学生" regexp="伪装学生" desc="Replaced From: 伪装学生" />
+		<keyword />
+		<keyword ch="13" key="情人节" alias="Van Allen Day" regexp="范爱伦·迪" desc="Replaced From: 范爱伦·迪" />
+		<keyword />
+		<keyword ch="06" key="极光力场" alias="Aurora Field" regexp="欧罗拉·菲路德" desc="Replaced From: 欧罗拉·菲路德" />
+		<keyword ch="06" key="极光力场" alias="Aurora Field" regexp="欧罗拉空间"    desc="Replaced From: 欧罗拉空间" />
+		<keyword ch="09" key="极光力场" alias="Aurora Field" regexp="欧若拉领域"    desc="Replaced From: 欧若拉领域" />
+		<keyword ch="10" key="极光力场" alias="Aurora Field" regexp="极光领域(?:（aurora field）)?" desc="Replaced From: 极光领域" />
+		<keyword ch="10" key="极光力场" alias="Aurora Field" regexp="极光地带"      desc="Replaced From: 极光地带" />
+		<keyword ch="10" key="极光力场" alias="Aurora Field" regexp="极光世界(?:（aurora field）)?" desc="Replaced From: 极光世界" />
+		<keyword ch="12" key="极光力场" alias="Aurora Field" regexp="欧罗拉地域"    desc="Replaced From: 欧罗拉地域" />
+		<keyword ch="12" key="极光力场" alias="Aurora Field" regexp="欧罗拉区域"    desc="Replaced From: 欧罗拉区域" />
+		<keyword ch="12" key="极光粒子" regexp="欧罗拉粒子" desc="Replaced From: 欧罗拉粒子" />
+		<keyword ch="13" key="极光粒子" regexp="欧若拉粒子" desc="Replaced From: 欧若拉粒子" />
+		<keyword ch="14" key="极光粒子" regexp="奥罗拉粒子" desc="Replaced From: 奥罗拉粒子" />
+		<keyword ch="12" key="极光" regexp="欧若拉" desc="Replaced From: 欧若拉" />
+		<keyword />
+		<keyword ch="12" key="真正的意志" regexp="真正的意识" desc="Replaced From: 真正的意识" />
+		<keyword ch="12" key="真正的意志" regexp="真的意识"   desc="Replaced From: 真的意识" />
+		<keyword />
+		<keyword />
+		<keyword ch="09" key="基尔梅尔" regexp="基路梅鲁" desc="长度单位\r\nReplaced From: 基路梅鲁" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="学园都市联盟" />
+		<keyword key="学园联盟" alias="学园都市联盟" />
+		<keyword key="学联"     alias="学园都市联盟" />
+		<keyword />
+		<keyword key="三王家" />
+		<keyword key="萨林邦教导佣兵团" />
+		<keyword key="萨林邦佣兵团" />
+		<keyword />
+		<keyword key="交叉骑士团" desc="约尔得姆一部分武艺家获得的称号" jpn="交叉騎士団" />
+		<keyword />
+		<keyword key="学生会" regexp="学生会(?!长)" jpn="生徒会" />
+		<keyword key="一般教养科" />
+		<keyword key="一般科" />
+		<keyword key="武艺科" />
+		<keyword key="农业科" />
+		<keyword key="机械科" />
+		<keyword key="炼金科" />
+		<keyword key="医疗科" />
+		<keyword key="刭脉科" />
+		<keyword key="养殖科" />
+		<keyword key="商业科" />
+		<keyword />
+		<keyword key="FanClub" desc="洁尔妮大多数小队的专属Fans团体" jpn="ファンクラブ" />
+		<keyword />
+		<keyword disable="true" key="第十七小队" />
+		<keyword disable="true" key="第三小队" />
+		<keyword disable="true" key="第十六小队" />
+		<keyword disable="true" key="第十四小队" />
+		<keyword disable="true" key="第五小队" />
+		<keyword disable="true" key="第一小队" />
+		<keyword disable="true" key="第十小队" />
+		<keyword regexp="第(十?[一二三四五六七]|[八九岁十])小队" regcap="true" key="\0" />
+		<keyword key="小队" regexp="小队(?!长|员)" desc="由最多７名最少４名战斗要员组成的武艺科学生的团体，武艺大会的指挥队" />
+	</highlight>
+	<highlight type="terminology">
+		<keyword key="电子精灵" />
+		<keyword key="废贵族" />
+		<keyword />
+		<keyword key="刭流" regexp="刭流(?!走)" />
+		<keyword key="刭质" />
+		<keyword key="刭息" />
+		<keyword key="刭脉" />
+		<keyword key="刭技" />
+		<keyword key="刭术" />
+		<keyword key="刭压" />
+		<keyword key="刭路" />
+		<keyword key="刭量" />
+		<keyword key="刭力" />
+		<keyword key="刭气" />
+		<keyword key="刭膜" />
+		<keyword key="刭" />
+		<keyword />
+		<keyword key="斩线" desc="物体容易切割的角度" />
+		<keyword />
+		<keyword key="起动关键语" desc="基础状态的炼金钢复原时必要的声音信号" jpn="起動鍵語" />
+		<keyword />
+		<keyword key="突发性诞生型" desc="普通家庭中突然生出来的武艺家" jpn="突発的誕生型" />
+		<keyword key="突发诞生型"   desc="普通家庭中突然生出来的武艺家" jpn="突発的誕生型" />
+		<keyword key="血脉型" desc="由武艺家通婚提升机率而诞生的武艺家" jpn="血筋型" />
+		<keyword />
+		<keyword key="影武者" />
+		<keyword key="武艺家" regexp="武艺家(?!族)" jpn="武芸者" />
+		<keyword key="念威操作者" />
+		<keyword key="念威操作" />
+		<keyword key="念威" />
+		<keyword key="天剑继承者" jpn="天剣授受者" />
+		<keyword key="炼金钢技师" jpn="ダイトメカニック" />
+		<keyword />
+		<keyword key="裁判员" jpn="審判員" />
+		<keyword key="大会派遣员" jpn="大会派遣員" />
+		<keyword key=    "派遣员" jpn=    "派遣員" />
+		<keyword key="学生会长" jpn="生徒会長"  />
+		<keyword key="武艺长" jpn="武芸長"  />
+		<keyword key="都市警察" regexp="都市警察(?!局)" jpn="都市警"  />
+		<keyword key="临时出动人员" jpn="臨時出動員" />
+		<keyword key="假学生" jpn="偽装学生" />
+		<keyword />
+		<keyword key="戴冠家" jpn="戴冠家" />
+		<keyword />
+		<keyword key="都震"     desc="因都市在移动中失足踩进大地的裂缝里失去平衡而造成的地震" jpn="都震" jpn_desc="多足で歩くレギオスが何かを踏み外したときなどに起こる都市上の地震" />
+		<keyword key="都市地震" desc="因都市在移动中失足踩进大地的裂缝里失去平衡而造成的地震" />
+		<keyword />
+		<keyword key="战争" _desc="两年一度同性质都市之间举行的关于超硒元素矿山所有权的争斗" />
+		<keyword key="武艺大会" desc="学园都市间关于超硒元素矿山的战争" jpn="武芸大会" />
+		<keyword key="对抗赛" desc="为了决定小队排名的比赛，在野战场进行" jpn="対抗試合" />
+		<keyword />
+		<keyword key="精灵祭" desc="交通都市约尔得姆的年初祭奠" jpn="精霊祭" />
+		<keyword key="情人节" alias="Van Allen Day" desc="森林海城耶尔帕的风俗" jpn="バンアレン・デイ" />
+		<keyword />
+		<keyword key="污染兽" jpn="汚染獣" />
+		<keyword key="幼生体" jpn="幼生体" />
+		<keyword key="雄性体" jpn="雄性体" />
+		<keyword key="雌性体" jpn="雌性体" />
+		<keyword key="老性体" jpn="老性体" />
+		<keyword key="老生体" jpn="老生体" />
+		<keyword />
+		<keyword key="极光之盾" alias="Aurora Field" jpn="オーロラ・フィールド" ch="06(6)" />
+		<keyword key="极光力场" alias="Aurora Field" jpn="オーロラ・フィールド" ch="09(2)" />
+		<keyword key="极光粒子" />
+		<keyword key="极光" alias="Aurora" />
+		<keyword />
+		<keyword key="世界的尽头" jpn="世界の果て" />
+		<keyword key="人类保护程序" jpn="人類保全プログラム" />
+		<keyword key="真实意志"   jpn="真の意思" ch="06(3) 09(1)" />
+		<keyword key="真正的意志" jpn="真の意思" ch="06(1) 09(3)" />
+		<keyword key="真正意志"   jpn="真の意思" ch="09(1)" />
+		<keyword />
+		<keyword regexp="([「『])(缘)((?:？)?[』」])|(被)(缘)()|()(缘)(系统)" regcap="true" key="\1\4\7[key]\2\5\8[/key]\3\6\9" desc="电子精灵之间才有的网路联系，也是表示谱系的血脉" />
+		<keyword />
+		<keyword />
+		<keyword key="基尔梅尔" desc="长度单位" jpn="キルメル" />
+		<keyword key="基梅尔"   desc="长度单位" jpn="キルメル" ch="01" />
+		<keyword key="梅尔"     desc="长度单位" />
+	</highlight>
+	<highlight type="other">
+	</highlight>
+</highlights>

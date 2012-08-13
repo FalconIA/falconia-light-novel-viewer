@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0018" />
+	<chapter start="0021" end="0027" title="－－－" />
+	<chapter start="0033" end="0082" title="序　曲" />
+	<chapter start="0088" end="1005" title="第一章　追忆" />
+	<chapter start="1011" end="1656" title="第二章　被封锁的孤岛" />
+	<chapter start="1662" end="2716" title="第三章　重逢" />
+	<chapter start="2722" end="3581" title="第四章　四者相争" />
+	<chapter start="3587" end="3630" title="终　曲" />
+	<chapter start="3636" end="3638" title="后　记" />
+	<imgs dir="9S" prefix="9S_02_" suffix=".jpg">
+		<img insert="0006" filename="000" notfloat="true" />
+		<img insert="0012" filename="001" />
+		<img insert="0012" filename="002-003" />
+		<img insert="0012" filename="004-005" />
+		<img insert="0012" filename="006-007" />
+		<img insert="0012" filename="008" />
+		<img alt="插图035" filename="035" />
+		<img alt="插图047" filename="047" />
+		<img alt="插图061" filename="061" />
+		<img alt="插图067" filename="067" />
+		<img alt="插图117" filename="117" />
+		<img alt="插图161" filename="161" />
+		<img alt="插图183" filename="183" />
+		<img alt="插图283" filename="283" />
+		<img alt="插图293" filename="293" />
+		<img alt="插图339" filename="339" />
+	</imgs>
+</volume>

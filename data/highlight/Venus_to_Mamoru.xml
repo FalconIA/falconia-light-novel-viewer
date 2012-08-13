@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Venus_to_Mamoru" css="">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>|（?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment">
+		<keyword regcap="true" key="巡航导弹" regexp="巡弋飞弹" desc="台灣正體：巡弋飛彈" />
+		<keyword regcap="true" key="牛井" regexp="牛井" alias="日本語：牛丼" thumb="Venus_to_Mamoru/288px-Gyudon_by_jetalone_in_Higashi-Ginza,_Tokyo.jpg" desc="牛井（中国及香港等地称日式牛肉饭）是一种日式速食食品。一小碗白饭，上铺一层碎牛肉片和洋葱丝，一起蒸熟，食用时可配以腌制的洋姜丝，是上班族比较喜好的工作午餐。" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="守护|保护|救护|防护" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="">
+		<keyword regcap="true" key="\0" regexp="小护|(吉村)?护|吉村(?!家|逸美|静惠)" thumb="Venus_to_Mamoru/chara_05.gif" />
+		<keyword regcap="true" key="\0" regexp="小绚|(鹰栖)?绚子|鹰栖(?!家|尚幸|老师|正树|宏隆|奈绪子)" thumb="Venus_to_Mamoru/chara_06.gif" />
+		<keyword key="魔女贝雅特丽齐" />
+		<keyword key="比亚特利斯的死亡天使" />
+		<keyword regcap="true" key="\0" regexp="(吉村)?逸美" thumb="Venus_to_Mamoru/chara_19.gif" />
+		<keyword key="菊川 宗司" thumb="Venus_to_Mamoru/chara_20.gif" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="学生会の面々">
+		<keyword regcap="true" key="\0" regexp="(周藤)?摩耶|周藤(?=先生)" thumb="Venus_to_Mamoru/chara_11.gif" />
+		<keyword regcap="true" key="\0" regexp="(周藤)?汐音" thumb="Venus_to_Mamoru/chara_12.gif" />
+		<keyword key="周藤" />
+		<keyword key="丸山 友香" thumb="Venus_to_Mamoru/chara_17.gif" />
+		<keyword key="藤田 美月" thumb="Venus_to_Mamoru/chara_14.gif" />
+		<keyword regcap="true" key="\0" regexp="(长谷)?杏奈|长谷(?!龙照)" thumb="Venus_to_Mamoru/chara_15.gif" />
+		<keyword key="长谷 龙照" />
+		<keyword key="桐岛 瑶子" thumb="Venus_to_Mamoru/chara_16.gif" />
+		<keyword key="八木 浩介" thumb="Venus_to_Mamoru/chara_18.gif" />
+		<keyword key="柿崎 由良理" />
+		<keyword key="樫本 希实子" />
+		<keyword key="エメレンツィア" thumb="Venus_to_Mamoru/chara_13.gif" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="エメレンツィア関係者">
+		<keyword key="ヨハン" thumb="Venus_to_Mamoru/chara_21.gif" />
+		<keyword key="小笠原 ジロー" />
+		<keyword key="小笠原 サブロー" />
+		<keyword key="小笠原 イチロー" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="鷹栖家">
+		<keyword regcap="true" key="\0" regexp="(鹰栖)?尚幸|鹰栖(?=老师)" desc="绚子的祖父。" />
+		<keyword key="鹰栖 正树" desc="绚子的叔父。" />
+		<keyword key="鹰栖 宏隆" />
+		<keyword key="鹰栖 奈绪子" />
+		<keyword key="鹰栖" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="その他">
+		<keyword key="茜 明日香" thumb="Venus_to_Mamoru/chara_22.gif" />
+		<keyword key="ガートルード・マクヴリーズ" />
+		<keyword key="吉村 静惠" />
+		<keyword key="渡边 隆行" desc="护一年级时的班长。" />
+		<keyword key="" />
+		<keyword key="贝雅特丽齐·阿里盖利" />
+		<keyword key="贝雅特丽齐" alias="Beatrice" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter01">
+		<keyword key="普鲁士魔王" />
+		<keyword key="葛楚德·马克维里兹" />
+		<keyword key="池田" />
+		<keyword key="小川 次郎" desc="老师。" />
+		<keyword key="久我" />
+		<keyword regcap="true" key="\0" regexp="雷蒙·K·贝兹|雷蒙·贝兹|贝兹" desc="长期待在日本进行谍报活动的美国情报员。" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter02">
+		<keyword key="钤木" desc="护一年级时的同学。" />
+		<keyword key="藤泽" desc="老师。" />
+		<keyword key="田原" desc="主任。" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="东京比亚特利斯综合大学附属高中" />
+		<keyword key="东京比亚特利斯综合大学研究室" />
+		<keyword key="东京比亚特利斯综合大学" />
+		<keyword key="东比大研究室" />
+		<keyword key="东比大附属高中学生会" />
+		<keyword key="学生会" regexp="学生会(?!长|副会长|治安部长)" />
+		<keyword key="东比大附属高中" />
+		<keyword key="絢爛会" />
+		<keyword key="阿德玛尔大学" />
+		<keyword key="" />
+		<keyword key="基础2科" />
+		<keyword key="基础科" />
+		<keyword key="战术科" />
+		<keyword key="战术系" />
+		<keyword key="情报科" />
+		<keyword key="应用科" />
+		<keyword key="炼金科" />
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword key="比亚特利斯操纵者" />
+		<keyword key="" />
+		<keyword key="学生会长" />
+		<keyword key="学生会副会长" />
+		<keyword key="学生会治安部长助理" />
+		<keyword key="学生会治安部长" />
+		<keyword key="副会长" />
+		<keyword key="会长" />
+		<keyword key="治安部长助理" />
+		<keyword key="治安部长" />
+	</highlight>
+	<highlight type="terminology" subtype="item">
+		<keyword key="黑色钻石" />
+		<keyword key="灵魂之火" />
+		<keyword key="椴树枝之塔" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="比亚特利斯" />
+		<keyword key="絢爛世代" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+</highlights>

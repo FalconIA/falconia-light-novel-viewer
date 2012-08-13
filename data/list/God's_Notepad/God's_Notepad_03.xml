@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0086" />
+	<chapter start="0091" end="0655" title="第一章" />
+	<chapter start="0661" end="1182" title="第二章" />
+	<chapter start="1188" end="1736" title="第三章" />
+	<chapter start="1742" end="3430" title="第四～六章" />
+	<chapter start="3436" end="3696" title="第七章" />
+	<chapter start="3702" end="3711" title="后　记" />
+	<imgs dir="God's_Notepad" prefix="God's_Notepad_03_" suffix="_with_mark.jpg">
+		<img insert="0016" filename="000" notfloat="true" />
+		<img insert="0025" filename="001" />
+		<img insert="0036" filename="002a" notfloat="true" />
+		<img insert="0041" filename="002b" notfloat="true" />
+		<img insert="0048" filename="003a" notfloat="true" />
+		<img insert="0054" filename="003b" notfloat="true" />
+		<img insert="0061" filename="004a" notfloat="true" />
+		<img insert="0067" filename="004b" notfloat="true" />
+		<img insert="0075" filename="005a" notfloat="true" />
+		<img insert="0086" filename="005b" />
+		<img alt="插图015" filename="015t" />
+		<img alt="插图022" filename="022t" />
+		<img alt="插图052" filename="052t" />
+		<img alt="插图069" filename="069t" />
+		<img alt="插图078" filename="078t" />
+		<img alt="插图114" filename="114t" />
+		<img alt="插图138" filename="138t" />
+		<img alt="插图150" filename="150t" />
+	</imgs>
+</volume>

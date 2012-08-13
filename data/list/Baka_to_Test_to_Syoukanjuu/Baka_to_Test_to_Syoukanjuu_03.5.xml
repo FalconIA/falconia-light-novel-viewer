@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0031" />
+	<chapter start="0037" end="0064" title="问　题" />
+	<chapter start="0071" end="0625" title="笨蛋，测验，召唤兽～预习篇～" />
+	<chapter start="0632" end="0655" title="文月新闻" />
+	<chapter start="0662" end="1171" title="我与暴徒与情书" />
+	<chapter start="1178" end="1212" title="坂本夫妻的秘恋爱技巧讲座" />
+	<chapter start="1219" end="2074" title="我与翔子与如月高地" />
+	<chapter start="2081" end="2111" title="土屋和工藤的性生活小故事" />
+	<chapter start="2118" end="3019" title="我与游泳池与泳装乐园" />
+	<chapter start="3026" end="3054" title="～特别事栏～　铁拳的人生相谈室" />
+	<chapter start="3061" end="3716" title="我与打工与危险的周末" />
+	<chapter start="3723" end="3785" title="后　记" />
+	<imgs dir="Baka_to_Test_to_Syoukanjuu" prefix="Baka_to_Test_to_Syoukanjuu_03.5_" suffix="_with_mark.jpg">
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0031" filename="001" />
+		<img insert="0031" filename="002a" />
+		<img insert="0031" filename="002b" />
+		<img insert="0031" filename="003a" />
+		<img insert="0031" filename="003b" />
+		<img insert="0031" filename="004a" />
+		<img insert="0031" filename="004b" />
+		<img insert="0031" filename="005a" />
+		<img insert="0031" filename="005b" />
+		<img alt="插图007"  filename="007"  suffix=".jpg" />
+		<img alt="插图008a" filename="008a" suffix=".jpg" notfloat="true" />
+		<img alt="插图008b" filename="008b" suffix=".jpg" clear="both" />
+		<img alt="插图025" filename="025t" />
+		<img alt="插图029"  filename="029"  suffix=".jpg" notfloat="true" />
+		<img alt="插图030a" filename="030a" suffix=".jpg" notfloat="true" />
+		<img alt="插图030b" filename="030b" suffix=".jpg" clear="both" />
+		<img alt="插图036" filename="036t" />
+		<img alt="插图043" filename="043t" />
+		<img alt="插图050a" filename="050a" suffix=".jpg" notfloat="true" />
+		<img alt="插图050b" filename="050b" suffix=".jpg" clear="both" />
+		<img alt="插图059" filename="059t" />
+		<img alt="插图081a" filename="081a" suffix=".jpg" />
+		<img alt="插图081b" filename="081b" suffix=".jpg" />
+		<img alt="插图082a" filename="082a" suffix=".jpg" notfloat="true" />
+		<img alt="插图082b" filename="082b" suffix=".jpg" clear="both" />
+		<img alt="插图100" filename="100t" />
+		<img alt="插图112" filename="112t" />
+		<img alt="插图114"  filename="114"  suffix=".jpg" />
+		<img alt="插图115a" filename="115a" suffix=".jpg" />
+		<img alt="插图115b" filename="115b" suffix=".jpg" notfloat="true" />
+		<img alt="插图115c" filename="115c" suffix=".jpg" />
+		<img alt="插图115d" filename="115d" suffix=".jpg" clear="both" />
+		<img alt="插图115e" filename="115e" suffix=".jpg" />
+		<img alt="插图116a" filename="116a" suffix=".jpg" notfloat="true" />
+		<img alt="插图116" filename="116"                 clear="both" />
+		<img alt="插图133" filename="133t" />
+		<img alt="插图138" filename="138t" />
+		<img alt="插图143" filename="143t" />
+	</imgs>
+</volume>

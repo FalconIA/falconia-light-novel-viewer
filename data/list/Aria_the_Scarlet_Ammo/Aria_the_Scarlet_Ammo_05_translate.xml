@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0035" />
+	<chapter start="0041" end="0869" title="贯穿弹１　超越时空的男人" />
+	<chapter start="0876" end="1794" title="贯穿弹２　序曲的终止线" />
+	<chapter start="1800" end="2381" title="再装填１　粉雪，白雪之妹" />
+	<chapter start="2388" end="3153" title="再装填２　马赛回旋" />
+	<chapter start="3160" end="3695" title="再装填３　Good bye·亚里亚" />
+	<chapter start="3702" end="3837" title="GoForTheNEXT!　Hello·蕾姬" />
+	<chapter start="3843" end="3870" title="后记" />
+	<imgs dir="Aria_the_Scarlet_Ammo_translate" prefix="Aria_the_Scarlet_Ammo_05_" suffix=".jpg">
+		<img insert="0020" filename="000" notfloat="true" />
+		<img insert="0035" filename="001" />
+		<img insert="0035" filename="002" />
+		<img insert="0035" filename="003" />
+		<img alt="插图025" filename="025" />
+		<img alt="插图069" filename="069" />
+		<img alt="插图115" filename="115" />
+		<img alt="插图140" filename="140" />
+		<img alt="插图149" filename="149" />
+		<img alt="插图167" filename="167" />
+		<img alt="插图191" filename="191" />
+		<img alt="插图207" filename="207" />
+		<img alt="插图261" filename="261" />
+		<img alt="插图291" filename="291" />
+		<img alt="插图294" filename="294" />
+	</imgs>
+</volume>

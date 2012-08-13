@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0065" />
+	<chapter start="0070" end="0295" title="序　幕　——内院——" />
+	<chapter start="0300" end="0879" title="第一章　夏" />
+	<chapter start="0884" end="1374" title="第二章　敌" />
+	<chapter start="1379" end="1799" title="第三章　想" />
+	<chapter start="1804" end="2402" title="第四章　混" />
+	<chapter start="2407" end="3345" title="第五章　乱" />
+	<chapter start="3350" end="3579" title="终　章　——ＢＡＮＧ!!——" />
+	<chapter start="3584" end="3644" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_09_" suffix=".jpg">
+		<img insert="0019" filename="000" notfloat="true" />
+		<img insert="0037" filename="001" />
+		<img insert="0037" filename="002" />
+		<img insert="0037" filename="003" />
+		<img insert="0037" filename="004" clear="both" />
+		<img alt="插图101" filename="101" />
+		<img alt="插图102" filename="102" />
+		<img alt="插图103" filename="103" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+	</imgs>
+</volume>

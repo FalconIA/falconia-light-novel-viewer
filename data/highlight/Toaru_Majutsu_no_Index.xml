@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Toaru_Majutsu_no_Index" css="" wiki="http://ja.wikipedia.org/wiki/とある魔術の禁書目録" wiki2="http://www12.atwiki.jp/index-index/">
+	<highlight>
+		<keyword regcap="true" regexp="（河蟹）" key="&lt;span style='display:none;'&gt;\0&lt;/span&gt;" />
+		<keyword key="魔法禁书目录" />
+		<keyword key="&lt;a href='http://www.lightnovel.cn' target='_blank'&gt;http://www.lightnovel.cn/bbs&lt;/a&gt;" regexp="http://www\.lightnovel\.cn/bbs" />
+		<keyword key="&lt;a href='http://www.lightnovel.cn' target='_blank'&gt;http://www.lightnovel.cn&lt;/a&gt;" regexp="http://www\.lightnovel\.cn(?!/)" />
+		<keyword key="&lt;a href='http://www.lightnovel.cn' target='_blank'&gt;http://www.light-kingdom.com/index.php&lt;/a&gt;" regexp="http://www\.light-kingdom\.com/index\.php" />
+		<keyword key="&lt;a href='http://www.lightnovel.cn' target='_blank'&gt;http://www.light-kingdom.com/&lt;/a&gt;" regexp="http://www\.light-kingdom\.com/(?!index\.php)" />
+		<keyword key="&lt;a href='http://bbs.sumisora.com/thread.php?fid=60' target='_blank'&gt;http://bbs.sumisora.com/thread.php?fid=60&lt;/a&gt;" regexp="http://bbs\.sumisora\.com/thread\.php\?fid=60" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="（(注\d*)）((?:.(?!&lt;br ?/?&gt;))*.?&lt;br ?/?&gt;)[ 　]*（\1：([^（）]+)）(?:&lt;br ?/?&gt;)?" key="[key]&lt;sup&gt;[\1]&lt;/sup&gt;[/key]\2" desc="\3" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:\1[=＝，]([-_\w\d ]+)，)([^）】]+)[）】]" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="(&lt;br ?/?&gt;[ 　]*)((录入|扫图|发布于)[：/](.(?!&lt;br ?/?>))+.|未经许可，严禁转载|——轻之国度(.(?!&lt;br ?/?>))+——)" key="\1[key]\2[/key]" />
+		<keyword regcap="true" regexp="(&lt;br ?/?&gt;[ 　]*)((作者|插画|译者|扫图|录入)[|](.(?!&lt;br ?/?>))+.|———轻之国度(.(?!&lt;br ?/?>))+———)" key="\1[key]\2[/key]" />
+		<keyword regcap="true" regexp="(&lt;br ?/?&gt;[ 　]*)(轻(?: |&amp;nbsp;)+之|国(?: |&amp;nbsp;)+度|轻之国度制作|轻小说论坛)(&lt;br ?/?&gt;|&lt;div)?" key="\1[key]\2[/key]\3" />
+		<keyword key="" />
+		<keyword regcap="true" regexp="(&lt;br ?/?&gt;)[ 　]*（(注\d+)：([^（）]+)）(?:&lt;br ?/?&gt;)?" key="[key]&lt;sup&gt;[\2]&lt;/sup&gt;[/key]\1" desc="\3" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（(某RX|RaXpo注|译者注|译注|PS|罐子[^注：）]*注)：([^（）]+)）" key="&lt;sup&gt;[\1]&lt;/sup&gt;" desc="\2" />
+		<keyword regcap="true" regexp="(?:&lt;br ?/?&gt;[ 　]*)?（((?:译者(?!注)[^：）]*|发狂的译者|[^：）]*罐子|译插)：([^（）]+))）" key="&lt;sup&gt;[EP]&lt;/sup&gt;" desc="\1" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="薛定谔的猫" regexp="(薛定谔|薛丁格)的猫" desc="薛定谔的猫是奥地利物理学家埃尔温·薛定谔试图证明量子力学在宏观条件下的不完备性而提出的一个思想实验。" />
+		<keyword key="薛定谔" regexp="薛定谔|薛丁格" desc="埃尔温·薛定谔（Erwin Schrödinger，1887年8 月12日－1961年1月 4日），又译薛丁格，生于维也纳埃德伯格（Wien Erdberg），卒于维也纳。奥地利理论物理学家，量子力学的奠基人之一。1933年和英国物理学家狄拉克共同获得了诺贝尔物理学奖，被称为量子物理学之父。" />
+		<keyword key="吉尼斯世界纪录" regexp="吉尼斯世界纪录|金氏世界纪录" desc="Guinness World Records" />
+		<keyword key="发雕" alias="Lotion" desc="A lotion is a low- to medium-viscosity, topical preparation intended for consumption to unbroken skin; creams and gels." />
+	</highlight>
+	<highlight type="escape">
+		<keyword key="七一〇六八七号" />
+		<keyword regcap="true" regexp="奢华马场|赛马场" key="\0" />
+		<keyword key="精神上" />
+		<keyword key="" />
+		<keyword regcap="true" regexp="绝大能力|强大能力" key="\0" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="replaceFrom">
+		<keyword ch="16" key="蓝发耳环" desc="Replaced From: 青发耳环" regexp="青发耳环" />
+		<keyword key="" />
+		<keyword ch="13" key="最后之作" alias="打ち止め(Last Order)" desc="御&lt;!---->坂二〇〇〇一号\r\nReplaced From: Last order" regexp="Last order(?!&lt;|%3C|%3c|\)|）)" />
+		<keyword key="" />
+		<keyword ch="13" key="亚雷斯塔·克劳利" desc="Replaced From: 阿雷斯塔·库洛乌里" regexp="阿雷斯塔·库洛乌里" />
+		<keyword ch="13" key="亚雷斯塔" desc="Replaced From: 阿雷斯塔" regexp="阿雷斯塔" />
+		<keyword ch="13" key="克劳利" desc="Replaced From: 库洛乌里" regexp="库洛乌里" />
+		<keyword ch="19" key="克劳利" desc="Replaced From: 克劳力" regexp="克劳力" />
+		<keyword key="" />
+		<keyword ch="19" key="爱华斯" alias="Aiwass" desc="Replaced From: 艾华斯" regexp="艾华斯" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="13" key="茵蒂克丝" alias="Index-Librorum-Prohibitorum" desc="禁書目録\r\nReplaced From: 茵缇克丝" regexp="茵缇克丝" />
+		<keyword ch="14" key="茵蒂克丝" alias="Index-Librorum-Prohibitorum" desc="禁書目録\r\nReplaced From: index" regexp="index(?![ -=]L|\.)(?:（禁书目录）)?" />
+		<keyword ch="18" key="茵蒂克丝" alias="Index-Librorum-Prohibitorum" desc="禁書目録\r\nReplaced From: 茵蒂克斯" regexp="茵蒂克斯" />
+		<keyword key="" />
+		<keyword ch="17" key="史提尔·马格努斯" desc="Replaced From: 史提尔·玛格努姆" regexp="史提尔·玛格努姆" />
+		<keyword ch="16" key="神裂火织" desc="Replaced From: 神裂火炽" regexp="神裂火炽" />
+		<keyword key="" />
+		<keyword ch="16" key="萝拉·史都华" desc="Replaced From: 罗拉·丝丘亚特" regexp="罗拉·丝丘亚特" />
+		<keyword ch="17" key="萝拉·史都华" desc="Replaced From: 萝拉·史都特" regexp="萝拉·史都特" />
+		<keyword ch="18" key="萝拉·史都华" desc="Replaced From: 萝拉·斯图尔特" regexp="萝拉·斯图尔特" />
+		<keyword ch="20" key="萝拉·史都华" desc="Replaced From: 萝拉·斯图亚特" regexp="萝拉·斯图亚特" />
+		<keyword ch="17" key="奥索拉·阿奎纳" desc="Replaced From: 奥索拉·阿奎娜丝" regexp="奥索拉·阿奎娜丝" />
+		<keyword ch="17" key="奥索拉·阿奎纳" desc="Replaced From: 奥索拉·阿昆娜丝" regexp="奥索拉·阿昆娜丝" />
+		<keyword ch="14" key="奥索拉" desc="Replaced From: 欧露索拉" regexp="欧露索拉" />
+		<keyword ch="16" key="奥索拉" desc="Replaced From: 奥鲁索拉" regexp="奥鲁索拉" />
+		<keyword key="" />
+		<keyword ch="14" key="雅妮丝·桑提斯" desc="Replaced From: 亚捏赛·桑库缇丝" regexp="亚捏赛·桑库缇丝" />
+		<keyword ch="17" key="雅妮丝·桑提斯" desc="Replaced From: 雅妮丝·桑克迪斯" regexp="雅妮丝·桑克迪斯" />
+		<keyword ch="18" key="雅妮丝·桑提斯" desc="Replaced From: 亚涅赛·桑库缇丝" regexp="亚涅赛·桑库缇丝" />
+		<keyword ch="14" key="雅妮丝" desc="Replaced From: 亚捏赛" regexp="亚捏赛(?!部队)" />
+		<keyword ch="18" key="雅妮丝" desc="Replaced From: 亚涅赛" regexp="亚涅赛(?!部队)" />
+		<keyword ch="17" key="安洁莉娜" desc="Replaced From: 安洁雷妮" regexp="安洁雷妮" />
+		<keyword ch="18" key="安洁莉娜" desc="Replaced From: 安琪蕾涅" regexp="安琪蕾涅" />
+		<keyword ch="20" key="安洁莉娜" desc="Replaced From: 阿嘉妲" regexp="阿嘉妲" />
+		<keyword key="" />
+		<keyword ch="14" key="欧莉安娜·汤森" desc="Replaced From: 欧莉安娜·汤姆森" regexp="欧莉安娜·汤姆森" />
+		<keyword key="" />
+		<keyword ch="14" key="丽多薇雅·罗伦婕蒂" desc="Replaced From: 丽多薇雅·萝莲洁蒂" regexp="丽多薇雅·萝莲洁蒂" />
+		<keyword ch="17" key="丽多薇雅·罗伦婕蒂" desc="Replaced From: 莉德维亚·罗伦兹迪" regexp="莉德维亚·罗伦兹迪" />
+		<keyword ch="14" key="彼亚吉欧·普索尼" desc="Replaced From: 比亚吉欧·普索尼" regexp="比亚吉欧·普索尼" />
+		<keyword ch="14" key="彼亚吉欧" desc="Replaced From: 比亚吉欧" regexp="比亚吉欧" />
+		<keyword key="" />
+		<keyword ch="13" key="米夏·克洛伊洁芙" desc="Replaced From: 米夏·库罗伊谢夫" regexp="米夏·库罗伊谢夫" />
+		<keyword ch="16" key="米夏·克洛伊洁芙" desc="Replaced From: 米夏·库洛谢夫" regexp="米夏·库洛谢夫" />
+	</highlight>
+	<highlight separate="false" type="character" subtype="translate">
+		<keyword ch="19" key="滨面仕上" />
+		<keyword ch="19" key="滨面" />
+		<keyword key="" />
+		<keyword ch="19" key="砂皿緻密" />
+		<keyword key="" />
+		<keyword ch="13" key="托马斯·普拉齐纳巴古" jpn="トマス＝プラチナバーグ" />
+		<keyword key="" />
+		<keyword ch="13" key="FUSE=KAZAKIRI" />
+		<keyword ch="19" key="修斯=风斩"  alias="Fuse=KAZAKIRI" />
+		<keyword ch="20" key="修斯·风斩" alias="Fuse=KAZAKIRI" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="18" key="特奥德西亚·厄勒克特拉" jpn="テオドシア＝エレクトラ" />
+		<keyword key="" />
+		<keyword ch="16" key="威廉姆·奥鲁威鲁" />
+		<keyword ch="16" key="威廉姆" regexp="威廉姆(?!·|一世)" />
+		<keyword ch="17" key="威廉·奥维尔" />
+		<keyword ch="18" key="威廉·奥威尔" />
+		<keyword ch="17" key="威廉" regexp="威廉(?!·|姆)" />
+		<keyword ch="18" key="崩坏的恶者" alias="威廉·奥威尔" />
+		<keyword key="" />
+		<keyword ch="18" key="尼克兰·托尔斯泰" jpn="ニコライ＝トルストイ" />
+		<keyword ch="18" key="尼克兰" />
+		<keyword key="" />
+		<keyword         key="Flere210" alias="\1" regcap="true" regexp="Flere210(?:（([^（）]+)）)" jpn="その涙の理由を変える者" />
+		<keyword ch="16" key="改变那泪之理由者" alias="Flere210" regexp="改变那泪之理由者(?!）)(?:（Flere210）)?" />
+		<keyword ch="18" key="泪之因缘修改者"   alias="Flere210" regexp="泪之因缘修改者(?!）)(?:（Flere210）)?" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="19" key="斯蒂芬妮·古杰斯帕蕾丝" jpn="ステファニー＝ゴージャスパレス" />
+		<keyword ch="19" key="斯蒂芬妮" />
+		<keyword key="" />
+		<keyword ch="20" key="艾卡莉艾莉亚·A·普伦斯卡亚" jpn="エカリエーリャ＝A＝プロンスカヤ" />
+		<keyword ch="20" key="艾卡莉艾莉亚" />
+		<keyword ch="20" key="布兰夏·P·阿尔海因斯克皱着眉头" jpn="ブラッシャ＝Ｐ＝マールハイスク" />
+		<keyword ch="20" key="布兰夏" />
+		<keyword ch="20" key="安杰卡·S·克法鲁" jpn="アンツェカ＝S＝クファルク" />
+		<keyword ch="20" key="安杰卡" />
+		<keyword key="" />
+		<keyword ch="20" key="艾莉莎莉娜" regexp="艾莉莎莉娜(?!独立国同盟)" />
+		<keyword ch="20" key="德格鲁" jpn="ディグルヴ" />
+		<keyword ch="20" key="格里金" jpn="グリッキン" />
+		<keyword key="" />
+		<keyword ch="20" key="倾国之女" jpn="倾国之女" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science">
+		<keyword key="上条 当麻" />
+		<keyword key="阿上" />
+		<keyword key="御坂 美琴" />
+		<keyword key="一方通行" disable="true" />
+		<keyword key="一方通行" alias="一方通行(Accelerator)" regexp="一方通行(?:（Accelerator）)?" />
+		<keyword key="浜面 仕上" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 上条の高校生徒">
+		<keyword key="上条 当麻" disable="true" />
+		<keyword key="土御门 元春" />
+		<keyword key="蓝发耳环" />
+		<keyword key="姬神 秋沙" />
+		<keyword key="吹寄 制理" />
+		<keyword key="云川 芹亚" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 上条の高校教師">
+		<keyword key="月咏 小萌" />
+		<keyword key="黄泉川 爱穗" />
+		<keyword key="亲船 素甘" />
+		<keyword key="灾误老师" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 常盤台中学">
+		<keyword key="御坂 美琴" disable="true"  />
+		<keyword key="白井 黑子" />
+		<keyword key="心理掌握" disable="true" />
+		<keyword key="婚后 光子" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 風紀委員">
+		<keyword key="白井 黑子" disable="true" />
+		<keyword key="初春 饰利" />
+		<keyword key="固法 美伟" disable="true" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science SkillOut">
+		<keyword key="驹场 利德" />
+		<keyword key="滨面 仕上" disable="true" />
+		<keyword key="服部 半藏" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science その他の学生">
+		<keyword key="土御门 舞夏" />
+		<keyword key="海原 光贵" />
+		<keyword key="削板 军霸" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science Sisters">
+		<keyword key="妹妹们" alias="Sisters" regexp="妹妹们(?:（(?:SISTERS|Sisters)）)?" />
+		<keyword regcap="true" regexp="(御坂|编号)?((一(?!〇〇三二)|〇(?!〇〇〇〇))[〇一二三四五六七八九]{4}|二〇〇〇〇|(1(?!0032)|0(?!0000))[0123456789]{4}|20000)号" key="[key]\0[/key]" alias="妹妹们（SISTERS）" desc="御&lt;!---->坂\2号" />
+		<keyword regcap="true" regexp="(御坂|编号)?(一〇〇三二|10032)号|御坂妹妹" key="[key]\0[/key]" alias="御&lt;!---->坂妹妹" desc="御&lt;!---->坂一〇〇三二号" />
+		<keyword regcap="true" regexp="(御坂|编号)?(二〇〇〇一|20001)号|御坂御坂" key="[key]\0[/key]" alias="最后之作/最终信号 (Last Order)" desc="御&lt;!---->坂二〇〇〇一号" />
+		<keyword key="最终信号" alias="最終信号(Last Order)" desc="御&lt;!---->坂二〇〇〇一号" regexp="最终信号(?:（Last Order）)?" />
+		<keyword key="最后之作" alias="打ち止め(Last Order)" desc="御&lt;!---->坂二〇〇〇一号" regexp="最后之作(?:（Last Order）)?" />
+		<keyword key="番外个体" alias="番外個体(Misaka Worst)" desc="第三次制造计划新生御坂" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 統括理事会">
+		<keyword key="亚雷斯塔·克劳利" />
+		<keyword key="亲船 最中" />
+		<keyword key="贝积 继敏" />
+		<keyword key="潮岸" />
+		<keyword key="托马斯·普拉齐那巴古" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science Dragon">
+		<keyword key="风斩 冰华" />
+		<keyword key="爱华斯" alias="Aiwass" regexp="爱华斯(?:（(?:爱华斯＝)?Aiwass）)?" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 猟犬部隊">
+		<keyword _k_="木原 数多" separate="false" regcap="true" regexp="木原数多|木原" key="\0" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 Group">
+		<keyword key="土御门 元春" disable="true" />
+		<keyword key="一方通行" disable="true" />
+		<keyword key="海原 光贵" disable="true" />
+		<keyword key="结标 淡希" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 School">
+		<keyword key="垣根 帝督" />
+		<keyword key="心理定规" disable="true" />
+		<keyword key="带着金属环的少年" disable="true" />
+		<keyword key="砂皿 致密" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 Item translate">
+		<keyword key="芙兰达" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 Item">
+		<keyword key="麦野 沈利" />
+		<keyword key="绢旗 最爱" />
+		<keyword key="弗兰达" disable="true" />
+		<keyword key="泷壶 理后" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 Member">
+		<keyword key="博士" disable="true" />
+		<keyword key="马场 芳郎" />
+		<keyword key="查乐" />
+		<keyword key="席琪桃尔" disable="true" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 暗部 Block">
+		<keyword key="佐久 辰彦" />
+		<keyword key="手盐 惠未" />
+		<keyword key="山手" />
+		<keyword key="铁网" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science その他の関係者">
+		<keyword key="冥土追魂" disable="true" />
+		<keyword key="芳川 桔梗" />
+		<keyword key="天井 亚雄" />
+		<keyword key="杉谷" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="science 超電磁砲">
+		<keyword key="御坂 美琴" disable="true" />
+		<keyword key="白井 黑子" disable="true" />
+		<keyword key="初春 饰利" disable="true" />
+		<keyword key="佐天 泪子" disable="true" />
+		<keyword key="固法 美伟" disable="true" />
+		<keyword key="铁装 缀里" disable="true" />
+		<keyword key="" />
+		<keyword key="木山 春生" disable="true" />
+		<keyword key="枝先 绊理" disable="true" />
+		<keyword key="介旅 初矢" disable="true" />
+		<keyword key="重福 省帆" disable="true" />
+		<keyword key="姉御（あねご）" disable="true" />
+		<keyword key="トリック" disable="true" />
+		<keyword key="釧路 帷子" disable="true" />
+		<keyword key="鋼盾 掬彦" disable="true" />
+		<keyword key="アケミ" disable="true" />
+		<keyword key="マコちん" disable="true" />
+		<keyword key="むーちゃん" disable="true" />
+		<keyword key="" />
+		<keyword key="9982号" disable="true" />
+		<keyword key="布束 砥信" disable="true" />
+		<keyword key="" />
+		<keyword key="テレスティーナ·木原·ライフライン" disable="true" />
+		<keyword key="木原 幻生" disable="true" />
+		<keyword key="春上 衿衣" disable="true" />
+		<keyword key="" />
+		<keyword key="丘原 燎多" disable="true" />
+		<keyword key="湾内 絹保" disable="true" />
+		<keyword key="泡浮 万彬" disable="true" />
+		<keyword key="絶対等速" disable="true" />
+		<keyword key="" />
+		<keyword key="黒妻 綿流" disable="true" />
+		<keyword key="蛇谷 次雄" disable="true" />
+		<keyword key="タメゾウ" disable="true" />
+		<keyword key="中邑" disable="true" />
+		<keyword key="柳迫 碧美" disable="true" />
+		<keyword key="鴻野江 遥希" disable="true" />
+		<keyword key="大圄" disable="true" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic">
+		<keyword key="茵蒂克丝" alias="I&lt;!---->ndex-Librorum-Prohibitorum" desc="禁書目録" regexp="茵蒂克丝(?:（INDEX）)?" />
+		<keyword key="禁书目录" alias="I&lt;!---->ndex-Librorum-Prohibitorum" />
+		<keyword separate="false" regcap="true" regexp="Index([ -=])Librorum\1Prohibitorum(?!&lt;/|%3C%2F|%3c%2f)" key="\0" desc="禁書目録" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 イギリス清教">
+		<keyword key="史提尔·马格努斯" />
+		<keyword key="神裂 火织" />
+		<keyword key="土御门 元春" disable="true" />
+		<keyword key="雪莉·克伦威尔" />
+		<keyword key="萝拉·史都华" />
+		<keyword key="奥索拉·阿奎纳" />
+		<keyword key="テオドシア＝エレクトラ" disable="true" />
+		<keyword key="リチャード＝ブレイブ" disable="true" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 イギリス清教 天草式十字凄教">
+		<keyword key="神裂 火织" disable="true" />
+		<keyword key="建宫 斋字" />
+		<keyword key="五和" />
+		<keyword key="牛深" />
+		<keyword key="香烧" />
+		<keyword key="谏早" />
+		<keyword key="野母崎" />
+		<keyword key="对马" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 イギリス清教 アニェーゼ部隊">
+		<keyword key="雅妮丝·桑提斯" />
+		<keyword key="露琪亚" />
+		<keyword key="安洁莉娜" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 王室派 translate">
+		<keyword         key="爱莉莎德" desc="英国女王" />
+		<keyword ch="17" key="艾莉莎德" desc="英国女王" />
+		<keyword         key="莉梅亚"   desc="英国第一王女" />
+		<keyword ch="17" key="莉梅艾尔" desc="英国第一王女" />
+		<keyword ch="18" key="莉梅尔"   desc="英国第一王女" />
+		<keyword         key="琪雅莉莎" desc="英国第二王女" />
+		<keyword ch="18" key="琪雅丽莎" desc="英国第二王女" />
+		<keyword         key="薇莉安"   desc="英国第三王女" />
+		<keyword         key="シルビア" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 騎士派">
+		<keyword key="骑士团长" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 その他の人物">
+		<keyword key="欧莉安娜·汤森" />
+		<keyword key="追踪封锁" alias="欧莉安娜·汤森" />
+		<keyword key="ヴァルキリー" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 英国 新たなる光 translate">
+		<keyword         key="蕾莎" />
+		<keyword ch="17" key="雷莎" />
+		<keyword         key="贝萝普" />
+		<keyword ch="20" key="贝洛蒲" />
+		<keyword         key="普罗莉丝" />
+		<keyword ch="20" key="普罗丽丝" />
+		<keyword         key="朗西丝" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic ローマ正教">
+		<keyword key="丽多薇雅·罗伦婕蒂" />
+		<keyword key="告解的星期二" alias="丽多薇雅·罗伦婕蒂" />
+		<keyword key="彼亚吉欧·普索尼" />
+		<keyword key="罗马教皇" />
+		<keyword key="バルビナ" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 神の右席 translate">
+		<keyword ch="13" key="前方的Vent" />
+		<keyword ch="13" key="Vent" />
+		<keyword ch="14" key="乌安特" alias="Vent" />
+		<keyword key="" />
+		<keyword ch="13" key="后方的Aqua" />
+		<keyword ch="17" key="后方的AQUA" />
+		<keyword ch="13" key="Aqua" />
+		<keyword ch="17" key="AQUA" />
+		<keyword key="" />
+		<keyword ch="13" key="左方的Terra" />
+		<keyword ch="13" key="Terra" />
+		<keyword key="" />
+		<keyword ch="13" key="右方的Fiamma" />
+		<keyword ch="13" key="Fiamma" />
+		<keyword key="" />
+		<keyword ch="14" key="前方之风" alias="Vent" />
+		<keyword ch="14" key="后方之水" alias="Aqua" />
+		<keyword ch="14" key="左方之地" alias="Terra" />
+		<keyword ch="14" key="右方之火" alias="Fiamma" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic ロシア成教">
+		<keyword key="米夏·克洛伊洁芙" />
+		<keyword key="莎夏·克洛伊洁芙" />
+		<keyword key="瓦希莉莎" _alias="Vasolisa" />
+		<keyword key="ニコライ＝トルストイ" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 翼ある者の帰還 translate">
+		<keyword         key="艾扎力" />
+		<keyword ch="15" key="艾夏利" />
+		<keyword ch="19" key="艾利夏" />
+		<keyword         key="席琪桃尔" />
+		<keyword ch="15" key="肖奇托露" />
+		<keyword ch="19" key="修琪桃尔" />
+		<keyword         key="铁克派托尔" />
+		<keyword ch="19" key="提库帕托鲁" />
+		<keyword         key="托琪托莉" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic 他の組織 無所属">
+		<keyword key="奥雷欧斯·伊萨德" />
+		<keyword key="奥雷欧斯·分身" disable="true" />
+		<keyword key="闇咲 逢魔" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic ステイル編SS">
+		<keyword key="史提尔·马格努斯" disable="true" />
+		<keyword key="テオドシア＝エレクトラ" disable="true" />
+		<keyword key="リチャード＝ブレイブ" disable="true" />
+		<keyword key="バードウェイ" disable="true" />
+		<keyword key="パトリシア＝バードウェイ" disable="true" />
+		<keyword key="マーク＝スペース" disable="true" />
+		<keyword key="ヴィース＝ワインレッド" disable="true" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic MagicName">
+		<keyword key="Dedicatus545" alias="献身的羔羊守护强者的知识" />
+		<keyword key="" />
+		<keyword key="Fortis931" alias="在此证明我乃最强之理由" regexp="Fortis931(?!）)(?:（在此证明我名为最强之理由）)?" jpn="我が名が最強である理由をここに証明する" />
+		<keyword key="在此证明我乃最强之理由" alias="Fortis931" regexp="在此证明我乃最强之理由(?!）)(?:（Fortis931）)?" />
+		<keyword key="" />
+		<keyword key="Salvere000" alias="受遗弃者的救赎之手" regexp="Salvere000(?!）)(?:（受遗弃者的救赎之手）)?" />
+		<keyword key="" />
+		<keyword key="Honos628" alias="我的名誉，为了世界而存在" regexp="Honos628(?!）)(?:（我的名誉，为了世界而存在）)?" jpn="我が名誉は世界のために" />
+		<keyword key="我的名誉，为了世界而存在" alias="Honos628" regexp="我的名誉，为了世界而存在(?!）)(?:（Honos628）)?" />
+		<keyword key="" />
+		<keyword key="Fallere825" alias="背后捅人刀" regexp="Fallere825(?!）)(?:（背后捅人刀）)?" />
+		<keyword key="背后捅人刀" alias="Fallere825" regexp="背后捅人刀(?!）)(?:（Fallere825）)?" />
+		<keyword key="" />
+		<keyword key="Intimus115" alias="为亡友献上我的一切" regexp="Intimus115(?!）)(?:（为亡友献上我的一切）)?" />
+		<keyword key="为亡友献上我的一切" alias="Intimus115" regexp="为亡友献上我的一切(?!）)(?:（Intimus115）)?" /> />
+		<keyword key="" />
+		<keyword key="Basis104" alias="基础担当者" regexp="Basis104(?!）)(?:（基础担当者）)?" />
+		<keyword key="基础担当者" alias="Basis104" regexp="基础担当者(?!）)(?:（Basis104）)?" />
+		<keyword key="" />
+		<keyword key="Flere210" alias="その涙の理由を変える者" regexp="Flere210(?!）)" jpn="その涙の理由を変える者" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic GreatName translate">
+		<keyword key="似神者" alias="神の如き者(Michael)" />
+		<keyword key="如神者" alias="神の如き者(Michael)" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="magic GreatName">
+		<keyword key="圣布雷斯" alias="St. Blaise" regexp="圣布雷斯(?:（(?:St\. ?)?Blaise）)?" />
+		<keyword key="" />
+		<keyword key="神之力" alias="Gabriel" />
+		<keyword key="神之火" />
+		<keyword key="神之药" />
+		<keyword key="" />
+		<keyword key="神之子" />
+		<keyword key="" />
+		<keyword key="神上" alias="La Persona superiore a Dio" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="character_other">
+		<keyword key="上条 刀夜" />
+		<keyword key="上条 诗菜" />
+		<keyword key="龙神 乙姫" />
+		<keyword key="御坂 旅挂" />
+		<keyword key="御坂 美铃" />
+		<keyword key="斯芬克" />
+		<keyword key="史蒂芬妮·葛夏丝巴蕾丝" />
+		<keyword _k_="火野 神作" separate="false" regcap="true" regexp="火野神作|火野|神作(?!祟)" key="\0" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="伊涅丝" />
+		<keyword key="小郭" />
+	</highlight>
+	<highlight type="ability" subtype="replaceFrom">
+		<keyword ch="14" key="等级５" alias="Level 5" desc="Replaced From: 等级五" regexp="等级五" />
+		<keyword ch="14" key="等级４" alias="Level 4" desc="Replaced From: 等级四" regexp="等级四" />
+		<keyword ch="15" key="等级\1" alias="\0" desc="Replaced From: \0" regcap="true" regexp="Level ([0-5])(?!）)" />
+		<keyword key="" />
+		<keyword ch="13" key="幻想杀手" alias="幻想殺し(Imagine Breaker)" desc="Replaced From: 幻象杀手" regexp="幻象杀手" />
+		<keyword ch="13" key="冥土追魂" alias="冥土帰し(Heaven Canceler)" desc="Replaced From: 冥土归还" regexp="冥土归还" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="16" key="驱除闲人" alias="Opila" desc="Replaced From: 驱人" regexp="驱人" />
+		<keyword key="" />
+		<keyword ch="14" key="折纸魔法" desc="Replaced From: 折纸魔术" regexp="折纸魔术" />
+		<keyword ch="18" key="回复魔法" desc="Replaced From: 复原魔法" regexp="复原魔法" />
+		<keyword key="" />
+		<keyword ch="16" key="符文" desc="Replaced From: 如尼文字" regexp="如尼文字" />
+		<keyword ch="17" key="石巨人艾利丝" alias="Golem Ellis" desc="Replaced From: 泥巨人爱丽丝" regexp="泥巨人爱丽丝" />
+		<keyword ch="18" key="石巨人艾利丝" alias="Golem Ellis" desc="Replaced From: 哥雷姆·艾丽丝" regexp="哥雷姆·艾丽丝" />
+		<keyword ch="17" key="石巨人" alias="Golem" desc="Replaced From: 泥巨人" regexp="泥巨人" />
+		<keyword ch="18" key="石巨人" alias="Golem" desc="Replaced From: 哥雷姆" regexp="哥雷姆" />
+	</highlight>
+	<highlight type="ability" subtype="translate">
+		<keyword ch="19" key="能力追踪" alias="能力追跡(AIM Stalker)" regexp="能力追踪(?:（AIM Stalker）)?" />
+		<keyword ch="19" key="氮气装甲" alias="窒素装甲(Offense Armor)" regexp="氮气装甲(?:（Offense Armor）)?" />
+		<keyword ch="15" key="原子崩塌" alias="原子崩し(Melt Downer)" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="18" _k_="模型魔法" regcap="true" regexp="(「)模型(」)|(『)模型(』)" key="\1\3[key]模型[/key]\2\4" />
+		<keyword ch="18" key="卢文魔法" />
+		<keyword key="" />
+		<keyword ch="16" key="圣人崩落" />
+		<keyword ch="18" key="全次元切断" />
+	</highlight>
+	<highlight type="ability">
+		<keyword key="异能之力" />
+	</highlight>
+	<highlight type="ability" subtype="science">
+		<keyword key="发电能力者" alias="発電能力者" />
+		<keyword key="发火能力者" alias="発火能力者" />
+		<keyword key="引火能力者" alias="発火能力者" />
+		<keyword key="念动能力者" alias="念動能力者" />
+		<keyword key="音波能力者" alias="音波能力者" />
+		<keyword key="多重能力者" alias="多重能力者" />
+		<keyword key="空间移动能力者" alias="空間移動能力者" regexp="空间移动能力者(?:（Teleport）)?"  />
+		<keyword key="" />
+		<keyword key="电击能力者" alias="電撃使い(Electro Master)" />
+		<keyword key="风力能力者" alias="風力使い(エアロシューター/Air Shooting)" />
+		<keyword key="空力能力者" alias="空力使い(エアロハンド/Air Hand)" />
+		<keyword key="思念操纵者" alias="思念使い(Materialise)" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="等级5超能力者"  alias="Level 5" />
+		<keyword key="等级５超能力者" alias="Level 5" />
+		<keyword key="超能力者" alias="Level 5" regexp="超能力者（Level ?5）" />
+		<keyword key="大能力者" alias="Level 4" regexp="大能力者(?:（Level 4）)?" />
+		<keyword key="强能力者" alias="Level 3" />
+		<keyword key="异能力者" alias="Level 2" />
+		<keyword key="低能力者" alias="Level 1" />
+		<keyword key="无能力者" alias="Level 0" regexp="无能力者(?:（Level 0）)?" />
+		<keyword key="绝对能力" alias="Level 6" regexp="绝对能力(?!(进化)?(实验|计划))" />
+		<keyword key="等级5超能力"  alias="Level 5" />
+		<keyword key="等级５超能力" alias="Level 5" />
+		<keyword key="超能力" alias="Level 5" regexp="超能力（Level 5）" />
+		<keyword key="大能力" alias="Level 4" regexp="大能力(?:（Level 4）)?" />
+		<keyword key="强能力" alias="Level 3" />
+		<keyword key="异能力" alias="Level 2" />
+		<keyword key="低能力" alias="Level 1" />
+		<keyword key="无能力" alias="Level 0" />
+		<keyword key="等级6"  alias="Level 6" />
+		<keyword key="等级5"  alias="Level 5" />
+		<keyword key="等级4"  alias="Level 4" />
+		<keyword key="等级3"  alias="Level 3" />
+		<keyword key="等级2"  alias="Level 2" />
+		<keyword key="等级1"  alias="Level 1" />
+		<keyword key="等级0"  alias="Level 0" />
+		<keyword key="等级６" alias="Level 5" />
+		<keyword key="等级５" alias="Level 5" />
+		<keyword key="等级４" alias="Level 4" />
+		<keyword key="等级３" alias="Level 3" />
+		<keyword key="等级２" alias="Level 2" />
+		<keyword key="等级１" alias="Level 1" />
+		<keyword key="等级零" alias="Level 0" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="幻想杀手" alias="幻想殺し(Imagine Breaker)"  regexp="幻想杀手(?:（Imagine Breaker）)?"/>
+		<keyword key="冥土追魂" alias="冥土帰し(Heaven Canceler)" />
+		<keyword key="吸血杀手" alias="吸血殺し(Deep Blood)" />
+		<keyword key="一方通行" alias="一方通行(Accelerator)" regexp="一方通行(?:（Accelerator）)?" disable="true" />
+		<keyword key="" />
+		<keyword key="发电能力" alias="発電能力(Electro Master)" />
+		<keyword key="缺陷电力" alias="欠陥電気(Radio Noise)" regexp="缺陷电力(?:（Radio Noise）)?" />
+		<keyword key="超电磁炮" alias="超電磁砲(Railgun)" regexp="超电磁炮(?:（Railgun）)?" />
+		<keyword key="发火能力" alias="発火能力" />
+		<keyword key="引火能力" alias="発火能力" />
+		<keyword key="发出火焰" alias="火炎放射" />
+		<keyword key="空间移动" alias="空間移動(Teleport)" regexp="空间移动(?:（Teleport）)?" />
+		<keyword key="死角移动" alias="死角移動(Kill Point)" />
+		<keyword key="坐标移动" alias="座標移動(Move Point)" regexp="坐标移动(?:（Move Point）)?" />
+		<keyword key="肉体再生" alias="肉体再生(Auto Rebirth)" />
+		<keyword key="肉体变化" alias="肉体変化" />
+		<keyword key="念动能力" alias="念動能力(Telekinesis)" />
+		<keyword key="气力绝缘" alias="気力絶縁" />
+		<keyword key="冲击扩散" alias="衝撃拡散" />
+		<keyword key="念动炮弹" alias="念動砲弾" />
+		<keyword key="水流操作" alias="水流操作" />
+		<keyword key="真相不明" alias="正体不明(Counter Stop)" regexp="真相不明(?!的|地)(?:（Counter Stop）)?" />
+		<keyword key="能力追迹" alias="能力追跡(AIM Stalker)" regexp="能力追迹(?:（AIM Stalker）)?" />
+		<keyword key="寿命中断" alias="寿命中断" />
+		<keyword key="读心能力" alias="読心能力" />
+		<keyword key="意见解析" alias="意見解析(Skill Polygraph)" regexp="意见解析(?:（Skill Polygraph）)?" />
+		<keyword key="精神感应" alias="精神感応" />
+		<keyword key="记忆操作" alias="記憶操作" />
+		<keyword key="洗脑能力" alias="洗脳能力(Marionette)" />
+		<keyword key="心理定规" alias="心理定規(Measure Heart)" regexp="心理定规(?:（Measure Heart）)?" />
+		<keyword key="心理掌握" alias="心理掌握" />
+		<keyword key="念话能力" alias="念話能力(Tele Pass)" regexp="念话能力(?:（Tele Pass）)?" />
+		<keyword key="窒素装甲" alias="窒素装甲(Offense Armor)" />
+		<keyword key="空气风船" alias="空気風船" />
+		<keyword key="未元物质" alias="未元物質(Dark Matter)" regexp="未元物质(?:（Dark Matter）)?" />
+		<keyword key="原子崩坏" alias="原子崩し(Melt Downer)" regexp="原子崩坏(?:（Melt Downer）)?" />
+		<keyword key="量子变速" alias="量子変速" />
+		<keyword key="偏光能力" alias="偏光能力" />
+		<keyword key="绝对等速" alias="絶対等速" />
+		<keyword key="透视能力" alias="透視能力" />
+		<keyword key="予知能力" alias="予知能力" />
+		<keyword key="" />
+		<keyword key="多重能力" alias="多重能力(Dual Skill)" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="magic">
+		<keyword key="自动书记" />
+		<keyword key="猎杀魔女之王" alias="Innocentius" />
+		<keyword key="魔女狩猎之王" alias="Innocentius" />
+		<keyword key="龙王的叹息" alias="Dragon Breath" />
+		<keyword key="驱除闲人" alias="Opila" regrxp="驱除闲人(?:（Opila）)?" />
+		<keyword key="驱散闲人" alias="Opila" regrxp="驱散闲人(?:（Opila）)?" />
+		<keyword key="葛利果圣歌" regexp="葛利果圣歌(?!队)" alias="Gregorian Chant" />
+		<keyword key="金色的大衍术" alias="Ars Magna" />
+		<keyword key="金色大衍术" alias="Ars Magna" />
+		<keyword key="大衍术" alias="Ars Magna" />
+		<keyword key="黄金炼成" alias="Ars Magna" />
+		<keyword key="天使坠落" alias="Angel Fall" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="回复魔法" />
+		<keyword key="符文魔法" />
+		<keyword key="火焰魔法" />
+		<keyword key="护符魔法" alias="Talizman" />
+		<keyword key="折纸魔法" />
+		<keyword key="分解魔法" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="符文" />
+		<keyword key="七闪" />
+		<keyword key="唯闪" />
+		<keyword key="石巨人艾利丝" alias="Golem Ellis" />
+		<keyword key="石巨人" alias="Golem" />
+		<keyword key="强制咏唱" />
+		<keyword key="魔灭之声" />
+		<keyword key="理派四阵" />
+		<keyword key="占术圆阵" />
+		<keyword key="截断气息" />
+		<keyword key="缩图巡礼" />
+		<keyword key="涡点" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="replaceFrom">
+		<keyword ch="15" key="雾丘女子学院" desc="Replaced From: 雾丘女校" regexp="雾丘女校" />
+		<keyword ch="19" key="雾丘女子学院" desc="Replaced From: 雾丘女子学校" regexp="雾丘女子学校" />
+		<keyword key="" />
+		<keyword ch="14" key="警卫" alias="Anti Skill" desc="Replaced From: 警备员" regexp="警备员(?:（(anti-skill|Anti Skill)）)?" />
+		<keyword key="" />
+		<keyword ch="15" key="黑暗的五月计划" desc="Replaced From: 暗暗的五月计划" regexp="暗暗的五月计划" />
+		<keyword ch="15" key="失控能力的法则解析用诱爆实验" desc="Replaced From: 暴走能力的法则解析用诱爆实验" regexp="暴走能力的法则解析用诱爆实验" />
+		<keyword key="" />
+		<keyword ch="15" key="个人现实" alias="Personal Reality" regexp="Personal Reality(?!）)" />
+		<keyword key="" />
+		<keyword ch="13" key="晕太" desc="Replaced From: 呱呱太" regexp="呱呱太" />
+		<keyword ch="16" key="晕太" desc="Replaced From: 呱太" regexp="呱太" />
+		<keyword ch="13" key="跳子" desc="Replaced From: 叽叽子" regexp="叽叽子" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="13" key="魔法师" desc="Replaced From: 魔术师" regexp="魔术师" />
+		<keyword ch="13" key="魔法" desc="Replaced From: 魔术" regexp="魔术" />
+		<keyword ch="18" key="偶像崇拜的理论" desc="Replaced From: 偶像崇拜的原理" regexp="偶像崇拜的原理" />
+		<keyword key="" />
+		<keyword ch="14" key="必要之恶教会" alias="Necessarius" desc="Replaced From: 必要恶教会" regexp="必要恶教会" />
+		<keyword ch="14" key="雅妮丝部队" desc="Replaced From: 亚捏赛部队" regexp="亚捏赛部队" />
+		<keyword ch="18" key="雅妮丝部队" desc="Replaced From: 亚涅赛部队" regexp="亚涅赛部队" />
+	</highlight>
+	<highlight type="terminology" subtype="translate">
+		<keyword ch="14" key="一端览祭" />
+		<keyword key="" />
+		<keyword ch="20" key="第三次制造计划" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="14" key="教皇厅宫殿" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="20" key="克里姆林·报告" alias="Доклад Кремль(Kremlin Reports)" jpn="クレムリン・レポート" />
+		<keyword ch="20" key="伯利恒计划" alias="Project Bethlehem" jpn="プロジェクト＝ベツヘレム" />
+	</highlight>
+	<highlight type="terminology" subtype="science">
+		<keyword key="科学阵营" />
+		<keyword key="科学势力" />
+		<keyword key="学园都市" regexp="学园都市(?!　)" />
+		<keyword key="科学结社" alias="Asociacion de cienia" />
+		<keyword key="科学世界" />
+		<keyword key="科学家" />
+		<keyword key="科学" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="大霸星祭" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="常盘台中学" />
+		<keyword key="栅川中学校" />
+		<keyword key="雾丘女子学院" />
+		<keyword key="重点上机学园" />
+		<keyword key="" />
+		<keyword key="统括理事会" />
+		<keyword key="风纪委员" alias="Judgement" regexp="风纪委员(?:（Judgement）)?" />
+		<keyword key="警卫" alias="Anti Skill" regexp="警卫(?!机器人)" />
+		<keyword key="Skill Out" />
+		<keyword key="抛弃物" alias="Child Error" />
+		<keyword key="" />
+		<keyword key="猎犬部队" alias="Hound Dog" regexp="猎犬部队(?:（Hound Dog）)?" />
+		<keyword disable="true" regcap="true" regexp="([「『])(Group|School|Block|Item|Member|Dragon)([』」])" key="\1[key]\2[/key]\3" />
+		<keyword regcap="true" regexp="([「『])(Group)([』」])" key="\1[key]\2[/key]\3" desc="土御门元春／海原光贵／结标淡希／一方通行" />
+		<keyword key="Group" disable="true" />
+		<keyword regcap="true" regexp="([「『])(School)([』」])" key="\1[key]\2[/key]\3" desc="垣根帝督／心理定规／砂皿致密／UNKNOWN" />
+		<keyword key="School" disable="true" />
+		<keyword regcap="true" regexp="([「『])(Block)([』」])" key="\1[key]\2[/key]\3" desc="佐久辰彦／手盐惠未／山手／铁网" />
+		<keyword key="Block" disable="true" />
+		<keyword regcap="true" regexp="([「『])(Item)([』」])" key="\1[key]\2[/key]\3" desc="麦野沈利／绢旗最爱／弗兰达／泷壶理后" />
+		<keyword key="Item" disable="true" />
+		<keyword regcap="true" regexp="([「『])(Member)([』」])" key="\1[key]\2[/key]\3" desc="博士／马场芳郎／席琪桃尔／查乐" />
+		<keyword key="Member" disable="true" />
+		<keyword key="迎电部队" alias="Spark Signal" regexp="迎电部队(?:（Spark Signal）)?" />
+		<keyword regcap="true" regexp="([「『])(Dragon)([』」])" key="\1[key]\2[/key]\3" desc="" />
+		<keyword key="Dragon" disable="true" />
+		<keyword key="" />
+		<keyword regcap="true" regexp="((等级6)?绝对能力(进化)?(实验|计划))(?:（Level 6 Shift）)?" key="\1" alias="Level 6 Shift" />
+		<keyword regcap="true" regexp="量产型?超?能力者(开发)?计划|超能力者?量产(计划|实验)|(等级5)?(超能力者)?「?超电磁炮」?量产型?(开发)?计划" key="\0" />
+		<keyword key="黑暗的五月计划" />
+		<keyword key="失控能力的法则解析用诱爆实验" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="虚数学区·五行机关" alias="Primary Knowledge" />
+		<keyword key="虚数学区" alias="Primary Knowledge" />
+		<keyword key="五行机关" alias="Primary Knowledge" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="超能力者" />
+		<keyword key="能力者" />
+		<keyword key="超能力" />
+		<keyword key="身体检查" alias="System Scan" />
+		<keyword key="AIM扩散力场" alias="An Involuntary Movement" />
+		<keyword key="AIM" alias="An Involuntary Movement" regexp="AIM(?![-_0-9a-zA-Z]+)" />
+		<keyword key="An_Invountary_Movement" alias="AIM" />
+		<keyword key="个人现实" alias="Personal Reality" />
+		<keyword key="SYSTEM" alias="以非神之身理解天意" />
+		<keyword key="以非神之身理解天意" alias="SYSTEM" />
+		<keyword key="原石" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="超机动少女佳奈美" />
+		<keyword key="晕太" />
+		<keyword key="跳子" />
+	</highlight>
+	<highlight type="terminology" subtype="magic">
+		<keyword key="魔法阵营" />
+		<keyword key="魔法势力" />
+		<keyword key="教会势力" />
+		<keyword key="魔法世界" />
+		<keyword key="教会世界" />
+		<keyword key="魔法结社" alias="Magic Cabal" />
+		<keyword key="魔法组织" />
+		<keyword key="神秘学" />
+		<keyword key="魔法师" />
+		<keyword key="炼金术师" />
+		<keyword key="魔法名" />
+		<keyword key="魔法阵" regexp="魔法阵(?!化)" />
+		<keyword key="魔法" />
+		<keyword key="魔道书" />
+		<keyword key="灵装" />
+		<keyword key="圣人" />
+		<keyword key="偶像崇拜的理论" />
+		<keyword key="天使之力" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="生命之树" alias="Sephiroth" regexp="生命之树(（Sephiroth）)?" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="英国清教" regexp="英国清教(?!　)" />
+		<keyword key="必要之恶教会" alias="Necessarius" />
+		<keyword key="天草式十字凄教" regexp="天草式十字凄教(?!　)" />
+		<keyword key="天草式" regexp="天草式(?!十字凄教)" />
+		<keyword key="雅妮丝部队" />
+		<keyword key="" />
+		<keyword key="罗马正教" regexp="罗马正教(?!　)" />
+		<keyword key="葛利果圣歌队" alias="Gregorian Chant" />
+		<keyword key="神之右席" />
+		<keyword key="西班牙星教派" />
+		<keyword key="" />
+		<keyword key="俄罗斯成教" />
+		<keyword key="歼灭白书" alias="Annihilatus" />
+		<keyword key="" />
+		<keyword key="蔷薇十字" />
+		<keyword key="黄金黎明" alias="S∴M∴" />
+		<keyword key="S∴M∴" alias="黄金黎明" />
+		<keyword key="" />
+		<keyword key="阿兹特克" alias="Aztec" />
+		<keyword key="新生之光" alias="N∴L∴" />
+		<keyword key="N∴L∴" alias="新生之光" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="最高主教" alias="Archbishop" />
+		<keyword key="最大主教" alias="Archbishop" />
+		<keyword key="女教皇" />
+		<keyword key="" />
+		<keyword key="教皇" alias="Pope" />
+		<keyword key="枢机主教" alias="Cardinal Bishop" />
+		<keyword key="兰斯洛特" alias="Lancelot" desc="第一圆桌骑士" />
+		<keyword key="总大主教" alias="Major Archbishop" />
+		<keyword key="司教" alias="Bishop" />
+	</highlight>
+	<highlight type="terminology" subtype="events translate">
+		<keyword         _k_="「0930」事件" regcap="true" regexp="「0930」事件|0?930事件" key="\0" />
+		<keyword ch="20" key="不列颠万圣之夜事件" jpn="ブリテン·ザ·ハロウィン" />
+		<keyword         key="第三次世界大战" />
+	</highlight>
+	<highlight type="equipment" subtype="replaceFrom">
+		<keyword ch="13" key="驱动铠" alias="Powered Suit" desc="Replaced From: 驱动铠甲" regexp="驱动铠甲(?:（Powered Suit）)?" />
+		<keyword key="" />
+		<keyword ch="13" key="钢铁击破者MX" desc="Replaced From: 合金吞噬者MX" regexp="合金吞噬者MX" />
+		<keyword ch="13" key="玩具兵" alias="Toy Soldier" desc="F2000R\r\nReplaced From: 玩具兵队" regexp="玩具兵队" />
+		<keyword ch="13" key="御坂网路" _alias="Misaka Network" desc="Replaced From: 御坂网络" regexp="御坂网络" />
+		<keyword ch="13" key="树状图设计者" alias="Tree Diagram" desc="Replaced From: 树形图的设计者" regexp="树形图的设计者" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="15" key="托拉维斯卡邦提克乌托里之枪" alias="Tlahuizcalpantecuhtli Spear" desc="Replaced From: 托拉维斯卡邦缇克乌拖里之枪" regexp="托拉维斯卡邦缇克乌拖里之枪" />
+		<keyword ch="14" key="莲花杖" alias="Lotus Wand" desc="Replaced From: 莲之杖" regexp="莲之杖" />
+		<keyword ch="13" key="移动教会" desc="Replaced From: 步行教会" regexp="步行教会" />
+		<keyword ch="17" key="Skíðblaðnir" alias="大船之鞄" desc="Replaced From: Skidhbladhnir" regexp="Skidhbladhnir(?:（大船之鞄）)?" />
+		<keyword key="" />
+		<keyword ch="20" key="亚德里亚海女王" desc="Replaced From: 亚德里亚海之女王" regexp="亚德里亚海之女王" />
+	</highlight>
+	<highlight type="equipment" subtype="translate">
+		<keyword ch="15" key="六枚羽" alias="HsAFH-11" />
+		<keyword ch="19" key="六片羽" alias="HsAFH-11" />
+		<keyword key="" />
+		<keyword ch="15" regcap="true" regexp="(「)镊子(」)|(『)镊子(』)" key="\1\3[key]镊子[/key]\2\4" desc="干涉超微粒物质用的附着式机械臂" />
+		<keyword ch="19" key="Hula Hoop" desc="世界上最大的粒子加速器" />
+		<keyword ch="19" key="发条绷带" alias="Hard Taping" regexp="发条绷带(?:（Hard Taping）)?" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword ch="20" key="Ascalon" alias="阿斯卡隆" regexp="Ascalon(?!）)(?:（阿斯卡隆）)?" />
+		<keyword ch="17" key="阿斯卡龙" alias="Ascalon" />
+		<keyword ch="18" key="阿斯卡隆" alias="Ascalon" />
+		<keyword ch="17" key="卡提那一世" />
+		<keyword ch="17" key="卡提那二世" />
+		<keyword ch="17" key="卡提那" />
+		<keyword ch="18" key="卡提尔·正统" />
+		<keyword ch="18" key="卡提尔·second" />
+		<keyword ch="18" key="卡提尔·third" />
+		<keyword ch="20" key="卡提尔·Original" />
+		<keyword ch="20" key="卡提尔·Second" />
+		<keyword ch="18" key="卡提尔" />
+		<keyword ch="16" key="移动铁壁" desc="英国王室专用长距离护送马车" />
+		<keyword key="" />
+		<keyword ch="15" key="马库阿夫提鲁" alias="Macuahuitl" />
+		<keyword ch="16" key="史普雷尼尔" alias="Sleipnir" jpn="スレイプニル" />
+		<keyword ch="18" key="斯雷普尼尔" alias="Sleipnir" jpn="スレイプニル" />
+		<keyword ch="20" key="斯雷普尼亚" alias="Sleipnir" jpn="スレイプニル" />
+		<keyword ch="17" key="米约尔尼尔" alias="Mjöllnir" desc="雷神之锤" />
+		<keyword ch="18" key="雷神之锤"   alias="Mjöllnir"  jpn="雷神の槌(ミョルニル)" />
+		<keyword ch="17" key="布里欧纳克" alias="Brionac" desc="贯通之枪" regexp="Brionac（布里欧纳克）" />
+		<keyword ch="18" key="贯通之枪"   alias="Brionac"  jpn="貫通の槍(ブリューナク)" />
+		<keyword ch="17" key="知性角杯" jpn="知の角杯" />
+		<keyword ch="20" key="智之号角" jpn="知の角杯" />
+		<keyword ch="18" key="贝亚德" alias="Bayard" jpn="ベイヤード" />
+		<keyword ch="18" key="佛仑丁" alias="Hrunting" jpn="フルンティング" />
+		<keyword ch="18" key="主神之枪" alias="Gungnir" jpn="主神の槍(グングニル)" />
+		<keyword ch="18" key="飞空剑" alias="Fragarach" jpn="空飛ぶ剣(フラガラッハ)" />
+		<keyword ch="20" key="封印足枷" alias="Drómi" jpn="封の足枷(ドローミ)" />
+		<keyword ch="20" key="德兰达尔" alias="Durandal" jpn="デュランダル" />
+		<keyword key="" />
+		<keyword ch="17" key="卡乌·康帕斯" alias="Coven Compass" desc="英国清教的移动要塞" jpn="カヴン＝コンパス" />
+		<keyword ch="18" key="高文·导向"   alias="Coven Compass" desc="英国清教的空中要塞" jpn="カヴン＝コンパス" />
+		<keyword ch="18" key="亚露琪·深海舰" alisa="Selkie Aquarium" desc="英国清教的水中要塞" jpn="セルキー＝アクアリウム" />
+		<keyword ch="18" key="亚露琪"         alisa="Selkie"          desc="英国清教的水中要塞" jpn="セルキー" />
+		<keyword ch="18" key="格列弗·航空" alias="Griffin Sky" desc="英国的攻城战用移动要塞" jpn="グリフォン＝スカイ" />
+		<keyword ch="18" key="格拉斯顿伯里" alias="Glastonbury" desc="英国的移动要塞" jpn="格拉斯顿伯里" />
+	</highlight>
+	<highlight type="equipment" subtype="science">
+		<keyword key="树状图设计者" alias="Tree Diagram" />
+		<keyword key="书库" alias="Bank" />
+		<keyword key="学习装置" alias="Testament" />
+		<keyword key="体晶" alias="たいしょう" />
+		<keyword key="幻想御手" alias="Level Upper" />
+		<keyword key="" />
+		<keyword key="驱动铠" alias="Powered Suit" regexp="驱动铠(?:（Power(?:ed)? Suit）)?" />
+		<keyword key="HsAFH-11" alias="六枚羽" />
+		<keyword key="HsB-02" alias="超音速轰炸机" jpn="超音速ステルス爆撃機" />
+		<keyword key="HsF-00" alias="超音速战斗机" />
+		<keyword key="HsPS-15" alias="巨大兵器(Large Weapon)" jpn="ラージウェポン" />
+		<keyword key="MPS-79" alias="驱动铠" />
+		<keyword key="" />
+		<keyword key="滞空回线" alias="Under Line" regexp="滞空回线(?:（Under Line）)?" />
+		<keyword key="御坂网路" _alias="Misaka Network" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword regcap="true" regexp="(「)残骸(」)|(『)残骸(』)|残骸（Remnant）" key="\1\3[key]残骸[/key]\2\4" alias="Remnant" desc="「树状图设计者」演算中枢" />
+		<keyword key="" />
+		<keyword key="钢铁击破者MX" />
+		<keyword key="F2000R" desc="玩具兵(Toy Soldier)" />
+		<keyword key="玩具兵" alias="Toy Soldier" desc="F2000R" />
+		<keyword key="MSR-001" desc="磁力狙击炮" />
+	</highlight>
+	<highlight type="equipment" subtype="magic">
+		<keyword key="项圈" regexp="项圈(?!型|带)" />
+		<keyword key="梓弓" />
+		<keyword key="刺突杭剑" />
+		<keyword key="托拉维斯卡邦提克乌托里之枪" alias="Tlahuizcalpantecuhtli Spear" />
+		<keyword key="C文书" alias="Document of Constantine" />
+		<keyword key="Document of Constantine" alias="C文书" />
+		<keyword key="莲花杖" alias="Lotus Wand" />
+		<keyword disable="true" key="黑色软泥" />
+		<keyword key="日耳曼十字架" />
+		<keyword key="柯尔特十字架" alias="Celtic Cross" />
+		<keyword key="移动教会" desc="歩く教会" />
+		<keyword key="行动教会" desc="歩く教会" />
+		<keyword key="原始教会" />
+		<keyword disable="true" key="阿斯卡隆" alias="Ascalon" />
+		<keyword key="钢之手套" />
+		<keyword key="罗宾汉" />
+		<keyword disable="true" key="卡提纳·正统" />
+		<keyword key="大船之鞄" alias="Skíðblaðnir" />
+		<keyword key="" />
+		<keyword key="圣灵十式" />
+		<keyword key="使徒十字" />
+		<keyword key="亚德里亚海女王" _alias="Adriatic Sea" />
+		<keyword key="女王舰队" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="七天七刀" />
+		<keyword key="法之书" alias="Liber AL vel Legis" />
+		<keyword key="施术铠" />
+		<keyword key="刻限的十字架" />
+		<keyword key="天使之杖" />
+		<keyword key="海军用船上枪" alias="Friuli Spear" />
+	</highlight>
+	<highlight type="terminology" subtype="magic">
+		<keyword key="教会" regexp="教会(?!那个)" />
+	</highlight>
+	<highlight type="location" subtype="replaceFrom">
+		<keyword ch="17" key="坎特伯&lt;!----&gt;利" alias="Lambeth" desc="Replaced From: 坎特伯雷" regexp="坎特伯雷" />
+		<keyword ch="16" key="圣乔治大教堂" desc="「必要之恶教会」根据地\r\nReplaced From: 圣乔治大圣堂" regexp="圣乔治大圣堂" />
+		<keyword ch="16" key="朗伯斯宫" alias="Lambeth" desc="「英国清教」最高主教官邸\r\nReplaced From: 兰柏宫" regexp="兰柏宫" />
+		<keyword key="" />
+		<keyword ch="17" key="兰伯斯区" alias="Lambeth" desc="Replaced From: 兰贝斯区" regexp="兰贝斯区" />
+	</highlight>
+	<highlight type="location" subtype="translate">
+		<keyword ch="18" key="艾莉莎莉娜独立国同盟" />
+		<keyword ch="19" key="艾力扎里纳独立国同盟" />
+		<keyword ch="18" key="独立国同盟" />
+		<keyword key="" />
+		<keyword ch="15" key="Famliy Side" desc="黄泉川爱穗的公寓" />
+		<keyword key="" />
+		<keyword ch="17" key="温莎城" />
+		<keyword key="" />
+		<keyword ch="14" key="图卢兹" alias="Toulouse" regexp="图卢兹(（Toulouse）)?" />
+		<keyword ch="14" key="阿维尼翁" alias="Avignon" desc="位于法国南部，隆河左岸的一座城市。在克里门特五世到1378年之间的时期，天主教教廷从罗马迁移至此，并受国王控制。后来更出现两地各立教宗的情形 (史称「大分裂」)。" />
+		<keyword ch="15" key="亚维尼翁" alias="Avignon" desc="位于法国南部，隆河左岸的一座城市。在克里门特五世到1378年之间的时期，天主教教廷从罗马迁移至此，并受国王控制。后来更出现两地各立教宗的情形 (史称「大分裂」)。" />
+		<keyword ch="17" key="阿维尼恩" alias="Avignon" desc="位于法国南部，隆河左岸的一座城市。在克里门特五世到1378年之间的时期，天主教教廷从罗马迁移至此，并受国王控制。后来更出现两地各立教宗的情形 (史称「大分裂」)。" />
+		<keyword ch="17" key="弗克斯东" alias="Folkstone" />
+		<keyword ch="19" key="福克斯郡" alias="Folkstone" />
+		<keyword ch="20" key="福克斯通" alias="Folkstone" />
+		<keyword key="" />
+		<keyword ch="20" key="多佛尔海峡" alias="Strait of Dover" />
+	</highlight>
+	<highlight type="location" subtype="science">
+		<keyword regcap="true" regexp="第(十?[一二三四五六七八九十]|二十[一二三])学区" key="\0" />
+		<keyword key="学舍之园" />
+		<keyword key="" />
+		<keyword key="三泽塾" />
+	</highlight>
+	<highlight type="location" subtype="magic">
+		<keyword regcap="true" regexp="坎特伯里(寺院)?"   ch="07" key="\0" desc="「英国清教」总部" />
+		<keyword regcap="true" regexp="坎特伯利(大教堂)?" ch="09" key="\0" desc="「英国清教」总部" />
+		<keyword key="圣乔治大教堂" desc="「必要之恶教会」根据地" />
+		<keyword key="" />
+		<keyword key="兰伯斯区" alias="Lambeth" regexp="兰伯斯区(?:（Lambeth）)?" ch="07" />
+		<keyword key="朗伯斯宫" alias="Lambeth" desc="「英国清教」最高主教官邸" regexp="朗伯斯宫(?:（Lambeth）)?" ch="12" />
+		<keyword key="朗伯斯" alias="Lambeth" regexp="朗伯斯(?:（Lambeth）)?" ch="11" />
+	</highlight>
+	<highlight type="location">
+		<keyword key="英国" />
+		<keyword key="法国" />
+		<keyword key="梵蒂冈" />
+		<keyword key="俄罗斯" />
+		<keyword key="" />
+		<keyword key="伦敦" />
+		<keyword key="爱丁堡" />
+		<keyword key="威尼斯" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="亚德里亚海" alias="Adriatic Sea" />
+		<keyword key="威纳托省" alias="Vento" regexp="威纳托省(（Vento）)?" ch="11" />
+		<keyword key="利托里奥桥" alias="Ponte Littorio" regexp="利托里奥桥(（Ponte Littorio）)?" ch="11" />
+		<keyword key="维琴察" alias="Vicenza" regexp="维琴察(（Vicenza）)?" ch="11" />
+		<keyword key="帕多瓦" alias="Padova" regexp="帕多瓦(（Padova）)?" ch="11" />
+		<keyword key="巴萨诺格拉帕" alias="Bassano del Grappa" regexp="巴萨诺格拉帕(（Bassano del Grappa）)?" ch="11" />
+		<keyword key="贝鲁诺" alias="Belluno" regexp="贝鲁诺(（Belluno）)?" ch="11" />
+		<keyword key="基奥贾" alias="Chioggia" regexp="基奥贾(（Chioggia）)?" ch="11" />
+		<keyword key="泻湖区" alias="Laguna" regexp="泻湖区(（Laguna）)?" ch="11" />
+		<keyword key="梅特雷斯" alias="Mestre" regexp="梅特雷斯(（Mestre）)?" ch="11" />
+		<keyword key="维哥桥" alias="Ponte di Vigo" regexp="维哥桥(（Ponte di Vigo）)?" ch="11" />
+		<keyword key="索托马利那" alias="Sotto Marina" regexp="索托马利那(（Sotto Marina）)?" ch="11" />
+		<keyword key="丽都岛" alias="Lido di Venezia" regexp="丽都岛(（Lido di Venezia）)?" ch="11" />
+		<keyword key="梅斯特" ch="11" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="other" subtype="replaceFrom">
+		<keyword ch="17" key="艾利丝" alias="Ellis" desc="Replaced From: 爱丽丝" regexp="爱丽丝" />
+		<keyword ch="18" key="艾利丝" alias="Ellis" desc="Replaced From: 艾丽丝" regexp="艾丽丝" />
+	</highlight>
+	<highlight type="other" subtype="translate">
+		<keyword ch="16" key="堕天使工口女仆" />
+		<keyword ch="17" key="大精灵光之女仆" />
+		<keyword ch="18" key="大精灵闪亮女仆" />
+		<keyword ch="18" key="小恶魔全面型女仆" />
+		<keyword ch="18" key="女神殿下哥特女仆" />
+	</highlight>
+	<highlight type="other">
+		<keyword key="艾利丝" alias="Ellis" />
+		<keyword key="" />
+		<keyword key="堕天使女仆" />
+	</highlight>
+</highlights>

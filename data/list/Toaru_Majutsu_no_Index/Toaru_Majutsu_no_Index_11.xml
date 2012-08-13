@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0020" />
+	<chapter start="0024" end="0173" title="序　章　北意大利的旅行" />
+	<chapter start="0178" end="0417" title="第一章　基奥贾的街头" />
+	<chapter start="0422" end="0476" title="行间一" />
+	<chapter start="0481" end="0902" title="第二章　前往伦敦的准备" />
+	<chapter start="0907" end="0940" title="行间二" />
+	<chapter start="0945" end="1522" title="第三章　在水都的船上" />
+	<chapter start="1527" end="1565" title="行间三" />
+	<chapter start="1570" end="2301" title="第四章　火船与炮火之战" />
+	<chapter start="2306" end="2322" title="行间四" />
+	<chapter start="2327" end="3324" title="第五章　亚德里亚海女王" />
+	<chapter start="3329" end="3510" title="终　章　回到学园都市" />
+	<chapter start="3515" end="3534" title="后　记" />
+	<imgs dir="Toaru_Majutsu_no_Index" prefix="Toaru_Majutsu_no_Index_11_" suffix="_with_mark.jpg">
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0020" filename="001" />
+		<img insert="0020" filename="002a" clear="both" />
+		<img insert="0020" filename="002b" />
+		<img insert="0020" filename="003" />
+		<img insert="0020" filename="004" />
+		<img insert="0020" filename="005a" />
+		<img insert="0020" filename="005b" />
+		<img alt="插图015" filename="015t" />
+		<img alt="插图037" filename="037t" />
+		<img alt="插图052" filename="052" />
+		<img alt="插图062" filename="062t" />
+		<img alt="插图083" filename="083t" />
+		<img alt="插图090" filename="090t" />
+		<img alt="插图092" filename="092t" />
+		<img alt="插图119" filename="119t" />
+		<img alt="插图131" filename="131t" />
+		<img alt="插图162" filename="162t" />
+	</imgs>
+</volume>

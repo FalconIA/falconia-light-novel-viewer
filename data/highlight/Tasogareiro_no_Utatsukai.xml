@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Dragon_Crisis" css="">
+	<highlight>
+		<keyword key="細音\1啓" regexp="细音(\s*)启" regcap="true" />
+		<keyword key="竹岡美穂" regexp="竹冈美穗" />
+		<keyword disable="false" regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="character" subtype="">
+		<keyword key="奈特·耶雷米亚斯"     alias="Neight Yehlemihas" />
+		<keyword key="奈特"                 alias="Neight" />
+		<keyword key="库露耶露·索菲尼特"   alias="Kluele Sophi Net" />
+		<keyword key="库露耶露"             alias="Kluele" />
+		<keyword key="库露露"               alias="库露耶露" />
+		<keyword key="凯因兹·亚温凯尔"     alias="Xins Airwincle" />
+		<keyword key="凯因兹"               alias="Xins" />
+		<keyword key="凯大人"               alias="凯因兹" />
+		<keyword key="伊芙玛丽·耶雷米亚斯" alias="Evhemary Yehlemihas" />
+		<keyword key="伊芙玛丽"             alias="Evhemary" />
+		<keyword key="阿玛迪斯"             alias="Armadeus" />
+		<keyword key="阿玛"                 alias="Arma" />
+		<keyword key="夏娃" />
+	</highlight>
+	<highlight type="character" subtype="1-Bの生徒">
+		<keyword key="蜜欧·蓝提亚"         alias="Mio Lentear" />
+		<keyword key="蜜欧"                 alias="Mio" />
+		<keyword key=""                     alias="Ada Yung Gillshuvesher" />
+		<keyword key="艾达"                 alias="Ada" />
+		<keyword key=""                     alias="Serges Ophelia" />
+		<keyword key="桑吉丝"               alias="Serges" />
+		<keyword key=""                     alias="オーマ・ティンネル" />
+		<keyword key=""                     alias="キリエ・イレイソン" />
+	</highlight>
+	<highlight type="character" subtype="教師">
+		<keyword key="哲亚·洛得菲尔"       alias="Zea Lordfill"          desc="学園長。" />
+		<keyword key="洁西卡·雷宾迪亚"     alias="ジェシカ レビンディア" desc="教師長。" />
+		<keyword key="洁西卡"               alias="ジェシカ"              desc="教師長。" />
+		<keyword key=""                     alias="Kate LeoSuel"          desc="ネイトたち1-Bの女性担任教師。" />
+		<keyword key="凯特"                 alias="Kate"                  desc="ネイトたち1-Bの女性担任教師。" />
+		<keyword key="安妮·雷比尼西亚"     alias="Enne Revinesia"        desc="白衣を着た物静かで優しげな女性教師。" />
+		<keyword key="安妮"                 alias="Enne"                  desc="白衣を着た物静かで優しげな女性教師。" />
+		<keyword key=""                     alias="Mirror Kei Endurnce"   desc="深青のローブを羽織った冷静沈着でインテリ眼鏡な男性教師。" />
+		<keyword key="米拉"                 alias="Mirror"                desc="深青のローブを羽織った冷静沈着でインテリ眼鏡な男性教師。" />
+		<keyword key=""                     alias="Zessel Hiasc"          desc="緋色のローブを羽織った豪放で大柄な男性教師。" />
+		<keyword key="泽塞尔"               alias="Zessel"                desc="緋色のローブを羽織った豪放で大柄な男性教師。" />
+	</highlight>
+	<highlight type="character" subtype="イ短調">
+		<keyword key="" alias="" desc="イ短調1番。イ短調の創設者にして総長。" />
+		<keyword key="" alias="Nessiris" desc="イ短調2番。" />
+		<keyword key="" alias="" desc="イ短調3番。齢70近い祓名民の長老。" />
+		<keyword key="" alias="" desc="イ短調5番。見目麗しき女医。" />
+		<keyword key="" alias="" desc="イ短調6番。" />
+		<keyword key="" alias="" desc="イ短調9番。" />
+		<keyword key="" alias="" desc="イ短調11番。" />
+	</highlight>
+	<highlight type="character" subtype="その他">
+		<keyword key="" alias="ヨシュア" />
+		<keyword key="" alias="Mischder" />
+		<keyword key="" alias="Falma Fel Focilbel" />
+		<keyword key="" alias="Arvir Hellvelunt" />
+		<keyword key="" alias="Teixeira Li Neficara" />
+		<keyword key="" alias="Armariris" />
+		<keyword key="" alias="Xeo" />
+	</highlight>
+	<highlight type="character" subtype="chapter01">
+		<keyword key="彼伊" />
+		<keyword key="阿尔谢姆" />
+		<keyword key="班德烈尔" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword regcap="true" key="\0" regexp="艾尔法多((名咏)?学舍)?" />
+		<keyword regcap="true" key="\0" regexp="(多雷米亚)?(王立研究所|学院)|多雷米亚" />
+		<keyword key="" />
+		<keyword key="1－B"             regexp="一－B" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword regcap="true" key="\0" regexp="红色名咏士" />
+		<keyword regcap="true" key="\0" regexp="蓝色名咏士" />
+		<keyword regcap="true" key="\0" regexp="黄色名咏士" />
+		<keyword regcap="true" key="\0" regexp="绿色名咏士" />
+		<keyword regcap="true" key="\0" regexp="白色名咏士" />
+		<keyword regcap="true" key="\0" regexp="夜色名咏士" />
+		<keyword regcap="true" key="\0" regexp="虹色名咏士" />
+		<keyword key="名咏士" />
+		<keyword key="名咏者" />
+	</highlight>
+	<highlight>
+		<keyword regcap="true" key="\0" regexp="苔绿色|嫩绿色|鲜红色|大红色|降临的夜色|深蓝色|深绿色|红色长袍|银白色|蓝白色|天蓝色" />
+		<keyword regcap="true" key="\0" regexp="红宝石|蓝宝石" />
+	</highlight>
+	<highlight type="ability" subtype="名咏式">
+		<keyword regcap="true" key="\1" regexp="(瑟拉菲诺音语)(?:（(神圣语言)）)?" desc="\2" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" regexp="红色(名咏(?!士)式?)?" alias="Keinez" />
+		<keyword regcap="true" key="\0" regexp="蓝色(名咏(?!士)式?)?" alias="Ruguz" />
+		<keyword regcap="true" key="\0" regexp="黄色(名咏(?!士)式?)?" alias="Surisuz" />
+		<keyword regcap="true" key="\0" regexp="绿色(名咏(?!士)式?)?" alias="Beorc" />
+		<keyword regcap="true" key="\0" regexp="白色(名咏(?!士)式?)?" alias="Arzus" />
+		<keyword regcap="true" key="\0" regexp="夜[色之](名咏(?!士)式?)"  alias="Ezel" />
+		<keyword regcap="true" key="\0" regexp="[虹五]色(名咏(?!士)式?)" />
+		<keyword regcap="true" key="\1[key]\2[/key]\3" alias="\4" regexp="([「『])(Keinez|Ruguz|Surisuz|Beorc|Arzus)([』」])（(红|蓝|黄|绿|白)）" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" regexp="第一音阶(名咏)?" alias="ハイ・ノーブル・アリア" />
+		<keyword regcap="true" key="\0" regexp="第二音阶(名咏)?" alias="ノーブル-" />
+		<keyword regcap="true" key="\0" regexp="第三音阶(名咏)?" alias="プライム-" />
+		<keyword regcap="true" key="\0" regexp="第四音阶(名咏)?" alias="コモン-" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="ability" subtype="名咏生物">
+		<keyword key="黎明的神鸟" />
+		<keyword key="漆黑之龙" />
+		<keyword key="创始之女" />
+		<keyword key="敌对者" />
+	</highlight>
+	<highlight type="terminology" subtype="item">
+		<keyword key="颜料管" />
+		<keyword key="颜料" />
+		<keyword key="图画纸" />
+		<keyword key="宝石" />
+		<keyword disable="true" key="炎" />
+		<keyword key="糸" />
+		<keyword key="絨毯" />
+		<keyword key="" />
+		<keyword key="孵石" />
+		<keyword key="夜色之焰" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="名咏式" />
+		<keyword key="反唱" />
+		<keyword key="触媒" />
+		<keyword key="后罪" />
+		<keyword key="赞来歌" />
+		<keyword key="名咏生物" />
+		<keyword key="名咏物" />
+		<keyword regcap="true" key="\0" regexp="([红蓝黄绿白夜虹][的之])?真精" />
+		<keyword key="祓名民" />
+		<keyword key="" />
+		<keyword key="名咏色" />
+		<keyword key="名咏门" />
+		<keyword key="名咏光" />
+		<keyword key="名咏诗" />
+		<keyword key="名咏" />
+	</highlight>
+</highlights>

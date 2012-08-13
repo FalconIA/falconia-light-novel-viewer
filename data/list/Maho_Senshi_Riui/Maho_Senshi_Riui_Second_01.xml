@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0187" />
+	<chapter start="0190" end="0251" title="序　章" />
+	<chapter start="0257" end="0659" title="第Ⅰ章　魔女的弟子" />
+	<chapter start="0665" end="1090" title="第Ⅱ章　国境不稳" />
+	<chapter start="1096" end="1528" title="第Ⅲ章　谋略的魔手" />
+	<chapter start="1534" end="2008" title="第Ⅳ章　错综复杂的一夜" />
+	<chapter start="2014" end="2756" title="第Ⅴ章　古塔的决战" />
+	<chapter start="2762" end="2780" title="结　语" />
+	<chapter start="2786" end="3036" title="编者后记" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_Second_01_" suffix=".jpg">
+	</imgs>
+</volume>

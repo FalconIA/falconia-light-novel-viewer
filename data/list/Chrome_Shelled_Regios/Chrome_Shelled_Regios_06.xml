@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0079" />
+	<chapter start="0084" end="0142" title="序　幕" />
+	<chapter start="0147" end="0465" title="第一章　在倾颓的家园" />
+	<chapter start="0470" end="0862" title="第二章　蝴蝶现形" />
+	<chapter start="0867" end="1336" title="第三章　穷岛" />
+	<chapter start="1341" end="1717" title="第四章　没有主人的剑" />
+	<chapter start="1722" end="2435" title="第五章　迷你世界的中心" />
+	<chapter start="2440" end="2909" title="第六章　剑的主人" />
+	<chapter start="2914" end="2970" title="终　章" />
+	<chapter start="2975" end="3113" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_06_" suffix="_with_mark.jpg">
+		<img insert="0019" filename="000" notfloat="true" />
+		<img insert="0030" filename="001" />
+		<img insert="0067" filename="002" />
+		<img insert="0067" filename="003a" />
+		<img insert="0067" filename="003b" clear="both" />
+		<img insert="0067" filename="004" />
+		<img alt="插图010" filename="010t" />
+		<img alt="插图022" filename="022t" />
+		<img alt="插图032" filename="032t" />
+		<img alt="插图050" filename="050t" />
+		<img alt="插图056" filename="056t" />
+		<img alt="插图076" filename="076t" />
+		<img alt="插图094" filename="094t" />
+		<img alt="插图106" filename="106t" />
+		<img alt="插图130" filename="130t" />
+		<img alt="插图134" filename="134t" />
+	</imgs>
+</volume>

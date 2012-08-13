@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0194" />
+	<chapter start="0199" end="0246" title="序　章" />
+	<chapter start="0252" end="0574" title="第Ⅰ章　来访者" />
+	<chapter start="0580" end="0955" title="第Ⅱ章　冒险者" />
+	<chapter start="0961" end="1502" title="第Ⅲ章　偷窥者" />
+	<chapter start="1508" end="1954" title="第Ⅳ章　制裁者，被制裁者" />
+	<chapter start="1958" end="2137" title="终　章" />
+	<chapter start="2141" end="2313" title="后　记" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_04_" suffix=".jpg">
+	</imgs>
+</volume>

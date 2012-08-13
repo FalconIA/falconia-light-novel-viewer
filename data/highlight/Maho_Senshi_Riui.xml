@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="Maho_Senshi_Riui" css="">
+	<highlight>
+		<keyword disable="false" key="魔法战士李维" />
+		<keyword disable="false" regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)?((www\.lightnovel\.cn|www\.light-kingdom\.com)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="character" subtype="replaceFrom">
+		<keyword regcap="true" key="梅里莎"     regexp="梅丽莎"     desc="Replace: \0" alias="リウイ" />
+		<keyword regcap="true" key="骷利休"     regexp="骷利林"     desc="Replace: \0" alias="クリシュ" />
+		<keyword regcap="true" key="亚威·修瑞达" regexp="亚威-修瑞达" desc="Replace: \0" />
+		<keyword regcap="true" key="哈帝·修瑞达" regexp="哈帝-修瑞达" desc="Replace: \0" />
+		<keyword regcap="true" key="安洁拉"     regexp="安杰拉"     desc="Replace: \0" alias="アンジェラ" />
+		<keyword regcap="true" key="伊莉丝提亚" regexp="伊莉丝提雅" desc="Replace: \0" alias="エリスティア" />
+		<keyword regcap="true" key="露妲"       regexp="露坦"       desc="Replace: \0" alias="ルダ" />
+		<keyword regcap="true" key="艾尔·亚拉梅因" regexp="艾尔-亚拉梅因" desc="Replace: \0" alias="動かざる者エル・アラサイン" />
+		<keyword regcap="true" key="梅蕾蒂"     regexp="没蕾蒂" desc="Replace: \0" alias="メレーテ" />
+		<keyword regcap="true" key="究极四大者" regexp="究级四大者" desc="Replace: \0" alias="四大を極めし者" />
+		<keyword regcap="true" key="\1玛拉·阿贾尼斯" regexp="(幻觉魔法师)?玛拉-阿贾尼斯(?!之都)" desc="Replace: \0" alias="幻覚魔術師マーラ・アジャニス" />
+	</highlight>
+	<highlight type="character" subtype="リウイ・パーティー">
+		<keyword key="李维"       alias="リウイ" />
+		<keyword key="蜜蕾儿"     alias="ミレル" />
+		<keyword key="吉妮"       alias="ジーニ" />
+		<keyword key="梅里莎莉姆" alias="メリサリム" desc="梅里莎" />
+		<keyword key="梅里莎"     alias="メリッサ" />
+		<keyword key="艾拉"       alias="アイラ" />
+		<keyword key="蒂卡"       alias="ティカ" />
+		<keyword key="骷利休"     alias="クリシュ" />
+		<keyword key=""           alias="シャザーラ" />
+	</highlight>
+	<highlight type="character" subtype="剑之王国欧芳">
+		<keyword key="李察尔"     alias="リジャール" />
+		<keyword key="理特拉"     alias="リトラー" />
+		<keyword key="卡希亚斯"   alias="カシアス" />
+		<keyword key=""           alias="ダーダネル" />
+		<keyword key="隆达密司"   alias="ローンダミス" />
+		<keyword key="巴布"       alias="バーブ" />
+		<keyword key="利斯拉"     alias="リスラー" />
+		<keyword key="涅飞尔"     alias="ネフェル" />
+		<keyword key="亚特雷"     alias="アトレー" />
+		<keyword key="亚威"       alias="アーヴィン" />
+		<keyword key="修瑞达"     alias="シュレイダー" />
+		<keyword key=""           alias="レミグラン" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="カーウェス"                regexp="卡威司|卡威斯" />
+		<keyword key=""           alias="ラヴェルナ・ルーシェン" />
+		<keyword key="拉薇露娜"   alias="ラヴェルナ" />
+		<keyword key="佛罗提斯"   alias="フォルテス" />
+		<keyword key="达利路"     alias="ダリル" />
+		<keyword key=""           alias="ファイエット" />
+		<keyword key="" />
+		<keyword key="洁妮"       alias="ジェニ" />
+		<keyword key="剑姬"       alias="剣の姫" />
+		<keyword key="马兹尔"     alias="マズル" />
+		<keyword key="沙姆斯"     alias="サムス" />
+		<keyword key="巴纳尔"     alias="バナール" />
+		<keyword key="罗兰度"     alias="ローランド" />
+		<keyword key="汉塞尔"     alias="ハンセル" />
+		<keyword key="妙莉爱儿"   alias="ミュリエル" />
+		<keyword key="赛雷西亚"   alias="セレシア" />
+		<keyword key="安洁拉"     alias="アンジェラ" />
+		<keyword key="露妲"       alias="ルダ" />
+		<keyword key="拉丁"       alias="ラディン" />
+		<keyword key="奈夫拉"     alias="ネフラ" />
+		<keyword key="艾美莉亚"   alias="エメリア" />
+		<keyword key="玛露蒂娜"   alias="マルティナ" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="character" subtype="魔法の王国ラムリアース">
+		<keyword key="符勒亚宏"   alias="フレアホーン" />
+		<keyword key="康莱德"     alias="コンラッド" />
+		<keyword key=""           alias="ウィズレイ" />
+		<keyword key="伊莉丝提亚" alias="エリスティア" />
+		<keyword key="伊莉丝"     alias="エリス" />
+		<keyword key="雷克力欧"   alias="レクリオ" />
+		<keyword key="亚尔莫赞"   alias="アルモザーン" />
+		<keyword key="梅尔赛力亚" alias="メルセリア侯爵" />
+		<keyword key=""           alias="ディブロー伯爵" />
+		<keyword key=""           alias="ラスターニ侯爵" />
+		<keyword key=""           alias="ダニエル" />
+		<keyword key=""           alias="ジュディス" />
+		<keyword key="凯尼"       alias="ケニー" />
+		<keyword key=""           alias="ロウラス" />
+	</highlight>
+	<highlight type="character" subtype="湖岸の王国ザイン">
+		<keyword key=""           alias="ゼウヌス" />
+		<keyword key=""           alias="ネクタール" />
+		<keyword key="菲密伯爵"   alias="ヴィミー伯爵" />
+		<keyword key=""           alias="カッセル子爵" />
+		<keyword key=""           alias="リビアス" />
+		<keyword key=""           alias="オムル" />
+		<keyword key=""           alias="アヴィ" />
+		<keyword key="宋恩"       alias="ソーン" />
+	</highlight>
+	<highlight type="character" subtype="砂塵の王国エレミア">
+		<keyword key=""           alias="シュメール" />
+		<keyword key=""           alias="パメラ" />
+		<keyword key=""           alias="トーラ" />
+		<keyword key=""           alias="サニトーク" />
+	</highlight>
+	<highlight type="character" subtype="賢者の王国オラン">
+		<keyword key=""           alias="カイアルタード7世" />
+		<keyword key=""           alias="マナ・ライ" />
+		<keyword key=""           alias="バレン" />
+		<keyword key=""           alias="ランディーヌ" />
+		<keyword key=""           alias="イゴール" />
+		<keyword key=""           alias="シヴィルリア・サイアス（シヴィル）" />
+		<keyword key=""           alias="アストラ" />
+		<keyword key=""           alias="スマック" />
+		<keyword key=""           alias="ダニロ" />
+		<keyword key=""           alias="エメル" />
+	</highlight>
+	<highlight type="character" subtype="呪われた島ロードス">
+		<keyword key=""           alias="パーン" />
+		<keyword key=""           alias="ディードリット" />
+		<keyword key=""           alias="カシュー" />
+		<keyword key=""           alias="スレイン" />
+		<keyword key=""           alias="シャダム" />
+	</highlight>
+	<highlight type="character" subtype="草原の王国ミラルゴ">
+		<keyword key=""           alias="クーナ" />
+		<keyword key=""           alias="ディーノ" />
+		<keyword key=""           alias="マウラ" />
+		<keyword key=""           alias="シウバ" />
+		<keyword key=""           alias="ドート" />
+	</highlight>
+	<highlight type="character" subtype="鋼の国ロドーリル">
+		<keyword key=""           alias="ジューネ" />
+		<keyword key=""           alias="ヒュード" />
+	</highlight>
+	<highlight type="character" subtype="東の果ての島（イーストエンド）">
+		<keyword key=""           alias="サベル" />
+		<keyword key=""           alias="ソーマ" />
+		<keyword key=""           alias="カガリ" />
+		<keyword key=""           alias="スセリ" />
+		<keyword key=""           alias="ラカン" />
+	</highlight>
+	<highlight type="character" subtype="海賊の国バイカル">
+		<keyword key=""           alias="ギアース" />
+		<keyword key=""           alias="リッケ" />
+		<keyword key=""           alias="ルーシア" />
+		<keyword key=""           alias="ラムス" />
+		<keyword key=""           alias="テグリ" />
+	</highlight>
+	<highlight type="character" subtype="その他">
+		<keyword key=""           alias="メルディナ" />
+		<keyword key=""           alias="ガードルート" />
+		<keyword key="陆吉亚"     alias="ルキアル" />
+		<keyword key="棋圣"       alias="指し手" />
+		<keyword key="雷提耶"     alias="レティエ" />
+		<keyword key="黑克达"     alias="ヘクター" />
+	</highlight>
+	<highlight type="character" subtype="">
+		<keyword regcap="true" key="\0" alias="戦の神マイリー"            regexp="战神迈力|迈力战神|迈力神殿|迈力神(?!官)|迈力" />
+		<keyword regcap="true" key="\0" alias="知識神ラーダ"              regexp="知识神拉达|拉达教团" />
+		<keyword regcap="true" key="\0" alias="大地母神マーファ"          regexp="大地母神玛法|大地母神|玛法" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="メレーテ"                  regexp="梅蕾蒂|美蕾蒂" desc="欧芳王妃。" />
+		<keyword regcap="true" key="\0" alias="動かざる者エル・アラサイン" regexp="不动者|艾尔·亚拉梅因" />
+		<keyword regcap="true" key="\0" alias="マナ・ライ"                 regexp="玛娜·莱依|玛那·莱依" desc="大贤者。" />
+	</highlight>
+	<highlight type="character" subtype="chapter02">
+		<keyword key="究极四大者"       alias="四大を極めし者" />
+	</highlight>
+	<highlight type="character" subtype="chapter04">
+		<keyword key="威兹雷" />
+		<keyword key="拉特克里夫" />
+	</highlight>
+	<highlight type="character" subtype="chapter05">
+		<keyword key="安蒂莉" desc="歌女。" />
+		<keyword key="拉达克" desc="铁头。" />
+	</highlight>
+	<highlight type="character" subtype="chapter06">
+		<keyword key="巴特" />
+	</highlight>
+	<highlight type="character" subtype="chapter07">
+		<keyword key="艾丽希雅" desc="吉妮的祖先。" />
+	</highlight>
+	<highlight type="character" subtype="chapter08">
+		<keyword key="玛拉·阿贾尼斯"   alias="幻覚魔術師マーラ・アジャニス" />
+	</highlight>
+	<highlight type="character" subtype="chapter2nd">
+		<keyword key="贝鲁卡"           alias="アトレー" />
+		<keyword key="马基司"           alias="マギス" />
+	</highlight>
+	<highlight type="location" subtype="replaceFrom">
+		<keyword regcap="true" key="欧芳"       regexp="欧芬"       desc="Replace: \0" alias="ルダ" />
+		<keyword regcap="true" key="玛拉·阿贾尼斯之都" regexp="玛拉-阿贾尼斯之都" desc="Replace: \0" alias="幻覚都市マーラ・アジャニスの都" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword regcap="true" key="\0" alias="フォーセリア"              regexp="佛赛利亚(世界)?" />
+		<keyword regcap="true" key="\0" alias="アレクラスト大陸"          regexp="亚力克拉斯特(大陆)?|亚力克拉斯(大陆)?" />
+		<keyword regcap="true" key="\0" alias="ヤスガルン山脈"            regexp="亚斯葛伦山[脉岳]|亚斯葛伦山|亚斯葛伦" />
+		<keyword regcap="true" key="\0" alias="争いの森 ターシャス"       regexp="纷争森林|达狭斯森林|达狭斯" />
+		<keyword key="独角兽森林" />
+		<keyword key="妖魔森林"         alias="妖魔の森" />
+		<keyword key="虚无沙漠"         alias="無の砂漠" />
+		<keyword key="艾尔湖"           alias="エル湖" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="カストゥール王国"          regexp="古代(魔法)?王国卡斯托尔(王国)?|古代(魔法)?王国|古王国|卡斯托尔王国" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="剣の国オーファン"          regexp="剑之王?国欧芳|剑之王?国|欧芳(王国)?" />
+		<keyword regcap="true" key="\0" alias="ファン王国"                regexp="法恩王国" />
+		<keyword key="法恩"             alias="ファン"                      desc="剑之王国欧芳首都。" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="魔法の王国ラムリアース"    regexp="魔法王国拉姆利亚斯|魔法王国|拉姆利亚斯(王国)?" />
+		<keyword regcap="true" key="\0" alias="混沌の王国ファンドリア"    regexp="[混浑]沌[王之]国(凡多利亚|方德利亚)|[混浑]沌[王之]国|(凡多利亚|方德利亚)(王国)?" />
+		<keyword regcap="true" key="\0" alias="砂塵の王国エレミア"        regexp="[沙砂][尘漠][王之]国艾雷米亚|[沙砂][尘漠][王之]国|艾雷米亚(王国)?" />
+		<keyword regcap="true" key="\0" alias="十字路の王国ロマール"      regexp="十字路王国罗马尔|十字路王国|罗马尔(王国)?" />
+		<keyword regcap="true" key="\0" alias="ロマール王国レイド"        regexp="雷德" />
+		<keyword regcap="true" key="\0" alias="レイド王国"                regexp="雷德王?国" />
+		<keyword regcap="true" key="\0" alias="湖岸の王国ザイン"          regexp="湖岸王国札因|湖岸王国|札因(王国)?" />
+		<keyword regcap="true" key="\0" alias="モラーナ王国"              regexp="摩拉那(王国)?" />
+		<keyword regcap="true" key="\0" alias="呪われた島ロードス"        regexp="诅咒之岛" />
+		<keyword regcap="true" key="\0" alias="鋼の国ロドーリル"          regexp="罗得利尔|罗德利尔(?!disable)" />
+		<keyword key="" />
+		<keyword key="普利西斯"         alias="ブリシス" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="空中都市レックス"          regexp="空中都市雷克斯|雷克斯" />
+		<keyword key="坠落都市"         alias="墜ちた都市" />
+		<keyword regcap="true" key="\0" alias="幻覚都市マーラ・アジャニスの都" regexp="幻觉都市玛拉·阿贾尼斯之都|幻觉都市|玛拉·阿贾尼斯之都" />
+		<keyword key="水上都市"         alias="湖上都市クード" />
+		<keyword key="精灵都市"         alias="精霊都市トールストリナ" />
+		<keyword key="梦中都市" />
+	</highlight>
+	<highlight type="ability" subtype="">
+		<keyword key="上级古代语"       alias="上位古代語" />
+		<keyword key="下级古代语"       alias="下位古代語" />
+		<keyword key="艾尔夫族语" />
+		<keyword key="" />
+		<keyword key="古代语魔法" />
+		<keyword key="神圣魔法" regexp="神圣魔法(?!使)" />
+		<keyword key="" />
+		<keyword key="扩大魔法" />
+		<keyword key="赋予魔法"         alias="付与魔術" />
+		<keyword key="防护魔法"         alias="護りの魔法" />
+		<keyword key="对抗魔法" />
+		<keyword key="抵抗魔法" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="氷の棺"                    regexp="冰棺材(?!disable)|冰棺" />
+		<keyword key="睡眠咒文"         alias="眠りの呪文" />
+		<keyword key="" />
+		<keyword key="轻量化"     regexp="轻量化(?=[」』”’])" />
+		<keyword key="开锁"         regexp="开锁(?=[」』”’])" />
+		<keyword key="魔力赋予" regexp="魔力赋予(?=[」』”’])" />
+		<keyword key="赋予魔力" regexp="赋予魔力(?=[」』”’])" />
+		<keyword key="邪眼"         regexp="邪眼(?=[」』”’])" />
+		<keyword key="照明"         regexp="照明(?=[」』”’])" />
+		<keyword key="命令解除" regexp="命令解除(?=[」』”’])" />
+		<keyword key="雹风"         regexp="雹风(?=[」』”’])" />
+		<keyword key="防护罩"     regexp="防护罩(?=[」』”’])" />
+		<keyword key="瞬间移动" regexp="瞬间移动(?=[」』”’])" />
+		<keyword key="气弹"         regexp="气弹(?=[」』”’])" />
+		<keyword key="护身圆阵" regexp="护身圆阵(?=[」』”’])" />
+		<keyword key="控落"         regexp="控落(?=[」』”’])" />
+		<keyword key="睡云"         regexp="睡云(?=[」』”’])" />
+		<keyword key="解毒"         regexp="解毒(?=[」』”’])" />
+		<keyword key="睡眠"         regexp="睡眠(?=[」』”’])" />
+		<keyword key="魔法锁"     regexp="魔法锁(?=[」』”’])" />
+	</highlight>
+	<highlight type="terminology" subtype="replaceFrom">
+		<keyword regcap="true" key="魔法师公会" regexp="魔法师工会" desc="Replace: \0" alias="魔術師ギルド" />
+	</highlight>
+	<highlight type="terminology" subtype="item">
+		<keyword key="四眼"         regexp="四眼(?=[」』”’])" ch="01" />
+		<keyword key="席拉尔之眼" />
+		<keyword key="眼镜"         regexp="眼镜(?=[」』”’])" ch="02" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="森林妖精外套"     alias="森妖精の外套" />
+		<keyword regcap="true" key="\0" alias="妖魔の呼び子"              regexp="唤魔笛|呼唤妖怪笛子(?!disable)" />
+	</highlight>
+	<highlight type="terminology" subtype="specie replaceFrom">
+		<keyword regcap="true" key="艾尔夫族"   regexp="妖精族"     desc="Replace: \0" alias="エルフ族" />
+		<keyword regcap="true" key="芙拉乌"     regexp="芙拉鸟"     desc="Replace: \0" alias="フラウ" />
+		<keyword regcap="true" key="德鲁依"     regexp="德鲁伊"     desc="Replace: \0" alias="ドルイト" />
+	</highlight>
+	<highlight type="terminology" subtype="specie">
+		<keyword key="肉身魔法像"       alias="肉の魔法像" />
+		<keyword key="" />
+		<keyword key="柯布林"           alias="ゴブリン" />
+		<keyword key="橡树怪"           alias="木堅の木の小鬼" />
+		<keyword key="石仆"             alias="石の召使い" />
+		<keyword key="龙牙兵"           alias="竜牙兵" />
+		<keyword key="石像鬼"           alias="ガーゴイル" />
+		<keyword key="" />
+		<keyword key="阿里德族"         alias="アリド族" />
+		<keyword key="黑暗妖精"         alias="ダークエルフ" />
+		<keyword key="森林妖精"         alias="" />
+		<keyword key="艾尔夫族"         alias="エルフ族" />
+		<keyword key="大地妖精"         alias="" />
+		<keyword key="多瓦夫族"         alias="" />
+		<keyword key="霜雪巨人"         alias="霜雪の巨人" />
+		<keyword key="森林巨人"         alias="森の巨人" />
+		<keyword key="火炎巨人"         alias="炎の巨人" />
+		<keyword key="独角兽"           alias="一角獣"                    regexp="独角兽(?!之?角|森林)" />
+		<keyword key="德鲁依"           alias="ドルイト" />
+		<keyword key="" />
+		<keyword key="芙拉乌"           alias="フラウ"          desc="冰精灵，雪女王的女儿。" />
+		<keyword key="冰雪魔狼"         alias="氷雪の魔狼"      desc="上级的冰精灵。" />
+		<keyword key="火蜥蜴"           alias=""                desc="炎精灵。" />
+		<keyword key="西尔芙"           alias="シルフ"          desc="风精灵。" />
+		<keyword key="" />
+		<keyword key="拉瓦"             alias=""                desc="大地与炎之复合精灵。" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="魔法师公会"       alias="魔術師ギルド" />
+		<keyword key="盗贼公会" />
+		<keyword key="喜乐之野"         alias="喜びの野" />
+		<keyword key="" />
+		<keyword regcap="true" key="\0" alias="アウザール商会"            regexp="亚乌塞尔公司|亚乌萨尔公司" />
+		<keyword regcap="true" key="\0" alias="ロドリゴ商会"              regexp="罗多利柯公司" />
+		<keyword regcap="true" key="\0" alias="一角獣の角亭"              regexp="「独角兽之?角」亭|『独角兽之?角』亭|独角兽之?角亭" />
+		<keyword key="沉默绵羊亭"       alias="沈黙する羊亭" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="魔法师手杖"       alias="魔術師の杖" />
+		<keyword key="" />
+		<keyword key="蓝色血脉" />
+		<keyword key="" />
+		<keyword key="往生者之木"       alias="いにしえの者の木" />
+		<keyword key="" />
+		<keyword key="魔力之塔"         alias="魔力の塔" />
+		<keyword key="魔法都市"         alias="魔法都市" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="job">
+		<keyword key="魔法师"       alias="魔術師" />
+		<keyword key="冒险者" />
+		<keyword key="魔法战士" />
+		<keyword key="战士" />
+		<keyword key="盗贼" />
+		<keyword key="精灵召唤使" />
+		<keyword key="神圣魔法使" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="魔剣">
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="舞剑" alias="踊る剣"/>
+	</highlight>
+	<highlight type="terminology" subtype="盗贼工会的行话">
+		<keyword key="猫"     regexp="猫(?=[」』”’])" desc="小偷。" />
+		<keyword key="穴熊"                             desc="成为冒险者同伴的盗贼。" />
+		<keyword key="犬"     regexp="犬(?=[」』”’])" desc="被王室雇用的密探。" />
+		<keyword key="狐"     regexp="狐(?=[」』”’])" desc="擅长诈欺的骗子。" />
+		<keyword key="鼠"     regexp="鼠(?=[」』”’])" desc="情报贩子。" />
+		<keyword key="兔"     regexp="兔(?=[」』”’])" desc="在妓院或地下酒吧招客的女人。" />
+		<keyword key="蛇"     regexp="蛇(?=[」』”’])" desc="暗杀者。" />
+	</highlight>
+</highlights>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0031" />
+	<chapter start="0035" end="0175" title="填弹" />
+	<chapter start="0180" end="0591" title="１弹　La Bambina dal' ARIA" />
+	<chapter start="0596" end="1444" title="２弹　神崎·H·亚莉亚" />
+	<chapter start="1448" end="2108" title="３弹　强袭科" />
+	<chapter start="2112" end="2385" title="４弹　刘海之下" />
+	<chapter start="2389" end="3261" title="５弹　欧尔梅斯" />
+	<chapter start="3266" end="3556" title="最终弹　La Bambina dal' ARIA..." />
+	<chapter start="3561" end="3616" title="尾声" />
+	<chapter start="3621" end="3643" title="后记" />
+	<imgs dir="Aria_the_Scarlet_Ammo" prefix="Aria_the_Scarlet_Ammo_01_" suffix=".jpg">
+		<img insert="0016" filename="001" notfloat="true" />
+		<img insert="0031" filename="002" />
+		<img insert="0031" filename="003" />
+		<img insert="0031" filename="004" />
+		<img insert="0031" filename="005a" />
+		<img insert="0031" filename="005b" />
+		<img alt="插图008" filename="008" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图030" filename="030" />
+		<img alt="插图041" filename="041" />
+		<img alt="插图050" filename="050" />
+		<img alt="插图074" filename="074" />
+		<img alt="插图081" filename="081" />
+		<img alt="插图100" filename="100" />
+		<img alt="插图128" filename="128" />
+		<img alt="插图134" filename="134" />
+		<img alt="插图136" filename="136" />
+	</imgs>
+</volume>

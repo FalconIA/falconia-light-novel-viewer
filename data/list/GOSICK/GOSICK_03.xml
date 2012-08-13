@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0031" />
+	<chapter start="0037" end="0069" title="序　幕　镜之国" />
+	<chapter start="0075" end="0791" title="第一章　魔法戒指" />
+	<chapter start="0797" end="0824" title="寝　室　—Bedroom1—" />
+	<chapter start="0830" end="1130" title="第二章　〈蓝蔷薇〉" />
+	<chapter start="1136" end="1216" title="寝　室　—Bedroom2—" />
+	<chapter start="1222" end="1544" title="第三章　〈消失在黑暗中的人们〉" />
+	<chapter start="1550" end="1632" title="寝　室　—Bedroom3—" />
+	<chapter start="1638" end="2011" title="第四章　安娜塔西亚" />
+	<chapter start="2017" end="2132" title="寝　室　—Bedroom4—" />
+	<chapter start="2138" end="2297" title="第五章　〈杰丹〉的黑幕" />
+	<chapter start="2303" end="2333" title="寝　室　—Bedroom5—" />
+	<chapter start="2339" end="2735" title="第六章　蓝晶石" />
+	<chapter start="2741" end="2850" title="寝　室　—Bedroom6—" />
+	<chapter start="2856" end="3089" title="尾　声　迷宫" />
+	<chapter start="3095" end="3140" title="后　记" />
+	<imgs dir="GOSICK" prefix="GOSICK_03_" suffix=".jpg">
+		<img insert="0009" filename="000" notfloat="true" />
+		<img insert="0010" filename="001" />
+		<img insert="0010" filename="002" />
+		<img insert="0010" filename="003" />
+		<img alt="插图104" filename="104" />
+		<img alt="插图105" filename="105" />
+		<img alt="插图106" filename="106" />
+		<img alt="插图107" filename="107" />
+		<img alt="插图108" filename="108" />
+		<img alt="插图109" filename="109" />
+		<img alt="插图110" filename="110" />
+		<img alt="插图111" filename="111" />
+		<img alt="插图112" filename="112" />
+		<img alt="插图113" filename="113" />
+	</imgs>
+</volume>

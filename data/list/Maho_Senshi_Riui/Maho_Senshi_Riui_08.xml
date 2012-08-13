@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0215" />
+	<chapter start="0220" end="0622" title="第Ⅰ章　女仆的一天" />
+	<chapter start="0628" end="1063" title="第Ⅱ章　被给予的试练" />
+	<chapter start="1069" end="2129" title="第Ⅲ章　到梦中去" />
+	<chapter start="2135" end="2302" title="后　记" />
+	<imgs dir="Maho_Senshi_Riui" prefix="Maho_Senshi_Riui_08_" suffix=".jpg">
+	</imgs>
+</volume>

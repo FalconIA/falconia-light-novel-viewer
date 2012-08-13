@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0028" />
+	<chapter start="0031" end="0056" title="－－－" />
+	<chapter start="0062" end="0587" title="第一章　隔离室好玩吗？" />
+	<chapter start="0593" end="1046" title="第二章　那女孩是谁呢？" />
+	<chapter start="1052" end="1801" title="第三章　三项关键物品" />
+	<chapter start="1807" end="2309" title="第四章　学生会长的反扑" />
+	<chapter start="2315" end="2355" title="第五章　个性开朗的阴谋家" />
+	<chapter start="2358" end="2378" title="后　记" />
+	<imgs dir="Ichiban_Ushiro_no_Daimao" prefix="Ichiban_Ushiro_no_Daimao_02_" suffix="_with_mark.jpg">
+		<img insert="0017" filename="000" notfloat="true" />
+		<img insert="0023" filename="001" />
+		<img insert="0023" filename="002" />
+		<img insert="0023" filename="003" />
+		<img alt="插图013" filename="013t" />
+		<img alt="插图027" filename="027t" />
+		<img alt="插图040" filename="040t" />
+		<img alt="插图058" filename="058t" />
+		<img alt="插图068" filename="068t" />
+		<img alt="插图088" filename="088t" />
+		<img alt="插图095" filename="095t" />
+		<img alt="插图107" filename="107t" />
+		<img alt="插图112" filename="112t" />
+		<img alt="插图121" filename="121t" />
+	</imgs>
+</volume>

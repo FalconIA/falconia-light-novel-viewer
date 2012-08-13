@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0052" />
+	<chapter start="0059" end="0287" title="プロローグ　――奥の院――" />
+	<chapter start="0293" end="0868" title="第一章　夏" />
+	<chapter start="0874" end="1361" title="第二章　敌" />
+	<chapter start="1367" end="1791" title="第三章　想" />
+	<chapter start="1797" end="2389" title="第四章　混" />
+	<chapter start="2395" end="3312" title="第五章　乱" />
+	<chapter start="3318" end="3528" title="尾声　――BANG！！――" />
+	<chapter start="3534" end="3593" title="あとがき" />
+	<imgs dir="Chrome_Shelled_Regios_translate" prefix="Chrome_Shelled_Regios_09_" suffix=".jpg">
+		<img insert="0004" filename="000" notfloat="true" />
+		<img insert="0011" filename="001" />
+		<img insert="0011" filename="002" />
+		<img insert="0011" filename="003" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图051" filename="051" />
+		<img alt="插图083" filename="083" />
+		<img alt="插图117" filename="117" />
+		<img alt="插图135" filename="135" />
+		<img alt="插图153" filename="153" />
+		<img alt="插图229" filename="229" />
+		<img alt="插图251" filename="251" />
+		<img alt="插图295" filename="295" />
+		<img alt="插图317" filename="317" />
+	</imgs>
+</volume>

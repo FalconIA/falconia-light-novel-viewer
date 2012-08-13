@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0026" />
+	<chapter start="0033" end="0195" title="第一章　才人的绝望" />
+	<chapter start="0201" end="0400" title="第二章　逃避之行" />
+	<chapter start="0406" end="0649" title="第三章　遇上同伴" />
+	<chapter start="0655" end="0883" title="第四章　修尔毕斯" />
+	<chapter start="0889" end="1107" title="第五章　与杰克的第一次交手" />
+	<chapter start="1113" end="1227" title="第六章　达米安与昆德拉卿" />
+	<chapter start="1233" end="1531" title="第七章　修女露易丝" />
+	<chapter start="1537" end="1749" title="第八章　约塞特的决心" />
+	<chapter start="1755" end="2027" title="第九章　二根权杖　一顶王冠" />
+	<chapter start="2033" end="2331" title="第十章　即位庆祝游园会" />
+	<chapter start="2337" end="2646" title="第十一章　绊" />
+	<chapter start="2652" end="2797" title="尾　声" />
+	<chapter start="2803" end="2816" title="后　记" />
+	<imgs dir="Zero_no_Tsukaima" prefix="Zero_no_Tsukaima_17_" suffix=".jpg">
+		<img insert="0024" filename="000" notfloat="true" />
+		<img insert="0027" filename="001" />
+		<img insert="0027" filename="002" />
+		<img insert="0027" filename="003" />
+		<img insert="0027" filename="004" />
+		<img alt="插图015" filename="015" />
+		<img alt="插图041" filename="041" />
+		<img alt="插图057" filename="057" />
+		<img alt="插图085" filename="085" />
+		<img alt="插图097" filename="097" />
+		<img alt="插图133" filename="133" />
+		<img alt="插图163" filename="163" />
+		<img alt="插图177" filename="177" />
+		<img alt="插图207" filename="207" />
+		<img alt="插图241" filename="241" />
+	</imgs>
+</volume>

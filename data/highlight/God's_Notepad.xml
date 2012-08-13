@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<highlights id="God's_Notepad" css="">
+	<highlight>
+		<keyword regcap="true" key="&lt;a href='http://\2' target='_blank'&gt;\0&lt;/a&gt;" regexp="(http://)(([-\w.]+)/?(bbs)?/?(index\.php)?)" />
+	</highlight>
+	<highlight type="comment-light">
+		<keyword regcap="true" regexp="((扫图/(?!录入)|录入/|发布于/)(.(?!&lt;br ?/?>))+.|未经许可，禁止转载|禁止转载SF小说频道)" key="\0" />
+	</highlight>
+	<highlight type="comment">
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>|（?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:\1[=＝，]([-_\w\d ]+)，)([^）】]+)[）】]" key="[key]\1[/key]\2" alias="\1 (\3)" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="((?:[^\r\n&lt;&gt;、，。？！：；…—「」“”](?![^&lt;]+>|&amp;nbsp;))+)((?:[^\r\n](?!&lt;br ?/?>|&lt;/?p>|（?注：))*.?)(?:&lt;br ?/?>|&lt;p>[ 　]*&lt;/p>)*[ 　]*（注：(?:「\1」|“\1”|\1[=＝])([^）]+)）" key="[key]\1[/key]\2" alias="\1" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:，|。|？|！|：|；|…|—|「|“|&lt;br ?/?>)?[ 　]*)([^　，。？！：；…—「」“”]+)([，。？！：；…—」”）]*)(?:&lt;br ?/?>)?[ 　]*（注：([^）]+)）" key="\1[key]\2[/key]\3" desc="\4" />
+		<keyword disable="false" regcap="true" regexp="(「|『|“|‘)([^、，。？！：；（「『“‘）」』”’…—]+)（([ \w\d,.-]+)）(」|』|”|’)" key="\1[key]\2[/key]\4" desc="\3" />
+		<keyword disable="false" regcap="true" regexp="((?:[^、，。？！：；（「『“‘）」』”’…—](?![^&lt;]+>|&amp;nbsp;))+)（\1[=＝]([ \w\d,.'-]+)）" key="[key]\1[/key]" desc="\2" />
+	</highlight>
+	<highlight type="comment">
+		<keyword key="柏青哥" alias="弹珠机" desc="是一种具娱乐与博彩成份的机器，在日本很常见，在台湾称之为柏青哥（日语为“Pa-chin-ko”）。弹珠机本为纯机械式操作，但现代的弹珠机加入投币式自动赌博机（slot machine）元素。弹珠机店遍布日本全国各地，受到不少人欢迎；但作为有博彩成份的活动，弹珠机难以避免地与组织犯罪扯上关系。" />
+		<keyword key="咖啡欧蕾" thumb="God's_Notepad/222px-Café_au_lait.jpg" desc="咖啡欧蕾的法语是Café au lait，意思是加入大量牛奶的咖啡，其滋味与胅鲜滑，在咖啡的醇厚中，还飘散著芳美浓郁的牛乳香，很受女性欢迎，在法国，这种被加入大量牛奶的花式咖啡，是早餐的好伴侣，用它来搭配可颂面包，就是简单而满足的一餐。" />
+		<keyword key="Patrasche" desc="Patrasche was a big Fleming.&lt;br /&gt;&lt;br /&gt;A dog of Flanders--yellow of hide, large of head and limb, with wolf-like ears that stood erect, and legs bowed and feet widened in the muscular development wrought in his breed by many generations of hard service." />
+		<keyword key="握寿司" thumb="God's_Notepad/240px-Edomaenigiri.jpg" desc="握寿司（nigiri-zushi），（日本江户时代兴起）制作者用手把米饭握成一口块，涂上一层山葵（日本芥末），最后铺上配料。视配料种类之不同，有时会用一块海苔把两者缚在一起。在日本，若不加说明的话“寿司”一词多是指握寿司。" />
+		<keyword key="迦陵频伽" desc="梵语kalavinka音译，巴利文作Karavīka，藏语名Kala-vin-ka。“迦陵频伽”是佛教中的一种神鸟。据传其声音美妙动听，婉转如歌，胜于常鸟，佛经中又名美音鸟或妙音鸟。&lt;br /&gt;迦陵频伽，佛教经典称“妙音鸟”，《慧苑音义》云：“迦陵频伽此云妙音鸟，此鸟本出雪山，在壳中即能鸣，其音和雅，听者无厌。”《正法念经》中说：“山谷旷野，其中多有迦陵频伽，出妙音声。如是美音，若天若人，紧那罗等无所及音，唯除如来言声。”《妙法莲华经》卷六：“山川岩谷中，迦陵频伽声，命命等诸鸟，悉闻其音声。”" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="">
+		<keyword key="爱丽丝" />
+		<keyword key="紫苑寺 有子" />
+		<keyword key="藤岛 鸣海" />
+		<keyword key="篠崎 彩夏" />
+		<keyword key="明老板" />
+		<keyword key="阿哲学长" />
+		<keyword key="阿哲" />
+		<keyword key="一宫 哲雄" />
+		<keyword key="少校" />
+		<keyword key="向井均" />
+		<keyword key="向井" />
+		<keyword key="宏哥" />
+		<keyword key="宏仔" />
+		<keyword key="宏二哥" />
+		<keyword key="桑原 宏明" />
+		<keyword key="小宏" />
+		<keyword key="第四代" />
+		<keyword key="小雏雏" />
+		<keyword key="小雏" />
+		<keyword key="雏村 壮一郎" />
+		<keyword key="壮大哥" />
+		<keyword key="阿壮" />
+		<keyword key="平坂" regexp="平坂(?!帮)" />
+		<keyword key="" />
+		<keyword key="石头男" />
+		<keyword key="电线杆" />
+		<keyword key="" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter01">
+		<keyword key="篠崎 俊夫" />
+		<keyword key="阿俊" />
+		<keyword key="墓见坂 史郎" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter02">
+		<keyword key="玫欧" />
+		<keyword key="小玫" />
+		<keyword key="草壁 昌也" />
+		<keyword key="依林" />
+		<keyword key="华姐" />
+		<keyword key="裘莉法" />
+		<keyword key="顾爷" />
+		<keyword key="尼莫" />
+		<keyword key="美河" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter03">
+		<keyword key="羽矢野 熏子" />
+		<keyword key="羽矢野 友彦" />
+		<keyword key="小熏" />
+		<keyword key="香阪 由佳里" />
+		<keyword key="小由" />
+		<keyword key="平林" />
+		<keyword key="黑田 小百合" />
+		<keyword key="宫部" />
+		<keyword key="皆川 宪吾" />
+	</highlight>
+	<highlight separate="true" type="character" subtype="chapter04">
+		<keyword key="平阪 炼次" />
+		<keyword key="善喜" />
+		<keyword key="美嘉" />
+		<keyword key="喜善" />
+	</highlight>
+	<highlight type="location" subtype="">
+		<keyword key="花丸拉面店" />
+		<keyword key="花丸" regexp="花丸(?=」|』)" />
+		<keyword key="NEET侦探事务所" />
+		<keyword key="若木手艺店" />
+		<keyword key="艾伦·卡巴" />
+		<keyword key="" />
+		<keyword key="撒哈拉沙漠" thumb="Location/180px-Sahara_satellite_hires.jpg" />
+		<keyword key="金门海峽" thumb="Location/180px-Wpdms_usgs_photo_golden_gate.jpg" />
+		<keyword key="泰姬玛哈陵" thumb="Location/180px-Taj_Mahal_in_March_2004.jpg" />
+		<keyword key="巴别塔" thumb="Location/180px-Brueghel-tower-of-babel.jpg" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="org">
+		<keyword key="尼特族侦探团" />
+		<keyword key="平坂帮" />
+		<keyword key="平阪帮" ch="04" />
+		<keyword key="田原帮" />
+		<keyword key="田原" />
+		<keyword key="岸和田会" />
+		<keyword key="岸和田" />
+		<keyword key="柳原会" />
+		<keyword key="后藤田帮" />
+		<keyword key="后藤田" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="terminology" subtype="">
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+		<keyword key="" />
+	</highlight>
+	<highlight type="other">
+		<keyword key="Dr. Pepper" />
+	</highlight>
+</highlights>

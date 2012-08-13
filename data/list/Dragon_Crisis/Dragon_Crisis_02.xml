@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0059" />
+	<chapter start="0064" end="0209" title="序　章" />
+	<chapter start="0215" end="0868" title="第一章　海边的美少女" />
+	<chapter start="0874" end="1341" title="第二章　黑衣乔治" />
+	<chapter start="1347" end="2365" title="第三章　夏夜大骚动" />
+	<chapter start="2371" end="2852" title="第四章　遗物的真相" />
+	<chapter start="2858" end="3211" title="第五章　禁忌的觉醒" />
+	<chapter start="3217" end="3268" title="终　章" />
+	<chapter start="3274" end="3301" title="后　记" />
+	<imgs dir="Dragon_Crisis" prefix="Dragon_Crisis_02_" suffix="_with_mark.jpg">
+		<img insert="0011" filename="000" notfloat="true" />
+		<img insert="0039" filename="001" notfloat="true" />
+		<img insert="0039" filename="002" notfloat="true" />
+		<img insert="0059" filename="002b" />
+		<img insert="0059" filename="003" />
+		<img insert="0059" filename="004" />
+		<img insert="0059" filename="005" />
+		<img alt="插图018" filename="018t" />
+		<img alt="插图028" filename="028t" />
+		<img alt="插图047" filename="047t" />
+		<img alt="插图067" filename="067" />
+		<img alt="插图078" filename="078t" />
+		<img alt="插图108" filename="108t" />
+		<img alt="插图122" filename="122t" />
+		<img alt="插图128" filename="128t" />
+	</imgs>
+</volume>

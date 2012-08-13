@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0045" />
+	<chapter start="0048" end="0051" title="－－－" />
+	<chapter start="0057" end="0170" title="序　曲" />
+	<chapter start="0176" end="1193" title="第一章　作战准备" />
+	<chapter start="1199" end="1896" title="第二章　西伯利亚" />
+	<chapter start="1902" end="2840" title="第三章　西伯利亚2" />
+	<chapter start="2846" end="3774" title="第四章　栖息区域" />
+	<chapter start="3780" end="3879" title="终　曲" />
+	<chapter start="3885" end="3916" title="后　记" />
+	<imgs dir="9S" prefix="9S_10_" suffix="_with_mark.jpg">
+		<img insert="0032" filename="000" notfloat="true" />
+		<img insert="0045" filename="001" />
+		<img insert="0045" filename="002a" />
+		<img insert="0045" filename="002b" />
+		<img insert="0045" filename="003a" />
+		<img insert="0045" filename="003b" />
+		<img alt="插图034" filename="034t" />
+		<img alt="插图043" filename="043t" />
+		<img alt="插图054" filename="054t" />
+		<img alt="插图061" filename="061t" />
+		<img alt="插图079" filename="079t" />
+		<img alt="插图101" filename="101t" />
+		<img alt="插图127" filename="127t" />
+		<img alt="插图142" filename="142t" />
+		<img alt="插图175" filename="175t" />
+	</imgs>
+</volume>

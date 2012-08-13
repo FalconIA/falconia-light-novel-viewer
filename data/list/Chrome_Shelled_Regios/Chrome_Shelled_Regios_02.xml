@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume>
+	<chapter start="0001" end="0019" />
+	<chapter start="0025" end="0092" title="序　幕" />
+	<chapter start="0097" end="0678" title="第一章　迷惑之事" />
+	<chapter start="0683" end="1144" title="第二章　能力所及之事" />
+	<chapter start="1149" end="1697" title="第三章　可知哭泣为何物" />
+	<chapter start="1703" end="2328" title="第四章　跑完全程" />
+	<chapter start="2334" end="3238" title="第五章　立身处世之事" />
+	<chapter start="3244" end="3328" title="终　章" />
+	<chapter start="3334" end="3369" title="后　记" />
+	<imgs dir="Chrome_Shelled_Regios" prefix="Chrome_Shelled_Regios_02_" suffix="_with_mark.jpg">
+		<img insert="0012" filename="000" notfloat="true" />
+		<img insert="0019" filename="001" />
+		<img insert="0019" filename="002" />
+		<img insert="0019" filename="003" />
+		<img insert="0019" filename="003b" />
+		<img insert="0019" filename="004" />
+		<img alt="插图014" filename="014t" />
+		<img alt="插图028" filename="028t" />
+		<img alt="插图046" filename="046t" />
+		<img alt="插图056" filename="056t" />
+		<img alt="插图067" filename="067t" />
+		<img alt="插图086" filename="086t" />
+		<img alt="插图093" filename="093t" />
+		<img alt="插图111" filename="111t" />
+		<img alt="插图120" filename="120t" />
+		<img alt="插图146" filename="146t" />
+	</imgs>
+</volume>
