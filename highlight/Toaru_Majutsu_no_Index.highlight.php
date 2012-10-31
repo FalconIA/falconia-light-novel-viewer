@@ -1015,7 +1015,7 @@ function Highlight_ability_magic() {// sort, cat, jpn
 	$items[] = new HighlightItem('分解魔法');//分解魔術//15
 	$items[] = new HighlightItem('死者魔法');//死者の魔術//15
 	$items[] = new HighlightItem('治疗魔法');//治癒の魔術//16
-	$items[] = new HighlightItem('凭灵魔法', 'Seiar', null, '/凭灵(（Seiar）)?魔法/');//セイズ魔術//16
+	$items[] = new HighlightItem('凭灵魔法', 'Seiðr', null, '/凭灵(（Seiar）)?魔法/');//セイズ魔術//16
 
 	$items[] = new HighlightItem('炎剑');//炎剣//01:974
 	$items[] = new HighlightItem('猎杀魔女之王', 'Innocentius', null, '/猎杀魔女之王(?:（Innocentius）)?/');//魔女狩りの王(イノケンティウス)//01:1059//01(32) 02(09) 07(08) 10(09) 11(01)
@@ -1057,10 +1057,10 @@ function Highlight_ability_magic() {// sort, cat, jpn
 	$items[] = new HighlightItem('光之处刑');//光の処刑//15
 	$items[] = new HighlightItem('圣母的慈悲');//聖母の慈悲//16
 	$items[] = new HighlightItem('圣人崩坏');//聖人崩し//16
+	$items[] = new HighlightItem('圣母之家');//ロレートの家
 
-	// ルーン
-	$items[] = new HighlightItem('驱除闲人', 'Opila', null, '/驱除闲人(?:（Opila）)?/');//01:1847//人払い(Opila)//01(1) 02(3) 04(3) 09(3) 10(5) 11(2)
-	$items[] = new HighlightItem('驱散闲人', 'Opila', null, '/驱散闲人(?:（Opila）)?/');         //人払い(Opila)//02(1) 07(2)
+	$items[] = new HighlightItem('驱除闲人', 'Opila', null, '/驱除闲人(?:（Opila）)?/');//ルーン人払い(Opila)//01(1) 02(3) 04(3) 09(3) 10(5) 11(2)
+	$items[] = new HighlightItem('驱散闲人', 'Opila', null, '/驱散闲人(?:（Opila）)?/');       //人払い(Opila)//02(1) 07(2)
 	$items[] = new HighlightItem('laguz', null, '水的符文');//laguz(ラグズ)//16
 
 	// 結界
@@ -1553,6 +1553,8 @@ function Highlight_equipment_replace() {// sort, cat, jpn
 	//大船の鞄(スキーズブラズニル)
 	$items[] = New_Highlight__Re('Skidhbladhnir', 'Skidhbladhnir（大船之鞄）', '大船之箱(Skíðblaðnir)', null);//17:2063
 	$items[] = New_Highlight__Re('大船之箱', '大船之鞄', 'Skíðblaðnir', null);//17:2156
+	//フルンティング
+	$items[] = New_Highlight__Re('弗仑汀', '佛仑丁', 'Hrunting', null);//18
 }
 
 	// 聖霊十式
@@ -1592,17 +1594,7 @@ function Highlight_equipment_translate() {// sort, cat, jpn
 	$items[] = new Highlight__Tr('卡提尔·third', 'Curtana Third', null);//18
 
 	//ブリューナク
-	$items[] = new Highlight__Tr('布里欧纳克', 'Brionac', '贯通之枪', '/Brionac（布里欧纳克）/');//17
-	//貫通の槍(ブリューナク)
-	$items[] = new Highlight__Tr('贯通之枪',   'Brionac', null);//18
-	//ベイヤード
-	$items[] = new Highlight__Tr('贝亚德', 'Bayard', null);//18
-	//フルンティング
-	$items[] = new Highlight__Tr('佛仑丁', 'Hrunting', null);//18
-	//主神の槍(グングニル)
-	$items[] = new Highlight__Tr('主神之枪', 'Gungnir', null);//18
-	//空飛ぶ剣(フラガラッハ)
-	$items[] = new Highlight__Tr('飞空剑', 'Fragarach', null);//18
+	$items[] = New_Highlight__Re('布里欧那克', '布里欧纳克', 'Brionac', '贯通之枪', '/Brionac（布里欧纳克）/');//17
 	//封の足枷(ドローミ)
 	$items[] = new Highlight__Tr('封印足枷', 'Drómi', null);//20
 	//デュランダル
@@ -1655,6 +1647,7 @@ function Highlight_equipment_science() {// sort, cat, jpn
 
 	$items[] = new HighlightItem('医院车');//病院車//13:1896
 	$items[] = new HighlightItem('空中巴士365');//スカイバス365//17
+	$items[] = new HighlightItem('欧洲之星', 'Eurostar', null);//ユーロスター//17
 }
 
 {// 兵器
@@ -1662,9 +1655,9 @@ function Highlight_equipment_science() {// sort, cat, jpn
 	$items[] = new HighlightItem('地壳破断', 'Grounding Blade', null);//地殻破断(アースブレード)//14
 	$items[] = new HighlightItem('HsAFH-11', '六翼', '无人攻击直升机');                               //HsAFH-11(六枚羽)//無人攻撃ヘリ 六枚羽//15:1438
 	$items[] = new HighlightItem('六翼', 'HsAFH-11', '无人攻击直升机', '/(?<=[「『])六翼(?=[』」])/');//HsAFH-11(六枚羽)//無人攻撃ヘリ 六枚羽//15:1626
-
 	$items[] = new HighlightItem('合欢', 'Mimosa', null);//オジギソウ//15
 
+	$items[] = new HighlightItem('集束炸弹', 'Bunker Cluster', null, '/集束炸弹(（Bunker Cluster）)?/');//バンカークラスター//17
 	// 駆動鎧
 	$items[] = new HighlightItem('驱动铠甲', 'Powered Suit', null, '/驱动铠甲(?:（Powered Suit）)?/');//駆動鎧(パワードスーツ)//13:4233
 	$items[] = New_Highlight__Re('驱动铠甲', '驱动重甲', 'Powered Suit', null);                                   //駆動鎧(パワードスーツ)//13:4233
@@ -1741,6 +1734,12 @@ function Highlight_equipment_magic() {// sort, cat, jpn
 	$items[] = new HighlightItem('雷神之锤', 'Mjöllnir', null, '/雷神之锤(?!）)(（Mjollnir）)?/');//雷神の槌(ミョルニル)//17
 	$items[] = new HighlightItem('钢铁手套');//鋼の手袋//17
 	$items[] = new HighlightItem('智慧角杯', 'Gjallarhorn', null);//知の角杯(ギャッラルホルン)//17
+	$items[] = new HighlightItem('布里欧那克', 'Brionac', '贯通之枪', '/布里欧那克(（Brionac）)?/');//ブリューナク//17
+	$items[] = new HighlightItem('贝亚德', 'Bayard', null);//ベイヤード//18
+	$items[] = new HighlightItem('弗仑汀', 'Hrunting', null);//フルンティング//18
+	$items[] = new HighlightItem('主神之枪', 'Gungnir', null);//主神の槍(グングニル)//18
+	$items[] = new HighlightItem('飞空剑', 'Fragarach', null);//空飛ぶ剣(フラガラッハ)//18
+	$items[] = new HighlightItem('贯通之枪', 'Brionac', null);//貫通の槍(ブリューナク)//18
 }
 
 {// 聖霊十式
@@ -1792,6 +1791,9 @@ function Highlight_equipment_magic() {// sort, cat, jpn
 	$items[] = new HighlightItem('盾形纹章', 'Escutcheon', null);//盾の紋章(エスカッシャン)//17
 }
 
+{// 薬品
+	$items[] = new HighlightItem('女巫之药');//魔女の薬//18
+}
 	return $items;
 }
 
