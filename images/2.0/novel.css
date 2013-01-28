@@ -352,6 +352,10 @@ body {
 	#text .picture.joinNext {
 		margin-left: 0px;
 	}
+	#text .picture.clearNext {
+		float: none;
+		text-align: right;
+	}
 
 
 .contentTitle .sign,

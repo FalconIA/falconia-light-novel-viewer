@@ -18,7 +18,7 @@
 		<img insert="0027" filename="004b" />
 		<img insert="0027" filename="005" />
 		<img insert="0027" filename="005b" />
-		<img alt="插图017" filename="017" />
+		<img alt="插图017" filename="017" clearnext="true" />
 		<img alt="插图020" filename="020t" />
 		<img alt="插图033" filename="033t" />
 		<img alt="插图043" filename="043t" />

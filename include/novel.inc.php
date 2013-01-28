@@ -164,6 +164,8 @@ function parse_chapter_list(&$volume) {
 				$picture['not_float']   = preg_match('/^\s*true\s*$/', (string) $picture_xml['notfloat']) > 0;
 			if ($picture_xml['joinnext'])
 				$picture['join_next']   = preg_match('/^\s*true\s*$/', (string) $picture_xml['joinnext']) > 0;
+			if ($picture_xml['clearnext'])
+				$picture['clear_next']   = preg_match('/^\s*true\s*$/', (string) $picture_xml['clearnext']) > 0;
 			if ($picture_xml['clear'])
 				$picture['clear_style'] = preg_replace('/^\s*(both|left|right)\s*$/', '$1', (string) $picture_xml['clear']);
 
@@ -222,12 +224,6 @@ function process_volume_text(&$volume) {
 	if ($volume['has_pics']) {
 		foreach ($volume['pictures'] as $picture) {
 			if (array_key_exists('line_insert', $picture) && $picture['line_insert']) {
-				/* $pic_html = "\r\n" . '<div class="picture'
-					. (array_key_exists('join_next', $picture) && $picture['join_next'] ? ' joinNext' : '')
-					. (array_key_exists('not_float', $picture) && $picture['not_float'] ? ' notFloat' : '') . '"'
-					. (array_key_exists('clear_style', $picture) && $picture['clear_style'] ? ' style="clear: ' . $picture['clear_style'] . ';"' : '')
-					. '><a href="' . $picture['file'] . '" target="_blank" rel="shadowbox[line-'. $picture['line_insert'] . ']"><img' . ' src="' . ($picture['file_thumb'] ? $picture['file_thumb'] : $picture['file']) . '" /></a></div>';
-				$volume['text_lines'][$picture['line_insert'] - 1] .= $pic_html; */
 				$volume['text_lines'][$picture['line_insert'] - 1] .= "（{$picture['name']}）";
 			}
 		}
@@ -262,7 +258,8 @@ function process_chapter_text(&$novel, &$volume, &$chapter) {
 			if (array_key_exists('name', $picture) && $picture['name']) {
 				$pic_html = '<div class="picture'
 					. (array_key_exists('join_next', $picture) && $picture['join_next'] ? ' joinNext' : '')
-					. (array_key_exists('not_float', $picture) && $picture['not_float'] ? ' notFloat' : '') . '"'
+					. (array_key_exists('not_float', $picture) && $picture['not_float'] ? ' notFloat' : '')
+					. (array_key_exists('clear_next', $picture) && $picture['clear_next'] ? ' clearNext' : '') . '"'
 					. (array_key_exists('clear_style', $picture) && $picture['clear_style'] ? ' style="clear: ' . $picture['clear_style'] . ';"' : '')
 					.'><a href="' . $picture['file'] . '" target="_blank" rel="shadowbox' . ($picture['line_insert'] ? '[line-'. $picture['line_insert'] . ']' : '') . '"><img' . ' src="' . ($picture['file_thumb'] ? $picture['file_thumb'] : $picture['file']) . '"></a></div>';
 				$text = preg_replace("/<p>（{$picture['name']}）<\/p>/", $pic_html, $text);
