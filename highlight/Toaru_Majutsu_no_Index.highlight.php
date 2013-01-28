@@ -2136,8 +2136,8 @@ class Highlight_Toaru_Majutsu_no_Index extends HighlightBase {
 
 	}
 
-	function parseCommentLightItems() {
-		$items = parent::parseCommentLightItems();
+	function getCommentLightItems() {
+		$items = parent::getCommentLightItems();
 
 		$items[] = new HighlightItem('作者|鎌池和馬', null, null, '/(?<=<p>)(作者\|鎌池和马)(?=<\/p>)/', 'comment-light');
 		$items[] = new HighlightItem('$1┠$2┨$3', null, null, '/(<p>)((?:录入|扫图|发布于|译者(?=\|)|作者(?=\|)|插画(?=\|))[\/\|].+|未经许可，严禁转载|——轻之国度.+——)(<\/p>)/', 'comment-light');

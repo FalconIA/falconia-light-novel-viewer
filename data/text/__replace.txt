@@ -15,6 +15,7 @@ Index[—－]Librorum[—－]Prohibitorum -> Index-Librorum-Prohibitorum
 失亿 -> 失忆
 无力戚 -> 无力感
 缣池 -> 鎌池
+卅 -> 三十
 ===== Index 02 =========================
 舆(?!论) -> 与
 学园都是 -> 学园都市
