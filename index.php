@@ -26,11 +26,11 @@ require_once(PATH_INCLUDE . 'template.inc.php');
 $_url = ($_SERVER['PHP_SELF']) ? $_SERVER['PHP_SELF'] : $_ENV['PHP_SELF'];
 $url_base_path = preg_replace('/[^\/]+$/', '', $_url);
 
-$_protocol = (($_SERVER['HTTPS']) ? $_SERVER['HTTPS'] : $_ENV['HTTPS']) ? "https://" : "http://";
+$_protocol = (($_SERVER['HTTPS']) ? $_SERVER['HTTPS'] : $_ENV['HTTPS']) ? "https:" : "http:";
 $_host = ($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : $_ENV['HTTP_HOST'];
-$url_base = "{$_protocol}{$_host}{$url_base_path}";
+$url_base = "{$_protocol}//{$_host}{$url_base_path}";
 
-$script_uri = $_SERVER['SCRIPT_URI'] ? $_SERVER['SCRIPT_URI'] : "{$_protocol}{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+$script_uri = $_SERVER['SCRIPT_URI'] ? $_SERVER['SCRIPT_URI'] : "{$_protocol}//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 
 $version = '3.0 Beta';
 $build = date('Ymd', filemtime(__file__));
